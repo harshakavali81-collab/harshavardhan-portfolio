@@ -11,6 +11,8 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
 | Selected work | [Five complete technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
 | Role-specific Proof Map | [Trace skills → GitHub source → results](https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html) |
+| Hiring Desk | [Recruiter FAQs and print briefing](https://harshakavali81-collab.github.io/harshavardhan-portfolio/hiring.html) |
+| Interview Playbook | [Five source-supported project explanations](https://harshakavali81-collab.github.io/harshavardhan-portfolio/interview.html) |
 | Recruiter branding materials | [LinkedIn/GitHub profile copy](docs/PROFILE_BRANDING_KIT.md) |
 | Contact | [Recruiter email composer](https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html) |
 | Measured site quality | [Real speed & cross-browser checks](https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html) |
@@ -23,6 +25,14 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | AI/ML & Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf) |
 | Source repositories | [GitHub profile](https://github.com/harshakavali81-collab) |
 | LinkedIn | [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) |
+
+## Recruiter and interview toolkit
+
+- **Hiring Desk:** facts, entry-level role fit, college and school history, Python internship, credentials, print candidate brief, public contact and resume links.
+- **Interview Playbook:** five source-linked project stories with problem, implementation, recorded results, limitations and practice questions.
+- **Accessible navigation:** homepage skip link and explicit role selection state, plus keyboard-accessible FAQs.
+- **Privacy and honesty:** no fabricated salary, notice period, shift or relocation commitments; the website requires no visitor account.
+- **Verification:** site-quality and live multi-browser workflows test internal navigation, responsiveness and link health on updates.
 
 ## Proof-first personal branding
 
