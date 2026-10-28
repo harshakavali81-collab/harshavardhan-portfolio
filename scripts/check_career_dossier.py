@@ -27,9 +27,21 @@ def check():
     audit = LinkAudit()
     audit.feed(html)
     assert len(audit.ids) == len(set(audit.ids))
-    for section in ("main", "overview", "selected", "credentials", "recommendations", "standards", "contact"):
+    for section in ("main", "overview", "pillars", "selected", "credentials", "recommendations", "standards", "contact"):
         assert section in audit.ids, f"Missing section: {section}"
     assert html.count('class="kh-case"') == 5, "Expected five curated STAR case studies"
+
+    assert html.count('class="kh-pillar"') == 5, "Expected five recruiter-facing portfolio pillars"
+    for term in ("Problem.", "My approach.", "Outcome and evidence.", "What I learned."):
+        assert html.count(term) >= 5, f"Five case studies must include {term}"
+    for proof in ("evidence.html", "quality.html", "GitHub Actions"):
+        assert proof in html, f"Missing transparent evidence routing: {proof}"
+    assert "kh-proof-guidance" in html
+    assert "portfolio-upgrade.css" in html
+    assert "<meta name=\"viewport\"" in html
+    assert "mailto:" in html
+    assert "linkedin-projects.html" in html and "resumes.html" in html
+
     assert '31 GitHub repository entries' in html or '31 GitHub' in html or '31 repositories' in html
     for term in ("Python", "Power BI", "LinkedIn", "resumes.html", "source", "synthetic"):
         assert term.lower() in html.lower(), f"Missing career evidence: {term}"
@@ -45,12 +57,18 @@ def check():
             assert unquote(parsed.fragment) in audit.ids, f"Bad in-page anchor: {link}"
     assert "body.kh-dossier" in css
     assert "#080808" in css and "#d4af70" in css
+
+    for rule in ("KH FINAL METALLIC FOIL CASCADE BRIDGE", "--kh-foil:linear-gradient",
+                 "Cormorant+Garamond", "Cinzel", ".kh-pillars", "@media(max-width:620px)",
+                 "prefers-reduced-motion:reduce", "forced-colors:active"):
+        assert rule in css, f"Missing responsive or accessible metallic gold theme feature: {rule}"
+
     for p in ["index.html", "profile.html", "linkedin-setup.html", "linkedin-projects.html", "work.html", "contact.html"]:
         markup = (ROOT / p).read_text(encoding="utf-8")
         assert "portfolio-upgrade.css" in markup, f"Theme missing in {p}"
     assert "career-portfolio.html" in (ROOT / "index.html").read_text(encoding="utf-8")
     assert "career-portfolio.html" in (ROOT / "linkedin-setup.html").read_text(encoding="utf-8")
-    print("PASS: career dossier structure, local links, 5 case studies, gold theme and LinkedIn handoff.")
+    print("PASS: career dossier, five recruiter pillars, five evidence-led case studies, links, metallic-gold screen theme and LinkedIn handoff.")
 
 if __name__ == "__main__":
     check()
