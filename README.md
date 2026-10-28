@@ -9,7 +9,8 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | Resource | Link |
 |---|---|
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
-| Complete career profile | [Education, internship, certifications and interests](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
+| Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
+| Recruiter quick-view | [60-second candidate summary and source evidence](https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html) |
 | Full resume page | [View / print](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resume.html) |
 | AI/ML & Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf) |
 | Source repositories | [GitHub profile](https://github.com/harshakavali81-collab) |
@@ -25,12 +26,20 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 - **Core skills:** Python, scikit-learn, TensorFlow, NLTK, Pandas, NumPy, SQL, MySQL, Power BI, Tableau, Excel, EDA, visualization, model evaluation.
 - **Resume projects:** Multilingual Indian Language Knowledge Platform, Zomato Insights Dashboard, Document Q&A Bot, Women Safety Device.
 
+## Personal profile highlights
+
+- **Hobbies (confirmed by candidate):** Reading Books; Playing Games.
+- **Professional interests (inferred from project evidence, clearly separated):** practical AI, multilingual technology, data storytelling, useful Python applications.
+- **Working strengths (resume-listed):** analytical thinking, problem solving, business communication, attention to detail.
+- **Recruiter experience:** 60-second summary, printable resume and direct source links without fabricated employment outcomes.
+
 ## Website structure
 
 ```text
 .
 ├── index.html       # responsive homepage with 20 GitHub projects and career milestones
-├── profile.html     # complete source-backed career profile and education timeline
+├── profile.html     # complete profile, personal hobbies, training and education
+├── recruiter.html   # recruiter quick-view with evidence-linked project tracks
 ├── resume.html      # print-friendly AI/ML + Data Analyst CV
 ├── assets/
 │   └── Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf  # reformatted textual PDF copy
@@ -50,4 +59,4 @@ The project showcases educational applications and synthetic datasets; these are
 
 ## Updating personal details
 
-Add hobbies only once confirmed by the candidate. Do not publish private information such as date of birth, home address, identification numbers or certificates with sensitive details.
+Confirmed personal hobbies: **Reading Books** and **Playing Games**. Other interests are presented as project-based professional interests, not invented personal hobbies. Do not publish private information such as date of birth, home address, identification numbers or certificates with sensitive details.
