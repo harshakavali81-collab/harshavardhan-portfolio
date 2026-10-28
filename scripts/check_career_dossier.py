@@ -56,6 +56,23 @@ def check():
     assert 'id="career-12"' in home and "career-portfolio.html#twelve-elements" in home
     assert 'id="professional-links"' in profile and 'id="beyond"' in profile
     assert home.count('class="bh-project-source" href=') == 31
+    # Canonical two-color release: visually support ONLY #080808 and #d4af37.
+    import re
+    marker = "KH FINAL / TWO-COLOR BLACK + GOLD"
+    assert marker in css, "Owner-selected pure black/gold theme missing"
+    final_css = css[css.rfind(marker):]
+    palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", final_css.lower()))
+    assert palette == {"#080808", "#d4af37"}, f"Unexpected final theme colors: {palette}"
+    assert css.rfind(marker) > css.rfind("KH SOFT GOLD"), "Older styling overrides the two-color theme"
+    for destination in ("index.html", "contact.html", "recruiter.html",
+                        "profile.html", "career-portfolio.html", "resumes.html"):
+        markup = (ROOT / destination).read_text(encoding="utf-8")
+        for required in ("tel:+918008273318", "github.com/harshakavali81-collab"):
+            assert required in markup, f"{destination}: missing recruiter contact {required}"
+    for pdf in ("Kavali_Harshavardhan_Data_Analyst_Resume.pdf",
+                "Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf"):
+        assert (ROOT / "assets" / pdf).exists(), f"Missing resume PDF: {pdf}"
+    # End strict theme/contact checks.
     # Twelve-element career extension: END
 
     for term in ("Problem.", "My approach.", "Outcome and evidence.", "What I learned."):
