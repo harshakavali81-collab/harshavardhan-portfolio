@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T13:01:47.634438+00:00",
+  "checked_at": "2026-10-28T13:16:31.199279+00:00",
   "profiles": [
     [
       "chromium",
@@ -605,8 +605,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "work.html",
-      "scroll_width": 334,
-      "viewport_width": 334,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -1296,8 +1296,8 @@
       "page": "index.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Page.screenshot: Cannot take screenshot larger than 32767 pixels on any dimension\nCall log:\n  - taking page screenshot\n    - disabled all CSS animations\n  - waiting for fonts to load...\n  - fonts loaded\n"
+      "result": "pass",
+      "screenshot": "screenshots/webkit-mobile-home.png"
     },
     {
       "engine": "webkit",
@@ -1314,7 +1314,8 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
@@ -1476,11 +1477,11 @@
     {
       "engine": "webkit",
       "profile": "mobile",
-      "page": "index.html",
+      "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Page.screenshot: Cannot take screenshot larger than 32767 pixels on any dimension\nCall log:\n  - taking page screenshot\n    - disabled all CSS animations\n  - waiting for fonts to load...\n  - fonts loaded\n"
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     }
   ]
 }

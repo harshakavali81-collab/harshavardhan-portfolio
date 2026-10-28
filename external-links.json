@@ -1,17 +1,17 @@
 {
-  "checked_at": "2026-10-28T12:59:42.487187+00:00",
+  "checked_at": "2026-10-28T13:14:54.724910+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 72619,
+      "bytes": 73950,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 25544,
+      "bytes": 25683,
       "ok": true,
       "current_release_marker": true
     },
@@ -25,7 +25,7 @@
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59400,
+      "bytes": 59453,
       "ok": true,
       "current_release_marker": null
     },
@@ -60,21 +60,21 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 68580,
+      "bytes": 68694,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14189,
+      "bytes": 14481,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6418,
+      "bytes": 6858,
       "ok": true,
       "current_release_marker": null
     },
@@ -95,7 +95,7 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10206,
+      "bytes": 10486,
       "ok": true,
       "current_release_marker": null
     },
@@ -176,6 +176,7 @@
         "index.html",
         "linkedin-projects.html",
         "profile.html",
+        "recruiter.html",
         "resume.html",
         "resumes.html"
       ],
