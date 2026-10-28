@@ -550,3 +550,124 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
     body.bh-body main :is(h1,h2),body.bh-interior main :is(h1,h2),body.kh-dossier main :is(h1,h2){color:CanvasText!important;-webkit-text-fill-color:CanvasText!important}
   }
 }
+
+
+/* KH FINAL / TWO-COLOR BLACK + GOLD · 2026-10-28
+   Owner-selected canonical tokens: dark black #080808, gold #D4AF37.
+   No charcoal, champagne, white, silver, blue or other UI accent.
+   All rules below are SCREEN ONLY; printed resumes remain ink-friendly.
+   Do not add another colored stylesheet after this release section. */
+@media screen {
+ :root,body.bh-body,body.bh-interior,body.bh-interior.light,body.kh-dossier,body.kh-resume-screen{
+   color-scheme:dark!important;
+   --bg:#080808!important;--kh-obsidian:#080808!important;--kh-black:#080808!important;
+   --bh-bg:#080808!important;--panel:#080808!important;--panel2:#080808!important;
+   --surface:#080808!important;--surface2:#080808!important;
+   --bh-surface:#080808!important;--bh-surface2:#080808!important;
+   --ink:#D4AF37!important;--text:#D4AF37!important;--bh-text:#D4AF37!important;
+   --soft:#D4AF37!important;--muted:#D4AF37!important;--bh-muted:#D4AF37!important;
+   --accent:#D4AF37!important;--gold:#D4AF37!important;--yellow:#D4AF37!important;
+   --aqua:#D4AF37!important;--mint:#D4AF37!important;--blue:#D4AF37!important;
+   --bh-cyan:#D4AF37!important;--bh-indigo:#D4AF37!important;--bh-warm:#D4AF37!important;
+   --stroke:#D4AF37!important;--line:#D4AF37!important;--bh-line:#D4AF37!important;
+   --kh-classic-bg:#080808;--kh-classic-panel:#080808;--kh-classic-panel-raised:#080808;
+   --kh-classic-text:#D4AF37;--kh-classic-muted:#D4AF37;--kh-classic-gold:#D4AF37;
+   --kh-classic-gold-light:#D4AF37;--kh-classic-border:#D4AF37;
+   --kh-ink:#D4AF37;--kh-muted:#D4AF37;--kh-gold:#D4AF37;--kh-gold-bright:#D4AF37;
+   --kh-border:#D4AF37;
+   background:#080808!important;background-image:none!important;color:#D4AF37!important;
+   -webkit-text-fill-color:#D4AF37!important;
+ }
+ body.bh-body *,body.bh-interior *,body.kh-dossier *,body.kh-resume-screen *{
+   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   text-shadow:none!important;filter:none!important;
+ }
+ body.bh-body,body.bh-interior,body.kh-dossier,body.kh-resume-screen{
+   background-color:#080808!important;background-image:none!important;
+ }
+ body.bh-body::before,body.bh-body::after{
+   background:none!important;background-image:none!important;opacity:0!important;pointer-events:none!important;
+ }
+ body.bh-body :is(header.bh-header,.bh-nav,.bh-footer,.bh-window,.bh-window-top,.bh-mini-panel,.bh-contact,.bh-feature,.bh-project,.bh-feature-art,.bh-project-art,.bh-demo-card,.bh-resource,.bh-about-panel,.bh-stack-panel,.kh-home-career,.kh-role-finder,.kh-recruiter-strip,.kh-contact-card,.bh-select,.bh-code),
+ body.bh-interior :is(header,.nav,nav,.topbar,footer,.footer,.card,.panel,.project,.project-card,.profile-project-card,.cert,.contact,.visual,.notice,.paper,.resume-paper,.qa-lead,.qastat,.assumptions,.passpill,.resume-switcher,.tag,.chip,.pill,.case-card,.platform-panel),
+ body.kh-dossier :is(.kh-top,.kh-footer,.kh-panel,.kh-case,.kh-hero-panel,.kh-contact,.kh-trust,.kh-pillar,.kh-proof-guidance,.kh-element,.kh-monogram,.kh-pillar),
+ body.kh-resume-screen :is(.topbar,.topbar .inner,.paper,.resume-switcher,.badge),
+ body.bh-body :is(.kh-role-tabs button,.kh-recruiter-links a,.kh-home-links a,.kh-role-actions a),
+ body.kh-dossier :is(.kh-link-cluster a){
+   background:#080808!important;background-image:none!important;
+   border-color:#D4AF37!important;box-shadow:none!important;
+ }
+ body.bh-body main :is(h1,h2,h3),body.bh-body main :is(h1,h2,h3) span,
+ body.bh-interior main :is(h1,h2,h3),body.bh-interior main :is(h1,h2,h3) span,
+ body.kh-dossier main :is(h1,h2,h3),body.kh-dossier main :is(h1,h2,h3) em,
+ body.kh-resume-screen :is(h1,h2,h3,.headline,.subtitle){
+   background:none!important;background-image:none!important;
+   -webkit-background-clip:initial!important;background-clip:initial!important;
+   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   text-shadow:none!important;filter:none!important;
+ }
+ body.bh-body :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
+ body.bh-interior :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
+ body.kh-dossier :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
+ body.kh-resume-screen :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label){
+   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+ }
+ body.bh-body :is(a,button),body.bh-interior :is(a,button),
+ body.kh-dossier :is(a,button),body.kh-resume-screen :is(a,button){
+   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+ }
+ body.bh-body :is(.bh-brand-mark,.bh-nav-cta,a.bh-button-primary,.kh-role-tabs button[aria-pressed="true"]),
+ body.bh-interior :is(a.btn.primary,a.btn.prime,.button:not(.alt)),
+ body.kh-dossier :is(.kh-logo span,a.kh-btn-gold,.kh-nav-contact),
+ body.kh-resume-screen :is(a.btn:not(.alt),.button:not(.alt)){
+   background:#D4AF37!important;background-image:none!important;
+   border:1px solid #D4AF37!important;color:#080808!important;
+   -webkit-text-fill-color:#080808!important;box-shadow:none!important;
+ }
+ body.bh-body :is(.bh-brand-mark,.bh-nav-cta,a.bh-button-primary,.kh-role-tabs button[aria-pressed="true"]) *,
+ body.bh-interior :is(a.btn.primary,a.btn.prime,.button:not(.alt)) *,
+ body.kh-dossier :is(.kh-logo span,a.kh-btn-gold,.kh-nav-contact) *{
+   color:#080808!important;-webkit-text-fill-color:#080808!important;
+ }
+ body.bh-body :is(a.bh-button,.kh-recruiter-links a,.kh-home-links a,.kh-role-actions a,.bh-menu),
+ body.bh-interior :is(a.btn,.btn,.button),
+ body.kh-dossier :is(a.kh-btn,.kh-link-cluster a){
+   border-color:#D4AF37!important;box-shadow:none!important;
+ }
+ body.bh-body :is(.bh-tech span,.bh-project-tags span,.kh-contact-card,.bh-dot,.bh-pulse),
+ body.bh-interior :is(.tag,.chip,.badge,.passpill),
+ body.kh-dossier :is(.kh-tags span,.kh-case-index),
+ body.kh-resume-screen .badge{
+   background:#080808!important;background-image:none!important;
+   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   border-color:#D4AF37!important;
+ }
+ body.bh-body :is(input,textarea,select),
+ body.bh-interior :is(input,textarea,select),
+ body.kh-dossier :is(input,textarea,select),
+ body.kh-resume-screen :is(input,textarea,select){
+   background:#080808!important;color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   border:1px solid #D4AF37!important;
+ }
+ body.bh-body :is(input,textarea)::placeholder,
+ body.bh-interior :is(input,textarea)::placeholder{
+   color:#D4AF37!important;opacity:1!important;-webkit-text-fill-color:#D4AF37!important;
+ }
+ body.bh-body .bh-progress,body.bh-body .bh-rule{background:#D4AF37!important;background-image:none!important;box-shadow:none!important}
+ body.bh-body :is(.bh-visual::before,.bh-orbit,.bh-feature-orbit,.bh-feature-mark){
+   background:none!important;background-image:none!important;box-shadow:none!important;
+ }
+ body.bh-body :is(.bh-feature,.bh-project,.kh-role-finder):hover,
+ body.bh-interior :is(.card,.project-card):hover,
+ body.kh-dossier :is(.kh-panel,.kh-case,.kh-element):hover{border-color:#D4AF37!important;box-shadow:none!important}
+ body.bh-body :is(a,button,input,select,textarea):focus-visible,
+ body.bh-interior :is(a,button,input,select,textarea):focus-visible,
+ body.kh-dossier :is(a,button,input,select,textarea):focus-visible{
+    outline:2px solid #D4AF37!important;outline-offset:4px!important;
+ }
+ @media(max-width:900px){
+   body.bh-body .bh-hero{overflow-x:clip!important}
+   body.bh-body .bh-visual::before{inset:0!important}
+   body.bh-body .bh-mini-panel{right:0!important}
+ }
+}
