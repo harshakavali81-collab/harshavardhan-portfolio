@@ -10,7 +10,7 @@ Each observation has: `indicator` (canonical identifier), `country` (ISO-3-style
 | immunization | DTP3 coverage | Percent | WHS4_100 | Demo + WHO adapter (verify current definition before sync) |
 | physicians | Density of physicians | Per 1,000 | None | Demo only |
 | hospital_beds | Density of hospital beds | Per 1,000 | None | Demo only |
-| under5_mortality | Under-five mortality rate | Per 1,000 live births | WHOSIS_000003 | Demo + WHO adapter (verify current definition before sync) |
+| under5_mortality | Under-five mortality rate | Per 1,000 live births | MDG_0000000007 | Demo + WHO adapter (verify current definition before sync) |
 
 Synthetic records are deterministic fabricated examples with seed 42. They are never actual health statistics. `Unmapped` is shown when the WHO API does not supply sufficient reliable WHO region mapping. Country names for unmapped codes remain the code. Comparisons are unweighted means of available countries, not official regional estimates.
 
