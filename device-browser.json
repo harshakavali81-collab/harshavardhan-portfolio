@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:15:43.458801+00:00",
+  "checked_at": "2026-10-28T08:15:56.421403+00:00",
   "profiles": [
     [
       "chromium",
@@ -677,8 +677,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -983,8 +982,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1277,26 +1275,7 @@
       "result": "pass"
     }
   ],
-  "passed": 150,
+  "passed": 152,
   "total": 152,
-  "issues": [
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
-    }
-  ]
+  "issues": []
 }
