@@ -10,6 +10,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import sys
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 IGNORED_PREFIXES = ("mailto:", "tel:", "data:", "javascript:")
@@ -60,6 +61,55 @@ def main() -> int:
         for section in CASE_IDS:
             if section not in pages[page].ids:
                 problems.append(f"{page.relative_to(ROOT)} missing section #{section}")
+
+    # Evidence ledger integrity: no missing sources, duplicated records or
+    # broken connections between the machine-readable register and case pages.
+    ledger = ROOT / "data" / "project-evidence.json"
+    required_slugs = {"ecommerce", "transactionshield", "demandpilot", "evidencedesk", "zomato"}
+    if not ledger.exists():
+        problems.append("Missing data/project-evidence.json")
+    else:
+        try:
+            source = json.loads(ledger.read_text(encoding="utf-8"))
+            entries = source["entries"]
+            if not isinstance(entries, list) or len(entries) != 5:
+                problems.append("Evidence register must contain exactly five projects")
+            seen: set[str] = set()
+            keys = ("slug", "title", "question", "test", "metric", "metricLabel",
+                    "metricDetail", "tradeoff", "limitations", "reviewNext",
+                    "source", "evidence", "casePage", "claimLevel", "architecture")
+            for item in entries:
+                if not isinstance(item, dict):
+                    problems.append("Evidence register contains a non-object project")
+                    continue
+                slug = item.get("slug", "")
+                if slug in seen:
+                    problems.append(f"Repeated evidence slug: {slug}")
+                seen.add(slug)
+                for key in keys:
+                    val = item.get(key)
+                    if not val or (isinstance(val, str) and not val.strip()):
+                        problems.append(f"Evidence project {slug}: missing {key}")
+                case_path = ROOT / str(item.get("casePage", ""))
+                if not case_path.is_file() or case_path.resolve() not in pages:
+                    problems.append(f"Evidence project {slug}: case study path unavailable")
+                for key in ("source", "evidence"):
+                    url = str(item.get(key, ""))
+                    if not url.startswith("https://github.com/harshakavali81-collab/"):
+                        problems.append(f"Evidence project {slug}: invalid {key} URL")
+                if not isinstance(item.get("architecture"), list) or len(item.get("architecture", [])) < 3:
+                    problems.append(f"Evidence project {slug}: architecture should have at least three steps")
+            if seen != required_slugs:
+                problems.append(f"Evidence slugs differ from five featured cases: {sorted(seen)}")
+        except (json.JSONDecodeError, KeyError, TypeError) as exc:
+            problems.append(f"Malformed evidence ledger: {exc}")
+    notebook = (ROOT / "engineering.html").resolve()
+    if notebook not in pages:
+        problems.append("Missing Engineering Notebook page")
+    else:
+        for adr in ("adr-ecommerce", "adr-fraud", "adr-forecast", "adr-rag", "adr-bi"):
+            if adr not in pages[notebook].ids:
+                problems.append(f"Engineering Notebook missing #{adr}")
 
     for page, scan in pages.items():
         for _, url in scan.links:
