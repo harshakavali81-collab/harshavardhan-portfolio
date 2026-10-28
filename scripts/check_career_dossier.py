@@ -113,6 +113,43 @@ def check():
     theme = (ROOT / "assets/resume-evidence.css").read_text(encoding="utf-8")
     palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme.lower()))
     assert palette == {"#080808","#d4af37"}
+    # 2026 official academic results: all visible recruiter pages use the
+    # supplied B.Tech consolidated sheet, AP Intermediate memo and SSC GPA.
+    for page_name in ("index.html", "profile.html", "certificates.html",
+                      "resume.html", "data-analyst-resume.html", "career-portfolio.html",
+                      "recruiter.html", "hiring.html", "job-platforms.html",
+                      "linkedin-setup.html"):
+        body = (ROOT / page_name).read_text(encoding="utf-8")
+        assert "7.02" not in body, f"Stale B.Tech CGPA in {page_name}"
+        assert "7.36" not in body, f"Stale B.Tech CGPA in {page_name}"
+    for page_name in ("index.html", "profile.html", "certificates.html",
+                      "resume.html", "data-analyst-resume.html", "recruiter.html",
+                      "hiring.html"):
+        body = (ROOT / page_name).read_text(encoding="utf-8")
+        assert "7.03" in body, f"Official B.Tech result missing in {page_name}"
+        assert "864/1000" in body, f"Official Intermediate result missing in {page_name}"
+        assert "9.2 GPA" in body or "GPA 9.2" in body, f"SSC GPA missing in {page_name}"
+    for resume in ("Kavali_Harshavardhan_Data_Analyst_Resume.pdf",
+                   "Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf"):
+        raw = (ROOT / "assets" / resume).read_bytes()
+        assert raw.startswith(b"%PDF-1.4"), resume
+        assert b"7.03/10" in raw and b"864/1000" in raw and b"GPA 9.2/10" in raw
+        i = raw.rfind(b"startxref")
+        assert i > 0, resume
+        off = int(raw[i+len(b"startxref"):].split()[0])
+        assert raw[off:off+4] == b"xref", f"Invalid PDF cross-reference: {resume}"
+    flagship = (ROOT / "flagship-projects.html").read_text(encoding="utf-8")
+    assert flagship.count('class="kh-flagship"') == 3
+    assert flagship.count('class="kh-spec"') == 57, "Each of 3 flagship projects must show 19 case-study requirements"
+    for term in ("Multilingual Indian Language Knowledge Base", "Zomato Insights Dashboard",
+                 "TransactionShield", "Synthetic", "Reproducibility"):
+        assert term.lower() in flagship.lower(), term
+    assert 'href="flagship-projects.html"' in (ROOT / "index.html").read_text(encoding="utf-8")
+    assert "Registration numbers, birth date" in (ROOT / "certificates.html").read_text(encoding="utf-8")
+    guide = (ROOT / "portfolio-readiness.html").read_text(encoding="utf-8")
+    assert 'id="eight-essentials"' in guide and 'id="role-paths"' in guide
+    assert guide.count('class="kh-ready-essentials"') == 1
+    assert (ROOT / "docs/GITHUB_PROFILE_README.md").is_file()
     # End strict theme/contact checks.
     # Twelve-element career extension: END
 
