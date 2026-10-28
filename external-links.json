@@ -1,10 +1,17 @@
 {
-  "checked_at": "2026-10-28T14:05:28.289037+00:00",
+  "checked_at": "2026-10-28T14:17:00.489554+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 79711,
+      "bytes": 81652,
+      "ok": true,
+      "current_release_marker": true
+    },
+    {
+      "page": "certificates.html",
+      "status": 200,
+      "bytes": 14658,
       "ok": true,
       "current_release_marker": true
     },
@@ -18,7 +25,7 @@
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 25769,
+      "bytes": 26145,
       "ok": true,
       "current_release_marker": true
     },
@@ -32,7 +39,7 @@
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59461,
+      "bytes": 59520,
       "ok": true,
       "current_release_marker": null
     },
@@ -67,21 +74,21 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 68797,
+      "bytes": 69670,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14588,
+      "bytes": 14657,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6936,
+      "bytes": 7000,
       "ok": true,
       "current_release_marker": null
     },
@@ -123,7 +130,7 @@
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 12659,
+      "bytes": 12657,
       "ok": true,
       "current_release_marker": null
     },
@@ -1819,7 +1826,8 @@
     {
       "url": "https://www.credly.com/go/GqcOmj3t",
       "pages": [
-        "certificates.html"
+        "certificates.html",
+        "index.html"
       ],
       "via": "http",
       "status": 200,
@@ -1828,7 +1836,8 @@
     {
       "url": "https://www.credly.com/go/tfTqbAM0",
       "pages": [
-        "certificates.html"
+        "certificates.html",
+        "index.html"
       ],
       "via": "http",
       "status": 200,
