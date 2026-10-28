@@ -7,7 +7,7 @@ INDICATORS = {
     "immunization": {"name": "DTP3 immunization coverage", "unit": "%", "min": 0, "max": 100, "higher_better": True, "who_code": "WHS4_100"},
     "physicians": {"name": "Physicians density (demo)", "unit": "per 1,000", "min": 0, "max": 30, "higher_better": True, "who_code": None},
     "hospital_beds": {"name": "Hospital bed density (demo)", "unit": "per 1,000", "min": 0, "max": 30, "higher_better": True, "who_code": None},
-    "under5_mortality": {"name": "Under-five mortality rate", "unit": "per 1,000 live births", "min": 0, "max": 500, "higher_better": False, "who_code": "WHOSIS_000003"},
+    "under5_mortality": {"name": "Under-five mortality rate", "unit": "per 1,000 live births", "min": 0, "max": 500, "higher_better": False, "who_code": "MDG_0000000007"},
 }
 
 def normalize_record(row):
