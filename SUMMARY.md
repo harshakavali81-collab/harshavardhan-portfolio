@@ -1,6 +1,6 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-28T14:19:50.551603+00:00
+Generated UTC: 2026-10-28T14:31:00.526343+00:00
 
 ## Direct checks
 - Live and current-release URL checks: 24/24
@@ -12,23 +12,23 @@ Generated UTC: 2026-10-28T14:19:50.551603+00:00
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 513.5 | 1914.0 |
-| certificates.html | 242.0 | 586.5 |
-| portfolio-readiness.html | 216.0 | 1148.0 |
-| career-portfolio.html | 202.0 | 1256.0 |
-| work.html | 335.5 | 1697.5 |
-| job-platforms.html | 283.0 | 1317.5 |
-| evidence.html | 311.5 | 1716.0 |
-| engineering.html | 167.0 | 1317.5 |
-| proof-map.html | 292.5 | 1382.0 |
-| hiring.html | 188.5 | 1308.0 |
-| interview.html | 228.5 | 1028.5 |
-| profile.html | 402.0 | 1408.5 |
-| contact.html | 278.0 | 1316.5 |
-| resumes.html | 196.0 | 1283.5 |
-| quality.html | 201.0 | 1347.5 |
-| cases/demandpilot.html | 160.5 | 1314.0 |
-| cases/transactionshield.html | 219.0 | 1331.5 |
+| index.html | 482.0 | 1919.0 |
+| certificates.html | 185.0 | 873.0 |
+| portfolio-readiness.html | 211.0 | 1193.5 |
+| career-portfolio.html | 141.5 | 932.0 |
+| work.html | 289.5 | 1894.5 |
+| job-platforms.html | 240.5 | 1344.5 |
+| evidence.html | 265.0 | 1816.5 |
+| engineering.html | 142.5 | 1344.0 |
+| proof-map.html | 234.5 | 1356.5 |
+| hiring.html | 146.5 | 1364.5 |
+| interview.html | 145.0 | 1342.5 |
+| profile.html | 257.0 | 1408.0 |
+| contact.html | 243.0 | 1349.0 |
+| resumes.html | 155.5 | 963.0 |
+| quality.html | 151.5 | 1341.5 |
+| cases/demandpilot.html | 134.0 | 993.5 |
+| cases/transactionshield.html | 150.5 | 1365.0 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.

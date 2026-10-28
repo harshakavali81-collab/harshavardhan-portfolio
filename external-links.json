@@ -1,17 +1,17 @@
 {
-  "checked_at": "2026-10-28T14:17:00.489554+00:00",
+  "checked_at": "2026-10-28T14:28:15.435808+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 81652,
+      "bytes": 81690,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "certificates.html",
       "status": 200,
-      "bytes": 14658,
+      "bytes": 14727,
       "ok": true,
       "current_release_marker": true
     },
@@ -74,14 +74,14 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 69670,
+      "bytes": 69697,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14657,
+      "bytes": 14686,
       "ok": true,
       "current_release_marker": null
     },
@@ -95,14 +95,14 @@
     {
       "page": "resume.html",
       "status": 200,
-      "bytes": 7731,
+      "bytes": 7758,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
-      "bytes": 9239,
+      "bytes": 9268,
       "ok": true,
       "current_release_marker": true
     },
@@ -116,7 +116,7 @@
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11280,
+      "bytes": 11309,
       "ok": true,
       "current_release_marker": null
     },
