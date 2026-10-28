@@ -52,3 +52,20 @@
  }
  @media(prefers-reduced-motion:reduce){body.bh-body :is(.kh-resume-project,.kh-resume-skill-grid article,.kh-resume-education-grid article,.kh-hobby-panels article){transition:none!important;transform:none!important}}
 }
+
+/* Certification evidence highlights: black and gold only */
+@media screen {
+ body.bh-body .kh-cert-highlight{background:#080808!important;color:#d4af37!important;box-shadow:none!important}
+ body.bh-body .kh-cert-highlight-head{max-width:890px;margin:10px 0 24px}
+ body.bh-body .kh-cert-highlight h2{font:650 clamp(1.8rem,3.4vw,2.9rem)/1.16 'Space Grotesk','DM Sans',sans-serif!important;letter-spacing:-.035em!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-head p{font-size:14px;line-height:1.7;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+ body.bh-body .kh-cert-highlight-grid article{background:#080808!important;border:1px solid #d4af37!important;border-radius:12px;padding:21px;min-width:0}
+ body.bh-body .kh-cert-highlight-grid span{font:750 11px/1.5 'DM Sans',sans-serif!important;letter-spacing:.10em;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-grid h3{font:650 20px/1.3 'Space Grotesk','DM Sans',sans-serif!important;margin:13px 0 8px;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-grid p{font-size:13px;line-height:1.65;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-grid a,body.bh-body .kh-cert-highlight-more a{display:inline-flex;text-decoration:none;margin-top:8px;padding:10px 12px;min-height:42px;background:#080808!important;border:1px solid #d4af37!important;border-radius:7px;font-size:12px;font-weight:750;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
+ body.bh-body .kh-cert-highlight-more{margin:15px 0 0}
+ @media(max-width:1050px){body.bh-body .kh-cert-highlight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:570px){body.bh-body .kh-cert-highlight-grid{grid-template-columns:minmax(0,1fr)}}
+}
