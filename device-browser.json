@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:31:56.950459+00:00",
+  "checked_at": "2026-10-28T08:32:06.115279+00:00",
   "profiles": [
     [
       "chromium",
@@ -1143,8 +1143,7 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1285,7 +1284,7 @@
       "result": "pass"
     }
   ],
-  "passed": 142,
+  "passed": 143,
   "total": 152,
   "issues": [
     {
@@ -1359,15 +1358,6 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "work.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
