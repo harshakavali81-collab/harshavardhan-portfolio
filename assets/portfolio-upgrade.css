@@ -348,3 +348,17 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
     min-width:0!important;max-width:100%!important;
   }
 }
+
+
+/* Complete palette parity for quality metrics / audit report UI.
+   Legacy blue/cyan/green status treatments are intentionally neutralized. */
+@media screen {
+  body.bh-interior :is(.qa-lead,.qastat,.assumptions,.qa-table thead,.passpill) {
+    background:#111008!important;border-color:#8d702c!important;color:#e5c477!important;
+    -webkit-text-fill-color:#e5c477!important;
+  }
+  body.bh-interior :is(.pass,.qastat strong,.qastat span,.qa-table th,.qa-table td,.passpill,.assumptions li){
+    color:#e5c477!important;-webkit-text-fill-color:#e5c477!important;
+  }
+  body.bh-interior .qa-table :is(th,td){border-bottom-color:#69521a!important}
+}
