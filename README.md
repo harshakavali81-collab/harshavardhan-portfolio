@@ -4,6 +4,11 @@
 
 Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
 
+## Featured live interactive demonstration
+
+- [MobilityPulse AI React Dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/mobilitypulse-demo/) — six views backed by reproducible frozen synthetic snapshots. It is published with this portfolio via GitHub Pages, **not** a live transit-tracking or production ETA service.
+- [MobilityPulse AI case study](https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/mobilitypulse.html) — architecture, tests, GTFS source separation, ethics and ten original diagrams.
+
 ## Recruiter quick links
 
 | Resource | Link |
