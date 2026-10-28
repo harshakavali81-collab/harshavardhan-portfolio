@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "career-portfolio.html"
+      - "linkedin-projects.html"
+      - "linkedin-setup.html"
+      - "data-analyst-resume.html"
+      - "assets/portfolio-upgrade.css"
       - "work.html"
       - "evidence.html"
       - "engineering.html"
@@ -27,6 +32,9 @@ on:
     - cron: "19 4 * * 1"
 permissions:
   contents: write
+concurrency:
+  group: live-qa-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   measure-and-review:
     runs-on: ubuntu-latest
