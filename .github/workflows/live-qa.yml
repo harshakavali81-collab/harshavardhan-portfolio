@@ -5,6 +5,9 @@ on:
     paths:
       - "index.html"
       - "work.html"
+      - "evidence.html"
+      - "engineering.html"
+      - "data/**"
       - "proof-map.html"
       - "contact.html"
       - "profile.html"
