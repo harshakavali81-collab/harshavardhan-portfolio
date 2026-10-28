@@ -10,6 +10,8 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 |---|---|
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
 | Selected work | [Five complete technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
+| Role-specific Proof Map | [Trace skills → GitHub source → results](https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html) |
+| Recruiter branding materials | [LinkedIn/GitHub profile copy](docs/PROFILE_BRANDING_KIT.md) |
 | Contact | [Recruiter email composer](https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html) |
 | Measured site quality | [Real speed & cross-browser checks](https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html) |
 | AirAware AI interactive demo | [Open synthetic-data dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware-demo.html) |\n| AirAware AI dedicated repository | [Complete source, 10 original images, workflow diagrams](https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence) |\n| AirAware AI case study | [View the environmental intelligence prototype](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware.html) · synthetic demo / 27 Python tests passed locally |\n| Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
@@ -21,6 +23,17 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | AI/ML & Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf) |
 | Source repositories | [GitHub profile](https://github.com/harshakavali81-collab) |
 | LinkedIn | [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) |
+
+## Proof-first personal branding
+
+**A new interactive, accessible Proof Map** lets recruiters select Data Analyst, Applied AI/ML, Python Developer, Software Engineer or QA/Testing and inspect the relevant skills, source-linked case studies, documented results, caveats and appropriate downloadable resume.
+
+- [Interactive skill-to-project Proof Map](proof-map.html), including role-specific deep links such as `proof-map.html?role=qa`.
+- Unique **KH** monogram favicon at `assets/kh-mark.svg` and responsive proof-path graphic on the homepage.
+- Downloadable privacy-conscious [recruiter contact card](assets/Kavali_Harshavardhan_Contact.vcf) with public professional email, portfolio and LinkedIn links.
+- [Copy-ready LinkedIn, GitHub and recruiter profile content](docs/PROFILE_BRANDING_KIT.md). Changes to those external account profiles still require updating the accounts themselves.
+
+This is a portfolio presentation upgrade, not evidence of full-time software engineering employment or unverified commercial project outcomes.
 
 ## Featured work — five evidence-based case studies
 
