@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T12:13:09.536947+00:00",
+  "checked_at": "2026-10-28T12:51:13.110716+00:00",
   "profiles": [
     [
       "chromium",
@@ -57,8 +57,16 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-home.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "career-portfolio.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -136,15 +144,17 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "chromium",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -222,10 +232,18 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
-      "scroll_width": 768,
+      "scroll_width": 809,
       "viewport_width": 768,
       "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "reason": "horizontal overflow: {'scroll': 809, 'width': 768, 'h1': True, 'anchors': 143}"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "career-portfolio.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -304,15 +322,17 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
     },
     {
       "engine": "chromium",
       "profile": "tablet",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -390,10 +410,18 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 431,
-      "viewport_width": 431,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "scroll_width": 430,
+      "viewport_width": 430,
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-home.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "career-portfolio.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -471,15 +499,17 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "chromium",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -558,10 +588,17 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 373,
-      "viewport_width": 373,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "scroll_width": 360,
+      "viewport_width": 360,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "career-portfolio.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -639,15 +676,17 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
     },
     {
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -727,8 +766,15 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "career-portfolio.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -806,15 +852,17 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "firefox",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -893,10 +941,18 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 431,
+      "scroll_width": 430,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 134}"
+      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "career-portfolio.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -974,15 +1030,17 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "firefox",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1062,8 +1120,15 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "career-portfolio.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1141,15 +1206,17 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "webkit",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1227,10 +1294,18 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 431,
+      "scroll_width": 430,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 134}"
+      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "career-portfolio.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1309,15 +1384,17 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1392,192 +1469,35 @@
       "result": "pass"
     }
   ],
-  "passed": 144,
-  "total": 168,
+  "passed": 173,
+  "total": 176,
   "issues": [
     {
       "engine": "chromium",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
-      "scroll_width": 768,
+      "scroll_width": 809,
       "viewport_width": 768,
       "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "index.html",
-      "scroll_width": 431,
-      "viewport_width": 431,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "index.html",
-      "scroll_width": 373,
-      "viewport_width": 373,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 809, 'width': 768, 'h1': True, 'anchors': 143}"
     },
     {
       "engine": "firefox",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 431,
+      "scroll_width": 430,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 134}"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
     },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 431,
+      "scroll_width": 430,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 134}"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "data-analyst-resume.html",
-      "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
     }
   ]
 }
