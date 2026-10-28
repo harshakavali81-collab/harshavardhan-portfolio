@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:47:43.149974+00:00",
+  "checked_at": "2026-10-28T08:48:15.632776+00:00",
   "profiles": [
     [
       "chromium",
@@ -983,7 +983,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
@@ -1276,11 +1277,20 @@
       "result": "pass"
     }
   ],
-  "passed": 151,
+  "passed": 150,
   "total": 152,
   "issues": [
     {
       "engine": "firefox",
+      "profile": "desktop",
+      "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Work filter incorrect"
+    },
+    {
+      "engine": "webkit",
       "profile": "desktop",
       "page": "work.html",
       "scroll_width": 1440,
