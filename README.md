@@ -1,5 +1,21 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+
+## Skills, project evidence and next-step requirements · 28 October 2026
+
+**Roles of interest:** Data Analyst · AI/ML · Python Developer. This is a fresher's project portfolio, not a claim of prior production engineering employment.
+
+| Target role | Skills from resume / portfolio | Inspect project evidence | Useful next requirements to build |
+| --- | --- | --- | --- |
+| **Data Analyst / BI** | Excel (Pivot Tables, VLOOKUP), SQL/MySQL, Power BI, Tableau, Python/Pandas, NumPy, EDA, KPI reporting, Matplotlib, Seaborn; Zomato project also discusses DAX | [Zomato case study](cases/zomato.html) · [GitHub project](https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI) | SQL CTEs/window functions, Power Query/data modeling, stronger DAX and dashboard accessibility |
+| **AI / ML** | Python, scikit-learn, TensorFlow, Keras, NLTK, NLP pipelines, model evaluation; document Q&A/RAG in project work | [Multilingual case study](cases/multilingual.html) · [GitHub project](https://github.com/harshakavali81-collab/Multilingual-Project) | Stronger holdout evaluation, leakage checks, precision/recall, experiment tracking, monitoring |
+| **Python Developer** | Python, Pandas/NumPy, C/C++, SQL, Git/GitHub; FastAPI, REST APIs and modular services demonstrated in portfolio code | [Copilot case study](cases/copilot.html) · [GitHub project](https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot) | Type hints, pytest, API authentication, Docker, CI/CD and secure deployment |
+
+**Hiring shortcuts:** [Portfolio skills and role evidence](index.html#skills-evidence) · [All resume skills](index.html#resume-skills) · [Role-specific resumes](resumes.html) · [Evidence map](proof-map.html) · [32-point portfolio requirements](portfolio-readiness.html) · [Contact](contact.html).
+
+**Evidence standard:** Listed skills come from the owner's supplied resume and existing portfolio; a linked project is evidence of a particular implementation, not a guarantee of mastery. Topics in the final column are *future learning priorities*, not credentials or experience already earned. Projects may use demonstrations or synthetic data and may not be publicly deployed.
+
+
 ## Official academic records and flagship case studies · 28 October 2026
 
 The owner provided photographs of the official-looking academic documents; only the non-sensitive fields are published. Original scans, QR codes, portrait photos, government/school ID values, birth date and family details are **not** committed to the public site.
