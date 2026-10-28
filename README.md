@@ -199,3 +199,9 @@ The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level c
 - [Portfolio case study](cases/supportlens.html) and searchable home-page project card.
 - [GitHub source](https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics) with source-cited offline RAG, FastAPI, React, minimal SQLite support analytics, test/evaluation scripts and 10 original diagrams.
 - These are fictional support policies; production hosting and real customer evaluation are not claimed.
+
+## StreamWatch AI streaming & anomaly detection
+
+- [StreamWatch AI technical case study](cases/streamwatch.html) — Kafka-compatible Redpanda events, Python validation, online anomaly detection, idempotent SQL, FastAPI and React.
+- [Browser-only synthetic interactive demo](streamwatch-demo.html) — illustrative fixtures, not a deployed Kafka service.
+- [Source, tests, documentation and ten original vector diagrams](https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection).
