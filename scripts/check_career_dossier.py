@@ -146,7 +146,16 @@ def check():
                    'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
         assert phrase in home, phrase
     assert "assets/resume-evidence.css?v=20261028-edu2" in home
-    assert "assets/kh-ivory-accent.css?v=20261028-seven7" in home
+    assert 'assets/kh-ivory-accent.css?v=' in home, "Canonical CSS reference missing"
+    assert 'id="skills-evidence"' in home, "Role-based project evidence section missing"
+    assert 'id="skill-roadmap"' in home, "Clearly labeled future-skills roadmap missing"
+    assert 'CAREER DEVELOPMENT / NEXT SKILLS TO BUILD' in home
+    assert 'not claims of completed training' in home
+    for proof in ("cases/zomato.html", "cases/multilingual.html", "cases/copilot.html"):
+        assert proof in home, f"Role evidence case study missing: {proof}"
+    for heading in ("Machine Learning &amp; AI", "Data Analysis &amp; Visualization",
+                    "Programming &amp; Querying", "Core Analyst Skills", "Core Competencies"):
+        assert heading in home, f"Resume skills category missing: {heading}"
     accents = (ROOT / "assets/kh-ivory-accent.css").read_text(encoding="utf-8")
     visible_palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", accents.lower()))
     assert visible_palette == {
