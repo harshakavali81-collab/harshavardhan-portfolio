@@ -111,7 +111,18 @@ def main() -> int:
             if adr not in pages[notebook].ids:
                 problems.append(f"Engineering Notebook missing #{adr}")
 
+    luxury_css = ROOT / "assets" / "luxury-theme.css"
+    if not luxury_css.exists():
+        problems.append("Missing portfolio luxury theme stylesheet")
+    else:
+        theme_source = luxury_css.read_text(encoding="utf-8")
+        for required in ("--obsidian:#080808", "--metal:linear-gradient", "prefers-reduced-motion", "forced-colors:active"):
+            if required not in theme_source:
+                problems.append("Incomplete premium theme: " + required)
     for page, scan in pages.items():
+        required_href = "../assets/luxury-theme.css" if "cases" in page.relative_to(ROOT).parts else "assets/luxury-theme.css"
+        if not any(url == required_href for attr, url in scan.links if attr == "href"):
+            problems.append(f"{page.relative_to(ROOT)}: champagne-gold/obsidian stylesheet missing")
         for _, url in scan.links:
             if url.startswith(IGNORED_PREFIXES) or url.startswith("//"):
                 continue
