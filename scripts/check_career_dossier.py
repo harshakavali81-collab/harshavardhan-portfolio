@@ -72,6 +72,25 @@ def check():
     for pdf in ("Kavali_Harshavardhan_Data_Analyst_Resume.pdf",
                 "Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf"):
         assert (ROOT / "assets" / pdf).exists(), f"Missing resume PDF: {pdf}"
+    # Recruiter-focused job-portfolio requirements are linked, not invented.
+    readiness = (ROOT / "portfolio-readiness.html").read_text(encoding="utf-8")
+    assert readiness.count('class="kh-ready-section"') == 5
+    assert readiness.count('class="kh-ready-status"') == 32
+    assert "32 practical requirements" in readiness
+    assert "Verify repositories" in readiness and "Security review" in readiness
+    assert "not proof of a working production deployment" in readiness
+    for doc in ("index.html", "profile.html", "career-portfolio.html", "recruiter.html"):
+        assert 'href="portfolio-readiness.html"' in (ROOT / doc).read_text(encoding="utf-8"), doc
+    # Regression for the white facts bar visible in the user's screenshot.
+    assert "KH SCREEN REFINEMENTS" in css
+    assert "body.bh-body .bh-stats{" in css
+    after_fix = css[css.index("KH SCREEN REFINEMENTS"):]
+    assert "background:#080808!important" in after_fix
+    assert "font-size:clamp(1.4rem,2.8vw,2.1rem)!important" in after_fix
+    contact_page = (ROOT / "contact.html").read_text(encoding="utf-8")
+    assert "view=cm&fs=1" in contact_page
+    assert 'id="open-mail-app"' in contact_page
+    assert 'id="open-gmail"' in contact_page and 'id="copy-message"' in contact_page
     # End strict theme/contact checks.
     # Twelve-element career extension: END
 
