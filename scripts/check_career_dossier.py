@@ -9,11 +9,11 @@ class LinkAudit(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
-        self.ids = set()
+        self.ids = []
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if a.get("id"):
-            self.ids.add(a["id"])
+            self.ids.append(a["id"])
         if tag in ("a", "link", "img", "script"):
             value = a.get("href") or a.get("src")
             if value:
