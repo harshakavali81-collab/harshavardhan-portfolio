@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T15:50:34.539432+00:00",
+  "checked_at": "2026-10-28T16:03:55.093995+00:00",
   "profiles": [
     [
       "chromium",
@@ -1315,8 +1315,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1675,7 +1674,7 @@
       "result": "pass"
     }
   ],
-  "passed": 191,
+  "passed": 192,
   "total": 200,
   "issues": [
     {
@@ -1740,15 +1739,6 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
