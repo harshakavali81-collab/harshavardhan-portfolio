@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:21:07.595175+00:00",
+  "checked_at": "2026-10-28T06:21:35.641303+00:00",
   "profiles": [
     [
       "chromium",
@@ -282,8 +282,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "profile.html",
-      "scroll_width": 400,
-      "viewport_width": 400,
+      "scroll_width": 390,
+      "viewport_width": 390,
       "result": "pass"
     },
     {
@@ -387,8 +387,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "profile.html",
-      "scroll_width": 400,
-      "viewport_width": 400,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -596,10 +596,9 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "profile.html",
-      "scroll_width": 401,
+      "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 401, 'width': 390, 'h1': True, 'anchors': 23}"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -806,10 +805,10 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "profile.html",
-      "scroll_width": 401,
+      "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 401, 'width': 390, 'h1': True, 'anchors': 23}"
+      "result": "pass",
+      "screenshot": "screenshots/webkit-mobile-profile.html.png"
     },
     {
       "engine": "webkit",
@@ -892,26 +891,7 @@
       "result": "pass"
     }
   ],
-  "passed": 102,
+  "passed": 104,
   "total": 104,
-  "issues": [
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "profile.html",
-      "scroll_width": 401,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 401, 'width': 390, 'h1': True, 'anchors': 23}"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "profile.html",
-      "scroll_width": 401,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 401, 'width': 390, 'h1': True, 'anchors': 23}"
-    }
-  ]
+  "issues": []
 }
