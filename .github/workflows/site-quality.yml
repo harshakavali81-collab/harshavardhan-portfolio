@@ -21,3 +21,5 @@ jobs:
         run: python3 scripts/check_career_profile.py
       - name: Check job-platform project showcase
         run: python3 scripts/check_job_platforms.py
+      - name: Validate refined light-gold design and 31-source project gallery
+        run: python3 scripts/check_light_portfolio.py
