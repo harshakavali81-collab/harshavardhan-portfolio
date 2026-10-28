@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:16:24.171455+00:00",
+  "checked_at": "2026-10-28T08:17:03.144943+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -10,7 +10,7 @@
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21127,
+      "bytes": 21181,
       "ok": true
     },
     {
@@ -40,13 +40,13 @@
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 13901,
+      "bytes": 13955,
       "ok": true
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6078,
+      "bytes": 6132,
       "ok": true
     },
     {
@@ -64,7 +64,7 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 8584,
+      "bytes": 8638,
       "ok": true
     },
     {
@@ -727,7 +727,10 @@
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
       "pages": [
-        "cases/streamwatch.html"
+        "cases/streamwatch.html",
+        "index.html",
+        "streamwatch-demo.html",
+        "work.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -1278,7 +1281,8 @@
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/01-streamwatch-cover.svg",
       "pages": [
-        "cases/streamwatch.html"
+        "cases/streamwatch.html",
+        "index.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1287,7 +1291,8 @@
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/02-end-to-end-architecture.svg",
       "pages": [
-        "cases/streamwatch.html"
+        "cases/streamwatch.html",
+        "work.html"
       ],
       "via": "github-asset-api",
       "status": 200,
