@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:25:04.415981+00:00",
+  "checked_at": "2026-10-28T06:26:03.866997+00:00",
   "profiles": [
     [
       "chromium",
@@ -119,6 +119,14 @@
     {
       "engine": "chromium",
       "profile": "desktop",
+      "page": "quality.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
       "page": "cases/ecommerce.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
@@ -217,6 +225,14 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "contact.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "quality.html",
       "scroll_width": 768,
       "viewport_width": 768,
       "result": "pass"
@@ -330,6 +346,14 @@
     {
       "engine": "chromium",
       "profile": "mobile",
+      "page": "quality.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
       "page": "cases/ecommerce.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -434,6 +458,14 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "quality.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "cases/ecommerce.html",
       "scroll_width": 320,
       "viewport_width": 320,
@@ -531,6 +563,14 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "contact.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "quality.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -643,6 +683,14 @@
     {
       "engine": "firefox",
       "profile": "mobile",
+      "page": "quality.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
       "page": "cases/ecommerce.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -740,6 +788,14 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "contact.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "quality.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -853,6 +909,14 @@
     {
       "engine": "webkit",
       "profile": "mobile",
+      "page": "quality.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
       "page": "cases/ecommerce.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -891,7 +955,7 @@
       "result": "pass"
     }
   ],
-  "passed": 104,
-  "total": 104,
+  "passed": 112,
+  "total": 112,
   "issues": []
 }
