@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T08:14:00.515971+00:00",
+  "checked_at": "2026-10-28T08:14:34.539185+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 72034,
+      "bytes": 72155,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 19501,
+      "bytes": 19570,
       "ok": true
     },
     {
@@ -294,6 +294,7 @@
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
       "pages": [
         "cases/commercelens.html",
+        "commercelens-demo.html",
         "index.html",
         "work.html"
       ],
@@ -603,6 +604,7 @@
       "pages": [
         "cases/mobilitypulse.html",
         "index.html",
+        "mobilitypulse-explorer.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -705,6 +707,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/VERIFIED_RESULTS.md",
+      "pages": [
+        "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/tree/main/tests",
       "pages": [
         "cases/inventoryiq.html"
@@ -717,6 +728,7 @@
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
       "pages": [
         "cases/docsight.html",
+        "index.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -1230,7 +1242,8 @@
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/main/assets/01-product-preview.svg",
       "pages": [
-        "cases/docsight.html"
+        "cases/docsight.html",
+        "index.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1281,7 +1294,7 @@
     }
   ],
   "external_counts": {
-    "ok": 121,
+    "ok": 122,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
