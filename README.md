@@ -258,9 +258,9 @@ The figures above are not customer improvements, commercial ROI, or independentl
 
 ## Verified resume details
 
-- **B.Tech:** CMR Institute of Technology, Hyderabad, ECE, 2021–2025, CGPA **7.02/10**
-- **Intermediate:** Sri Sathya Sai Junior College, Anantapur, 2019–2021, **87%**
-- **SSC:** AP Model School, Anantapur, 2019, **92%**
+- **B.Tech:** CMR Institute of Technology, Hyderabad, ECE, 2021–2025, CGPA **7.03/10**
+- **Intermediate:** Sri Sathya Sai Junior College, Anantapur, 2019–2021, **86.4% (864/1000)**
+- **SSC:** AP Model School, Anantapur, 2019, **9.2 GPA (out of 10)**
 - **Internship:** Python Intern, Edugene Technologies, **February–August 2025**
 - **Five listed qualifications / virtual internships:** Android Developer (Google for Developers); Data Engineering (AWS Academy); AI-ML (Google for Developers); Intelligent Automation (SS&C Blue Prism); Modern C++ (Infosys Springboard)
 - **Core skills:** Python, scikit-learn, TensorFlow, NLTK, Pandas, NumPy, SQL, MySQL, Power BI, Tableau, Excel, EDA, visualization, model evaluation.
