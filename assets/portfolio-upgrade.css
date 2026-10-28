@@ -237,3 +237,98 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
   @media(prefers-reduced-motion:reduce){.kh-element,.kh-home-career{animation:none!important;transition:none!important;}}
   @media(forced-colors:active){.kh-element,.kh-home-career,.kh-link-cluster a{border:1px solid CanvasText;background:Canvas!important;color:CanvasText!important;}}
 }
+
+
+/* KH / RESUME READER & RESPONSIVE FIX / 2026-10-28
+   The *website* uses only black + gold. The on-paper print stylesheet remains
+   separate for ink-efficient and ATS-friendly CV output. */
+@media screen {
+  body.kh-resume-screen {
+    --bg:#080808!important;--accent:#d4af37!important;--ink:#e7c77a!important;
+    --muted:#bda363!important;--line:#725922!important;color-scheme:dark!important;
+    background:#080808!important;color:#e0bf73!important;
+    font-family:'Montserrat',Arial,sans-serif!important;
+  }
+  body.kh-resume-screen :is(.topbar,.topbar .inner){
+    background:#0b0a06!important;color:#e1c378!important;
+    border-color:rgba(212,175,55,.30)!important;
+  }
+  body.kh-resume-screen .topbar span{color:#dcc27c!important}
+  body.kh-resume-screen .paper{
+    background:linear-gradient(145deg,#131108,#080808)!important;
+    color:#dec074!important;border:1px solid rgba(212,175,55,.45)!important;
+    box-shadow:0 22px 60px rgba(0,0,0,.50)!important;
+  }
+  body.kh-resume-screen :is(h1,h2,h3,.headline,.subtitle,.heading strong,.resume-switcher strong){
+    color:#eed38b!important;-webkit-text-fill-color:#eed38b!important;
+    border-color:#92702c!important;
+  }
+  body.kh-resume-screen :is(p,li,small,.meta,.contact,.contact a,.heading time,.certs .date,.foot,.smallnote,.tech,.project .context){
+    color:#cbb073!important;-webkit-text-fill-color:#cbb073!important;
+  }
+  body.kh-resume-screen :is(a,.resume-switcher a){
+    color:#f3d990!important;-webkit-text-fill-color:#f3d990!important;
+  }
+  body.kh-resume-screen :is(.btn,.button){
+    background:linear-gradient(130deg,#b5872b,#ebd080,#b58b2e)!important;
+    color:#0b0905!important;-webkit-text-fill-color:#0b0905!important;
+    border:1px solid #d4af37!important;
+  }
+  body.kh-resume-screen :is(.btn.alt,.button.alt){
+    background:#17140b!important;color:#e8c87b!important;
+    -webkit-text-fill-color:#e8c87b!important;border:1px solid #90722d!important;
+  }
+  body.kh-resume-screen :is(.resume-switcher,.badge){
+    background:#181408!important;color:#e4c47b!important;
+    border:1px solid #816728!important;
+  }
+  body.kh-resume-screen :is(a,button):focus-visible{outline:3px solid #f3d990!important;outline-offset:4px}
+  body.kh-resume-screen :is(.paper,.topbar,.resume-switcher) * {overflow-wrap:break-word}
+  .kh-role-finder{
+    border:1px solid rgba(212,175,55,.42)!important;border-radius:16px;
+    padding:22px 26px;margin:0 0 24px;
+    background:linear-gradient(145deg,#1a1509,#090909)!important;
+    box-shadow:0 18px 50px rgba(0,0,0,.20);
+  }
+  .kh-role-tabs{display:flex;flex-wrap:wrap;gap:9px;margin:16px 0 18px}
+  body.bh-body .kh-role-tabs button{
+    background:#111007!important;color:#dfbe66!important;
+    border:1px solid #786024!important;border-radius:8px;padding:11px 16px;
+    font:700 12px 'Montserrat',Arial,sans-serif;min-height:44px;cursor:pointer;
+  }
+  body.bh-body .kh-role-tabs button[aria-pressed="true"]{
+    background:linear-gradient(130deg,#ae8224,#e7c66c,#c49d38)!important;
+    color:#080704!important;border-color:#e2c06d!important;
+  }
+  .kh-role-body h3{font:500 22px 'Cinzel',Georgia,serif;color:#f0d18a;margin:0 0 8px}
+  .kh-role-body p{color:#cdb172;line-height:1.8;font-size:13px;margin:7px 0}
+  .kh-role-body strong{color:#edce83}
+  .kh-role-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .kh-role-actions a{display:inline-flex;padding:11px 14px;min-height:43px;align-items:center;
+    color:#ebca7e!important;background:#17140b;border:1px solid #87682a;border-radius:8px;
+    text-decoration:none;font:700 12px 'Montserrat',Arial,sans-serif}
+  .kh-role-actions a:hover{border-color:#efce7a}
+  body.bh-body :is(.bh-hero-grid,.bh-hero-copy,.bh-visual,.bh-window,.bh-stats,.bh-feature-grid,.bh-project-grid,.bh-about-panel,.bh-stack-panel,.bh-content-grid,.bh-actions,.bh-code){
+    min-width:0;max-width:100%;
+  }
+  body.bh-body .bh-code{overflow-wrap:anywhere}
+  @media(max-width:560px){
+    body.bh-body main .bh-hero h1,body.bh-body main .bh-hero h1 .bh-name{
+      font-size:clamp(2.35rem,10vw,3.8rem)!important;max-width:100%;
+      overflow-wrap:anywhere;letter-spacing:-.028em!important;
+    }
+    body.bh-body .bh-shell{width:min(100% - 34px,1180px)}
+    body.bh-body .bh-hero-grid{grid-template-columns:minmax(0,1fr)!important}
+    body.bh-body .bh-mini-panel{right:0!important}
+    body.bh-body .bh-socials{flex-wrap:wrap}
+    body.bh-body .bh-role{overflow-wrap:anywhere}
+    .kh-role-finder{padding:17px}
+    .kh-role-tabs button{flex:1 1 135px}
+    .kh-role-actions a{width:100%}
+  }
+  @media(max-width:345px){
+    body.bh-body main .bh-hero h1,body.bh-body main .bh-hero h1 .bh-name{font-size:2.15rem!important}
+    body.bh-body .bh-brand{white-space:normal!important}
+    body.bh-body .bh-brand small{font-size:8px}
+  }
+}
