@@ -141,8 +141,8 @@ def browser_qa(out):
                             try:
                                 page.wait_for_function("""() => {
                                     const s = getComputedStyle(document.body);
-                                    return s.getPropertyValue('--bg').trim() === '#080808' &&
-                                           s.getPropertyValue('--accent').trim() === '#d4af37';
+                                    return s.getPropertyValue('--bg').trim() === '#090909' &&
+                                           s.getPropertyValue('--accent').trim() === '#D4AF65';
                                 }""", timeout=12000)
                             except Exception as ex:
                                 raise AssertionError("Premium theme did not apply within 12 seconds") from ex
@@ -166,10 +166,10 @@ def browser_qa(out):
                                  titleFoil: title ? getComputedStyle(title).backgroundImage : ''
                                };
                             }""")
-                            if branding["backgroundToken"] != "#080808":
-                                raise AssertionError("Obsidian black background token was not applied: "+str(branding))
-                            if branding["goldToken"] != "#d4af37":
-                                raise AssertionError("Champagne gold accent token was not applied: "+str(branding))
+                            if branding["backgroundToken"] != "#090909":
+                                raise AssertionError("Obsidian background token was not applied: "+str(branding))
+                            if branding["goldToken"] != "#D4AF65":
+                                raise AssertionError("Classic gold accent token was not applied: "+str(branding))
 
                             if path=="flagship-projects.html":
                                 if page.locator(".kh-flagship").count()!=3:
@@ -179,8 +179,8 @@ def browser_qa(out):
                                 if page.locator("#zomato a[href*='github.com/']").count()<1:
                                     raise AssertionError("Zomato evidence source missing")
                                 body_color=page.locator("body").evaluate("e=>getComputedStyle(e).backgroundColor")
-                                if body_color!="rgb(8, 8, 8)":
-                                    raise AssertionError("Flagship palette is no longer black/gold")
+                                if body_color!="rgb(9, 9, 9)":
+                                    raise AssertionError("Flagship premium background was lost")
                             if path=="certificates.html":
                                 if page.locator(".kh-proof-card").count()!=7:
                                     raise AssertionError("Seven document-backed training records required")
@@ -189,8 +189,8 @@ def browser_qa(out):
                                     if page.locator("a[href='"+link+"']").count()!=1:
                                         raise AssertionError("AWS Academy Credly link missing: "+link)
                                 back_color=page.locator("body").evaluate("e=>getComputedStyle(e).backgroundColor")
-                                if back_color!="rgb(8, 8, 8)":
-                                    raise AssertionError("Credential gallery black theme regression: "+back_color)
+                                if back_color!="rgb(9, 9, 9)":
+                                    raise AssertionError("Credential gallery premium background regression: "+back_color)
                             if path=="portfolio-readiness.html":
                                 if page.locator(".kh-ready-section").count()!=5:
                                     raise AssertionError("Five recruiter portfolio checklist categories required")
@@ -201,8 +201,8 @@ def browser_qa(out):
                                     const first=getComputedStyle(document.querySelector('.kh-ready-card'));
                                     return [s.backgroundColor,first.backgroundColor]
                                 }""")
-                                if color_values!=["rgb(8, 8, 8)","rgb(8, 8, 8)"]:
-                                    raise AssertionError("Recruiter readiness page broke two-color theme: "+str(color_values))
+                                if color_values!=["rgb(20, 20, 20)","rgb(20, 20, 20)"]:
+                                    raise AssertionError("Recruiter readiness page broke premium theme: "+str(color_values))
                             if path=="career-portfolio.html":
                                 if page.locator(".kh-element").count()!=12:
                                     raise AssertionError("Twelve documented career elements must be visible")
@@ -218,7 +218,7 @@ def browser_qa(out):
                                   paper:getComputedStyle(document.querySelector('.paper')).backgroundColor,
                                   printText:document.querySelector('.paper').innerText.length
                                 })""")
-                                if resume_colors["bg"]!="rgb(8, 8, 8)":
+                                if resume_colors["bg"]!="rgb(9, 9, 9)":
                                     raise AssertionError("HTML resume screen background is not black: "+str(resume_colors))
                                 if resume_colors["printText"]<200:
                                     raise AssertionError("Resume content missing")
@@ -319,8 +319,8 @@ def browser_qa(out):
                                     const first=getComputedStyle(e.querySelector('.bh-stat strong'));
                                     return [cs.backgroundColor,first.color]
                                 }""")
-                                if colors!=["rgb(8, 8, 8)","rgb(212, 175, 55)"]:
-                                    raise AssertionError("Two-color homepage statistics strip regression: "+str(colors))
+                                if colors!=["rgb(20, 20, 20)","rgb(245, 240, 230)"]:
+                                    raise AssertionError("Seven-color homepage statistics strip regression: "+str(colors))
                                 if page.locator("#recruiter-contact a[href^='tel:']").count()!=1:
                                     raise AssertionError("Recruiter direct phone shortcut missing")
                             if path=="":
