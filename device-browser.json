@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T09:09:43.352019+00:00",
+  "checked_at": "2026-10-28T09:15:15.512764+00:00",
   "profiles": [
     [
       "chromium",
@@ -613,8 +613,7 @@
       "page": "interview.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "fail",
-      "reason": "Obsidian black background token was not applied: {'backgroundToken': '#071321', 'goldToken': '', 'titleFoil': 'none'}"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -644,8 +643,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 322,
-      "viewport_width": 322,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -1276,17 +1275,7 @@
       "result": "pass"
     }
   ],
-  "passed": 151,
+  "passed": 152,
   "total": 152,
-  "issues": [
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "interview.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "fail",
-      "reason": "Obsidian black background token was not applied: {'backgroundToken': '#071321', 'goldToken': '', 'titleFoil': 'none'}"
-    }
-  ]
+  "issues": []
 }
