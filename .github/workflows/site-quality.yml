@@ -1,0 +1,14 @@
+name: Portfolio quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate-static-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check HTML navigation, assets, and case-study sections
+        run: python3 scripts/audit_site.py
