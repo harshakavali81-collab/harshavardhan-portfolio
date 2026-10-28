@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T08:09:51.579226+00:00",
+  "checked_at": "2026-10-28T08:10:20.896829+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 68604,
+      "bytes": 70786,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 17465,
+      "bytes": 18690,
       "ok": true
     },
     {
@@ -679,9 +679,19 @@
       "pages": [
         "cases/inventoryiq.html",
         "index.html",
+        "inventoryiq-demo.html",
         "work.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/ARCHITECTURE.md",
+      "pages": [
+        "inventoryiq-demo.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -1234,7 +1244,7 @@
     }
   ],
   "external_counts": {
-    "ok": 116,
+    "ok": 117,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
