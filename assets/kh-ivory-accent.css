@@ -364,3 +364,8 @@
     }
   }
 }
+
+/* Present the requested two-line headline without artificial line breaks. */
+@media screen {
+  body.bh-body .bh-hero h1 .bh-name { display:block!important; }
+}
