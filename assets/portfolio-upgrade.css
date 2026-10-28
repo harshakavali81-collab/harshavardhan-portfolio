@@ -332,3 +332,19 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
     body.bh-body .bh-brand small{font-size:8px}
   }
 }
+
+
+/* 2026-10-28 / final measured tablet and mobile overflow correction.
+   Older artwork used a -65px visual halo that extended beyond the viewport.
+   Contain decorative layers rather than hiding any real recruiter content. */
+@media screen and (max-width:900px) {
+  body.bh-body .bh-hero {overflow-x:clip!important;}
+  body.bh-body .bh-visual::before {
+    inset:0!important;filter:none!important;
+    background:radial-gradient(circle,rgba(212,175,55,.10),transparent 70%)!important;
+  }
+  body.bh-body .bh-mini-panel {right:0!important;}
+  body.bh-body .bh-hero-grid,body.bh-body .bh-hero-copy,body.bh-body .bh-visual {
+    min-width:0!important;max-width:100%!important;
+  }
+}
