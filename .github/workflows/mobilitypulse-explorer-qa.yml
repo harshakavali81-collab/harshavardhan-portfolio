@@ -1,0 +1,29 @@
+name: MobilityPulse standalone explorer QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - mobilitypulse-explorer.html
+      - cases/mobilitypulse.html
+      - assets/mobilitypulse/**
+      - scripts/check_mobilitypulse_explorer.py
+      - .github/workflows/mobilitypulse-explorer-qa.yml
+  pull_request:
+    paths:
+      - mobilitypulse-explorer.html
+      - cases/mobilitypulse.html
+      - assets/mobilitypulse/**
+      - scripts/check_mobilitypulse_explorer.py
+      - .github/workflows/mobilitypulse-explorer-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-interactive-explorer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 scripts/check_mobilitypulse_explorer.py
