@@ -116,6 +116,22 @@ def browser_qa(out):
                             res.update({"scroll_width":metrics["scroll"],"viewport_width":metrics["width"]})
                             if not metrics["h1"] or metrics["anchors"]<2:raise AssertionError("Missing heading or navigation")
                             if metrics["scroll"]>metrics["width"]+3:raise AssertionError("horizontal overflow: "+str(metrics))
+                            if page.locator('link[href$="luxury-theme.css"]').count()!=1:
+                                raise AssertionError("Premium theme stylesheet link not found")
+                            branding = page.evaluate("""() => {
+                               const body = getComputedStyle(document.body);
+                               const title = document.querySelector('main h1');
+                               return {
+                                 backgroundToken: body.getPropertyValue('--bg').trim(),
+                                 goldToken: body.getPropertyValue('--accent').trim(),
+                                 titleFoil: title ? getComputedStyle(title).backgroundImage : ''
+                               };
+                            }""")
+                            if branding["backgroundToken"] != "#080808":
+                                raise AssertionError("Obsidian black background token was not applied: "+str(branding))
+                            if branding["goldToken"] != "#e4c98e":
+                                raise AssertionError("Champagne gold accent token was not applied: "+str(branding))
+
                             if path.startswith("cases/"):
                                 for part in ("overview","problem","process","solution","results","reflection"):
                                     if page.locator("#"+part).count()!=1:raise AssertionError("missing section "+part)
