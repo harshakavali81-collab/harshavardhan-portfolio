@@ -167,8 +167,38 @@ def browser_qa(out):
                                 page.locator("article.story").first.locator("summary").click()
                                 if not page.locator("article.story").first.locator("details").evaluate("d => d.open"):
                                     raise AssertionError("interview question disclosure failed")
-                            if path=="contact.html" and page.locator("form#mail-form").count()!=1:
-                                raise AssertionError("contact form missing")
+                            if path=="contact.html":
+                                if page.locator("form#mail-form").count()!=1:
+                                    raise AssertionError("Contact form missing")
+                                if page.locator("a[href*='mail.google.com/mail/u/0/']").count()<2:
+                                    raise AssertionError("Gmail direct-compose links missing")
+                                if page.locator("#copy-email").count()!=1 or page.locator("#open-mail-app").count()!=1:
+                                    raise AssertionError("Copy-email or mail-app fallback missing")
+                                page.locator("#copy-email").click()
+                                page.locator("#copy-status").wait_for(state="visible", timeout=5000)
+                                if not page.locator("#copy-status").inner_text().strip():
+                                    raise AssertionError("Copy-email feedback missing")
+                                page.route("https://mail.google.com/**",
+                                    lambda route: route.fulfill(status=200, content_type="text/html",
+                                        body="<html><title>Gmail test route</title><body>Gmail preview</body></html>"))
+                                page.locator("#sender").fill("Portfolio QA")
+                                page.locator("#reply").fill("qa@example.com")
+                                page.locator("#message").fill("Please review this project portfolio.")
+                                page.locator("#open-gmail").click()
+                                page.wait_for_url("https://mail.google.com/mail/u/0/**", timeout=13000)
+                                from urllib.parse import parse_qs
+                                gmail_query = parse_qs(urlsplit(page.url).query)
+                                if gmail_query.get("to")!=["kavaliharshavardhan98@gmail.com"]:
+                                    raise AssertionError("Gmail draft recipient incorrect")
+                                if gmail_query.get("tf")!=["cm"]:
+                                    raise AssertionError("Gmail compose routing missing")
+                                if "Portfolio QA" not in gmail_query.get("su", [""])[0]:
+                                    raise AssertionError("Gmail draft subject missing sender")
+                                if "Please review this project portfolio." not in gmail_query.get("body", [""])[0]:
+                                    raise AssertionError("Gmail draft body was not encoded correctly")
+                                page.go_back(wait_until="domcontentloaded", timeout=12000)
+                                if page.locator("form#mail-form").count()!=1:
+                                    raise AssertionError("Contact page lost after Gmail draft handoff")
                             res["result"]="pass"
                             if (engine,label,path) in [
                                ("chromium","desktop",""),("chromium","mobile",""),("chromium","tablet","work.html"),
