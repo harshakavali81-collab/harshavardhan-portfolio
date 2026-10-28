@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","work.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","work.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -137,6 +137,22 @@ def browser_qa(out):
                                 page.locator("button[data-role='data']").click()
                                 if page.locator(".proof-item").count()!=2:
                                     raise AssertionError("Data analyst evidence count should be two")
+                            if path=="evidence.html":
+                                page.locator("#ledger-app[data-ready='true']").wait_for(timeout=12000)
+                                if page.locator(".ledger-card").count()!=5:
+                                    raise AssertionError("Expected five source-backed projects")
+                                page.locator("button[data-ledger-filter='ml']").click()
+                                if page.locator(".ledger-card").count()!=2:
+                                    raise AssertionError("ML evidence filtering should show two projects")
+                                page.locator("#compare-b").select_option("transactionshield")
+                                if page.locator("#comparison-results article").count()!=2:
+                                    raise AssertionError("The side-by-side evidence comparison did not render")
+                                if "TransactionShield" not in page.locator("#comparison-results").inner_text():
+                                    raise AssertionError("Selected comparison was not updated")
+                            if path=="engineering.html":
+                                for adr in ("adr-ecommerce","adr-fraud","adr-forecast","adr-rag","adr-bi"):
+                                    if page.locator("#"+adr).count()!=1:
+                                        raise AssertionError("Missing engineering decision "+adr)
                             if path=="hiring.html":
                                 if page.locator(".faq details").count()!=10:
                                     raise AssertionError("recruiter FAQ count should be ten")
