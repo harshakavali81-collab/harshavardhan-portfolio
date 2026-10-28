@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T09:13:45.478128+00:00",
+  "checked_at": "2026-10-28T09:29:42.191994+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 75195,
+      "bytes": 75460,
       "ok": true
     },
     {
@@ -133,6 +133,7 @@
         "contact.html",
         "data-analyst-resume.html",
         "index.html",
+        "linkedin-projects.html",
         "profile.html",
         "resume.html",
         "resumes.html"
@@ -144,7 +145,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -155,6 +157,7 @@
       "pages": [
         "cases/evidencedesk.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -176,6 +179,7 @@
       "pages": [
         "airaware.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -202,6 +206,15 @@
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40660029536",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40662345716",
       "pages": [
         "airaware.html"
       ],
@@ -282,6 +295,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/HYDERABAD_SPATIAL_TEMPORAL_RESULTS.md",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/RELEASE_ACCEPTANCE.md",
       "pages": [
         "airaware.html"
@@ -302,7 +324,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/AstraSentinel-AI",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -315,6 +338,7 @@
         "cases/commercelens.html",
         "commercelens-demo.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -360,7 +384,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -372,6 +397,7 @@
         "bigdata-demo.html",
         "cases/big-data-clickstream.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -417,7 +443,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/CivicShield-AI",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -426,7 +453,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -435,7 +463,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -444,7 +473,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -455,6 +485,7 @@
       "pages": [
         "cases/demandpilot.html",
         "index.html",
+        "linkedin-projects.html",
         "recruiter.html",
         "work.html"
       ],
@@ -477,6 +508,7 @@
       "pages": [
         "cases/ecommerce.html",
         "index.html",
+        "linkedin-projects.html",
         "recruiter.html",
         "work.html"
       ],
@@ -497,7 +529,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -508,6 +541,7 @@
       "pages": [
         "cases/foodbridge.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -544,7 +578,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -555,6 +590,7 @@
       "pages": [
         "cases/supportlens.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -604,6 +640,7 @@
         "healthpulse-demo.html",
         "healthpulse-worldbank.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -649,7 +686,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -658,7 +696,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -667,7 +706,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project",
       "pages": [
-        "index.html"
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -678,6 +718,7 @@
       "pages": [
         "cases/mobilitypulse.html",
         "index.html",
+        "linkedin-projects.html",
         "mobilitypulse-explorer.html",
         "work.html"
       ],
@@ -743,6 +784,7 @@
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
       "pages": [
         "index.html",
+        "linkedin-projects.html",
         "profile.html",
         "recruiter.html"
       ],
@@ -756,6 +798,7 @@
         "cases/inventoryiq.html",
         "index.html",
         "inventoryiq-demo.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -821,6 +864,7 @@
       "pages": [
         "cases/streamwatch.html",
         "index.html",
+        "linkedin-projects.html",
         "streamwatch-demo.html",
         "work.html"
       ],
@@ -888,6 +932,7 @@
         "cases/docsight.html",
         "docsight-demo.html",
         "index.html",
+        "linkedin-projects.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -917,6 +962,7 @@
       "pages": [
         "cases/transactionshield.html",
         "index.html",
+        "linkedin-projects.html",
         "recruiter.html",
         "work.html"
       ],
@@ -938,6 +984,7 @@
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
       "pages": [
         "index.html",
+        "linkedin-projects.html",
         "profile.html"
       ],
       "via": "github-repo-api",
@@ -949,6 +996,7 @@
       "pages": [
         "cases/zomato.html",
         "index.html",
+        "linkedin-projects.html",
         "profile.html",
         "recruiter.html",
         "work.html"
@@ -979,8 +1027,18 @@
       "url": "https://github.com/harshakavali81-collab/document-qa-bot",
       "pages": [
         "index.html",
+        "linkedin-projects.html",
         "profile.html",
         "recruiter.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio",
+      "pages": [
+        "linkedin-projects.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -1246,6 +1304,15 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html",
+      "pages": [
+        "linkedin-projects.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html",
       "pages": [
         "profile.html"
@@ -1375,6 +1442,15 @@
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/hyderabad-2024-historical-folds.svg",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/hyderabad-spatial-validation.svg",
       "pages": [
         "airaware.html"
       ],
@@ -1554,6 +1630,7 @@
         "data-analyst-resume.html",
         "hiring.html",
         "index.html",
+        "linkedin-projects.html",
         "profile.html",
         "recruiter.html",
         "resume.html",
@@ -1574,7 +1651,7 @@
     }
   ],
   "external_counts": {
-    "ok": 152,
+    "ok": 157,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
