@@ -671,3 +671,29 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
    body.bh-body .bh-mini-panel{right:0!important}
  }
 }
+
+
+/* Strict two-color fallback for legacy elements not named in earlier page layouts.
+   Transparent backgrounds reveal #080808 on the parent; cards and buttons retain
+   their more-specific black/gold declarations above. */
+@media screen {
+ body.bh-body *,body.bh-interior *,body.kh-dossier *,body.kh-resume-screen *{
+   background-color:transparent!important;background-image:none!important;
+   border-color:#d4af37!important;box-shadow:none!important;
+ }
+ body.bh-body *::before,body.bh-body *::after,
+ body.bh-interior *::before,body.bh-interior *::after,
+ body.kh-dossier *::before,body.kh-dossier *::after,
+ body.kh-resume-screen *::before,body.kh-resume-screen *::after{
+   background-color:transparent!important;background-image:none!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+   border-color:#d4af37!important;box-shadow:none!important;
+ }
+ body.bh-body :is(.bh-brand-mark,.bh-nav-cta,a.bh-button-primary,.kh-role-tabs button[aria-pressed="true"]),
+ body.bh-interior :is(a.btn.primary,a.btn.prime,.button:not(.alt)),
+ body.kh-dossier :is(.kh-logo span,a.kh-btn-gold,.kh-nav-contact),
+ body.kh-resume-screen :is(a.btn:not(.alt),.button:not(.alt)){
+   background:#d4af37!important;color:#080808!important;
+   -webkit-text-fill-color:#080808!important;
+ }
+}
