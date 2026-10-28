@@ -225,3 +225,5 @@ The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level c
 - [Source, tests, documentation and ten original vector diagrams](https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection).
 
 - **SupportLens standalone browser demo:** [Open client-side demo](https://harshakavali81-collab.github.io/harshavardhan-portfolio/supportlens-demo/); runs locally in the browser with fictional documents, no Python server or remote LLM.
+
+[Clickstream Interactive Demo](bigdata-demo.html): read-only graph dashboard powered by computed, reproducible DuckDB/dbt synthetic data. See the [full source](https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL).
