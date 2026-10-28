@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "portfolio-readiness.html"
       - "career-portfolio.html"
       - "linkedin-projects.html"
       - "linkedin-setup.html"
