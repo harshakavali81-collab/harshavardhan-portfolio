@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:16:24.732868+00:00",
+  "checked_at": "2026-10-28T07:17:23.808883+00:00",
   "profiles": [
     [
       "chromium",
@@ -127,22 +127,6 @@
     {
       "engine": "chromium",
       "profile": "desktop",
-      "page": "hiring.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "interview.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
       "page": "quality.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
@@ -257,22 +241,6 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "contact.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "hiring.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "interview.html",
       "scroll_width": 768,
       "viewport_width": 768,
       "result": "pass"
@@ -402,22 +370,6 @@
     {
       "engine": "chromium",
       "profile": "mobile",
-      "page": "hiring.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
       "page": "quality.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -538,22 +490,6 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
-      "page": "hiring.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "interview.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
       "page": "quality.html",
       "scroll_width": 320,
       "viewport_width": 320,
@@ -667,22 +603,6 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "hiring.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "interview.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -811,22 +731,6 @@
     {
       "engine": "firefox",
       "profile": "mobile",
-      "page": "hiring.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
       "page": "quality.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -940,22 +844,6 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "hiring.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "interview.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -1085,22 +973,6 @@
     {
       "engine": "webkit",
       "profile": "mobile",
-      "page": "hiring.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
       "page": "quality.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -1147,7 +1019,7 @@
       "result": "pass"
     }
   ],
-  "passed": 136,
-  "total": 136,
+  "passed": 120,
+  "total": 120,
   "issues": []
 }
