@@ -375,7 +375,7 @@ def browser_qa(out):
                                ("chromium","mobile","career-portfolio.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
                                ("webkit","mobile","profile.html"),("firefox","desktop","cases/demandpilot.html")]:
                                 file=engine+"-"+label+"-"+(path.replace("/","-") or "home")+".png"
-                                page.screenshot(path=str(shots/file),full_page=True,animations="disabled",timeout=20000)
+                                page.screenshot(path=str(shots/file),full_page=not (engine=="webkit" and label=="mobile" and path==""),animations="disabled",timeout=20000)
                                 res["screenshot"]="screenshots/"+file
                         except Exception as ex:
                             res.update({"result":"fail","reason":str(ex)[:250]});issues.append(res)
