@@ -24,6 +24,8 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 ## LinkedIn profile and project portfolio pack
 
+- **[LinkedIn profile setup page](linkedin-setup.html)** — copy controls for the headline, About, Featured, website links, 15 detailed projects, education, internship, skills and launch post. This GitHub-hosted page does not edit LinkedIn directly.
+
 - **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — dedicated gold/obsidian page with 15 source-backed technical cards, five role-focused filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
 
 - **[Complete LinkedIn profile and project copy kit](docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md)** — tailored headline, About, internship, education, 15 source-backed project descriptions, Featured links, 31-repository index, and account-update checklist.
@@ -45,7 +47,7 @@ Copy-ready, role-focused headline, about section, internship, skills, projects, 
 | Resource | Link |
 |---|---|
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
-| Selected work | [Five complete technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
+| Selected work | [Technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
 | Interactive Evidence Ledger | [Compare validation, metrics and technical limits](https://harshakavali81-collab.github.io/harshavardhan-portfolio/evidence.html) |
 | Engineering Decision Notebook | [Architecture, source verification and next experiments](https://harshakavali81-collab.github.io/harshavardhan-portfolio/engineering.html) |
 | Role-specific Proof Map | [Trace skills → GitHub source → results](https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html) |
@@ -126,7 +128,7 @@ The homepage highlights five substantial projects. Each case study includes **pr
 | [EvidenceDesk](cases/evidencedesk.html) | NLP/RAG-style retrieval with citations | 16 tests passed; 23/25 evidence retrieval hits and 3/5 abstentions on authored fixtures |
 | [Zomato Insights](cases/zomato.html) | Power BI restaurant analytics | 9,551 restaurants across 15 countries in the supplied dataset |
 
-**[Browse featured work](work.html)** · **[Contact / email composer](contact.html)** · **[See all 20 repositories](https://github.com/harshakavali81-collab?tab=repositories)**
+**[Browse featured work](work.html)** · **[Contact / email composer](contact.html)** · **[Explore all repositories](https://github.com/harshakavali81-collab?tab=repositories)**
 
 The figures above are not customer improvements, commercial ROI, or independently validated production accuracy. Team size and project timelines are shown as unavailable where not publicly documented. All case studies link to their corresponding source and technical records.
 
@@ -153,7 +155,7 @@ The figures above are not customer improvements, commercial ROI, or independentl
 
 ```text
 .
-├── index.html       # responsive homepage with 20 GitHub projects and career milestones
+├── index.html       # responsive homepage with a verified GitHub repository catalog and career milestones
 ├── work.html        # five featured projects with filters and recruiter-oriented intros
 ├── quality.html     # verified live load time, browser and external link evidence
 ├── cases/           # five complete problem/process/solution/metrics/reflection case studies
