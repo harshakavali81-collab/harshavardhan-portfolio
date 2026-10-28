@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T06:39:47.556220+00:00",
+  "checked_at": "2026-10-28T06:40:51.642311+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 48430,
+      "bytes": 52432,
       "ok": true
     },
     {
@@ -248,8 +248,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence",
       "pages": [
-        "cases/healthpulse.html",
-        "index.html"
+        "cases/healthpulse.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -403,6 +402,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/HealthPulse-AI",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI",
       "pages": [
         "airaware-demo.html",
@@ -508,15 +516,6 @@
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html",
       "pages": [
         "profile.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html",
-      "pages": [
-        "proof-map.html"
       ],
       "via": "http",
       "status": 200,
