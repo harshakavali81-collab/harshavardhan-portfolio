@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:51:59.469089+00:00",
+  "checked_at": "2026-10-28T08:56:13.031438+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -10,7 +10,7 @@
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21386,
+      "bytes": 20989,
       "ok": true
     },
     {
