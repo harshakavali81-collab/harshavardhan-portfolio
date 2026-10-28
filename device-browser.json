@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T12:12:21.015905+00:00",
+  "checked_at": "2026-10-28T12:13:09.536947+00:00",
   "profiles": [
     [
       "chromium",
@@ -558,8 +558,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 367,
-      "viewport_width": 367,
+      "scroll_width": 373,
+      "viewport_width": 373,
       "result": "fail",
       "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
@@ -1468,8 +1468,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 367,
-      "viewport_width": 367,
+      "scroll_width": 373,
+      "viewport_width": 373,
       "result": "fail",
       "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
