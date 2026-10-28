@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:14:39.152520+00:00",
+  "checked_at": "2026-10-28T08:15:03.277069+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -468,7 +468,7 @@
       "result": "ok"
     },
     {
-      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399",
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756",
       "pages": [
         "cases/foodbridge.html"
       ],
