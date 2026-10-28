@@ -65,15 +65,15 @@ def main() -> int:
     # Evidence ledger integrity: no missing sources, duplicated records or
     # broken connections between the machine-readable register and case pages.
     ledger = ROOT / "data" / "project-evidence.json"
-    required_slugs = {"ecommerce", "transactionshield", "demandpilot", "evidencedesk", "zomato"}
+    required_slugs = {"ecommerce", "transactionshield", "demandpilot", "evidencedesk", "zomato", "supportlens"}
     if not ledger.exists():
         problems.append("Missing data/project-evidence.json")
     else:
         try:
             source = json.loads(ledger.read_text(encoding="utf-8"))
             entries = source["entries"]
-            if not isinstance(entries, list) or len(entries) != 5:
-                problems.append("Evidence register must contain exactly five projects")
+            if not isinstance(entries, list) or len(entries) != 6:
+                problems.append("Evidence register must contain exactly six curated projects")
             seen: set[str] = set()
             keys = ("slug", "title", "question", "test", "metric", "metricLabel",
                     "metricDetail", "tradeoff", "limitations", "reviewNext",
@@ -100,7 +100,7 @@ def main() -> int:
                 if not isinstance(item.get("architecture"), list) or len(item.get("architecture", [])) < 3:
                     problems.append(f"Evidence project {slug}: architecture should have at least three steps")
             if seen != required_slugs:
-                problems.append(f"Evidence slugs differ from five featured cases: {sorted(seen)}")
+                problems.append(f"Evidence slugs differ from six curated case studies: {sorted(seen)}")
         except (json.JSONDecodeError, KeyError, TypeError) as exc:
             problems.append(f"Malformed evidence ledger: {exc}")
     notebook = (ROOT / "engineering.html").resolve()
