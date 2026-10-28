@@ -1,31 +1,38 @@
 {
-  "checked_at": "2026-10-28T14:28:15.435808+00:00",
+  "checked_at": "2026-10-28T14:41:34.421578+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 81690,
+      "bytes": 81657,
+      "ok": true,
+      "current_release_marker": true
+    },
+    {
+      "page": "flagship-projects.html",
+      "status": 200,
+      "bytes": 20074,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "certificates.html",
       "status": 200,
-      "bytes": 14727,
+      "bytes": 14943,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "portfolio-readiness.html",
       "status": 200,
-      "bytes": 21884,
+      "bytes": 28104,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 26145,
+      "bytes": 26169,
       "ok": true,
       "current_release_marker": true
     },
@@ -81,14 +88,14 @@
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14686,
+      "bytes": 14766,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 7000,
+      "bytes": 7662,
       "ok": true,
       "current_release_marker": null
     },
@@ -188,6 +195,7 @@
         "certificates.html",
         "contact.html",
         "data-analyst-resume.html",
+        "flagship-projects.html",
         "index.html",
         "linkedin-projects.html",
         "portfolio-readiness.html",
@@ -911,6 +919,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
       "pages": [
+        "flagship-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -919,6 +928,15 @@
         "recruiter.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Project/tree/main/docs",
+      "pages": [
+        "flagship-projects.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -1101,6 +1119,7 @@
       "pages": [
         "career-portfolio.html",
         "cases/transactionshield.html",
+        "flagship-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1124,6 +1143,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./tree/main/docs",
+      "pages": [
+        "flagship-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
       "pages": [
         "index.html",
@@ -1140,6 +1168,7 @@
       "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI",
       "pages": [
         "cases/zomato.html",
+        "flagship-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1230,6 +1259,15 @@
         "quality.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/main/docs/GITHUB_PROFILE_README.md",
+      "pages": [
+        "portfolio-readiness.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -1465,6 +1503,15 @@
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/evidence.html",
       "pages": [
         "evidence.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/flagship-projects.html",
+      "pages": [
+        "flagship-projects.html"
       ],
       "via": "http",
       "status": 200,
@@ -1859,6 +1906,7 @@
         "certificates.html",
         "contact.html",
         "data-analyst-resume.html",
+        "flagship-projects.html",
         "hiring.html",
         "index.html",
         "job-platforms.html",
@@ -1894,7 +1942,7 @@
     }
   ],
   "external_counts": {
-    "ok": 166,
+    "ok": 170,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
