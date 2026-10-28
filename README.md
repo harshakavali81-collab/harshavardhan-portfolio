@@ -1,5 +1,14 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## Final QA hardening · 28 October 2026
+
+- **Automated source checks:** [GitHub-hosted career regression report](https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/career-regression-summary.md) records all four commands passing on commit `3e8048f`: twelve-element dossier, premium black/gold theme, site link integrity and role/resume behavior.
+- **Browser evidence:** the [most recent published full QA report](https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/SUMMARY.md) confirmed 22/22 public page HTTP checks, 161 reachable external destinations, zero confirmed broken destinations (two access-limited), and the defined p75 performance target. Its browser suite was at 173/176, with three remaining homepage viewport overflows.
+- **Targeted fixes:** three accessible role-selector buttons; screen-only black/gold styling for both HTML resumes; a current-release sentinel in live QA; coverage of the complete career portfolio and screenshots; and removal of a -65px visual halo overflow on screens below 900px. The latter change was committed *after* the 173/176 report.
+- **Live verification status:** the newest released layout must earn its own full Chromium, Firefox and WebKit pass. Older reports are not proof of the newest commit. [Inspect current workflow runs](https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/live-qa.yml).
+- **Resume PDF policy:** website pages follow the black/gold theme, while downloaded ATS PDFs and print styles retain paper-friendly contrast.
+
+
 ## 28 October 2026 · 12-element career portfolio release
 
 The site now includes a dedicated **[12-element career portfolio](career-portfolio.html#twelve-elements)** in addition to the existing five STAR case studies, 31 repository cards (including the portfolio repo), [professional biography](profile.html), [two role-specific resume PDFs](resumes.html), [hobbies & interests](profile.html#beyond), [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) and [job platform content kit](job-platforms.html).
