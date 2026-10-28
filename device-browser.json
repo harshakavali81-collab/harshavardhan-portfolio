@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T09:04:34.362931+00:00",
+  "checked_at": "2026-10-28T09:09:43.352019+00:00",
   "profiles": [
     [
       "chromium",
@@ -613,7 +613,8 @@
       "page": "interview.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Obsidian black background token was not applied: {'backgroundToken': '#071321', 'goldToken': '', 'titleFoil': 'none'}"
     },
     {
       "engine": "chromium",
@@ -677,8 +678,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1280,13 +1280,13 @@
   "total": 152,
   "issues": [
     {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "interview.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false"
+      "reason": "Obsidian black background token was not applied: {'backgroundToken': '#071321', 'goldToken': '', 'titleFoil': 'none'}"
     }
   ]
 }
