@@ -18,7 +18,7 @@ def check():
                  'resumes.html'):
         assert part in profile, "Missing profile element: " + part
     for part in ('mailto:kavaliharshavardhan98@gmail.com', 'id="copy-message"',
-                 'id="manual-copy"', 'navigator.clipboard?.writeText',
+                 'id="manual-copy"', 'navigator.clipboard.writeText',
                  'window.open(gmailUrl(message)', 'copy-message").addEventListener'):
         assert part in contact, "Missing contact fallback: " + part
     assert 'id="mail-form"' in contact
