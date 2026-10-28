@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:46:29.356962+00:00",
+  "checked_at": "2026-10-28T06:48:49.335652+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -265,7 +265,17 @@
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence",
       "pages": [
         "cases/healthpulse.html",
+        "healthpulse-demo.html",
         "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence#quick-start-with-docker",
+      "pages": [
+        "healthpulse-demo.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -617,7 +627,7 @@
     }
   ],
   "external_counts": {
-    "ok": 53,
+    "ok": 54,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
