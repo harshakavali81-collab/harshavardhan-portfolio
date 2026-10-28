@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T06:21:35.785089+00:00",
+  "checked_at": "2026-10-28T06:23:59.221177+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 48149,
+      "bytes": 48412,
       "ok": true
     },
     {
@@ -355,6 +355,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI",
       "pages": [
+        "airaware-demo.html",
         "airaware.html",
         "index.html"
       ],
