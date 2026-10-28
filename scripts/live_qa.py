@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","work.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","work.html","proof-map.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -126,6 +126,17 @@ def browser_qa(out):
                                 page.locator("button[data-role='Data Analyst']").click()
                                 if "data-analyst-resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
                                     raise AssertionError("Data Analyst role routing")
+                            if path=="proof-map.html":
+                                page.locator("button[data-role='ml']").click()
+                                if page.locator("#role-heading").inner_text()!="AI / Machine Learning":
+                                    raise AssertionError("AI/ML proof map heading failed to switch")
+                                if page.locator(".proof-item").count()!=3:
+                                    raise AssertionError("AI/ML evidence count should be three")
+                                if "AIML_DataAnalyst_Resume.pdf" not in (page.locator("#role-cv").get_attribute("href") or ""):
+                                    raise AssertionError("AI/ML resume link missing")
+                                page.locator("button[data-role='data']").click()
+                                if page.locator(".proof-item").count()!=2:
+                                    raise AssertionError("Data analyst evidence count should be two")
                             if path=="contact.html" and page.locator("form#mail-form").count()!=1:
                                 raise AssertionError("contact form missing")
                             res["result"]="pass"
