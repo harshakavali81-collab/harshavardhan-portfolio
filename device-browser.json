@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T10:49:39.551505+00:00",
+  "checked_at": "2026-10-28T10:57:26.778584+00:00",
   "profiles": [
     [
       "chromium",
@@ -88,25 +88,22 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "evidence.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "desktop",
       "page": "engineering.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "desktop",
       "page": "proof-map.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -166,17 +163,15 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "interview.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "desktop",
       "page": "quality.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -256,25 +251,22 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "evidence.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "tablet",
       "page": "engineering.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "tablet",
       "page": "proof-map.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -334,17 +326,15 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "interview.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "tablet",
       "page": "quality.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -423,25 +413,22 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "mobile",
       "page": "engineering.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "mobile",
       "page": "proof-map.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -502,17 +489,15 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "mobile",
       "page": "quality.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -591,25 +576,22 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "evidence.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "engineering.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "proof-map.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -669,17 +651,15 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "interview.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "quality.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -758,25 +738,22 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "evidence.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "desktop",
       "page": "engineering.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "desktop",
       "page": "proof-map.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -836,17 +813,15 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "interview.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "desktop",
       "page": "quality.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -926,25 +901,22 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "mobile",
       "page": "engineering.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "mobile",
       "page": "proof-map.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1004,17 +976,15 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
       "profile": "mobile",
       "page": "quality.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1093,25 +1063,22 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "evidence.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "desktop",
       "page": "engineering.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "desktop",
       "page": "proof-map.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1171,17 +1138,15 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "interview.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "desktop",
       "page": "quality.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1260,25 +1225,22 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "engineering.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "proof-map.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1339,17 +1301,15 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "interview.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "quality.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1392,7 +1352,7 @@
       "result": "pass"
     }
   ],
-  "passed": 144,
+  "passed": 104,
   "total": 168,
   "issues": [
     {
@@ -1407,6 +1367,27 @@
     {
       "engine": "chromium",
       "profile": "desktop",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1415,6 +1396,20 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1430,6 +1425,27 @@
     {
       "engine": "chromium",
       "profile": "tablet",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1438,6 +1454,20 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1453,6 +1483,27 @@
     {
       "engine": "chromium",
       "profile": "mobile",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1461,6 +1512,20 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1476,6 +1541,27 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1488,6 +1574,20 @@
       "reason": "Premium theme did not apply within 12 seconds"
     },
     {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "quality.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
@@ -1495,6 +1595,27 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1507,6 +1628,20 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1522,6 +1657,27 @@
     {
       "engine": "firefox",
       "profile": "mobile",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1530,6 +1686,20 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1545,6 +1715,27 @@
     {
       "engine": "webkit",
       "profile": "desktop",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1553,6 +1744,20 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1568,6 +1773,27 @@
     {
       "engine": "webkit",
       "profile": "mobile",
+      "page": "evidence.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "engineering.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "proof-map.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1576,6 +1802,20 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "interview.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "quality.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     }
