@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:26:05.815768+00:00",
+  "checked_at": "2026-10-28T08:26:17.003519+00:00",
   "profiles": [
     [
       "chromium",
@@ -635,8 +635,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 329,
-      "viewport_width": 329,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
