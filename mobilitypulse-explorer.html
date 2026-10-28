@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MobilityPulse AI — Interactive Synthetic Transit Explorer</title>
+<meta name="description" content="Interactive synthetic public transit reliability, route network, accessible stop metadata and feed health dashboard. Portfolio demo, not real arrivals.">
+<meta name="theme-color" content="#121111"><link rel="icon" href="assets/kh-mark.svg" type="image/svg+xml">
+<style>
+:root{--bg:#101112;--panel:#191b1b;--border:#474038;--ink:#f5f1e9;--muted:#b4afa7;--gold:#ead6a3;--gold2:#b99a64;--dark:#161513;--blue:#98c9dc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 8% 0%,#282218,#101112 45%);color:var(--ink);font:15px/1.58 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--gold)}button,select,input{font:inherit}button{cursor:pointer}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.shell{width:min(1200px,calc(100% - 42px));margin:auto}
+.top{border-bottom:1px solid var(--border);background:#121311e8;position:sticky;top:0;z-index:10;backdrop-filter:blur(8px)}
+.top .shell{display:flex;justify-content:space-between;align-items:center;min-height:68px;gap:12px}
+.logo{text-decoration:none;font-weight:850;font-size:20px;letter-spacing:-.6px}.logo b{color:var(--ink)}.top nav{display:flex;gap:16px;flex-wrap:wrap}.top nav a{text-decoration:none;font-size:13px}
+.pill{display:inline-block;background:#322a1d;border:1px solid #786546;color:var(--gold);border-radius:100px;font-weight:750;font-size:11px;letter-spacing:1px;padding:6px 12px}
+.hero{padding:48px 0 26px;display:grid;grid-template-columns:1.45fr 1fr;gap:30px;align-items:center}
+h1{font-size:clamp(37px,5vw,66px);line-height:1.08;letter-spacing:-2px;margin:17px 0}h1 span{color:var(--gold)}.lead{color:var(--muted);font-size:17px;max-width:710px}
+.hero img{display:block;width:100%;border-radius:20px;border:1px solid var(--border)}
+.intro-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-flex;padding:11px 17px;border:1px solid #877247;border-radius:10px;text-decoration:none;font-weight:750;font-size:13px}.btn.primary{background:var(--gold);color:#191710}
+.warning{border:1px solid #786849;background:#29261f;border-radius:13px;padding:14px 20px;color:#e5d4b8;margin:18px 0 26px}
+.status{font-size:12px;color:var(--muted)}.status strong{color:var(--gold)}
+.dashboard{padding:20px 0 70px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}.tabs button{background:#1a1c1c;color:#e1ded7;border:1px solid #575046;padding:10px 15px;border-radius:9px;font-size:13px;font-weight:700}
+.tabs button[aria-selected=true]{background:var(--gold);color:#16120c;border-color:var(--gold)}
+.screen{display:none}.screen.active{display:block}.section-head{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;align-items:end;margin-bottom:20px}
+h2{font-size:clamp(23px,3.5vw,34px);letter-spacing:-1px;margin:0}h3{margin:0 0 13px;font-size:17px}
+.sub{color:var(--muted);margin:8px 0 0;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.metric{border:1px solid var(--border);border-radius:14px;background:var(--panel);padding:21px}.metric strong{display:block;font-size:32px;letter-spacing:-1px;color:var(--gold)}.metric span{color:var(--muted);font-size:12px}
+.panels{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin-top:18px}.panel{border:1px solid var(--border);border-radius:15px;background:var(--panel);padding:24px;min-width:0}
+.chart{display:grid;gap:15px}.bar{display:grid;grid-template-columns:155px 1fr 75px;gap:11px;align-items:center}.bar-label{color:var(--ink);font-size:12px}.track{height:12px;border-radius:20px;overflow:hidden;background:#3c3b38}.fill{height:100%;background:linear-gradient(90deg,#b3935d,#f2dbaf);border-radius:20px}.bar-number{font-size:13px;color:var(--gold);text-align:right;font-variant-numeric:tabular-nums}
+.map{display:block;width:100%;height:auto;border-radius:12px;background:#131b22;border:1px solid #2b3b45}.legend{display:flex;gap:13px;flex-wrap:wrap;margin:12px 0;font-size:11px;color:var(--muted)}
+.note{color:var(--muted);font-size:12px;line-height:1.6;margin:14px 0 0}
+.data-list{display:grid;gap:13px}.item{padding:17px;border:1px solid #4a4135;border-radius:12px;background:#171a1b;display:flex;gap:15px;align-items:start;justify-content:space-between}.item b{display:block}.item small{display:block;color:var(--muted);margin-top:5px}
+.tag{display:inline-block;border:1px solid #6d5c3d;color:var(--gold);border-radius:100px;padding:4px 10px;font-size:11px;white-space:nowrap}
+.search{border-radius:9px;border:1px solid #77674c;background:#121311;padding:11px 13px;color:var(--ink);min-width:min(300px,100%);max-width:100%}
+.seg{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:15px}.seg button{background:transparent;color:var(--muted);border:1px solid #574b39;border-radius:30px;padding:8px 13px;font-size:12px}.seg button[aria-pressed=true]{background:#5e4b2e;color:#fff3d4}
+.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:550px;text-align:left}th,td{padding:13px;border-bottom:1px solid #3f3e3b}th{font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--gold)}td{font-size:13px;color:var(--ink)}
+.footer{border-top:1px solid var(--border);padding:27px 0;color:var(--muted);font-size:12px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:950px){.hero,.panels{grid-template-columns:1fr}.hero img{max-width:670px}.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.shell{width:min(100% - 24px,1200px)}.grid{grid-template-columns:1fr 1fr}.metric{padding:14px}.metric strong{font-size:25px}.bar{grid-template-columns:100px 1fr 45px;gap:6px}.panel{padding:16px}.top .shell{min-height:78px;flex-wrap:wrap;padding:9px 0}.hero{padding-top:23px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header class="top"><div class="shell"><a class="logo" href="./">KH<b>/</b>LAB <span style="font-size:11px;color:var(--gold)">/ MOBILITYPULSE</span></a><nav aria-label="Site links"><a href="cases/mobilitypulse.html">Case study</a><a href="work.html">All projects</a><a href="https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence" target="_blank" rel="noopener noreferrer">GitHub source ↗</a></nav></div></header>
+<main class="shell">
+<section class="hero"><div><span class="pill">DATA & ANALYTICS · INTERACTIVE RESEARCH DEMO</span><h1>Understand transit.<br><span>Question the data.</span></h1><p class="lead">Explore fictional route reliability, accessibility coverage, network connectivity, and data quality with a source-conscious interface.</p><div class="intro-links"><a class="btn primary" href="#dashboard">Explore dashboard ↓</a><a class="btn" href="cases/mobilitypulse.html">Technical case study ↗</a><a class="btn" href="mobilitypulse-demo/">Open React build ↗</a></div></div><img src="assets/mobilitypulse/01-hero.svg" alt="MobilityPulse AI original transport-intelligence illustration"></section>
+<div class="warning"><strong>Educational synthetic data.</strong> All example routes and stops are fictional; metrics are generated from illustrative local values, not actual Hyderabad buses. GTFS accessibility flags describe data fields, not audited real-world accessibility. Do not use this page for journeys, ETAs or safety decisions.</div>
+<section class="dashboard" id="dashboard">
+<div class="section-head"><div><span class="pill">EXPERIMENTAL SYSTEM</span><h2>MobilityPulse dashboard</h2><p class="sub">Six views · Graphs and route schematic · Keyboard-friendly controls</p></div><div class="status">Source status: <strong id="source-label">Illustrative offline fixtures</strong></div></div>
+<div class="tabs" role="tablist" aria-label="Dashboard section">
+<button role="tab" id="t-overview" aria-controls="p-overview" aria-selected="true" data-screen="overview">Overview</button>
+<button role="tab" id="t-routes" aria-controls="p-routes" aria-selected="false" data-screen="routes">Routes</button>
+<button role="tab" id="t-stops" aria-controls="p-stops" aria-selected="false" data-screen="stops">Stops</button>
+<button role="tab" id="t-reliability" aria-controls="p-reliability" aria-selected="false" data-screen="reliability">Reliability</button>
+<button role="tab" id="t-accessibility" aria-controls="p-accessibility" aria-selected="false" data-screen="accessibility">Accessibility</button>
+<button role="tab" id="t-feeds" aria-controls="p-feeds" aria-selected="false" data-screen="feeds">Feed status</button></div>
+<div class="screen active" id="p-overview" role="tabpanel" aria-labelledby="t-overview">
+<div class="grid"><div class="metric"><strong id="k-routes">4</strong><span>Fictional demo routes</span></div><div class="metric"><strong id="k-stops">12</strong><span>Fictional sample stops</span></div><div class="metric"><strong id="k-access">8</strong><span>Stops marked wheelchair accessible in sample</span></div><div class="metric"><strong>0</strong><span>Verified real-time vehicles</span></div></div>
+<div class="panels"><div class="panel"><h3>Network schematic</h3><svg id="network-map" class="map" viewBox="0 0 620 390" role="img" aria-label="Illustrative route network and stops; geographical placement is only approximate"></svg><p class="note">Map is a simplified illustration from fictional stop coordinates, not official routing or transit directions.</p></div><div class="panel"><h3>Illustrative route performance</h3><div id="overview-bars" class="chart"></div><p class="note">On-time percentages are sample figures for demonstrating visualization, not historical public transport findings.</p></div></div></div>
+<div class="screen" id="p-routes" role="tabpanel" aria-labelledby="t-routes"><div class="section-head"><div><h2>Route explorer</h2><p class="sub">Select a route to view its sample stops and status.</p></div><select class="search" id="route-select" aria-label="Select route"></select></div><div class="panels"><div class="panel"><h3 id="route-name"></h3><svg id="route-map" class="map" viewBox="0 0 620 390" role="img" aria-label="Selected route with fictional stop positions"></svg></div><div class="panel"><h3>Scheduled pattern (fictional)</h3><div id="route-stops" class="data-list"></div></div></div></div>
+<div class="screen" id="p-stops" role="tabpanel" aria-labelledby="t-stops"><div class="section-head"><div><h2>Stop directory</h2><p class="sub">12 fictional stops and their GTFS sample accessibility metadata.</p></div><input class="search" id="stop-search" type="search" placeholder="Search name or stop ID" aria-label="Search stops"></div><div id="stop-cards" class="data-list"></div><p id="stop-count" class="note" role="status"></p></div>
+<div class="screen" id="p-reliability" role="tabpanel" aria-labelledby="t-reliability"><div class="section-head"><div><h2>Reliability metrics</h2><p class="sub">Comparison of illustrative, synthetic performance metrics.</p></div></div><div class="panels"><div class="panel"><h3>Sample on-time performance</h3><div class="chart" id="reliability-bars"></div></div><div class="panel"><h3>Sample mean delay</h3><div class="chart" id="delay-bars"></div><p class="note">Interpretation requires actual trip-event timestamps. These values are educational examples only.</p></div></div><div class="panel" style="margin-top:16px"><h3>How metrics should be calculated</h3><p class="sub">On-time = observed arrivals satisfying the documented punctuality window ÷ observed arrivals with valid timestamps. Cancelled services and missing actual arrivals must not be silently counted as on-time, and schedule-only GTFS cannot measure either.</p></div></div>
+<div class="screen" id="p-accessibility" role="tabpanel" aria-labelledby="t-accessibility"><div class="section-head"><div><h2>Accessibility metadata</h2><p class="sub">GTFS field values describe a dataset — not an independent accessibility inspection.</p></div></div><div class="grid" id="access-stats"></div><div class="panel" style="margin-top:17px"><div class="seg" id="access-filters" aria-label="Filter by wheelchair boarding status"><button type="button" data-access="all" aria-pressed="true">All stops</button><button type="button" data-access="1" aria-pressed="false">Marked accessible</button><button type="button" data-access="2" aria-pressed="false">Marked not accessible</button><button type="button" data-access="0" aria-pressed="false">Unknown</button></div><div class="tablewrap"><table><thead><tr><th>Stop ID</th><th>Name</th><th>GTFS boarding code</th><th>Interpretation</th></tr></thead><tbody id="access-table"></tbody></table></div></div></div>
+<div class="screen" id="p-feeds" role="tabpanel" aria-labelledby="t-feeds"><div class="section-head"><div><h2>Source and feed health</h2><p class="sub">Distinguish data capabilities without inventing real-time availability.</p></div></div><div class="data-list"><article class="item"><div><b>Portfolio demo dataset</b><small>Generated from fictional sample routes and stop records.</small></div><span class="tag">SYNTHETIC</span></article><article class="item"><div><b>GTFS Schedule</b><small>Optional separately configured operator feed. Not fetched by this public browser demo.</small></div><span class="tag">NOT CONNECTED</span></article><article class="item"><div><b>GTFS-Realtime</b><small>Publisher estimates can be imported with approved credentials on the backend; this standalone explorer has no live data.</small></div><span class="tag">NOT CONNECTED</span></article><article class="item"><div><b>Historical actual arrival observations</b><small>Independent real-world validation is required before claiming accuracy or reliability.</small></div><span class="tag">NOT VERIFIED</span></article><article class="item"><div><b>Model operational validation</b><small>Offline synthetic experiments are not independent testing against real journeys.</small></div><span class="tag">NOT VERIFIED</span></article></div><p class="note">For evidence and engineering limitations see <a href="cases/mobilitypulse.html">the technical case study</a> and the <a href="https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence" target="_blank" rel="noopener noreferrer">GitHub source</a>.</p></div>
+</section></main><footer class="footer"><div class="shell">© 2026 · MobilityPulse AI — a synthetic portfolio demonstration. Not a public travel information or vehicle tracking service.</div></footer>
+<script>
+"use strict";
+const stops=[
+["S01","Central Square",17.424,78.467,1],["S02","River Walk",17.429,78.477,1],["S03","North Gardens",17.438,78.488,0],["S04","University Gate",17.447,78.498,1],
+["S05","West Market",17.433,78.447,2],["S06","Old Library",17.438,78.458,1],["S07","Tech Park",17.453,78.480,1],["S08","Airport Link",17.462,78.494,0],
+["S09","South Plaza",17.410,78.474,1],["S10","Lakeside",17.413,78.489,2],["S11","Medical District",17.422,78.502,1],["S12","East Terminal",17.428,78.513,1]
+].map(x=>({id:x[0],name:x[1],lat:x[2],lon:x[3],access:x[4]}));
+const routes=[
+["R1","M1","Central — University","#D9B77B",["S01","S02","S03","S04","S07","S08"],39.7,4.6],
+["R2","B2","West Market — East Terminal","#8FB7D7",["S05","S06","S01","S09","S10","S11","S12"],25.0,7.3],
+["R3","C3","South Plaza — Tech Park","#E69A79",["S09","S01","S02","S07","S04"],14.7,8.8],
+["R4","E4","Lakeside — Airport Link","#BDABDB",["S10","S11","S03","S07","S08"],27.6,6.7]
+].map(x=>({id:x[0],code:x[1],name:x[2],color:x[3],stopIds:x[4],onTime:x[5],delay:x[6]}));
+const safe=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $=id=>document.getElementById(id);
+const accessLabel=n=>n===1?"Marked accessible":n===2?"Marked not accessible":"No information";
+function barChart(target,key,suffix,max){
+ $(target).innerHTML=routes.map(r=>{
+ const val=r[key],pct=Math.max(0,Math.min(100,val/max*100));
+ return '<div class="bar"><span class="bar-label">'+safe(r.code+' · '+r.name.split(" — ")[0])+'</span><div class="track" role="meter" aria-label="'+safe(r.code+' '+key)+'" aria-valuemin="0" aria-valuemax="'+max+'" aria-valuenow="'+val+'"><div class="fill" style="width:'+pct+'%;background:'+r.color+'"></div></div><span class="bar-number">'+val+suffix+'</span></div>';
+ }).join("");
+}
+function point(stop){return [38+(stop.lon-78.44)/(78.52-78.44)*544,350-(stop.lat-17.405)/(17.465-17.405)*310];}
+function drawMap(target,focus){
+ const shown=focus?routes.filter(r=>r.id===focus):routes;
+ const edges=shown.map(route=>{
+ const pts=route.stopIds.map(sid=>point(stops.find(x=>x.id===sid)).map(v=>v.toFixed(1)).join(",")).join(" ");
+ return '<polyline points="'+pts+'" stroke="'+route.color+'" stroke-width="'+(focus?6:4)+'" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>';
+ }).join("");
+ const ids=new Set(shown.flatMap(r=>r.stopIds));
+ const dots=stops.filter(s=>ids.has(s.id)).map(s=>{
+ const xy=point(s);return '<g><circle cx="'+xy[0]+'" cy="'+xy[1]+'" r="6" fill="#f5e8cd" stroke="#141719" stroke-width="2"><title>'+safe(s.name)+'</title></circle><text x="'+(xy[0]+9)+'" y="'+(xy[1]-10)+'" fill="#eee5d6" font-size="10">'+safe(s.name)+'</text></g>';
+ }).join("");
+ $(target).innerHTML='<rect x="0" y="0" width="620" height="390" fill="#14202b" rx="12"/><g stroke="#273b48" stroke-width="1"><path d="M65 20V370M170 20V370M275 20V370M380 20V370M485 20V370M590 20V370M20 70H600M20 170H600M20 270H600M20 370H600"/></g>'+edges+dots+'<text x="22" y="27" font-size="11" fill="#d9caa8">ILLUSTRATIVE FIXTURE · NOT FOR NAVIGATION</text>';
+}
+function renderRoutes(){
+ const chosen=routes.find(r=>r.id===$("route-select").value)||routes[0];
+ $("route-name").textContent=chosen.code+" · "+chosen.name;
+ $("route-stops").innerHTML=chosen.stopIds.map((id,i)=>{
+ const s=stops.find(x=>x.id===id);
+ return '<div class="item"><div><b>'+String(i+1).padStart(2,"0")+' · '+safe(s.name)+'</b><small>'+safe(s.id)+' · '+safe(accessLabel(s.access))+'</small></div><span class="tag">DEMO</span></div>';
+ }).join("");
+ drawMap("route-map",chosen.id);
+}
+function renderStops(){
+ const q=$("stop-search").value.trim().toLowerCase();const result=stops.filter(s=>(s.id+" "+s.name).toLowerCase().includes(q));
+ $("stop-cards").innerHTML=result.map(s=>'<div class="item"><div><b>'+safe(s.name)+'</b><small>'+s.id+' · '+s.lat.toFixed(3)+', '+s.lon.toFixed(3)+' (synthetic location)</small></div><span class="tag">'+safe(accessLabel(s.access))+'</span></div>').join("");
+ $("stop-count").textContent=result.length+" of "+stops.length+" fictional stops shown";
+}
+let accessFilter="all";
+function renderAccessibility(){
+ const counts=[0,1,2].map(n=>stops.filter(s=>s.access===n).length);
+ $("access-stats").innerHTML=[["Total fictional stops",stops.length],["Marked accessible",counts[1]],["Marked not accessible",counts[2]],["Unknown",counts[0]]].map(v=>'<div class="metric"><strong>'+v[1]+'</strong><span>'+safe(v[0])+'</span></div>').join("");
+ const selection=stops.filter(s=>accessFilter==="all"||s.access===Number(accessFilter));
+ $("access-table").innerHTML=selection.map(s=>'<tr><td>'+s.id+'</td><td>'+safe(s.name)+'</td><td>'+s.access+'</td><td>'+safe(accessLabel(s.access))+'</td></tr>').join("");
+}
+document.querySelectorAll('[role="tab"]').forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll('[role="tab"]').forEach(b=>b.setAttribute("aria-selected",String(b===btn)));
+ document.querySelectorAll('.screen').forEach(p=>p.classList.toggle("active",p.id==="p-"+btn.dataset.screen));
+}));
+$("route-select").innerHTML=routes.map(r=>'<option value="'+r.id+'">'+safe(r.code+" · "+r.name)+'</option>').join("");
+$("route-select").addEventListener("change",renderRoutes);
+$("stop-search").addEventListener("input",renderStops);
+$("access-filters").addEventListener("click",e=>{
+ const b=e.target.closest('button[data-access]');if(!b)return;
+ accessFilter=b.dataset.access;
+ $("access-filters").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+ renderAccessibility();
+});
+$("k-routes").textContent=routes.length;$("k-stops").textContent=stops.length;$("k-access").textContent=stops.filter(s=>s.access===1).length;
+barChart("overview-bars","onTime","%",100);barChart("reliability-bars","onTime","%",100);barChart("delay-bars","delay"," min",10);
+drawMap("network-map");renderRoutes();renderStops();renderAccessibility();
+</script></body></html>
