@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -148,6 +148,36 @@ def browser_qa(out):
                             if path.startswith("cases/"):
                                 for part in ("overview","problem","process","solution","results","reflection"):
                                     if page.locator("#"+part).count()!=1:raise AssertionError("missing section "+part)
+                            if path=="job-platforms.html":
+                                if page.locator(".platform-panel").count()!=3:
+                                    raise AssertionError("Expected LinkedIn, Naukri and foundit profiles")
+                                if page.locator(".project").count()!=15:
+                                    raise AssertionError("Expected 15 featured project cards")
+                                if page.locator(".catalog li").count()!=31:
+                                    raise AssertionError("Expected 31 GitHub repositories")
+                                page.locator("#tab-naukri").click()
+                                if page.locator("#panel-naukri").is_hidden():
+                                    raise AssertionError("Naukri profile tab failed")
+                                page.locator("#tab-foundit").click()
+                                if page.locator("#panel-foundit").is_hidden():
+                                    raise AssertionError("foundit profile tab failed")
+                                page.locator("#tab-linkedin").click()
+                                page.locator("#category").select_option("Analytics & BI")
+                                selected=page.locator(".project:not([hidden])")
+                                if selected.count()!=4:
+                                    raise AssertionError("Analytics category should show four projects")
+                                page.locator("#category").select_option("All")
+                                if page.locator(".project:not([hidden])").count()!=15:
+                                    raise AssertionError("Clearing project filter did not restore 15 projects")
+                                page.locator("#project-search").fill("zomato")
+                                if page.locator(".project:not([hidden])").count()!=1:
+                                    raise AssertionError("Project search failed")
+                                page.locator("#project-search").fill("")
+                                if page.locator(".project:not([hidden])").count()!=15:
+                                    raise AssertionError("Project search reset failed")
+                            if path=="linkedin-projects.html":
+                                if page.locator(".project-card").count()!=15:
+                                    raise AssertionError("LinkedIn showcase should contain 15 project cards")
                             if path=="work.html":
                                 page.wait_for_function(
                                     "() => document.documentElement.dataset.workFiltersReady === 'true'",
