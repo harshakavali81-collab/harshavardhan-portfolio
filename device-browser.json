@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T10:47:44.309117+00:00",
+  "checked_at": "2026-10-28T10:49:39.551505+00:00",
   "profiles": [
     [
       "chromium",
@@ -55,8 +55,10 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -220,8 +222,10 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -386,8 +390,10 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 431,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -552,8 +558,10 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
+      "scroll_width": 362,
+      "viewport_width": 362,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -717,8 +725,10 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "firefox",
@@ -883,8 +893,10 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 390,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 76}"
     },
     {
       "engine": "firefox",
@@ -1048,8 +1060,10 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "webkit",
@@ -1213,8 +1227,10 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 390,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 76}"
     },
     {
       "engine": "webkit",
@@ -1383,8 +1399,10 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -1404,8 +1422,10 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -1425,8 +1445,10 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 431,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -1446,8 +1468,10 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
+      "scroll_width": 362,
+      "viewport_width": 362,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "chromium",
@@ -1467,8 +1491,10 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "firefox",
@@ -1488,8 +1514,10 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 390,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 76}"
     },
     {
       "engine": "firefox",
@@ -1509,8 +1537,10 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n"
     },
     {
       "engine": "webkit",
@@ -1530,8 +1560,10 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
+      "scroll_width": 431,
+      "viewport_width": 390,
       "result": "fail",
-      "reason": "Premium theme did not apply within 12 seconds"
+      "reason": "horizontal overflow: {'scroll': 431, 'width': 390, 'h1': True, 'anchors': 76}"
     },
     {
       "engine": "webkit",
