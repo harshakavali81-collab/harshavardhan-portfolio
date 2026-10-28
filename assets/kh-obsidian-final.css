@@ -214,3 +214,19 @@ body.bh-body .bh-demo-card a:hover{color:#fff0c9!important}
 @media(max-width:620px){.bh-demo-grid{grid-template-columns:1fr}body.bh-body .bh-hero h1{font-size:clamp(3.1rem,12vw,4.65rem)!important}body.bh-body .bh-demo-card{padding:23px 19px}}
 @media(prefers-reduced-motion:reduce){body.bh-body .bh-demo-card{transition:none}body.bh-body .bh-demo-card:hover{transform:none}}
 @media print{body.bh-body .bh-demo-card{background:#fff!important;color:#111!important;border-color:#999!important;box-shadow:none!important}body.bh-body .bh-demo-card p{color:#333!important}}
+
+
+/* Complementary links for the professional 31-project profile and gallery */
+body.bh-interior .card-actions{display:flex;flex-wrap:wrap;align-items:center;gap:9px 16px}
+body.bh-interior :is(.card-actions .case-link,.card-actions .demo-link,.profile-project-deeper a){
+  display:inline-flex;align-items:center;gap:6px;color:#f2d19a!important;
+  -webkit-text-fill-color:#f2d19a!important;
+  font:600 12px "JetBrains Mono",monospace!important;
+  padding:9px 0;min-height:38px;text-decoration:none!important
+}
+body.bh-interior :is(.card-actions .case-link,.card-actions .demo-link,.profile-project-deeper a):hover{
+  color:#fff0d0!important;-webkit-text-fill-color:#fff0d0!important;
+  text-decoration:underline!important;text-underline-offset:4px
+}
+body.bh-interior .profile-project-deeper{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:12px;padding-top:12px;border-top:1px solid #6b5234}
+body.bh-interior .profile-project-card .profile-project-link{display:inline-flex;margin-top:10px}

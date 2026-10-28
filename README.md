@@ -21,6 +21,18 @@ Validation: `python3 scripts/check_premium_black.py`; existing static site audit
 
 > Portfolio source files can be updated in GitHub without editing third-party LinkedIn, Naukri or foundit profiles. Any synthetic-data demonstration is identified as a portfolio prototype, not a commercially deployed or independently certified application.
 
+## Explore the black-and-gold portfolio
+
+The **Black Label** design is controlled by `assets/kh-obsidian-final.css`, loaded **after all previous palette styles**. The old `assets/light-gold-final.css` is now a compatibility alias to the black design, so legacy page links cannot accidentally restore ivory.
+
+- [31 complete GitHub repository cards](linkedin-projects.html) — every project has its actual source link; 15 cards also link to case studies, and nine link to educational demos where available.
+- [Professional career profile](profile.html) — education, Python internship, skills, recruiters' contact routes and a 31-project directory.
+- [Source-backed case studies](work.html) — real code links, reproducible examples and transparent synthetic-data limitations.
+- [Six browser demo highlights](index.html#demos) — [StreamWatch](streamwatch-demo.html), [InventoryIQ](inventoryiq-demo.html), [DocSight](docsight-demo.html), [CommerceLens](commercelens-demo.html), [HealthPulse](healthpulse-demo.html) and [AirAware](airaware-demo.html).
+- [Role-specific resumes](resumes.html) · [Recruiter Desk](index.html#recruiter-desk) · [LinkedIn portfolio kit](linkedin-setup.html).
+
+Note: the repository count includes the portfolio itself. Public source code or a sample-data browser demo is not evidence of independent scientific validation, an operational public service, or a live backend deployment.
+
 ## Website redesign highlights
 
 - **[Portfolio homepage](index.html)** — premium black-and-champagne theme and a prominent **31-repository gallery** introduction.
