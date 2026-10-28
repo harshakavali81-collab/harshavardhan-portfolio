@@ -1,5 +1,16 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## 28 October 2026 · 12-element career portfolio release
+
+The site now includes a dedicated **[12-element career portfolio](career-portfolio.html#twelve-elements)** in addition to the existing five STAR case studies, 31 repository cards (including the portfolio repo), [professional biography](profile.html), [two role-specific resume PDFs](resumes.html), [hobbies & interests](profile.html#beyond), [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) and [job platform content kit](job-platforms.html).
+
+The twelve elements are: career summary, mission, brief biography, resumes, marketable skills, documented accomplishments, work samples, awards, degree and credentials, professional development, volunteering and professional references. Unsupported awards, volunteering and endorsements are **explicitly not claimed**.
+
+The shared `assets/portfolio-upgrade.css` now ends with **KH GOLD-ONLY CAREER RELEASE**, an accessible matte-black and metallic-gold screen style. The release targets black and gold hues for panels, UI controls, headings and text (while keeping printed resumes readable on paper). Mobile layouts and reduced-motion/forced-colors preferences are addressed. A new structural test in `scripts/check_career_dossier.py` asserts the 12-element content and professional links.
+
+**Publishing boundaries:** GitHub source updates do not themselves edit LinkedIn, Naukri or foundit accounts. A successful GitHub commit also does not prove the newest GitHub Pages deployment or browser QA has passed; confirm Actions and test the live site separately.
+
+
 **Live website:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/
 
 Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
