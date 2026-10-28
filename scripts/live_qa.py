@@ -109,8 +109,17 @@ def browser_qa(out):
                         res={"engine":engine,"profile":label,"page":path or "index.html"}
                         try:
                             response=page.goto(base+path,wait_until="domcontentloaded",timeout=25000)
-                            page.wait_for_timeout(140)
                             if not response or response.status!=200: raise AssertionError("HTTP not 200")
+                            # DOMContentLoaded does not guarantee imported fonts/styles have
+                            # finished; wait for real theme variables, never an arbitrary pause.
+                            try:
+                                page.wait_for_function("""() => {
+                                    const s = getComputedStyle(document.body);
+                                    return s.getPropertyValue('--bg').trim() === '#080808' &&
+                                           s.getPropertyValue('--accent').trim() === '#e4c98e';
+                                }""", timeout=12000)
+                            except Exception as ex:
+                                raise AssertionError("Premium theme did not apply within 12 seconds") from ex
                             metrics=page.evaluate("""() => ({
                                scroll:document.documentElement.scrollWidth,
                                width:window.innerWidth,
