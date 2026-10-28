@@ -1,0 +1,54 @@
+/* Resume-driven recruiter enhancements.
+   Exactly two screen palette colors: dark black #080808 and gold #d4af37.
+   Cards intentionally avoid certificate scans with personal identifiers. */
+@media screen {
+ body.bh-body :is(.kh-resume-curation,.kh-resume-skills,.kh-resume-education,.kh-personal-summary){
+  background:#080808!important;color:#d4af37!important;box-shadow:none!important;
+ }
+ body.bh-body :is(.kh-resume-project,.kh-resume-skill-grid article,.kh-resume-education-grid article,.kh-hobby-panels article){
+  background:#080808!important;color:#d4af37!important;
+  border:1px solid #d4af37!important;border-radius:13px!important;box-shadow:none!important;
+  padding:20px!important;min-width:0;
+ }
+ body.bh-body :is(.kh-resume-curation,.kh-resume-skills){margin-top:30px;margin-bottom:45px}
+ body.bh-body .kh-resume-curation{padding:22px 0!important}
+ body.bh-body :is(.kh-resume-project-grid,.kh-resume-skill-grid,.kh-resume-education-grid,.kh-hobby-panels){
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:21px 0;
+ }
+ body.bh-body .kh-resume-project-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+ body.bh-body .kh-resume-curation .kh-resume-heading{max-width:900px;margin-bottom:25px}
+ body.bh-body .kh-resume-heading h3,body.bh-body .kh-resume-skills h3{
+   font:650 clamp(1.5rem,3vw,2.35rem)/1.18 'Space Grotesk','DM Sans',sans-serif!important;
+   margin:10px 0 12px!important;letter-spacing:-.035em!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+ }
+ body.bh-body :is(.kh-resume-education h2,.kh-personal-summary h2){
+   font:650 clamp(1.6rem,3.5vw,2.65rem)/1.18 'Space Grotesk','DM Sans',sans-serif!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+ }
+ body.bh-body :is(.kh-resume-project-grid h4,.kh-resume-skill-grid h4,.kh-resume-education-grid h3,.kh-hobby-panels h3){
+  font:650 18px/1.3 'Space Grotesk','DM Sans',sans-serif!important;
+  color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;margin:8px 0!important;letter-spacing:-.025em!important;
+ }
+ body.bh-body :is(.kh-resume-project-grid p,.kh-resume-skill-grid p,.kh-resume-education-grid p,.kh-hobby-panels p,.kh-resume-heading p,.kh-resume-more p){
+   font:450 13px/1.72 'DM Sans',sans-serif!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;margin:10px 0!important;
+ }
+ body.bh-body :is(.kh-resume-project-grid span,.kh-resume-project-grid small,.kh-resume-education-grid span){
+   font:750 10px/1.6 'DM Sans',sans-serif!important;letter-spacing:.07em!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+ }
+ body.bh-body .kh-resume-project-grid a,body.bh-body .kh-resume-education-actions a{
+   display:inline-flex;align-items:center;border:1px solid #d4af37!important;border-radius:7px;
+   padding:9px 11px;margin-top:10px;min-height:42px;text-decoration:none;font-size:12px;
+   background:#080808!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;box-shadow:none!important;
+ }
+ body.bh-body .kh-resume-project-grid small{display:block;margin-top:13px}
+ body.bh-body .kh-resume-education-actions{display:flex;flex-wrap:wrap;gap:11px;margin-bottom:22px}
+ body.bh-body .kh-resume-more{border-left:2px solid #d4af37;padding:3px 16px;margin:14px 0}
+ body.bh-body :is(.kh-resume-project,.kh-resume-skill-grid article,.kh-resume-education-grid article,.kh-hobby-panels article):hover{transform:translateY(-2px);transition:transform .2s}
+ body.bh-body :is(.kh-resume-project,.kh-resume-skill-grid article,.kh-resume-education-grid article,.kh-hobby-panels article):focus-within{outline:2px solid #d4af37;outline-offset:3px}
+ @media(max-width:1100px){body.bh-body .kh-resume-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:640px){
+  body.bh-body :is(.kh-resume-project-grid,.kh-resume-skill-grid,.kh-resume-education-grid,.kh-hobby-panels){grid-template-columns:minmax(0,1fr)}
+ }
+ @media(prefers-reduced-motion:reduce){body.bh-body :is(.kh-resume-project,.kh-resume-skill-grid article,.kh-resume-education-grid article,.kh-hobby-panels article){transition:none!important;transform:none!important}}
+}
