@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T07:31:47.909747+00:00",
+  "checked_at": "2026-10-28T07:34:58.985507+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 55411,
+      "bytes": 57843,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 8417,
+      "bytes": 8566,
       "ok": true
     },
     {
@@ -152,7 +152,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant/blob/main/docs/VALIDATION.md",
       "pages": [
-        "cases/evidencedesk.html"
+        "cases/evidencedesk.html",
+        "engineering.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -237,7 +238,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/docs/model_card.md",
       "pages": [
-        "cases/demandpilot.html"
+        "cases/demandpilot.html",
+        "engineering.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -258,7 +260,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/README.md",
       "pages": [
-        "cases/ecommerce.html"
+        "cases/ecommerce.html",
+        "engineering.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -374,7 +377,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./blob/main/docs/RESULTS.md",
       "pages": [
-        "cases/transactionshield.html"
+        "cases/transactionshield.html",
+        "engineering.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -400,6 +404,15 @@
         "work.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/blob/main/README.md",
+      "pages": [
+        "engineering.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -570,6 +583,24 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/engineering.html",
+      "pages": [
+        "engineering.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/evidence.html",
+      "pages": [
+        "evidence.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/hiring.html",
       "pages": [
         "hiring.html"
@@ -686,7 +717,7 @@
     }
   ],
   "external_counts": {
-    "ok": 59,
+    "ok": 62,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
