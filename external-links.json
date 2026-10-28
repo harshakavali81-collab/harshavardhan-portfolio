@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:46:34.278500+00:00",
+  "checked_at": "2026-10-28T08:47:12.507473+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -744,6 +744,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/RELEASE_READINESS.md",
+      "pages": [
+        "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/VERIFIED_RESULTS.md",
       "pages": [
         "cases/inventoryiq.html"
@@ -993,6 +1002,15 @@
         "work.html"
       ],
       "via": "github-user-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "http",
       "status": 200,
       "result": "ok"
     },
@@ -1492,7 +1510,7 @@
     }
   ],
   "external_counts": {
-    "ok": 143,
+    "ok": 145,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
