@@ -1,6 +1,6 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-28T07:14:21.853228+00:00
+Generated UTC: 2026-10-28T07:14:34.550152+00:00
 
 ## Direct checks
 - Live URL HTTP 200: 15/15
@@ -12,15 +12,15 @@ Generated UTC: 2026-10-28T07:14:21.853228+00:00
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 143.0 | 277.0 |
-| work.html | 263.5 | 329.5 |
-| proof-map.html | 113.0 | 344.0 |
-| profile.html | 98.0 | 206.5 |
-| contact.html | 188.0 | 361.5 |
-| resumes.html | 129.0 | 196.5 |
-| quality.html | 144.5 | 466.0 |
-| cases/demandpilot.html | 183.5 | 322.5 |
-| cases/transactionshield.html | 103.0 | 344.5 |
+| index.html | 52.5 | 368.0 |
+| work.html | 94.5 | 364.0 |
+| proof-map.html | 70.5 | 397.0 |
+| profile.html | 44.0 | 238.0 |
+| contact.html | 62.0 | 373.0 |
+| resumes.html | 42.5 | 202.5 |
+| quality.html | 48.5 | 341.0 |
+| cases/demandpilot.html | 49.0 | 389.0 |
+| cases/transactionshield.html | 50.0 | 380.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
