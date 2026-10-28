@@ -19,3 +19,5 @@ jobs:
         run: python3 scripts/audit_site.py
       - name: Check recruiter profile, theme, and contact options
         run: python3 scripts/check_career_profile.py
+      - name: Check job-platform project showcase
+        run: python3 scripts/check_job_platforms.py

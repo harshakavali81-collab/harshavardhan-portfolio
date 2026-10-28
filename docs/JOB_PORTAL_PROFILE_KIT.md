@@ -173,3 +173,28 @@ These are resume-reported training entries; certificate IDs, issue URLs and inde
 - foundit: https://www.foundit.in/
 - foundit help: https://www.foundit.in/info/help
 - Portfolio resume center: https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html
+
+
+## 8. Complete projects and recruiter profile center
+
+[**Open the interactive LinkedIn / Naukri / foundit profile center**](../job-platforms.html) to copy all three platform-specific headlines, summaries, and keyword lists. It includes **15 detailed source-linked projects**, search and category filters, a copy action for every project, all **31 repository links**, education, internship, role preferences, and resume downloads.
+
+[**Open the original project master list**](LINKEDIN_PROFILE_PROJECTS_MASTER.md) for fully written LinkedIn project descriptions, five suggested skills per project, and recommended Featured links.
+
+### Suggested Naukri projects (analytics / SQL / BI)
+- **E-Commerce Sales & Customer Analytics** — Python, SQL, Pandas, Data Analysis, Microsoft Excel. https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics
+- **Zomato Insights Dashboard — Power BI** — Microsoft Power BI, Microsoft Excel, Data Visualization, Data Analysis, Dashboard Development. https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI
+- **Clickstream Intelligence — Advanced SQL Analytics** — SQL, DuckDB, dbt, Python, Data Analytics. https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL
+- **DemandPilot AI — Forecasting & Inventory Optimization** — Python, Machine Learning, FastAPI, Streamlit, SQL. https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform
+- **CommerceLens — E-commerce Analytics & Sentiment** — Python, SQL, Pandas, Streamlit, Sentiment Analysis. https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment
+
+### Suggested foundit projects (Python / AI / software)
+- **TransactionShield — Fraud Risk Scoring** — Python, Machine Learning, FastAPI, React.js, SQL. https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.
+- **EvidenceDesk — Document Q&A and Retrieval** — Python, Natural Language Processing, Information Retrieval, Streamlit, Document Processing. https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant
+- **SupportLens AI — Customer Support & Analytics** — Python, FastAPI, React.js, SQL, Natural Language Processing. https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics
+- **Multilingual Knowledge Base — Indian Languages** — Python, FastAPI, React.js, Natural Language Processing, SQLite. https://github.com/harshakavali81-collab/Multilingual-Project
+- **StreamWatch AI — Streaming Anomaly Detection** — Python, Apache Kafka, PostgreSQL, FastAPI, Anomaly Detection. https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection
+
+These projects demonstrate technical practice and may use synthetic inputs. They are not claims of independently verified production operations or commercial performance. Select the most job-relevant examples rather than claiming all 31 as professional employment.
+
+**External account status:** GitHub and your portfolio have been updated. No LinkedIn, Naukri, or foundit account has been directly edited. Each requires account access and saving your profile fields.

@@ -30,6 +30,10 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 - [Existing LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) · [Portfolio website](https://harshakavali81-collab.github.io/harshavardhan-portfolio/).
 - **Publishing disclosure:** The kit is hosted in GitHub and has **not** been automatically applied to LinkedIn. Account sign-in and saving are required.
 
+## Job-platform profiles and all projects
+
+[**Interactive LinkedIn, Naukri & foundit profile center**](job-platforms.html) — copy headlines, summaries, skills and 15 sourced project descriptions; browse all 31 GitHub repositories and both resumes. This publishes a preparation tool, not edits to external accounts.
+
 ## LinkedIn, Naukri and foundit profile pack
 
 Copy-ready, role-focused headline, about section, internship, skills, projects, certifications and account-update checklist: [Open the job-portal profile pack](docs/JOB_PORTAL_PROFILE_KIT.md).
