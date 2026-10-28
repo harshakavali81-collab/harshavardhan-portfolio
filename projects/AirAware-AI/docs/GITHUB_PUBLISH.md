@@ -1,6 +1,6 @@
 # Publish AirAware AI to GitHub (repository setup)
 
-The AirAware-AI repository does not exist on the connected GitHub account at the time this project archive was assembled. The case study is already committed to `harshakavali81-collab/harshavardhan-portfolio`, but these application source files are not yet in their own repository.
+The AirAware-AI repository does not exist on the connected GitHub account at the time this project archive was assembled. The case study is already committed to `harshakavali81-collab/harshavardhan-portfolio`, but the entire application source has already been pushed under [`harshavardhan-portfolio/projects/AirAware-AI`](https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI). The instructions below are only for optionally creating a **separate standalone** repository.
 
 ## Step 1 — Create the empty repository
 
