@@ -5,6 +5,7 @@ on:
     paths:
       - "index.html"
       - "work.html"
+      - "proof-map.html"
       - "contact.html"
       - "profile.html"
       - "resumes.html"
