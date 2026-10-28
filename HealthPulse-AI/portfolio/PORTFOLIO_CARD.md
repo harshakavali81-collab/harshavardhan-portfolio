@@ -4,6 +4,6 @@
 
 Designed an end-to-end aggregate public-health intelligence prototype featuring dashboard visualization, regional comparisons, OData ingestion, deterministic example data, chronological forecasting evaluation, data-quality monitoring and non-clinical safeguards. Includes test coverage and reproducible deployment configuration.
 
-**Project source:** [GitHub](https://github.com/harshakavali81-collab)
+**Project source:** [GitHub](https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/HealthPulse-AI)
 
 **Category:** Data Analytics / AI & ML / Full-stack Engineering
