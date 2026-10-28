@@ -1,0 +1,334 @@
+{
+  "checked_at": "2026-10-28T06:16:59.606291+00:00",
+  "definition": "Chromium live HTTPS page navigation load event; 3 cold independent contexts per page; p75 < 3000ms",
+  "target_ms": 3000,
+  "desktop": "GitHub hosted runner network; no artificial throttling",
+  "mobile": "390px; 120ms RTT, 1.6Mbps down, 0.6Mbps up, CPU 4x slowdown",
+  "records": [
+    {
+      "profile": "desktop",
+      "page": "index.html",
+      "samples": [
+        {
+          "load_ms": 92,
+          "domcontentloaded_ms": 90,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 49,
+          "domcontentloaded_ms": 48,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 112,
+          "domcontentloaded_ms": 110,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 102.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "work.html",
+      "samples": [
+        {
+          "load_ms": 195,
+          "domcontentloaded_ms": 195,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 74,
+          "domcontentloaded_ms": 73,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 161,
+          "domcontentloaded_ms": 161,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 178.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "profile.html",
+      "samples": [
+        {
+          "load_ms": 78,
+          "domcontentloaded_ms": 77,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 57,
+          "domcontentloaded_ms": 56,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 50,
+          "domcontentloaded_ms": 49,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 67.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "contact.html",
+      "samples": [
+        {
+          "load_ms": 115,
+          "domcontentloaded_ms": 104,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 197,
+          "domcontentloaded_ms": 192,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 84,
+          "domcontentloaded_ms": 76,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 156.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "resumes.html",
+      "samples": [
+        {
+          "load_ms": 112,
+          "domcontentloaded_ms": 112,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 56,
+          "domcontentloaded_ms": 55,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 87,
+          "domcontentloaded_ms": 86,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 99.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "cases/demandpilot.html",
+      "samples": [
+        {
+          "load_ms": 129,
+          "domcontentloaded_ms": 110,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 72,
+          "domcontentloaded_ms": 56,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 82,
+          "domcontentloaded_ms": 70,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 105.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "cases/transactionshield.html",
+      "samples": [
+        {
+          "load_ms": 90,
+          "domcontentloaded_ms": 76,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 54,
+          "domcontentloaded_ms": 43,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 72,
+          "domcontentloaded_ms": 55,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 81.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "index.html",
+      "samples": [
+        {
+          "load_ms": 259,
+          "domcontentloaded_ms": 256,
+          "lcp_ms": 208
+        },
+        {
+          "load_ms": 281,
+          "domcontentloaded_ms": 279,
+          "lcp_ms": 228
+        },
+        {
+          "load_ms": 305,
+          "domcontentloaded_ms": 305,
+          "lcp_ms": 292
+        }
+      ],
+      "p75_load_ms": 293.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "work.html",
+      "samples": [
+        {
+          "load_ms": 358,
+          "domcontentloaded_ms": 358,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 364,
+          "domcontentloaded_ms": 364,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 348,
+          "domcontentloaded_ms": 348,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 361.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "profile.html",
+      "samples": [
+        {
+          "load_ms": 215,
+          "domcontentloaded_ms": 211,
+          "lcp_ms": 216
+        },
+        {
+          "load_ms": 207,
+          "domcontentloaded_ms": 203,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 210,
+          "domcontentloaded_ms": 207,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 212.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "contact.html",
+      "samples": [
+        {
+          "load_ms": 365,
+          "domcontentloaded_ms": 365,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 352,
+          "domcontentloaded_ms": 351,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 355,
+          "domcontentloaded_ms": 355,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 360.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "resumes.html",
+      "samples": [
+        {
+          "load_ms": 185,
+          "domcontentloaded_ms": 183,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 210,
+          "domcontentloaded_ms": 181,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 215,
+          "domcontentloaded_ms": 182,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 212.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "cases/demandpilot.html",
+      "samples": [
+        {
+          "load_ms": 367,
+          "domcontentloaded_ms": 184,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 309,
+          "domcontentloaded_ms": 178,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 316,
+          "domcontentloaded_ms": 185,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 341.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "mobile-fast4g",
+      "page": "cases/transactionshield.html",
+      "samples": [
+        {
+          "load_ms": 365,
+          "domcontentloaded_ms": 184,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 359,
+          "domcontentloaded_ms": 182,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 366,
+          "domcontentloaded_ms": 185,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 365.5,
+      "under_3_seconds": true
+    }
+  ],
+  "errors": [],
+  "target_met": true,
+  "limits": "Simulated mobile, not representative of all locations, physical devices, ISPs or every visit. First-content paints and LCP available in navigation observations."
+}

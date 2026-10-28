@@ -1,0 +1,520 @@
+{
+  "checked_at": "2026-10-28T06:16:08.744327+00:00",
+  "live_pages": [
+    {
+      "page": "index.html",
+      "status": 200,
+      "bytes": 47636,
+      "ok": true
+    },
+    {
+      "page": "work.html",
+      "status": 200,
+      "bytes": 8218,
+      "ok": true
+    },
+    {
+      "page": "profile.html",
+      "status": 200,
+      "bytes": 19491,
+      "ok": true
+    },
+    {
+      "page": "recruiter.html",
+      "status": 200,
+      "bytes": 13479,
+      "ok": true
+    },
+    {
+      "page": "resumes.html",
+      "status": 200,
+      "bytes": 5972,
+      "ok": true
+    },
+    {
+      "page": "resume.html",
+      "status": 200,
+      "bytes": 7539,
+      "ok": true
+    },
+    {
+      "page": "data-analyst-resume.html",
+      "status": 200,
+      "bytes": 9047,
+      "ok": true
+    },
+    {
+      "page": "contact.html",
+      "status": 200,
+      "bytes": 6186,
+      "ok": true
+    },
+    {
+      "page": "cases/ecommerce.html",
+      "status": 200,
+      "bytes": 9806,
+      "ok": true
+    },
+    {
+      "page": "cases/transactionshield.html",
+      "status": 200,
+      "bytes": 10270,
+      "ok": true
+    },
+    {
+      "page": "cases/demandpilot.html",
+      "status": 200,
+      "bytes": 9934,
+      "ok": true
+    },
+    {
+      "page": "cases/evidencedesk.html",
+      "status": 200,
+      "bytes": 9398,
+      "ok": true
+    },
+    {
+      "page": "cases/zomato.html",
+      "status": 200,
+      "bytes": 9314,
+      "ok": true
+    }
+  ],
+  "external": [
+    {
+      "url": "https://github.com/harshakavali81-collab",
+      "pages": [
+        "cases/healthpulse.html",
+        "contact.html",
+        "data-analyst-resume.html",
+        "index.html",
+        "profile.html",
+        "resume.html",
+        "resumes.html"
+      ],
+      "via": "github-user-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
+      "pages": [
+        "cases/evidencedesk.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant/blob/main/docs/VALIDATION.md",
+      "pages": [
+        "cases/evidencedesk.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AstraSentinel-AI",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/CivicShield-AI",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
+      "pages": [
+        "cases/demandpilot.html",
+        "index.html",
+        "recruiter.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/docs/model_card.md",
+      "pages": [
+        "cases/demandpilot.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
+      "pages": [
+        "cases/ecommerce.html",
+        "index.html",
+        "recruiter.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/docs/GITHUB_SETUP.md",
+      "pages": [
+        "cases/ecommerce.html"
+      ],
+      "via": "github-file-api",
+      "status": 404,
+      "result": "broken"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
+      "pages": [
+        "index.html",
+        "profile.html",
+        "recruiter.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.",
+      "pages": [
+        "cases/transactionshield.html",
+        "index.html",
+        "recruiter.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./blob/main/docs/RESULTS.md",
+      "pages": [
+        "cases/transactionshield.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
+      "pages": [
+        "index.html",
+        "profile.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI",
+      "pages": [
+        "cases/zomato.html",
+        "index.html",
+        "profile.html",
+        "recruiter.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/blob/main/docs/Interview_Explanation.md",
+      "pages": [
+        "cases/zomato.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/document-qa-bot",
+      "pages": [
+        "index.html",
+        "profile.html",
+        "recruiter.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab?tab=repositories",
+      "pages": [
+        "recruiter.html",
+        "work.html"
+      ],
+      "via": "github-user-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/",
+      "pages": [
+        "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/demandpilot.html",
+      "pages": [
+        "cases/demandpilot.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/ecommerce.html",
+      "pages": [
+        "cases/ecommerce.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/evidencedesk.html",
+      "pages": [
+        "cases/evidencedesk.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/healthpulse.html",
+      "pages": [
+        "cases/healthpulse.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/transactionshield.html",
+      "pages": [
+        "cases/transactionshield.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/zomato.html",
+      "pages": [
+        "cases/zomato.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html",
+      "pages": [
+        "contact.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/data-analyst-resume.html",
+      "pages": [
+        "data-analyst-resume.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html",
+      "pages": [
+        "profile.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html",
+      "pages": [
+        "recruiter.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html",
+      "pages": [
+        "resumes.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html",
+      "pages": [
+        "work.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/main/reports/figures/evaluation.svg",
+      "pages": [
+        "cases/demandpilot.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./main/docs/visuals/system-architecture.svg",
+      "pages": [
+        "cases/transactionshield.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/",
+      "pages": [
+        "contact.html",
+        "data-analyst-resume.html",
+        "index.html",
+        "profile.html",
+        "recruiter.html",
+        "resume.html",
+        "resumes.html"
+      ],
+      "via": "http",
+      "status": 999,
+      "result": "unknown"
+    },
+    {
+      "url": "https://www.who.int/data/gho/info/gho-odata-api",
+      "pages": [
+        "cases/healthpulse.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    }
+  ],
+  "external_counts": {
+    "ok": 42,
+    "broken": 1,
+    "unknown": 1,
+    "http-error": 0
+  }
+}
