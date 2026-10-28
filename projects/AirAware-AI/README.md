@@ -14,7 +14,7 @@
 
 **Not claimed:** Live production deployment, a verified AQI calculation, independently validated forecasting skill, an official weather/health alert system, or results from the unrelated [OpenKit Air Aware case study](https://openkit.co.uk/portfolio/air-aware).
 
-## Quick start — Python API
+**GitHub source directory:** [View all source files](https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI). This application is currently contained within the portfolio repository rather than its own new GitHub repository.\n\n## Quick start — Python API
 
 ```bash
 python -m venv .venv
