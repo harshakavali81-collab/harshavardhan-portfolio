@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:28:02.455911+00:00",
+  "checked_at": "2026-10-28T08:29:10.945377+00:00",
   "profiles": [
     [
       "chromium",
@@ -523,8 +523,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "work.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
+      "scroll_width": 337,
+      "viewport_width": 337,
       "result": "pass"
     },
     {
@@ -595,8 +595,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "contact.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
+      "scroll_width": 342,
+      "viewport_width": 342,
       "result": "pass"
     },
     {
@@ -643,8 +643,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
+      "scroll_width": 322,
+      "viewport_width": 322,
       "result": "pass"
     },
     {
@@ -677,7 +677,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "firefox",
@@ -1275,7 +1276,17 @@
       "result": "pass"
     }
   ],
-  "passed": 152,
+  "passed": 151,
   "total": 152,
-  "issues": []
+  "issues": [
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Work filter incorrect"
+    }
+  ]
 }
