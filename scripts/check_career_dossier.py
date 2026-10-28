@@ -32,6 +32,32 @@ def check():
     assert html.count('class="kh-case"') == 5, "Expected five curated STAR case studies"
 
     assert html.count('class="kh-pillar"') == 5, "Expected five recruiter-facing portfolio pillars"
+    # Twelve-element career extension: do not silently drop any requested element.
+    assert "twelve-elements" in audit.ids, "Missing the 12-element career section"
+    assert html.count('class="kh-element"') == 12, "Career dossier must contain all twelve elements"
+    for heading in (
+        "Career summary", "Mission statement", "Brief biography",
+        "Role-specific resumes", "Marketable skills",
+        "Documented accomplishments", "Work samples and case studies",
+        "Awards and recognition", "Degrees and certifications",
+        "Professional development", "Volunteer and community service",
+        "References and testimonials",
+    ):
+        assert heading in html, f"Missing career element: {heading}"
+    for url_fragment in ("github.com/harshakavali81-collab", "linkedin.com/in/kavali-harshavardhan", "job-platforms.html", "profile.html#beyond"):
+        assert url_fragment in html, f"Missing professional link: {url_fragment}"
+    assert "No independent professional awards" in html
+    assert "No specific volunteering" in html
+    assert "referee" in html.lower(), "Reference privacy statement missing"
+    assert "KH GOLD-ONLY CAREER RELEASE" in css
+    assert "body.kh-dossier" in css and "color-scheme:dark" in css
+    home = (ROOT / "index.html").read_text(encoding="utf-8")
+    profile = (ROOT / "profile.html").read_text(encoding="utf-8")
+    assert 'id="career-12"' in home and "career-portfolio.html#twelve-elements" in home
+    assert 'id="professional-links"' in profile and 'id="beyond"' in profile
+    assert home.count('class="bh-project-source" href=') == 31
+    # Twelve-element career extension: END
+
     for term in ("Problem.", "My approach.", "Outcome and evidence.", "What I learned."):
         assert html.count(term) >= 5, f"Five case studies must include {term}"
     for proof in ("evidence.html", "quality.html", "GitHub Actions"):
