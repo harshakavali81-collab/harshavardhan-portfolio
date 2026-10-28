@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:31:15.751154+00:00",
+  "checked_at": "2026-10-28T08:31:38.170876+00:00",
   "profiles": [
     [
       "chromium",
@@ -74,7 +74,8 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -227,7 +228,8 @@
       "page": "evidence.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -380,7 +382,8 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -533,7 +536,8 @@
       "page": "evidence.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -686,7 +690,8 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "firefox",
@@ -839,7 +844,8 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "firefox",
@@ -991,7 +997,8 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "webkit",
@@ -1136,8 +1143,7 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1145,7 +1151,8 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "webkit",
@@ -1277,9 +1284,45 @@
       "result": "pass"
     }
   ],
-  "passed": 150,
+  "passed": 143,
   "total": 152,
   "issues": [
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "evidence.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "evidence.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "evidence.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "evidence.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
     {
       "engine": "firefox",
       "profile": "desktop",
@@ -1290,13 +1333,40 @@
       "reason": "Work filter incorrect"
     },
     {
-      "engine": "webkit",
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "evidence.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "firefox",
       "profile": "mobile",
-      "page": "work.html",
+      "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Work filter incorrect"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "evidence.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "evidence.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Expected five source-backed projects"
     }
   ]
 }
