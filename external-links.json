@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T09:29:42.191994+00:00",
+  "checked_at": "2026-10-28T09:30:34.341414+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -10,7 +10,7 @@
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21004,
+      "bytes": 20992,
       "ok": true
     },
     {
@@ -1102,8 +1102,7 @@
     {
       "url": "https://github.com/harshakavali81-collab?tab=repositories",
       "pages": [
-        "recruiter.html",
-        "work.html"
+        "recruiter.html"
       ],
       "via": "github-user-api",
       "status": 200,
