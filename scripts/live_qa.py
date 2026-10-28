@@ -12,13 +12,14 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 # Release sentinels distinguish the current career release from an older HTTP-200 Pages version.
 CURRENT_RELEASE_MARKERS={
     "index.html":'id="career-12"',
     "career-portfolio.html":'id="twelve-elements"',
     "portfolio-readiness.html":'id="proof-policy"',
+    "certificates.html":'id="certificates"',
     "resume.html":'class="kh-resume-screen"',
     "data-analyst-resume.html":'class="kh-resume-screen"',
 }
@@ -169,6 +170,16 @@ def browser_qa(out):
                             if branding["goldToken"] != "#d4af37":
                                 raise AssertionError("Champagne gold accent token was not applied: "+str(branding))
 
+                            if path=="certificates.html":
+                                if page.locator(".kh-proof-card").count()!=7:
+                                    raise AssertionError("Seven document-backed training records required")
+                                for link in ("https://www.credly.com/go/tfTqbAM0",
+                                             "https://www.credly.com/go/GqcOmj3t"):
+                                    if page.locator("a[href='"+link+"']").count()!=1:
+                                        raise AssertionError("AWS Academy Credly link missing: "+link)
+                                back_color=page.locator("body").evaluate("e=>getComputedStyle(e).backgroundColor")
+                                if back_color!="rgb(8, 8, 8)":
+                                    raise AssertionError("Credential gallery black theme regression: "+back_color)
                             if path=="portfolio-readiness.html":
                                 if page.locator(".kh-ready-section").count()!=5:
                                     raise AssertionError("Five recruiter portfolio checklist categories required")
@@ -404,7 +415,7 @@ def browser_qa(out):
                             if (engine,label,path) in [
                                ("chromium","desktop",""),("chromium","mobile",""),("chromium","tablet","work.html"),
                                ("chromium","mobile","contact.html"),("chromium","desktop","career-portfolio.html"),
-                               ("chromium","mobile","career-portfolio.html"),("chromium","desktop","portfolio-readiness.html"),("chromium","mobile","portfolio-readiness.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
+                               ("chromium","mobile","career-portfolio.html"),("chromium","desktop","portfolio-readiness.html"),("chromium","mobile","portfolio-readiness.html"),("chromium","desktop","certificates.html"),("chromium","mobile","certificates.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
                                ("webkit","mobile","profile.html"),("firefox","desktop","cases/demandpilot.html")]:
                                 file=engine+"-"+label+"-"+(path.replace("/","-") or "home")+".png"
                                 page.screenshot(path=str(shots/file),full_page=not (engine=="webkit" and label=="mobile" and path==""),animations="disabled",timeout=20000)
