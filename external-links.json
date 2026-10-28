@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:48:41.128822+00:00",
+  "checked_at": "2026-10-28T07:48:55.560232+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -183,6 +183,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40649009601",
       "pages": [
         "airaware.html"
@@ -247,6 +256,15 @@
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/HISTORICAL_BENCHMARK_RESULTS.md",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/RELEASE_ACCEPTANCE.md",
       "pages": [
         "airaware.html"
       ],
@@ -1073,7 +1091,7 @@
     }
   ],
   "external_counts": {
-    "ok": 99,
+    "ok": 101,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
