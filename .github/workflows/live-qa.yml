@@ -13,6 +13,8 @@ on:
       - "data-analyst-resume.html"
       - "quality.html"
       - "recruiter.html"
+      - "hiring.html"
+      - "interview.html"
       - "cases/**"
       - "assets/**"
       - "scripts/live_qa.py"
