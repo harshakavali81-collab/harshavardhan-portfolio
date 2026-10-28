@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:43:36.098832+00:00",
+  "checked_at": "2026-10-28T07:44:13.758219+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -10,7 +10,7 @@
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 8566,
+      "bytes": 10253,
       "ok": true
     },
     {
@@ -70,7 +70,7 @@
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 10803,
+      "bytes": 10984,
       "ok": true
     },
     {
@@ -303,7 +303,8 @@
         "cases/healthpulse.html",
         "healthpulse-demo.html",
         "healthpulse-worldbank.html",
-        "index.html"
+        "index.html",
+        "work.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -687,7 +688,18 @@
     {
       "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
       "pages": [
-        "index.html"
+        "hiring.html",
+        "index.html",
+        "profile.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity",
+      "pages": [
+        "recruiter.html"
       ],
       "via": "http",
       "status": 200,
@@ -706,6 +718,24 @@
       "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan",
       "pages": [
         "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan",
+      "pages": [
+        "hiring.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan",
+      "pages": [
+        "recruiter.html"
       ],
       "via": "http",
       "status": 200,
@@ -756,7 +786,7 @@
     }
   ],
   "external_counts": {
-    "ok": 65,
+    "ok": 68,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
