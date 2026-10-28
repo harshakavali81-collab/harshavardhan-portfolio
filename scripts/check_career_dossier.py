@@ -146,7 +146,7 @@ def check():
                    'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
         assert phrase in home, phrase
     assert "assets/resume-evidence.css?v=20261028-edu2" in home
-    assert "assets/kh-ivory-accent.css?v=20261028-featured6" in home
+    assert "assets/kh-ivory-accent.css?v=20261028-seven7" in home
     accents = (ROOT / "assets/kh-ivory-accent.css").read_text(encoding="utf-8")
     visible_palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", accents.lower()))
     assert visible_palette == {
