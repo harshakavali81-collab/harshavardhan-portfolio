@@ -207,22 +207,22 @@
         "Cited extractive answers or abstention",
         "Minimal event analytics and anonymous ratings"
       ],
-      "test": "GitHub Actions completed a passing run of 32 Python tests and a React build; the 16-question authored fictional fixture produced 13/13 expected-source hits, 13/13 sourced answer citation IDs, and 3/3 unsupported abstentions.",
-      "metric": "13/13",
-      "metricLabel": "Verified cited answers on authored fictional support questions",
-      "metricDetail": "13/13 expected-source hits at top 3, 13/13 cited answers with known retrieved source IDs, and 3/3 unsupported abstentions. Not factual entailment, user satisfaction or independent production quality.",
+      "test": "Four GitHub Actions jobs passed: 32 Python tests, React build, FastAPI+Nginx Docker integration, and real Chromium desktop/mobile browser demo E2E.",
+      "metric": "4/4 CI",
+      "metricLabel": "Python + React + Docker + Chromium jobs passed",
+      "metricDetail": "Source fixture: 13/13 expected-source retrieval hits; 13/13 cited answer IDs from retrieved evidence; 3/3 unsupported abstentions. Browser screenshots are saved as CI artifacts. No real-user accuracy claimed.",
       "source": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics",
-      "evidence": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics/actions/runs/40659021869",
+      "evidence": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics/actions/runs/40660436505",
       "casePage": "cases/supportlens.html",
       "sample": "Six fictional merchant policies and 16 author-written FAQ examples. No real customer traffic or validated commercial impact.",
       "tradeoff": "Offline sparse vectors and extractive answers keep the demo lightweight and inspectable but sacrifice semantic retrieval flexibility. External LLM is optional.",
       "limitations": "Tests and citations do not certify factual entailment, model safety, production access control or real customer satisfaction. Public full-stack hosting is not verified.",
-      "reviewNext": "Run the current CI suite, manually check citation entailment on a separate holdout, test against prompt injection and verify real-world performance before any deployment.",
+      "reviewNext": "Inspect CI Chromium screenshots and evaluate factual entailment on independent, authorized support cases before any production deployment.",
       "testCommands": [
         "python -m pytest -q",
         "python -m scripts.evaluate"
       ],
-      "claimLevel": "GitHub Actions-verified fictional fixture (32 tests passed)"
+      "claimLevel": "GitHub Actions verified; fictional-policy portfolio prototype"
     },
     {
       "slug": "streamwatch",
