@@ -1,24 +1,53 @@
-# Kavali Harshavardhan | Career Portfolio
+# Kavali Harshavardhan | AI, Data & Software Portfolio
 
-Source for the public GitHub Pages portfolio of a Hyderabad-based 2025 B.Tech graduate targeting Software Engineer, Python Developer, Data Analyst, QA and applied AI/ML roles.
+**Live website:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/
 
-**Website:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/
+Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
 
-## What is included
+## Recruiter quick links
 
-- Responsive interactive portfolio homepage with searchable filters across 20 real GitHub project repositories
-- Role matching for Software Engineer, Data Analyst, Python Developer, AI/ML and QA
-- Print-friendly resume with role-specific summary at `resume.html`
-- Skill matrix, project limitations, education, LinkedIn, GitHub and email contact
-- GitHub Pages deployment workflow at `.github/workflows/pages.yml`
-- No external web framework or API key required
+| Resource | Link |
+|---|---|
+| Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
+| Complete career profile | [Education, internship, certifications and interests](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
+| Full resume page | [View / print](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resume.html) |
+| AI/ML & Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf) |
+| Source repositories | [GitHub profile](https://github.com/harshakavali81-collab) |
+| LinkedIn | [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) |
 
-## Deploy
+## Verified resume details
 
-In **Settings → Pages**, set the source to **GitHub Actions**. Push to `main` or manually run the Pages workflow. Check the Actions status and wait until a public site is verified before sharing the URL.
+- **B.Tech:** CMR Institute of Technology, Hyderabad, ECE, 2021–2025, CGPA **7.02/10**
+- **Intermediate:** Sri Sathya Sai Junior College, Anantapur, 2019–2021, **87%**
+- **SSC:** AP Model School, Anantapur, 2019, **92%**
+- **Internship:** Python Intern, Edugene Technologies, **February–August 2025**
+- **Five listed qualifications / virtual internships:** Android Developer (Google for Developers); Data Engineering (AWS Academy); AI-ML (Google for Developers); Intelligent Automation (SS&C Blue Prism); Modern C++ (Infosys Springboard)
+- **Core skills:** Python, scikit-learn, TensorFlow, NLTK, Pandas, NumPy, SQL, MySQL, Power BI, Tableau, Excel, EDA, visualization, model evaluation.
+- **Resume projects:** Multilingual Indian Language Knowledge Platform, Zomato Insights Dashboard, Document Q&A Bot, Women Safety Device.
 
-Portfolio data and model results are demonstrative. No production deployments or real business impact are claimed merely from the presence of a repository.
+## Website structure
 
-## Related project library
+```text
+.
+├── index.html       # responsive homepage with 20 GitHub projects and career milestones
+├── profile.html     # complete source-backed career profile and education timeline
+├── resume.html      # print-friendly AI/ML + Data Analyst CV
+├── assets/
+│   └── Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf  # reformatted textual PDF copy
+├── sitemap.xml
+├── robots.txt
+├── 404.html
+└── .github/workflows/pages.yml
+```
 
-See https://github.com/harshakavali81-collab?tab=repositories for source, setup instructions, diagrams, tests and project-level documentation.
+**Source note:** The PDF hosted in `assets/` is a compact *reformatted PDF* created using the details in the candidate-supplied AI/ML & Data Analyst resume. It preserves the substantive resume information but is **not a pixel-identical upload of the original PDF layout**. The attached original remains separate.
+
+## Deploy and maintain
+
+The site is served using **GitHub Pages → Deploy from a branch → main → /(root)**. Any push to `main` updates the branch-published website. Do not switch the Pages source unnecessarily. Changes to the GitHub Pages deployment workflow are optional and separate.
+
+The project showcases educational applications and synthetic datasets; these are not claims of production deployment, external accuracy validation or real-world commercial results. Internship and certification details follow the candidate-supplied resume and have not been independently verified.
+
+## Updating personal details
+
+Add hobbies only once confirmed by the candidate. Do not publish private information such as date of birth, home address, identification numbers or certificates with sensitive details.
