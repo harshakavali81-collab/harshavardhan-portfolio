@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:42:36.688808+00:00",
+  "checked_at": "2026-10-28T06:42:50.855486+00:00",
   "definition": "Chromium live HTTPS page navigation load event; 3 cold independent contexts per page; p75 < 3000ms",
   "target_ms": 3000,
   "desktop": "GitHub hosted runner network; no artificial throttling",
@@ -10,22 +10,22 @@
       "page": "index.html",
       "samples": [
         {
-          "load_ms": 46,
-          "domcontentloaded_ms": 43,
+          "load_ms": 50,
+          "domcontentloaded_ms": 46,
           "lcp_ms": 0
         },
         {
-          "load_ms": 28,
+          "load_ms": 33,
+          "domcontentloaded_ms": 29,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 27,
           "domcontentloaded_ms": 25,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 31,
-          "domcontentloaded_ms": 28,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 38.5,
+      "p75_load_ms": 41.5,
       "under_3_seconds": true
     },
     {
@@ -33,22 +33,22 @@
       "page": "work.html",
       "samples": [
         {
-          "load_ms": 44,
-          "domcontentloaded_ms": 43,
+          "load_ms": 58,
+          "domcontentloaded_ms": 58,
           "lcp_ms": 0
         },
         {
-          "load_ms": 26,
-          "domcontentloaded_ms": 25,
+          "load_ms": 31,
+          "domcontentloaded_ms": 30,
           "lcp_ms": 0
         },
         {
-          "load_ms": 30,
-          "domcontentloaded_ms": 28,
+          "load_ms": 35,
+          "domcontentloaded_ms": 34,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 37.0,
+      "p75_load_ms": 46.5,
       "under_3_seconds": true
     },
     {
@@ -56,8 +56,54 @@
       "page": "profile.html",
       "samples": [
         {
-          "load_ms": 32,
+          "load_ms": 31,
           "domcontentloaded_ms": 30,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 23,
+          "domcontentloaded_ms": 21,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 22,
+          "domcontentloaded_ms": 21,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 27.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "contact.html",
+      "samples": [
+        {
+          "load_ms": 48,
+          "domcontentloaded_ms": 48,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 38,
+          "domcontentloaded_ms": 27,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 46,
+          "domcontentloaded_ms": 46,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 47.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "resumes.html",
+      "samples": [
+        {
+          "load_ms": 26,
+          "domcontentloaded_ms": 26,
           "lcp_ms": 0
         },
         {
@@ -66,58 +112,12 @@
           "lcp_ms": 0
         },
         {
-          "load_ms": 20,
-          "domcontentloaded_ms": 19,
+          "load_ms": 50,
+          "domcontentloaded_ms": 50,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 27.5,
-      "under_3_seconds": true
-    },
-    {
-      "profile": "desktop",
-      "page": "contact.html",
-      "samples": [
-        {
-          "load_ms": 45,
-          "domcontentloaded_ms": 34,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 39,
-          "domcontentloaded_ms": 28,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 37,
-          "domcontentloaded_ms": 26,
-          "lcp_ms": 0
-        }
-      ],
-      "p75_load_ms": 42.0,
-      "under_3_seconds": true
-    },
-    {
-      "profile": "desktop",
-      "page": "resumes.html",
-      "samples": [
-        {
-          "load_ms": 29,
-          "domcontentloaded_ms": 28,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 20,
-          "domcontentloaded_ms": 19,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 21,
-          "domcontentloaded_ms": 20,
-          "lcp_ms": 0
-        }
-      ],
-      "p75_load_ms": 25.0,
+      "p75_load_ms": 38.0,
       "under_3_seconds": true
     },
     {
@@ -125,31 +125,8 @@
       "page": "quality.html",
       "samples": [
         {
-          "load_ms": 61,
-          "domcontentloaded_ms": 34,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 25,
-          "domcontentloaded_ms": 19,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 29,
+          "load_ms": 26,
           "domcontentloaded_ms": 21,
-          "lcp_ms": 0
-        }
-      ],
-      "p75_load_ms": 45.0,
-      "under_3_seconds": true
-    },
-    {
-      "profile": "desktop",
-      "page": "cases/demandpilot.html",
-      "samples": [
-        {
-          "load_ms": 32,
-          "domcontentloaded_ms": 26,
           "lcp_ms": 0
         },
         {
@@ -158,12 +135,35 @@
           "lcp_ms": 0
         },
         {
+          "load_ms": 51,
+          "domcontentloaded_ms": 29,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 40.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "cases/demandpilot.html",
+      "samples": [
+        {
+          "load_ms": 28,
+          "domcontentloaded_ms": 20,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 30,
+          "domcontentloaded_ms": 22,
+          "lcp_ms": 0
+        },
+        {
           "load_ms": 27,
           "domcontentloaded_ms": 21,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 31.0,
+      "p75_load_ms": 29.0,
       "under_3_seconds": true
     },
     {
@@ -171,22 +171,22 @@
       "page": "cases/transactionshield.html",
       "samples": [
         {
-          "load_ms": 33,
-          "domcontentloaded_ms": 27,
+          "load_ms": 27,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
           "load_ms": 27,
-          "domcontentloaded_ms": 21,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
-          "load_ms": 36,
-          "domcontentloaded_ms": 22,
+          "load_ms": 29,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 34.5,
+      "p75_load_ms": 28.0,
       "under_3_seconds": true
     },
     {
@@ -194,22 +194,22 @@
       "page": "index.html",
       "samples": [
         {
-          "load_ms": 300,
-          "domcontentloaded_ms": 298,
-          "lcp_ms": 300
-        },
-        {
-          "load_ms": 313,
-          "domcontentloaded_ms": 313,
-          "lcp_ms": 276
-        },
-        {
           "load_ms": 321,
-          "domcontentloaded_ms": 321,
+          "domcontentloaded_ms": 320,
           "lcp_ms": 280
+        },
+        {
+          "load_ms": 310,
+          "domcontentloaded_ms": 309,
+          "lcp_ms": 284
+        },
+        {
+          "load_ms": 308,
+          "domcontentloaded_ms": 307,
+          "lcp_ms": 272
         }
       ],
-      "p75_load_ms": 317.0,
+      "p75_load_ms": 315.5,
       "under_3_seconds": true
     },
     {
@@ -217,22 +217,22 @@
       "page": "work.html",
       "samples": [
         {
-          "load_ms": 361,
-          "domcontentloaded_ms": 361,
+          "load_ms": 347,
+          "domcontentloaded_ms": 346,
           "lcp_ms": 0
         },
         {
-          "load_ms": 349,
-          "domcontentloaded_ms": 349,
+          "load_ms": 347,
+          "domcontentloaded_ms": 347,
           "lcp_ms": 0
         },
         {
-          "load_ms": 353,
-          "domcontentloaded_ms": 353,
+          "load_ms": 344,
+          "domcontentloaded_ms": 344,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 357.0,
+      "p75_load_ms": 347.0,
       "under_3_seconds": true
     },
     {
@@ -240,22 +240,22 @@
       "page": "profile.html",
       "samples": [
         {
-          "load_ms": 174,
-          "domcontentloaded_ms": 169,
+          "load_ms": 219,
+          "domcontentloaded_ms": 215,
+          "lcp_ms": 224
+        },
+        {
+          "load_ms": 216,
+          "domcontentloaded_ms": 212,
           "lcp_ms": 0
         },
         {
-          "load_ms": 217,
-          "domcontentloaded_ms": 213,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 224,
-          "domcontentloaded_ms": 219,
-          "lcp_ms": 236
+          "load_ms": 227,
+          "domcontentloaded_ms": 223,
+          "lcp_ms": 244
         }
       ],
-      "p75_load_ms": 220.5,
+      "p75_load_ms": 223.0,
       "under_3_seconds": true
     },
     {
@@ -268,13 +268,13 @@
           "lcp_ms": 0
         },
         {
-          "load_ms": 351,
-          "domcontentloaded_ms": 351,
+          "load_ms": 350,
+          "domcontentloaded_ms": 350,
           "lcp_ms": 0
         },
         {
-          "load_ms": 351,
-          "domcontentloaded_ms": 351,
+          "load_ms": 352,
+          "domcontentloaded_ms": 352,
           "lcp_ms": 0
         }
       ],
@@ -286,22 +286,22 @@
       "page": "resumes.html",
       "samples": [
         {
-          "load_ms": 209,
-          "domcontentloaded_ms": 164,
+          "load_ms": 203,
+          "domcontentloaded_ms": 161,
           "lcp_ms": 0
         },
         {
-          "load_ms": 209,
-          "domcontentloaded_ms": 163,
+          "load_ms": 164,
+          "domcontentloaded_ms": 160,
           "lcp_ms": 0
         },
         {
-          "load_ms": 206,
-          "domcontentloaded_ms": 163,
+          "load_ms": 202,
+          "domcontentloaded_ms": 162,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 209.0,
+      "p75_load_ms": 202.5,
       "under_3_seconds": true
     },
     {
@@ -309,22 +309,22 @@
       "page": "quality.html",
       "samples": [
         {
-          "load_ms": 293,
-          "domcontentloaded_ms": 164,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 355,
-          "domcontentloaded_ms": 165,
+          "load_ms": 348,
+          "domcontentloaded_ms": 162,
           "lcp_ms": 0
         },
         {
           "load_ms": 349,
-          "domcontentloaded_ms": 163,
+          "domcontentloaded_ms": 161,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 294,
+          "domcontentloaded_ms": 164,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 352.0,
+      "p75_load_ms": 348.5,
       "under_3_seconds": true
     },
     {
@@ -332,22 +332,22 @@
       "page": "cases/demandpilot.html",
       "samples": [
         {
+          "load_ms": 363,
+          "domcontentloaded_ms": 164,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 360,
+          "domcontentloaded_ms": 163,
+          "lcp_ms": 0
+        },
+        {
           "load_ms": 293,
-          "domcontentloaded_ms": 165,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 366,
-          "domcontentloaded_ms": 166,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 365,
-          "domcontentloaded_ms": 166,
+          "domcontentloaded_ms": 163,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 365.5,
+      "p75_load_ms": 361.5,
       "under_3_seconds": true
     },
     {
@@ -355,22 +355,22 @@
       "page": "cases/transactionshield.html",
       "samples": [
         {
-          "load_ms": 363,
-          "domcontentloaded_ms": 166,
+          "load_ms": 292,
+          "domcontentloaded_ms": 164,
           "lcp_ms": 0
         },
         {
-          "load_ms": 293,
-          "domcontentloaded_ms": 168,
+          "load_ms": 292,
+          "domcontentloaded_ms": 164,
           "lcp_ms": 0
         },
         {
-          "load_ms": 378,
-          "domcontentloaded_ms": 172,
+          "load_ms": 290,
+          "domcontentloaded_ms": 164,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 370.5,
+      "p75_load_ms": 292.0,
       "under_3_seconds": true
     }
   ],
