@@ -1,25 +1,26 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-28T06:43:08.780437+00:00
+Generated UTC: 2026-10-28T06:44:18.932159+00:00
 
 ## Direct checks
-- Live URL HTTP 200: 14/14
+- Live URL HTTP 200: 15/15
 - External links: 53 reachable; 0 broken; 1 access-limited/unknown; 0 HTTP errors
-- Chromium, Firefox and WebKit viewport tests: 112/112 passed
+- Chromium, Firefox and WebKit viewport tests: 120/120 passed
 - Live site load under 3 seconds (p75 for every critical URL, desktop and simulated 4G mobile): PASS
 
 ## Performance: p75 page-load event, 3 cold contexts per case
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 35.0 | 341.5 |
-| work.html | 49.0 | 352.0 |
-| profile.html | 27.5 | 207.0 |
-| contact.html | 44.0 | 359.5 |
-| resumes.html | 22.5 | 210.0 |
-| quality.html | 28.0 | 358.0 |
-| cases/demandpilot.html | 32.5 | 338.5 |
-| cases/transactionshield.html | 35.5 | 375.0 |
+| index.html | 55.5 | 393.0 |
+| work.html | 77.0 | 374.5 |
+| proof-map.html | 52.5 | 405.0 |
+| profile.html | 34.0 | 230.5 |
+| contact.html | 48.5 | 381.0 |
+| resumes.html | 28.0 | 226.5 |
+| quality.html | 38.0 | 339.5 |
+| cases/demandpilot.html | 40.5 | 403.0 |
+| cases/transactionshield.html | 38.5 | 311.0 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.

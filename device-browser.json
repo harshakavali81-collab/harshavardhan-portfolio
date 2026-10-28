@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:42:56.717773+00:00",
+  "checked_at": "2026-10-28T06:44:03.868832+00:00",
   "profiles": [
     [
       "chromium",
@@ -64,6 +64,14 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "proof-map.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -184,6 +192,14 @@
     {
       "engine": "chromium",
       "profile": "tablet",
+      "page": "proof-map.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
       "page": "profile.html",
       "scroll_width": 768,
       "viewport_width": 768,
@@ -290,6 +306,14 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "work.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "proof-map.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "pass"
@@ -410,6 +434,14 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "proof-map.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "profile.html",
       "scroll_width": 320,
       "viewport_width": 320,
@@ -515,6 +547,14 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "proof-map.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -635,6 +675,14 @@
     {
       "engine": "firefox",
       "profile": "mobile",
+      "page": "proof-map.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
       "page": "profile.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -740,6 +788,14 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "proof-map.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -860,6 +916,14 @@
     {
       "engine": "webkit",
       "profile": "mobile",
+      "page": "proof-map.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
       "page": "profile.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -955,7 +1019,7 @@
       "result": "pass"
     }
   ],
-  "passed": 112,
-  "total": 112,
+  "passed": 120,
+  "total": 120,
   "issues": []
 }
