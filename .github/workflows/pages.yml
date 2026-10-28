@@ -36,8 +36,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-          cache-dependency-path: _mobilitypulse_source/frontend/package-lock.json
       - name: Install the MobilityPulse backend and export synthetic snapshots
         working-directory: _mobilitypulse_source
         env:
@@ -52,7 +50,7 @@ jobs:
           VITE_STATIC_DEMO: 'true'
           VITE_BASE_PATH: /harshavardhan-portfolio/mobilitypulse-demo/
         run: |
-          npm ci --no-audit --no-fund
+          npm install --no-audit --no-fund
           npm run build
       - name: Install the compiled dashboard into the portfolio
         run: |
