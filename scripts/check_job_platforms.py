@@ -27,9 +27,11 @@ print("Profile center: 3 platforms, 31 project cards, 16 additional READMEs, 31 
 # explicit disclosure that this site does not write to the member's account.
 showcase=text("linkedin-projects.html")
 setup=text("linkedin-setup.html")
-assert showcase.count('class="project-card"')==15
+assert showcase.count('class="project-card"')==31
+assert showcase.count('data-tier="additional"')==16
+assert 'id="scope"' in showcase
 assert showcase.count('<li data-search=')==31
-assert showcase.count('class="primary-link"')==15
+assert showcase.count('class="primary-link"')==31
 assert 'id="search"' in showcase and 'id="project-grid"' in showcase
 assert 'data-filter="All"' in showcase
 assert 'href="linkedin-setup.html"' in showcase
@@ -44,4 +46,4 @@ assert 'href="assets/luxury-theme.css"' in setup
 for f in ("index.html","work.html","README.md"):
     assert "linkedin-setup.html" in text(f), f
 assert "## 13. Ready-to-publish LinkedIn portfolio launch post" in text("docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md")
-print("LinkedIn setup: 15 copy-ready projects, 31 GitHub source entries, navigation, controls and disclosure verified")
+print("LinkedIn showcase: 31 cards (15 featured, 16 additional); LinkedIn setup: 15 curated copy-ready entries; 31 GitHub source entries verified")
