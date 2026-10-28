@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T09:34:32.963333+00:00",
+  "checked_at": "2026-10-28T09:35:22.804591+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -11,6 +11,18 @@
       "page": "work.html",
       "status": 200,
       "bytes": 20992,
+      "ok": true
+    },
+    {
+      "page": "job-platforms.html",
+      "status": 200,
+      "bytes": 41486,
+      "ok": true
+    },
+    {
+      "page": "linkedin-projects.html",
+      "status": 200,
+      "bytes": 43399,
       "ok": true
     },
     {
