@@ -157,8 +157,14 @@ def browser_qa(out):
                                 except Exception:
                                     visible=page.locator(".case-card:not([hidden])").count()
                                     pressed=data_filter.get_attribute("aria-pressed")
+                                    diagnostics=page.evaluate("""() => ({
+                                      ready:document.documentElement.dataset.workFiltersReady,
+                                      selected:document.querySelector('[data-filter="Data"]')?.getAttribute('aria-pressed'),
+                                      resources:performance.getEntriesByType('resource')
+                                        .filter(r=>r.name.includes('work-filters.js')).map(r=>r.responseStatus || 'loaded')
+                                    })""")
                                     raise AssertionError(
-                                        f"Work Data filter did not settle: visible={visible}, selected={pressed}")
+                                        f"Work Data filter did not settle: visible={visible}, selected={pressed}, details={diagnostics}")
                                 page.locator("button[data-filter='All']").click()
                                 page.wait_for_function("""() => {
                                     const cards=[...document.querySelectorAll('.case-card')];

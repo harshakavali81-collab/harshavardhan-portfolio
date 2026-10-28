@@ -24,6 +24,14 @@
     // Register directly on each real button as well as delegated capture.
     // This guards against browser-specific retargeting and click propagation.
     for (const button of document.querySelectorAll("button[data-filter]")) {
+      // A pointer press can precede a browser-level click that gets cancelled
+      // when hover/scroll/layout changes the hit target. Respond immediately to
+      // the primary press; the click handler remains for keyboard activation.
+      const onPrimaryPress = event => {
+        if (event.button === 0) activate(button.dataset.filter);
+      };
+      button.addEventListener("pointerdown", onPrimaryPress);
+      button.addEventListener("mousedown", onPrimaryPress);
       button.addEventListener("click", () => activate(button.dataset.filter));
     }
     document.documentElement.dataset.workFiltersReady = "true";
