@@ -25,7 +25,11 @@ def check() -> None:
     assert "prefers-reduced-motion:reduce" in css
     assert "prefers-reduced-motion:reduce" in interior
     assert 'class="bh-body"' in home
-    assert 'light-gold-final.css' not in home, "A light final stylesheet overrides the requested black theme"
+    # Black Label must be the final stylesheet, even if legacy links remain.
+    assert "kh-obsidian-final.css" in home
+    assert home.rfind("kh-obsidian-final.css") > home.rfind("light-gold-final.css")
+    assert '@import url("./kh-obsidian-final.css")' in read("assets/light-gold-final.css")
+    assert "KH / BLACK LABEL" in read("assets/kh-obsidian-final.css")
     assert '<meta name="theme-color" content="#080808">' in home
     assert 'href="assets/kedhar-inspired.css"' in home
     assert 'id="bh-search"' in home and 'id="bh-category"' in home
@@ -34,6 +38,10 @@ def check() -> None:
     assert 'id="recruiter-desk"' in home
     assert home.count('class="bh-resource"') == 4
     assert home.count('class="bh-feature"') == 6
+    assert home.count('class="bh-project-extras"') == 15
+    assert home.count('class="bh-project-demo"') == 9
+    assert home.count('class="bh-demo-card"') == 6
+    assert 'id="demos"' in home
     assert 'href="resumes.html"' in home
     assert 'href="recruiter.html"' in home
     assert 'href="proof-map.html"' in home
@@ -52,12 +60,14 @@ def check() -> None:
         page = read(name)
         assert 'class="bh-interior"' in page, f"Missing themed body: {name}"
         assert 'href="assets/kedhar-interior.css"' in page, f"Missing theme link: {name}"
+        assert "kh-obsidian-final.css" in page, f"Missing final black-gold theme: {name}"
     case_paths = sorted((ROOT / "cases").glob("*.html"))
     assert len(case_paths) >= 15, len(case_paths)
     for path in case_paths:
         page = path.read_text(encoding="utf-8")
         assert 'class="bh-interior"' in page, f"Missing themed case: {path.name}"
         assert 'href="../assets/kedhar-interior.css"' in page
+        assert "kh-obsidian-final.css" in page, f"Missing final black-gold theme: {path.name}"
     assert read("linkedin-setup.html").count('class="project"') == 31
     print(f"Premium black verified structurally: 31 unique projects, 6 featured cases, "
           f"4 recruiter resources, {len(career)} career pages, {len(case_paths)} case pages.")
