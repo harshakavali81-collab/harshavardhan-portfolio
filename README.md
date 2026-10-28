@@ -10,13 +10,18 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 |---|---|
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
 | Selected work | [Five complete technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
+| Interactive Evidence Ledger | [Compare validation, metrics and technical limits](https://harshakavali81-collab.github.io/harshavardhan-portfolio/evidence.html) |
+| Engineering Decision Notebook | [Architecture, source verification and next experiments](https://harshakavali81-collab.github.io/harshavardhan-portfolio/engineering.html) |
 | Role-specific Proof Map | [Trace skills → GitHub source → results](https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html) |
 | Hiring Desk | [Recruiter FAQs and print briefing](https://harshakavali81-collab.github.io/harshavardhan-portfolio/hiring.html) |
 | Interview Playbook | [Five source-supported project explanations](https://harshakavali81-collab.github.io/harshavardhan-portfolio/interview.html) |
 | Recruiter branding materials | [LinkedIn/GitHub profile copy](docs/PROFILE_BRANDING_KIT.md) |
 | Contact | [Recruiter email composer](https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html) |
 | Measured site quality | [Real speed & cross-browser checks](https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html) |
-| AirAware AI interactive demo | [Open synthetic-data dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware-demo.html) |\n| AirAware AI dedicated repository | [Complete source, 10 original images, workflow diagrams](https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence) |\n| AirAware AI case study | [View the environmental intelligence prototype](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware.html) · synthetic demo / 27 Python tests passed locally |\n| Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
+| AirAware AI interactive demo | [Open synthetic-data dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware-demo.html) |
+| AirAware AI dedicated repository | [Complete source, 10 original images, workflow diagrams](https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence) |
+| AirAware AI case study | [View the environmental intelligence prototype](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware.html) · synthetic demo / 27 Python tests passed locally |
+| Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
 | Recruiter quick-view | [60-second candidate summary and source evidence](https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html) |
 | Full resume page | [View / print](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resume.html) |
 | Resume center | [Choose a role-specific resume](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html) |
@@ -44,6 +49,19 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 - [Copy-ready LinkedIn, GitHub and recruiter profile content](docs/PROFILE_BRANDING_KIT.md). Changes to those external account profiles still require updating the accounts themselves.
 
 This is a portfolio presentation upgrade, not evidence of full-time software engineering employment or unverified commercial project outcomes.
+
+## Deeper technical review and reproducible evidence
+
+**Portfolio evidence register:** `data/project-evidence.json` contains five curated machine-readable project records (question, architecture, sample, validation, measured figure, limitations, source and next check).
+
+- [Interactive evidence ledger](evidence.html): live filters and side-by-side comparisons of any two projects, with shareable query parameters and a JSON download.
+- [Engineering Notebook](engineering.html): five decision explanations about revenue recognition, class imbalance, time-based validation, retrieval grounding and Power BI metric scope.
+- [Architecture decision records](docs/ENGINEERING_DECISIONS.md): source-backed retrospective notes with actual repository validation commands where published.
+- [Portfolio architecture and maintenance](docs/PORTFOLIO_MAINTENANCE.md): updating, QA, deployment boundaries, security and rollback guidance.
+- **Static CI** now validates five JSON records, their case-study paths, source URLs and all five Engineering Notebook anchors.
+- **Live CI** now exercises the Evidence Ledger filters/comparison and checks mobile/desktop rendering plus measured load time.
+
+All values are attributed to source code/README/documentation; commercial impact and independently validated real-world performance are not claimed.
 
 ## Featured work — five evidence-based case studies
 
@@ -131,7 +149,7 @@ The new [quality and verification page](quality.html) shows all timings and test
 Run `python3 scripts/audit_site.py` locally. The GitHub Actions **Portfolio quality checks** workflow verifies all internal links/assets, fragment references, duplicate HTML IDs, image alt attributes, and required case-study sections. GitHub Pages is served from `main` at the repository root.
 
 - **Mobile:** shared case study/contact styles use responsive CSS breakpoints; mobile appearance needs real device/browser QA.
-- **Loading:** static HTML/CSS, no heavy client framework or external tracking. A specific "<3 seconds" load-time guarantee has **not** been measured.
+- **Loading:** static HTML/CSS, no heavy client framework or external tracking. A defined **p75 navigation load-event benchmark** has been measured in GitHub-hosted desktop and simulated mobile-4G Chromium runs; this is **not a universal under-three-second guarantee** across all physical devices or networks.
 - **Contact:** form opens a `mailto:` draft in a visitor's configured email app. It does not submit to a server; for actual delivery the visitor must click Send.
 - **External links:** the offline audit checks internal paths only. GitHub, LinkedIn, source media and third-party demo uptime require independent online checking.
 - **Privacy:** no hidden analytics, credentials, personal IDs, or applicant tracking are included.
