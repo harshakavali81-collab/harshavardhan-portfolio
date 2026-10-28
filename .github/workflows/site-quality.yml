@@ -26,3 +26,6 @@ jobs:
 
       - name: Validate premium black identity, recruiter resources and all 31 projects
         run: python3 scripts/check_premium_black.py
+
+      - name: Validate complete career dossier, links and obsidian-gold design
+        run: python3 scripts/check_career_dossier.py
