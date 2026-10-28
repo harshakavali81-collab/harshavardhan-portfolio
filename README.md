@@ -22,6 +22,12 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 **DocSight AI — Smart Document Classifier & Summarizer:** [technical case study](cases/docsight.html) · [GitHub source](https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer). Six document labels from synthetic training samples, source-page extractive summaries and full-stack Python/React API, with limitations disclosed.
 
+## LinkedIn, Naukri and foundit profile pack
+
+Copy-ready, role-focused headline, about section, internship, skills, projects, certifications and account-update checklist: [Open the job-portal profile pack](docs/JOB_PORTAL_PROFILE_KIT.md).
+
+**Account disclosure:** This source file is not an automated update to external job-platform accounts. Account owners must sign in and save their information within each service.
+
 ## Recruiter quick links
 
 | Resource | Link |
