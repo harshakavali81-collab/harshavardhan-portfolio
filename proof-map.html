@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive proof map: select an IT role and trace Kavali Harshavardhan's relevant skills to GitHub projects, case-study results, and a matching resume.">
+<meta name="theme-color" content="#071321">
+<meta property="og:title" content="Proof Map | Kavali Harshavardhan">
+<meta property="og:description" content="Skills are claims. Source code and measured evidence are proof. Explore by role.">
+<link rel="canonical" href="https://harshakavali81-collab.github.io/harshavardhan-portfolio/proof-map.html">
+<link rel="icon" type="image/svg+xml" href="assets/kh-mark.svg">
+<title>Proof Map — Skills to Real Project Evidence | Kavali Harshavardhan</title>
+<link rel="stylesheet" href="assets/case-studies.css">
+<style>
+:root{--proof:#85edd2;--pale:#bed0e4}
+html{scroll-padding-top:90px}.proof-hero{padding:78px 0 34px}
+.proof-hero h1{max-width:860px}.proof-hero em{font-style:normal;color:var(--mint)}
+.proof-graphic{border:1px solid #397184;background:radial-gradient(circle at 70% 12%,#134960,#0a1c2d 64%);border-radius:24px;margin-top:35px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr;align-items:stretch}
+.proof-node{padding:30px 21px;display:flex;flex-direction:column;justify-content:center;min-height:185px;border-right:1px solid #33536c}
+.proof-node:last-child{border-right:0}.proof-node b{display:block;line-height:1.13;font-size:clamp(24px,3vw,40px);letter-spacing:-.06em;margin:11px 0 6px}
+.proof-node p{font-size:13px;color:var(--muted);margin:0}.proof-node .eyebrow{color:var(--mint)}
+.selector{background:linear-gradient(125deg,#17384b,#0c2236);border:1px solid #397488;border-radius:20px;padding:24px;margin:18px 0 27px}
+.role-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.role-tabs button{border:1px solid #497287;background:#133247;color:#e4f4fb;border-radius:100px;font:750 13px/1.3 Inter,'Segoe UI',sans-serif;cursor:pointer;padding:11px 16px;min-height:44px}
+.role-tabs button[aria-pressed=true]{background:var(--mint);color:#062b31;border-color:var(--mint)}
+.proof-out{min-height:380px}.proof-out h3{font-size:25px;margin:9px 0}
+.coverage{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 25px}
+.coverage span{padding:6px 10px;border:1px solid #3a6377;border-radius:999px;background:#17374a;color:#ddf8f5;font-size:12px}
+.proof-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:24px 0}
+.proof-item{background:linear-gradient(145deg,#142b40,#0e2234);border:1px solid var(--line);border-radius:16px;padding:22px}
+.proof-item h4{font-size:18px;line-height:1.2;margin:8px 0 7px;letter-spacing:-.035em}
+.proof-item p{color:var(--muted);font-size:14px;margin:7px 0 12px}
+.proof-item .evidence{color:var(--mint);font-size:12px;font-weight:800}
+.proof-item a{font-weight:850;font-size:13px;text-decoration:none;margin-right:13px;display:inline-block}
+.proof-item a:hover{text-decoration:underline}.proof-label{font-size:10px;color:var(--blue);font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+.proof-links{display:flex;flex-wrap:wrap;gap:12px}.outro{margin-top:22px;border:1px solid #406d70;border-radius:16px;background:#143039;padding:22px;color:#e9f9f7}
+.outro p{color:#bed8df;font-size:13px}.open-note{font-size:13px;color:var(--muted)}
+@media(max-width:720px){.proof-graphic{grid-template-columns:1fr}.proof-node{min-height:100px;border-right:0;border-bottom:1px solid #33536c;padding:20px 23px}.proof-node:last-child{border-bottom:0}.proof-list{grid-template-columns:1fr}.proof-hero{padding-top:48px}}
+@media print{.selector,.nav,.btn{display:none}.proof-node,.proof-item{background:white;color:#14263c}.proof-list{display:block}.proof-item{break-inside:avoid}.proof-graphic{background:white}}
+</style></head>
+<body><a class="skip" href="#main">Skip to skills evidence</a>
+<header class="nav"><div class="shell nav-in"><a class="logo" href="./">KH<b>.</b></a><nav class="navlinks" aria-label="Main navigation"><a href="./">Home</a><a href="work.html">Work</a><a href="profile.html">About</a><a href="resumes.html">Resume</a><a href="contact.html">Contact</a></nav></div></header>
+<main id="main">
+<section class="shell proof-hero"><div class="eyebrow">THE PROOF MAP / RECRUITER DISCOVERY</div><h1>Don't just read a skills list.<br><em>Trace the proof.</em></h1><p class="lede">Choose a role and follow a clear chain: what I can work with, where the technology appears in a public project, and what was actually tested. This is a portfolio of educational and demonstration projects, not a claim of commercial production experience.</p>
+<div class="proof-graphic" aria-label="My approach: relevant skill, inspectable project, measurable evidence"><div class="proof-node"><div class="eyebrow">STEP 01 / KNOWLEDGE</div><b>Skill</b><p>Python, SQL, data, APIs and applied ML.</p></div><div class="proof-node"><div class="eyebrow">STEP 02 / IMPLEMENTATION</div><b>Project</b><p>Open-source repository and architecture.</p></div><div class="proof-node"><div class="eyebrow">STEP 03 / VALIDATION</div><b>Evidence</b><p>Tests, documented metrics and honest gaps.</p></div></div>
+</section>
+<section class="section"><div class="shell"><div class="eyebrow">ROLE-FIRST NAVIGATION</div><h2>Which role are you evaluating?</h2><p class="muted">The content below updates without leaving the page. Every project includes a link to its original source.</p><div class="selector"><div class="eyebrow">CHOOSE A TRACK</div><div class="role-tabs" role="group" aria-label="Select an IT career track"><button data-role="data" aria-pressed="true" type="button">Data Analyst / BI</button><button data-role="ml" aria-pressed="false" type="button">AI / Machine Learning</button><button data-role="python" aria-pressed="false" type="button">Python Developer</button><button data-role="software" aria-pressed="false" type="button">Software Engineer</button><button data-role="qa" aria-pressed="false" type="button">QA / Testing</button></div></div>
+<div id="proof-output" class="proof-out" aria-live="polite"><h3 id="role-heading">Data Analyst / BI</h3><p id="role-summary" class="muted">SQL, Python and dashboards for reproducible data insights.</p><div id="role-chips" class="coverage"></div><div id="role-cards" class="proof-list"></div><div class="cta"><a class="btn prime" id="role-cv" href="assets/Kavali_Harshavardhan_Data_Analyst_Resume.pdf">Download matching resume ↓</a><a class="btn" href="recruiter.html">Recruiter summary ↗</a><a class="btn" href="contact.html">Discuss a role ↗</a></div></div>
+<div class="outro"><strong>Evidence standards</strong><p>Business-sounding figures such as sample revenue, model scores and dataset counts are not attributed to a real employer. The fraud model's poor PR-AUC is disclosed. Optional integrations, unsupported device claims, and unverified professional outcomes are not presented as completed work.</p><a href="quality.html">View independently measured website QA ↗</a></div></div></section>
+<section class="section"><div class="shell grid2"><article class="panel"><div class="eyebrow">BEYOND THE ROLE</div><h2>What I'm bringing to a team.</h2><p>Analytical thinking, problem solving, business communication and attention to detail are the strengths listed in my resume. My projects show how I apply them to data checks, tests, and written explanations.</p><a href="profile.html#philosophy">Read my engineering philosophy ↗</a></article><article class="panel"><div class="eyebrow">READY TO REVIEW</div><h2>Choose your next step.</h2><p>Need the shortest path? Use the recruiter view. Need technical depth? Read the five full case studies. Need a CV? Select the relevant PDF.</p><div class="cta"><a class="btn prime" href="work.html">Five case studies ↗</a><a class="btn" href="resumes.html">Resume center ↗</a></div></article></div></section>
+</main>
+<footer class="footer"><div class="shell"><span>© 2026 Kavali Harshavardhan · Build it. Measure it. Explain it.</span><span><a href="./">Home</a><a href="contact.html">Contact</a></span></div></footer>
+<script>
+(()=>{"use strict";
+const DATA={
+data:{title:"Data Analyst / BI",summary:"Explore how I clean data, reconcile numerical results, and explain business KPIs using Python, SQL and interactive visualizations.",skills:["SQL / SQLite","Python / Pandas","Power BI","Excel","EDA","KPI reporting"],resume:"assets/Kavali_Harshavardhan_Data_Analyst_Resume.pdf",projects:[
+{kind:"SQL + DATA MODELING",name:"E-Commerce Sales & Customer Analytics",description:"Data cleaning, documented revenue-recognition rules, RFM segmentation and retention cohorts.",evidence:"Synthetic dataset; SQL and Python revenue reconciliation within ₹0.01",case:"cases/ecommerce.html",repo:"E-Commerse-Sales-and-Customers-Analytics"},
+{kind:"BUSINESS INTELLIGENCE",name:"Zomato Insights Dashboard",description:"Restaurant dashboard exploration by cuisine, location and ratings using Power BI.",evidence:"9,551 restaurants in supplied project dataset, not live market results",case:"cases/zomato.html",repo:"Zomato-Insights-Dashboard-project-with-PowerBI"}
+]},
+ml:{title:"AI / Machine Learning",summary:"Applied model evaluation and document-retrieval experiments, with explicit checks on what results do and don't establish.",skills:["Scikit-learn","LightGBM","Feature engineering","NLP","TF-IDF","RAG"],resume:"assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf",projects:[
+{kind:"TIME-SERIES MACHINE LEARNING",name:"DemandPilot AI",description:"Compare time-safe LightGBM sales forecasting to a seasonal naive benchmark.",evidence:"18.469% vs 29.012% held-out one-step WAPE on simulated data",case:"cases/demandpilot.html",repo:"DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform"},
+{kind:"DOCUMENT RETRIEVAL",name:"EvidenceDesk",description:"TF-IDF document search with source excerpts, abstention cases and optional semantic retrieval.",evidence:"23/25 lexical evidence retrieval hits on authored fixtures",case:"cases/evidencedesk.html",repo:"AI-Document-Q-A-RAG-Knowledge-Assistant"},
+{kind:"MODEL EVALUATION",name:"TransactionShield",description:"Chronological train/test split and fraud-risk precision-recall measurement.",evidence:"Held-out PR-AUC 0.0319; poor result honestly disclosed",case:"cases/transactionshield.html",repo:"TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform."}
+]},
+python:{title:"Python Developer",summary:"Python backend and data work with clear modules, APIs, tests and reproducible run instructions.",skills:["Python","FastAPI","SQLAlchemy","Pandas","Git","pytest"],resume:"assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf",projects:[
+{kind:"BACKEND + REST API",name:"TransactionShield",description:"FastAPI risk-scoring endpoints with database persistence, request validation and UI integration.",evidence:"Documented local API tests and synthetic evaluation, not financial deployment",case:"cases/transactionshield.html",repo:"TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform."},
+{kind:"DATA PIPELINE + API",name:"DemandPilot AI",description:"Python forecasting pipeline exposed through FastAPI, SQLite and Streamlit.",evidence:"Reproducible synthetic training/evaluation and baseline comparison",case:"cases/demandpilot.html",repo:"DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform"},
+{kind:"PYTHON DOCUMENT WORKFLOW",name:"EvidenceDesk",description:"Document ingestion, chunking, retrieval, source attribution and Streamlit UI.",evidence:"16 recorded passing tests in project validation notes",case:"cases/evidencedesk.html",repo:"AI-Document-Q-A-RAG-Knowledge-Assistant"}
+]},
+software:{title:"Software Engineer",summary:"Source-linked software architecture and application workflows across backend, UI, API endpoints and testing.",skills:["REST APIs","FastAPI","React","SQL","Git","Docker"],resume:"assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf",projects:[
+{kind:"FULL-STACK PROTOTYPE",name:"TransactionShield",description:"React review dashboard connected to FastAPI scoring and relational persistence.",evidence:"Local verification and integrity checks; not a live banking application",case:"cases/transactionshield.html",repo:"TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform."},
+{kind:"END-TO-END DATA PRODUCT",name:"DemandPilot AI",description:"Pipeline, model, service layer, lightweight dashboard and inventory workflow.",evidence:"Reproducible simulated dataset and held-out benchmark documentation",case:"cases/demandpilot.html",repo:"DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform"}
+]},
+qa:{title:"QA / Software Testing",summary:"Testing coverage and transparent failure reporting: make results reproducible and fix problems rather than hide them.",skills:["pytest","API validation","Edge cases","Regression checks","Browser QA","GitHub Actions"],resume:"assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf",projects:[
+{kind:"DOCUMENT RETRIEVAL TESTS",name:"EvidenceDesk",description:"Tests for citation structures, negative queries, persistence and unsupported answers.",evidence:"16 passing tests; 3/5 correct abstentions on fixture questions",case:"cases/evidencedesk.html",repo:"AI-Document-Q-A-RAG-Knowledge-Assistant"},
+{kind:"PORTFOLIO WEB QA",name:"This Portfolio",description:"Automated internal-link audit, external-link probes and Chromium/Firefox/WebKit viewport checks.",evidence:"Recorded 112/112 browser checks in a successful October 2026 QA run",case:"quality.html",repo:"harshavardhan-portfolio"},
+{kind:"API / MODEL VERIFICATION",name:"TransactionShield",description:"API-level tests and documented detection failures on synthetic evaluation data.",evidence:"Clear PR-AUC / precision caveats and repeatable held-out evaluation",case:"cases/transactionshield.html",repo:"TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform."}
+]}};
+const cards=document.getElementById("role-cards"),chips=document.getElementById("role-chips"),heading=document.getElementById("role-heading"),summary=document.getElementById("role-summary"),cv=document.getElementById("role-cv");const buttons=[...document.querySelectorAll("button[data-role]")];
+function build(role){const entry=DATA[role]||DATA.data;heading.textContent=entry.title;summary.textContent=entry.summary;cv.href=entry.resume;chips.replaceChildren();entry.skills.forEach(skill=>{const el=document.createElement("span");el.textContent=skill;chips.append(el)});cards.replaceChildren();entry.projects.forEach(project=>{const article=document.createElement("article");article.className="proof-item";const label=document.createElement("div");label.className="proof-label";label.textContent=project.kind;const h=document.createElement("h4");h.textContent=project.name;const p=document.createElement("p");p.textContent=project.description;const evidence=document.createElement("p");evidence.className="evidence";evidence.textContent="Recorded evidence: "+project.evidence;const links=document.createElement("div");links.className="proof-links";const caselink=document.createElement("a");caselink.href=project.case;caselink.textContent="Read case study ↗";const source=document.createElement("a");source.href="https://github.com/harshakavali81-collab/"+project.repo;source.target="_blank";source.rel="noopener";source.textContent="Inspect source ↗";links.append(caselink,source);article.append(label,h,p,evidence,links);cards.append(article)});buttons.forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.role===role)));const url=new URL(location.href);url.searchParams.set("role",role);history.replaceState(null,"",url);}
+buttons.forEach(b=>b.addEventListener("click",()=>build(b.dataset.role)));const initial=new URLSearchParams(location.search).get("role");build(Object.hasOwn(DATA,initial)?initial:"data");
+})();
+</script>
+</body></html>
