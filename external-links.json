@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T06:18:19.496169+00:00",
+  "checked_at": "2026-10-28T06:20:13.852521+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 47636,
+      "bytes": 47857,
       "ok": true
     },
     {
@@ -16,7 +16,7 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 19992,
+      "bytes": 20188,
       "ok": true
     },
     {
@@ -213,13 +213,13 @@
       "result": "ok"
     },
     {
-      "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/docs/GITHUB_SETUP.md",
+      "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/README.md",
       "pages": [
         "cases/ecommerce.html"
       ],
       "via": "github-file-api",
-      "status": 404,
-      "result": "broken"
+      "status": 200,
+      "result": "ok"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
@@ -338,6 +338,17 @@
         "recruiter.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/HealthPulse-AI",
+      "pages": [
+        "HealthPulse-AI/portfolio/healthpulse-case-study.html",
+        "cases/healthpulse.html",
+        "index.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -512,8 +523,8 @@
     }
   ],
   "external_counts": {
-    "ok": 42,
-    "broken": 1,
+    "ok": 44,
+    "broken": 0,
     "unknown": 1,
     "http-error": 0
   }
