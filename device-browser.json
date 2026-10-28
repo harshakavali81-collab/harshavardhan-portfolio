@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:37:31.121308+00:00",
+  "checked_at": "2026-10-28T08:37:54.352213+00:00",
   "profiles": [
     [
       "chromium",
@@ -684,8 +684,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -994,8 +993,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1150,8 +1148,7 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1293,7 +1290,7 @@
       "result": "pass"
     }
   ],
-  "passed": 133,
+  "passed": 136,
   "total": 152,
   "issues": [
     {
@@ -1371,15 +1368,6 @@
     {
       "engine": "firefox",
       "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
@@ -1416,15 +1404,6 @@
     {
       "engine": "webkit",
       "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
@@ -1439,15 +1418,6 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "work.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
