@@ -369,3 +369,54 @@
 @media screen {
   body.bh-body .bh-hero h1 .bh-name { display:block!important; }
 }
+
+/* Homepage career headline and resume-skill preview; seven-token palette only. */
+@media screen {
+  body.bh-body .kh-hero-skill-preview {
+    display:flex!important;align-items:center;flex-wrap:wrap;
+    gap:8px;margin:20px 0 18px;
+    font-family:var(--font-code)!important;
+  }
+  body.bh-body .kh-hero-skill-preview span,
+  body.bh-body .kh-hero-skill-preview a {
+    display:inline-flex;align-items:center;
+    min-height:32px;padding:7px 11px;
+    background:#141414!important;
+    border:1px solid #3B3324!important;
+    border-radius:999px;
+    font:500 12px/1.3 var(--font-code)!important;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+    text-decoration:none!important;
+  }
+  body.bh-body .kh-hero-skill-preview a {
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
+  }
+  body.bh-body .kh-hero-skill-preview a:hover,
+  body.bh-body .kh-hero-skill-preview a:focus-visible {
+    border-color:#D4AF65!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .kh-resume-skills-intro {
+    max-width:62ch;margin:8px 0 22px;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+    font:400 17px/1.6 var(--font-body)!important;
+  }
+  body.bh-body .kh-resume-skill-grid article {
+    background:#141414!important;border:1px solid #3B3324!important;
+    border-radius:14px;padding:22px;
+  }
+  body.bh-body .kh-resume-skill-grid article h4 {
+    font:600 clamp(18px,1.5vw,24px)/1.32 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .kh-resume-skill-grid article p {
+    font:400 clamp(15px,1.1vw,17px)/1.65 var(--font-body)!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+  }
+  @media(max-width:640px) {
+    body.bh-body .kh-hero-skill-preview {margin:14px 0 16px;gap:6px;}
+    body.bh-body .kh-hero-skill-preview span,
+    body.bh-body .kh-hero-skill-preview a {font-size:11px!important;padding:6px 9px;}
+    body.bh-body .kh-resume-skill-grid {grid-template-columns:1fr!important;}
+  }
+}
