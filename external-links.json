@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T08:15:10.580094+00:00",
+  "checked_at": "2026-10-28T08:15:35.114628+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 72155,
+      "bytes": 75043,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 19570,
+      "bytes": 21127,
       "ok": true
     },
     {
@@ -34,7 +34,7 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 20523,
+      "bytes": 20577,
       "ok": true
     },
     {
@@ -294,6 +294,7 @@
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
       "pages": [
         "cases/commercelens.html",
+        "commercelens-demo.html",
         "index.html",
         "work.html"
       ],
@@ -467,7 +468,7 @@
       "result": "ok"
     },
     {
-      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399",
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756",
       "pages": [
         "cases/foodbridge.html"
       ],
@@ -603,6 +604,7 @@
       "pages": [
         "cases/mobilitypulse.html",
         "index.html",
+        "mobilitypulse-explorer.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -705,9 +707,47 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/VERIFIED_RESULTS.md",
+      "pages": [
+        "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/tree/main/tests",
       "pages": [
         "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
+      "pages": [
+        "cases/docsight.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/actions",
+      "pages": [
+        "cases/docsight.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/blob/main/docs/MODEL_CARD.md",
+      "pages": [
+        "cases/docsight.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -1200,6 +1240,16 @@
       "result": "ok"
     },
     {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/main/assets/01-product-preview.svg",
+      "pages": [
+        "cases/docsight.html",
+        "index.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./main/docs/visuals/system-architecture.svg",
       "pages": [
         "cases/transactionshield.html"
@@ -1244,7 +1294,7 @@
     }
   ],
   "external_counts": {
-    "ok": 117,
+    "ok": 122,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
