@@ -76,6 +76,9 @@ def check():
     readiness = (ROOT / "portfolio-readiness.html").read_text(encoding="utf-8")
     assert readiness.count('class="kh-ready-section"') == 5
     assert readiness.count('class="kh-ready-status"') == 32
+    assert readiness.count('class="kh-ready-expand"') == 7
+    assert "36 technical checks for portfolio projects." in readiness
+    assert "Complete project case-study template — 19 review fields" in readiness
     assert "32 practical requirements" in readiness
     assert "Verify repositories" in readiness and "Security review" in readiness
     assert "not proof of a working production deployment" in readiness
