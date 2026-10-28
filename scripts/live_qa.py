@@ -14,6 +14,13 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
 PAGES=["","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
 PERF=["","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+# Release sentinels distinguish the current career release from an older HTTP-200 Pages version.
+CURRENT_RELEASE_MARKERS={
+    "index.html":'id="career-12"',
+    "career-portfolio.html":'id="twelve-elements"',
+    "resume.html":'class="kh-resume-screen"',
+    "data-analyst-resume.html":'class="kh-resume-screen"',
+}
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -72,7 +79,23 @@ def check_links(out):
     for p in PAGES:
         try:
             r=requests.get(BASE+p,timeout=22,headers={"User-Agent":"KHPortfolio-QA"})
-            live.append({"page":p or "index.html","status":r.status_code,"bytes":len(r.content),"ok":r.status_code==200})
+            page_name=p or "index.html"
+            expected=CURRENT_RELEASE_MARKERS.get(page_name)
+            # Cache-busting/retry only for release-specific pages. A public 200
+            # without current content is not a passing deployment check.
+            release_ok=(expected is None or expected in r.text) and r.status_code==200
+            if expected and not release_ok:
+                for _ in range(4):
+                    time.sleep(8)
+                    try:
+                        r=requests.get(BASE+p+"?kh-release="+str(os.environ.get("GITHUB_SHA","20261028")),timeout=22,headers={"User-Agent":"KHPortfolio-QA","Cache-Control":"no-cache"})
+                        release_ok=r.status_code==200 and expected in r.text
+                        if release_ok: break
+                    except requests.RequestException:
+                        pass
+            live.append({"page":page_name,"status":r.status_code,"bytes":len(r.content),
+                         "ok":r.status_code==200 and release_ok,
+                         "current_release_marker":release_ok if expected else None})
         except requests.RequestException as e:
             live.append({"page":p or "index.html","ok":False,"error":str(e)[:170]})
     summary={k:sum(x["result"]==k for x in external) for k in ("ok","broken","unknown","http-error")}
@@ -348,7 +371,8 @@ def browser_qa(out):
                             res["result"]="pass"
                             if (engine,label,path) in [
                                ("chromium","desktop",""),("chromium","mobile",""),("chromium","tablet","work.html"),
-                               ("chromium","mobile","contact.html"),("webkit","mobile",""),
+                               ("chromium","mobile","contact.html"),("chromium","desktop","career-portfolio.html"),
+                               ("chromium","mobile","career-portfolio.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
                                ("webkit","mobile","profile.html"),("firefox","desktop","cases/demandpilot.html")]:
                                 file=engine+"-"+label+"-"+(path.replace("/","-") or "home")+".png"
                                 page.screenshot(path=str(shots/file),full_page=True,animations="disabled",timeout=20000)
@@ -417,7 +441,7 @@ def main():
     lines=["# Portfolio verification results","",
       "Generated UTC: "+NOW(),"",
       "## Direct checks",
-      "- Live URL HTTP 200: "+str(sum(x["ok"] for x in links["live_pages"]))+"/"+str(len(links["live_pages"])),
+      "- Live and current-release URL checks: "+str(sum(x["ok"] for x in links["live_pages"]))+"/"+str(len(links["live_pages"])),
       "- External links: "+str(counts["ok"])+" reachable; "+str(counts["broken"])+" broken; "+str(counts["unknown"])+" access-limited/unknown; "+str(counts["http-error"])+" HTTP errors",
       "- Chromium, Firefox and WebKit viewport tests: "+str(dev["passed"])+"/"+str(dev["total"])+" passed",
       "- Live site load under 3 seconds (p75 for every critical URL, desktop and simulated 4G mobile): "+("PASS" if perf["target_met"] else "FAIL / NOT VERIFIED"),"",
