@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:50:06.715619+00:00",
+  "checked_at": "2026-10-28T08:52:29.125712+00:00",
   "profiles": [
     [
       "chromium",
@@ -678,7 +678,7 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Work filter incorrect"
+      "reason": "Work Data filter did not settle: visible=7, selected=false"
     },
     {
       "engine": "firefox",
@@ -1286,7 +1286,7 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Work filter incorrect"
+      "reason": "Work Data filter did not settle: visible=7, selected=false"
     }
   ]
 }
