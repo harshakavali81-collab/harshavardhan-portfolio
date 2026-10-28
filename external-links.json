@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:28:17.265308+00:00",
+  "checked_at": "2026-10-28T08:29:09.597692+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -312,7 +312,25 @@
       "result": "unknown"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/blob/main/docs/OPERATIONS.md",
+      "pages": [
+        "cases/commercelens.html"
+      ],
+      "via": "github-file-api",
+      "status": 403,
+      "result": "unknown"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/blob/main/docs/PORTFOLIO_CASE_STUDY.md",
+      "pages": [
+        "cases/commercelens.html"
+      ],
+      "via": "github-file-api",
+      "status": 403,
+      "result": "unknown"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/blob/main/docs/SECURITY.md",
       "pages": [
         "cases/commercelens.html"
       ],
@@ -1440,7 +1458,7 @@
   "external_counts": {
     "ok": 34,
     "broken": 0,
-    "unknown": 104,
+    "unknown": 106,
     "http-error": 0
   }
 }
