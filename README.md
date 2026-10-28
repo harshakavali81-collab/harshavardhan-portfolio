@@ -1,5 +1,19 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## Recruiter-ready portfolio quality checklist · 28 October 2026
+
+The main website now includes an [evidence-led 32-point job portfolio checklist](portfolio-readiness.html) covering career identity (6 requirements), project proof (7), software engineering/security (7), website quality/accessibility (6), and hiring/interview readiness (6). Every item provides a linked inspection path; terms such as **Review**, **Verify repositories**, and **Security review** are intentionally *not* described as passing attestations.
+
+The homepage has a regression fix for a legacy **white statistics bar** and an oversized HR headline. The retained site palette is only **black #080808 and gold #d4af37** on screen.
+
+The contact form uses three independent handoff paths:
+1. Primary: open a **mailto:** message with your configured email app.
+2. Optional: open signed-in Gmail with the `view=cm&fs=1` web-compose query.
+3. Fallback: copy the full prepared message, with a selectable manual-copy field when clipboard access fails.
+
+There is no backend mail sender, so website interactions cannot independently send or deliver messages. The contact page makes this limitation clear. The owner must sign in to Gmail or configure an email app to send.
+
+
 ## Final owner-selected two-color theme · 28 October 2026
 
 The site owner explicitly selected **exactly two theme colors: dark black (`#080808`) and gold (`#D4AF37`)**. The final `@media screen` cascade in `assets/portfolio-upgrade.css` overrides older metallic, charcoal, champagne, blue and light accents. The source retains established structure, 31 GitHub project links, two PDF resumes, all twelve career elements and the recruiter navigation.
