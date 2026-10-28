@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T07:45:06.079713+00:00",
+  "checked_at": "2026-10-28T07:45:37.823428+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 58106,
+      "bytes": 60578,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 11144,
+      "bytes": 12393,
       "ok": true
     },
     {
@@ -771,35 +771,7 @@
       "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
       "pages": [
         "hiring.html",
-        "index.html",
         "profile.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity",
-      "pages": [
-        "recruiter.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity",
-      "pages": [
-        "contact.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan",
-      "pages": [
-        "index.html"
       ],
       "via": "http",
       "status": 200,
@@ -815,9 +787,45 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan",
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity&tf=cm",
       "pages": [
         "recruiter.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
+      "pages": [
+        "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity&tf=cm",
+      "pages": [
+        "contact.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
+      "pages": [
+        "recruiter.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
+      "pages": [
+        "index.html"
       ],
       "via": "http",
       "status": 200,
@@ -922,7 +930,7 @@
     }
   ],
   "external_counts": {
-    "ok": 83,
+    "ok": 84,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
