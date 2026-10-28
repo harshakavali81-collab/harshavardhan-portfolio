@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:18:00.576032+00:00",
+  "checked_at": "2026-10-28T08:18:22.328501+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -138,8 +138,8 @@
         "resumes.html"
       ],
       "via": "github-user-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
@@ -147,8 +147,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
@@ -158,8 +158,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant/blob/main/docs/VALIDATION.md",
@@ -168,8 +168,8 @@
         "engineering.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
@@ -179,8 +179,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions",
@@ -188,8 +188,8 @@
         "airaware.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40649009601",
@@ -197,8 +197,8 @@
         "airaware.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/dashboard-preview.png",
@@ -206,8 +206,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/data-pipeline.png",
@@ -215,8 +215,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/model-evaluation.png",
@@ -224,8 +224,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/project-tree.png",
@@ -233,8 +233,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/project-workflow.png",
@@ -242,8 +242,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/system-architecture.png",
@@ -251,8 +251,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/HISTORICAL_BENCHMARK_RESULTS.md",
@@ -260,8 +260,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/RELEASE_ACCEPTANCE.md",
@@ -269,8 +269,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/VISUAL_GALLERY.md",
@@ -278,8 +278,8 @@
         "airaware.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/AstraSentinel-AI",
@@ -287,8 +287,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
@@ -299,8 +299,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/actions",
@@ -308,8 +308,8 @@
         "cases/commercelens.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/blob/main/docs/PORTFOLIO_CASE_STUDY.md",
@@ -317,8 +317,8 @@
         "cases/commercelens.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics",
@@ -326,8 +326,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL",
@@ -337,8 +337,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL/actions/runs/40654119940",
@@ -346,8 +346,8 @@
         "cases/big-data-clickstream.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL/actions/workflows/ci.yml",
@@ -355,8 +355,8 @@
         "cases/big-data-clickstream.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL/tree/main/warehouse",
@@ -364,8 +364,8 @@
         "cases/big-data-clickstream.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/CivicShield-AI",
@@ -373,8 +373,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
@@ -382,8 +382,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System",
@@ -391,8 +391,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project",
@@ -400,8 +400,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
@@ -412,8 +412,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/docs/model_card.md",
@@ -422,8 +422,8 @@
         "engineering.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
@@ -434,8 +434,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/README.md",
@@ -444,8 +444,8 @@
         "engineering.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
@@ -453,8 +453,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution",
@@ -464,8 +464,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756",
@@ -473,8 +473,8 @@
         "cases/foodbridge.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/blob/main/docs/FOOD_SAFETY_AND_ONBOARDING.md",
@@ -482,8 +482,8 @@
         "cases/foodbridge.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/blob/main/docs/RESERVATION_INTEGRITY.md",
@@ -491,8 +491,8 @@
         "cases/foodbridge.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
@@ -500,8 +500,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics",
@@ -511,8 +511,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics/blob/main/README.md",
@@ -520,8 +520,8 @@
         "cases/supportlens.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics/blob/main/docs/IMAGE_GALLERY.md",
@@ -529,8 +529,8 @@
         "cases/supportlens.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence",
@@ -542,8 +542,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence#quick-start-with-docker",
@@ -551,8 +551,8 @@
         "healthpulse-demo.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence/blob/main/docs/VALIDATION_PLAN.md",
@@ -560,8 +560,8 @@
         "healthpulse-worldbank.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence/tree/main/data/public",
@@ -569,8 +569,8 @@
         "healthpulse-worldbank.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo",
@@ -578,8 +578,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata",
@@ -587,8 +587,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project",
@@ -596,8 +596,8 @@
         "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence",
@@ -608,8 +608,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/actions",
@@ -617,8 +617,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/actions/workflows/ci.yml",
@@ -626,8 +626,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/blob/main/docs/MODEL_CARD.md",
@@ -635,8 +635,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/assets",
@@ -644,8 +644,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/backend",
@@ -653,8 +653,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/frontend",
@@ -662,8 +662,8 @@
         "cases/mobilitypulse.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
@@ -673,8 +673,8 @@
         "recruiter.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing",
@@ -685,8 +685,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/ARCHITECTURE.md",
@@ -694,8 +694,8 @@
         "inventoryiq-demo.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/MODEL_CARD.md",
@@ -703,8 +703,8 @@
         "cases/inventoryiq.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/VERIFIED_RESULTS.md",
@@ -712,8 +712,8 @@
         "cases/inventoryiq.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/tree/main/tests",
@@ -721,8 +721,8 @@
         "cases/inventoryiq.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
@@ -733,8 +733,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/actions",
@@ -742,8 +742,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/blob/main/README.md",
@@ -751,8 +751,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/blob/main/docs/MODEL_CARD.md",
@@ -760,8 +760,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
@@ -771,8 +771,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/actions",
@@ -780,8 +780,8 @@
         "cases/docsight.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/blob/main/docs/MODEL_CARD.md",
@@ -789,8 +789,8 @@
         "cases/docsight.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.",
@@ -801,8 +801,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./blob/main/docs/RESULTS.md",
@@ -811,8 +811,8 @@
         "engineering.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
@@ -821,8 +821,8 @@
         "profile.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI",
@@ -834,8 +834,8 @@
         "work.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/blob/main/README.md",
@@ -843,8 +843,8 @@
         "engineering.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/blob/main/docs/Interview_Explanation.md",
@@ -852,8 +852,8 @@
         "cases/zomato.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/document-qa-bot",
@@ -863,8 +863,8 @@
         "recruiter.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/runs/40648784183",
@@ -872,8 +872,8 @@
         "quality.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/live-qa.yml",
@@ -881,8 +881,8 @@
         "quality.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/site-quality.yml",
@@ -890,8 +890,8 @@
         "quality.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/main/scripts/live_qa.py",
@@ -899,8 +899,8 @@
         "quality.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/SUMMARY.md",
@@ -908,8 +908,8 @@
         "quality.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI",
@@ -918,8 +918,8 @@
         "index.html"
       ],
       "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://github.com/harshakavali81-collab?tab=repositories",
@@ -928,8 +928,8 @@
         "work.html"
       ],
       "via": "github-user-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/",
@@ -1221,8 +1221,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/data-pipeline.png",
@@ -1230,8 +1230,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/model-evaluation.png",
@@ -1239,8 +1239,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/project-tree.png",
@@ -1248,8 +1248,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/project-workflow.png",
@@ -1257,8 +1257,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/system-architecture.png",
@@ -1266,8 +1266,8 @@
         "airaware.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/main/reports/figures/evaluation.svg",
@@ -1275,8 +1275,8 @@
         "cases/demandpilot.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/01-streamwatch-cover.svg",
@@ -1285,8 +1285,8 @@
         "index.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/02-end-to-end-architecture.svg",
@@ -1295,8 +1295,8 @@
         "work.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/03-kafka-topic-topology.svg",
@@ -1304,8 +1304,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/04-event-data-contract.svg",
@@ -1313,8 +1313,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/05-feature-and-model-flow.svg",
@@ -1322,8 +1322,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/06-anomaly-score-timeline.svg",
@@ -1331,8 +1331,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/07-event-throughput.svg",
@@ -1340,8 +1340,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/08-latency-budget.svg",
@@ -1349,8 +1349,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/09-investigation-state-machine.svg",
@@ -1358,8 +1358,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/10-deployment-services.svg",
@@ -1367,8 +1367,8 @@
         "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/main/assets/01-product-preview.svg",
@@ -1377,8 +1377,8 @@
         "index.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./main/docs/visuals/system-architecture.svg",
@@ -1386,8 +1386,8 @@
         "cases/transactionshield.html"
       ],
       "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
+      "status": 403,
+      "result": "unknown"
     },
     {
       "url": "https://render.com/deploy?repo=https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
@@ -1425,9 +1425,9 @@
     }
   ],
   "external_counts": {
-    "ok": 136,
+    "ok": 34,
     "broken": 0,
-    "unknown": 1,
+    "unknown": 103,
     "http-error": 0
   }
 }

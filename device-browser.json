@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:19:18.117236+00:00",
+  "checked_at": "2026-10-28T08:19:39.529326+00:00",
   "profiles": [
     [
       "chromium",
@@ -579,8 +579,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "resume.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
+      "scroll_width": 325,
+      "viewport_width": 325,
       "result": "pass"
     },
     {
