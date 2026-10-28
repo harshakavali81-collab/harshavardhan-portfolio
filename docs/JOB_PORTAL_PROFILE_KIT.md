@@ -21,6 +21,7 @@
 | Preferred locations | Hyderabad first; Bengaluru also considered |
 | Skills | Python, SQL, MySQL, Excel, Power BI, Pandas, NumPy, EDA, Data Cleaning, Dashboards, scikit-learn, NLP, Git, GitHub |
 | Work mode / joining date / numeric salary | Confirm when applying; do not promise unverified availability or pay |
+| Phone | 8008273318 |
 | Email | kavaliharshavardhan98@gmail.com |
 | Portfolio | https://harshakavali81-collab.github.io/harshavardhan-portfolio/ |
 | GitHub | https://github.com/harshakavali81-collab |
@@ -48,6 +49,7 @@ I'm interested in Data Analyst, BI Analyst, Python Developer, Junior Software En
 
 Portfolio: https://harshakavali81-collab.github.io/harshavardhan-portfolio/
 GitHub: https://github.com/harshakavali81-collab
+Phone: +91 8008273318
 
 ### Experience — internship entry
 
