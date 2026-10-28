@@ -79,6 +79,8 @@ The homepage highlights five substantial projects. Each case study includes **pr
 
 The figures above are not customer improvements, commercial ROI, or independently validated production accuracy. Team size and project timelines are shown as unavailable where not publicly documented. All case studies link to their corresponding source and technical records.
 
+| AirAware AI expanded case study | [View charts, benchmark evidence and GitHub source](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware.html) |
+
 ## Verified resume details
 
 - **B.Tech:** CMR Institute of Technology, Hyderabad, ECE, 2021–2025, CGPA **7.02/10**
