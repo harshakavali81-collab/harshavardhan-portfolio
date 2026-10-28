@@ -270,6 +270,19 @@ def browser_qa(out):
                                     return cards.length >= 5 && cards.every(c=>!c.hasAttribute('hidden'));
                                 }""", timeout=5000)
                             if path=="":
+                                stats=page.locator(".bh-stats")
+                                if stats.count()!=1:
+                                    raise AssertionError("Homepage facts strip missing")
+                                colors=stats.evaluate("""e => {
+                                    const cs=getComputedStyle(e);
+                                    const first=getComputedStyle(e.querySelector('.bh-stat strong'));
+                                    return [cs.backgroundColor,first.color]
+                                }""")
+                                if colors!=["rgb(8, 8, 8)","rgb(212, 175, 55)"]:
+                                    raise AssertionError("Two-color homepage statistics strip regression: "+str(colors))
+                                if page.locator("#recruiter-contact a[href^='tel:']").count()!=1:
+                                    raise AssertionError("Recruiter direct phone shortcut missing")
+                            if path=="":
                                 page.locator("button[data-role='Data Analyst']").click()
                                 if "data-analyst-resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
                                     raise AssertionError("Data Analyst role routing")
@@ -330,7 +343,7 @@ def browser_qa(out):
                             if path=="contact.html":
                                 if page.locator("form#mail-form").count()!=1:
                                     raise AssertionError("Contact form missing")
-                                if page.locator("a[href*='mail.google.com/mail/u/0/']").count()<1:
+                                if page.locator("a[href*='mail.google.com/mail/?']").count()<1:
                                     raise AssertionError("Optional direct Gmail compose link missing")
                                 if page.locator("a[href^='mailto:']").count()<1:
                                     raise AssertionError("Email app link missing")
@@ -355,7 +368,7 @@ def browser_qa(out):
                                 gmail_query=parse_qs(urlsplit(popup.url).query)
                                 if gmail_query.get("to")!=["kavaliharshavardhan98@gmail.com"]:
                                     raise AssertionError("Gmail draft recipient incorrect")
-                                if gmail_query.get("tf")!=["cm"]:
+                                if gmail_query.get("view")!=["cm"] or gmail_query.get("fs")!=["1"]:
                                     raise AssertionError("Gmail compose routing missing")
                                 if "Portfolio QA" not in gmail_query.get("su", [""])[0]:
                                     raise AssertionError("Gmail draft subject missing sender")
