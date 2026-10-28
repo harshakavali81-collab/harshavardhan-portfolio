@@ -228,3 +228,139 @@
   @media(prefers-reduced-motion:reduce){body.bh-body :is(.bh-feature,.bh-project){transition:none!important;transform:none!important}}
 }
 /* end canonical seven-color theme */
+
+/* Seven-color specification v2 — consistent 64/36/24/17/15/13 type scale.
+   Screen-only to preserve accessible printed resumes. Loaded after legacy themes. */
+@media screen {
+  :root {
+    --color-background:#090909!important;
+    --color-surface:#141414!important;
+    --color-gold:#D4AF65!important;
+    --color-champagne:#E6D6AF!important;
+    --color-heading:#F5F0E6!important;
+    --color-body:#B8B4AC!important;
+    --color-border:#3B3324!important;
+    --font-heading:"Manrope",sans-serif!important;
+    --font-body:"Inter",sans-serif!important;
+    --font-code:"JetBrains Mono",monospace!important;
+    --aqua:#D4AF65!important;--mint:#D4AF65!important;
+    --blue:#D4AF65!important;--yellow:#D4AF65!important;
+    --obsidian:#090909!important;--black:#090909!important;
+    --black-card:#141414!important;--champagne:#E6D6AF!important;
+    --light-gold:#E6D6AF!important;--gold-mid:#D4AF65!important;
+    --gold-deep:#D4AF65!important;--bronze:#3B3324!important;
+    --platinum:#F5F0E6!important;--muted-gold:#B8B4AC!important;
+    --lux-border:#3B3324!important;--lux-shadow:none!important;
+    --metal:linear-gradient(115deg,#D4AF65,#E6D6AF,#D4AF65)!important;
+    --metal-soft:linear-gradient(115deg,#D4AF65,#E6D6AF)!important;
+    --shadow:none!important;
+  }
+  html,body,body.light,body.bh-body,body.bh-interior,body.kh-dossier,
+  body.kh-ready,body.kh-certs,body.kh-resume-screen,body.kh-flagship-body,
+  body.kh-feature-case {
+    background:#090909!important;background-color:#090909!important;
+    background-image:none!important;color:#B8B4AC!important;
+    font-family:var(--font-body)!important;color-scheme:dark!important;
+  }
+  body :is(main,section,article,aside,header,footer,nav):not(.bh-feature-art):not(.bh-project-art) {
+    border-color:#3B3324;
+  }
+  body :is(h1,h2,h3,h4,h5,h6) {
+    font-family:var(--font-heading)!important;
+    letter-spacing:-.025em!important;text-transform:none!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    background-image:none!important;text-shadow:none!important;
+    filter:none!important;
+  }
+  body :is(.bh-hero h1,.hero h1,.kh-hero h1) {
+    font-size:clamp(2.5rem,5.1vw,64px)!important;
+    font-weight:700!important;line-height:1.12!important;
+  }
+  body :is(.bh-hero h1 .bh-name,.bh-hero h1 .gold-text,.hero h1 .gold-text,.gold-text,.accent-text) {
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
+  }
+  body :is(.bh-section h2,.section h2,.content h2,.bh-section-head h2) {
+    font:600 clamp(1.8rem,3vw,36px)/1.22 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body :is(.bh-project h3,.bh-feature h3,.project-card h3,.case-card h3,.card h3,.bh-project-title) {
+    font:600 clamp(1.25rem,1.65vw,24px)/1.35 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body :is(main p,main li,main dd,main blockquote,main figcaption,.bh-lead,.bh-feature-content p,.bh-project p,.kh-intro) {
+    font-family:var(--font-body)!important;
+    font-size:clamp(15px,1.1vw,17px)!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+    text-shadow:none!important;
+  }
+  body :is(.bh-eyebrow,.bh-kicker,.bh-feature-type,.bh-project-category,.eyebrow,.kicker,.overline,.chip,.tag,.badge,.meta,.technical-label,code,kbd) {
+    font-family:var(--font-code)!important;
+    font-size:13px!important;letter-spacing:.045em!important;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body :is(.bh-nav a,.topbar nav a,.navlinks a,header nav a) {
+    font:500 15px/1.45 var(--font-body)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body :is(.bh-nav a,.topbar nav a,.navlinks a,header nav a):hover,
+  body :is(.bh-nav a,.topbar nav a,.navlinks a,header nav a)[aria-current="page"] {
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body :is(main a:not(.btn):not(.bh-button):not(.button),footer a) {
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
+  }
+  body :is(main a:not(.btn):not(.bh-button):not(.button),footer a):hover {
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body :is(.bh-button-primary,.bh-nav-cta,.btn.prime,.btn.primary,.button.primary,.primary-button,[data-variant="primary"]) {
+    background:#D4AF65!important;background-image:none!important;
+    border:1px solid #D4AF65!important;color:#090909!important;
+    -webkit-text-fill-color:#090909!important;
+    font:600 15px/1.45 var(--font-body)!important;
+  }
+  body :is(.bh-button-primary,.bh-nav-cta,.btn.prime,.btn.primary,.button.primary,.primary-button,[data-variant="primary"]):hover {
+    background:#E6D6AF!important;border-color:#E6D6AF!important;
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+  }
+  body :is(.bh-button-primary,.bh-nav-cta,.btn.prime,.btn.primary,.button.primary,.primary-button) :is(span,strong,svg) {
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+  }
+  body :is(.bh-button:not(.bh-button-primary),.btn:not(.prime):not(.primary),.secondary-button,.filterbar button) {
+    background:#141414!important;background-image:none!important;
+    border:1px solid #3B3324!important;color:#F5F0E6!important;
+    -webkit-text-fill-color:#F5F0E6!important;
+    font:500 15px/1.45 var(--font-body)!important;
+  }
+  body :is(.filterbar button[aria-pressed="true"],.filterbar button[aria-selected="true"],.filterbar button.active) {
+    background:#D4AF65!important;border-color:#D4AF65!important;
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+  }
+  body :is(.bh-feature,.bh-project,.case-card,.project-card,.card,.panel,.kh-proof-card,.kh-ready-card,.kh-profile-card,.kh-hobby-card,.kh-spec,.bh-window,.bh-mini-panel,.bh-demo-card,.bh-about-panel,.bh-stack-panel,.bh-resource,.kh-role-finder,.kh-recruiter-strip) {
+    background:#141414!important;background-image:none!important;
+    border-color:#3B3324!important;box-shadow:none!important;
+  }
+  body :is(.bh-feature-art,.bh-project-art,.project-art,.visual,.bh-visual) {
+    background:#141414!important;background-image:none!important;
+    border-color:#3B3324!important;
+  }
+  body :is(input,textarea,select) {
+    background:#141414!important;color:#F5F0E6!important;
+    -webkit-text-fill-color:#F5F0E6!important;border-color:#3B3324!important;
+    font-family:var(--font-body)!important;
+  }
+  body :is(input,textarea)::placeholder {
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+  }
+  body :is(a,button,input,textarea,select,summary):focus-visible {
+    outline:2px solid #D4AF65!important;outline-offset:3px!important;
+  }
+  body :is(hr,.divider,.bh-rule,.separator) {border-color:#3B3324!important;}
+  @media(max-width:600px) {
+    body :is(.bh-hero h1,.hero h1,.kh-hero h1) {font-size:clamp(2.3rem,9vw,3.5rem)!important;}
+  }
+  @media(prefers-reduced-motion:reduce) {
+    body :is(.bh-feature,.bh-project,.case-card,.card,.btn,.bh-button) {
+      animation:none!important;transition:none!important;transform:none!important;
+    }
+  }
+}
