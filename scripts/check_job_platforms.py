@@ -22,3 +22,26 @@ assert '## 8. Complete projects and recruiter profile center' in text("docs/JOB_
 links=re.findall(r'class="btn source" href="([^"]+)"',page)
 assert len(links)==31 and len(set(links))==31
 print("Profile center: 3 platforms, 31 project cards, 16 additional READMEs, 31 unique GitHub links")
+
+# LinkedIn recruiter project center: prominent navigation, copy-ready entries and
+# explicit disclosure that this site does not write to the member's account.
+showcase=text("linkedin-projects.html")
+setup=text("linkedin-setup.html")
+assert showcase.count('class="project-card"')==15
+assert showcase.count('<li data-search=')==31
+assert showcase.count('class="primary-link"')==15
+assert 'id="search"' in showcase and 'id="project-grid"' in showcase
+assert 'data-filter="All"' in showcase
+assert 'href="linkedin-setup.html"' in showcase
+assert 'href="assets/luxury-theme.css"' in showcase
+assert '<strong>31</strong>' in showcase
+assert setup.count('class="project"')==15
+assert setup.count('data-copy="project-')==15
+assert 'navigator.clipboard.writeText' in setup
+assert 'does not sign in to or update LinkedIn' in setup
+assert 'Activity → Posts' in setup
+assert 'href="assets/luxury-theme.css"' in setup
+for f in ("index.html","work.html","README.md"):
+    assert "linkedin-setup.html" in text(f), f
+assert "## 13. Ready-to-publish LinkedIn portfolio launch post" in text("docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md")
+print("LinkedIn setup: 15 copy-ready projects, 31 GitHub source entries, navigation, controls and disclosure verified")
