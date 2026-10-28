@@ -256,7 +256,10 @@ def browser_qa(out):
                                     "() => document.documentElement.dataset.workFiltersReady === 'true'",
                                     timeout=5000)
                                 data_filter=page.locator("button[data-filter='Data']")
-                                data_filter.click()
+                                if engine=="webkit" and label=="mobile":
+                                    data_filter.tap()
+                                else:
+                                    data_filter.click()
                                 try:
                                     page.wait_for_function("""() => {
                                       const selected = document.querySelector('[data-filter="Data"]');
@@ -277,7 +280,10 @@ def browser_qa(out):
                                     })""")
                                     raise AssertionError(
                                         f"Work Data filter did not settle: visible={visible}, selected={pressed}, details={diagnostics}")
-                                page.locator("button[data-filter='All']").click()
+                                if engine=="webkit" and label=="mobile":
+                                    page.locator("button[data-filter='All']").tap()
+                                else:
+                                    page.locator("button[data-filter='All']").click()
                                 page.wait_for_function("""() => {
                                     const cards=[...document.querySelectorAll('.case-card')];
                                     return cards.length >= 5 && cards.every(c=>!c.hasAttribute('hidden'));
