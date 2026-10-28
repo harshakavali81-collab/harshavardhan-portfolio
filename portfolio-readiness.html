@@ -52,6 +52,16 @@
  }
  @media(max-width:410px){.kh-ready-counts{grid-template-columns:minmax(0,1fr)}}
 }
+
+ .kh-ready-standards{border:1px solid #d4af37;border-radius:14px;padding:22px;margin:35px 0}
+ .kh-ready-standards h2{font:650 clamp(1.4rem,3vw,2rem)/1.2 'Space Grotesk','DM Sans',sans-serif!important;margin:12px 0}
+ .kh-ready-standards p{font-size:14px;max-width:850px}
+ .kh-ready-expand{border:1px solid #d4af37;border-radius:8px;margin:11px 0;background:#080808!important;padding:8px 13px}
+ .kh-ready-expand summary{font-weight:750;cursor:pointer;min-height:36px;display:list-item;list-style:disclosure-closed inside}
+ .kh-ready-expand[open] summary{list-style:disclosure-open inside}
+ .kh-ready-expand ol{margin:12px 0 10px;padding-left:24px;columns:2;column-gap:35px}
+ .kh-ready-expand li{font-size:13px;line-height:1.6;margin:5px 0;break-inside:avoid}
+ @media(max-width:620px){.kh-ready-expand ol{columns:1}}
 </style></head>
 <body class="bh-interior kh-ready">
 <a class="skip" href="#main">Skip to requirements</a>
@@ -109,6 +119,18 @@
 <li><div><strong>Use only substantiated metrics</strong><p>Never fabricate model accuracy, cost savings or user counts.</p></div><div class="kh-ready-action"><span class="kh-ready-status">Published policy</span><a href="evidence.html">Inspect evidence ↗</a></div></li>
 <li><div><strong>Defend listed skills in interviews</strong><p>Match your profile to skills you can demonstrate.</p></div><div class="kh-ready-action"><span class="kh-ready-status">Practice</span><a href="profile.html#skills">Inspect evidence ↗</a></div></li>
 <li><div><strong>Tailor the portfolio to each role</strong><p>Choose role-relevant evidence and resume before applying.</p></div><div class="kh-ready-action"><span class="kh-ready-status">Available</span><a href="proof-map.html">Inspect evidence ↗</a></div></li></ol>
+</section>
+<section class="kh-ready-standards" id="technical-standards" aria-labelledby="tech-title">
+<div class="kh-ready-eyebrow">DETAILED TECHNICAL STANDARD · REFERENCE, NOT CERTIFICATION</div>
+<h2 id="tech-title">36 technical checks for portfolio projects.</h2>
+<p>These are criteria to examine in the actual repositories. The list does <strong>not</strong> mean that all 31 repositories have passed every test, or that authentication, Docker or cloud services are mandatory for simple notebooks.</p>
+<details class="kh-ready-expand"><summary>1. Programming fundamentals — six checks</summary><ol><li>A programming language used competently</li><li>Functions, classes, modules and data structures where relevant</li><li>Readable code with sensible naming</li><li>Git and version control</li><li>Basic algorithms and time complexity for software roles</li><li>Input validation and error handling</li></ol></details>
+<details class="kh-ready-expand"><summary>2. Application engineering — six checks</summary><ol><li>A working frontend, backend or analytical workflow appropriate to the role</li><li>API and HTTP fundamentals for web applications</li><li>Database design and SQL query skills</li><li>Separate configuration from application code</li><li>Dependency and environment management</li><li>Clear component and architecture boundaries</li></ol></details>
+<details class="kh-ready-expand"><summary>3. Quality and reliability — six checks</summary><ol><li>Automated tests for important behavior</li><li>Manual walkthroughs of critical user flows</li><li>Expected handling for invalid inputs and failures</li><li>Reproducible setup documentation</li><li>No dead navigation or controls</li><li>Documented current limitations</li></ol></details>
+<details class="kh-ready-expand"><summary>4. Deployment and operations — six checks</summary><ol><li>Local installation instructions</li><li>Live deployment or honest alternative demo evidence</li><li>Environment variables for deployment-specific configuration</li><li>Clear service start commands</li><li>Relevant logs and monitoring notes</li><li>CI automated checks where appropriate</li></ol></details>
+<details class="kh-ready-expand"><summary>5. Security and privacy — six checks</summary><ol><li>No committed keys, credentials or private tokens</li><li>Sanitized environment-variable example files</li><li>Safe handling of uploads and user input</li><li>Authentication and authorization where needed</li><li>Minimal data collection and privacy-conscious logging</li><li>Reviewed dependencies and basic security precautions</li></ol></details>
+<details class="kh-ready-expand"><summary>6. Professional presentation — six checks</summary><ol><li>Accurate README and project summary</li><li>Real screenshots, demos and results</li><li>Working resume and repository links</li><li>Consistent LinkedIn, GitHub, resume and portfolio wording</li><li>Accessible, mobile-responsive layout</li><li>No fabricated metrics, testimonials or employment claims</li></ol></details>
+<details class="kh-ready-expand"><summary>Complete project case-study template — 19 review fields</summary><p>For featured projects, disclose the relevant fields rather than adding empty sections to every repository.</p><ol><li>Project title</li><li>Business problem</li><li>Objective</li><li>Target users</li><li>Individual contribution</li><li>Tech stack</li><li>Core features</li><li>Architecture</li><li>Workflow</li><li>Data source and license</li><li>Screenshots</li><li>Working demo or alternate evidence</li><li>Source code</li><li>Testing</li><li>Measured performance</li><li>Security considerations</li><li>Known limitations</li><li>Future improvements</li><li>Reproducibility</li></ol></details>
 </section>
 <section class="kh-ready-note" aria-labelledby="proof-policy"><h2 id="proof-policy">How to interpret this evidence</h2>
 <p><strong>Published</strong> means a portfolio page or link can be inspected, not that every external service or claim has been independently certified. <strong>Verify repositories / Security review / Practice</strong> identify checks for the candidate and reviewer. Projects built with synthetic data, local-only services, or pending credentials remain demonstrations, not production services.</p>
