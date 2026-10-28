@@ -1,8 +1,8 @@
 # Career portfolio regression report
 
-Source commit: 314e75edd722be67e3542fd2b2ae1fb6984b76ec
+Source commit: ef8b014c79d2f824a6236d0bb3e7bef454e398dc
 
-Generated UTC: 2026-10-28T14:35:24Z
+Generated UTC: 2026-10-28T14:35:46Z
 
 | Check | Result |
 |---|---|
