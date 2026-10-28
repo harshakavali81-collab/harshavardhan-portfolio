@@ -18,7 +18,7 @@ The portfolio's new [credential overview](../certificates.html) summarizes seven
 
 **Resume-aligned Featured links:** [Zomato Insights Dashboard](https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI), [Multilingual Knowledge Platform](https://github.com/harshakavali81-collab/Multilingual-Project), [Document Q&A/RAG Bot](https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant), [31-project gallery](../linkedin-projects.html), [two PDFs](../resumes.html).
 
-**Education:** B.Tech ECE, CMR Institute of Technology (2021–2025); Intermediate at Sri Sathya Sai Junior College (2019–2021); SSC at AP Model School (2019). The current role-specific resumes use CGPA **7.02/10**; the older general resume has a different figure, so confirm against the official transcript before completing forms.
+**Education:** B.Tech ECE, CMR Institute of Technology (2021–2025); Intermediate at Sri Sathya Sai Junior College (2019–2021); SSC at AP Model School (2019). The current role-specific resumes use CGPA **7.03/10**; the older general resume has a different figure, so confirm against the official transcript before completing forms.
 
 **Other details:** Self-reported hobbies include reading, games, films, news and sports; older resume describes NSS and Street Cause Hyderabad involvement, but supporting service records were not supplied. The user is an IT fresher seeking Hyderabad or Bengaluru opportunities and may discuss relocation.
 
@@ -37,7 +37,7 @@ The portfolio's new [credential overview](../certificates.html) summarizes seven
 | Qualification | B.Tech, Electronics and Communication Engineering |
 | Institute | CMR Institute of Technology, Hyderabad |
 | Graduation | 2025 |
-| CGPA | 7.02 / 10 |
+| CGPA | 7.03/10 |
 | Relevant full-time IT work experience | Fresher / no full-time IT role reported |
 | Internship | Python Intern, Edugene Technologies, February–August 2025 |
 | Preferred entry-level roles | Data Analyst, BI Analyst, Python Developer, Software Engineer, Junior AI/ML Engineer, Junior QA |
@@ -89,7 +89,7 @@ Phone: +91 8008273318
 
 CMR Institute of Technology, Hyderabad  
 B.Tech, Electronics and Communication Engineering  
-2021 – 2025 | CGPA: 7.02 / 10
+2021 – 2025 | CGPA: 7.03/10
 
 ### Skills (pin most relevant first)
 
