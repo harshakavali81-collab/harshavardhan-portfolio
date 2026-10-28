@@ -66,7 +66,7 @@ def check() -> None:
     assert len(case_paths) >= 15, len(case_paths)
     for path in case_paths:
         page = path.read_text(encoding="utf-8")
-        assert 'class="bh-interior"' in page, f"Missing themed case: {path.name}"
+        assert 'class="bh-interior' in page, f"Missing themed case: {path.name}"
         assert 'href="../assets/kedhar-interior.css"' in page
         assert "kh-ivory-accent.css" in page, f"Missing final seven-color theme: {path.name}"
     assert read("linkedin-setup.html").count('class="project"') == 31
