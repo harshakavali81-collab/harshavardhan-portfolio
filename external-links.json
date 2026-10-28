@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:46:20.149013+00:00",
+  "checked_at": "2026-10-28T07:46:38.723987+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -919,24 +919,6 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
-      "pages": [
-        "hiring.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan",
-      "pages": [
-        "hiring.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity&tf=cm",
       "pages": [
         "recruiter.html"
@@ -964,6 +946,15 @@
       "result": "ok"
     },
     {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan&tf=cm",
+      "pages": [
+        "hiring.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
       "pages": [
         "recruiter.html"
@@ -975,6 +966,7 @@
     {
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
       "pages": [
+        "hiring.html",
         "index.html",
         "profile.html"
       ],
@@ -1081,7 +1073,7 @@
     }
   ],
   "external_counts": {
-    "ok": 100,
+    "ok": 99,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
