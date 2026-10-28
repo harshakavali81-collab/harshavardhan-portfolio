@@ -305,3 +305,222 @@ footer,.footer{color:#b5aa99!important;border-color:#4c3e2a!important}
   .kh-profile-card p,.kh-profile-card li{color:#222!important}
   .kh-profile-card h3{color:#111!important}
 }
+
+
+/* LIGHT GOLD EDITION 2026 — refined-light-theme */
+/*
+  The gallery and profile use gentle ivory surfaces, charcoal ink and restrained
+  antique-gold accents. Original CSS remains above for selector compatibility
+  and the established portfolio regression tests; these overrides define the
+  public visual design. No fake metallic glows, no dark page backgrounds.
+*/
+:root {
+  color-scheme: light;
+  --bg:#faf9f6;
+  --panel:#ffffff;
+  --panel2:#f7f4ee;
+  --surface:#ffffff;
+  --surface2:#f7f4ee;
+  --stroke:#e5ded2;
+  --line:#e5ded2;
+  --ink:#27313a;
+  --text:#27313a;
+  --muted:#59636e;
+  --soft:#59636e;
+  --accent:#947448;
+  --aqua:#947448;
+  --mint:#947448;
+  --blue:#637c8a;
+  --gold:#947448;
+  --yellow:#947448;
+  --champagne:#b49463;
+  --gold-mid:#947448;
+  --light-gold:#947448;
+  --metal:linear-gradient(105deg,#765a35,#a98a59);
+  --metal-soft:linear-gradient(110deg,#aa8954,#896a40);
+  --lux-border:#e4dbcd;
+  --lux-shadow:0 8px 28px rgba(56,50,40,.065);
+  --shadow:0 8px 28px rgba(56,50,40,.065);
+}
+body,body.light {
+  color-scheme:light!important;
+  --bg:#faf9f6;--panel:#ffffff;--panel2:#f7f4ee;
+  --surface:#ffffff;--surface2:#f7f4ee;
+  --stroke:#e5ded2;--line:#e5ded2;
+  --ink:#27313a;--text:#27313a;
+  --muted:#59636e;--soft:#59636e;
+  --accent:#947448;--aqua:#947448;--mint:#947448;
+  --blue:#637c8a;--gold:#947448;--yellow:#947448;
+  --shadow:0 8px 28px rgba(56,50,40,.065);
+  background-color:#faf9f6!important;
+  background-image:
+    radial-gradient(ellipse 70% 32% at 88% -10%,rgba(198,170,121,.105),transparent 75%),
+    radial-gradient(ellipse 48% 28% at 5% 35%,rgba(197,210,211,.12),transparent 76%),
+    linear-gradient(180deg,#fdfcf9 0%,#f9f8f5 65%,#fbfaf7 100%)!important;
+  color:#27313a!important;
+  font-family:Inter,"Segoe UI",Arial,sans-serif!important;
+}
+body::selection, body *::selection {background:#e6d7ba!important;color:#23303a!important}
+a, a:link{color:#785c37}
+a:hover{color:#574225}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{
+ outline:3px solid #aa8954!important;outline-offset:3px!important
+}
+:is(h1,h2,h3,.logo,.brand,.visual .name,.snapshot strong,.card h2){
+ font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif!important;
+}
+main h1,main h2,.hero h1,.hero h1 em,.luxury-text-theme{
+ background-image:none!important;
+ background-color:transparent!important;
+ -webkit-background-clip:initial!important;
+ background-clip:initial!important;
+ -webkit-text-fill-color:#27313a!important;
+ color:#27313a!important;
+ filter:none!important;
+ letter-spacing:-.03em!important;
+ text-transform:none!important;
+ text-shadow:none!important;
+}
+main h1{font-size:clamp(2.45rem,5vw,4.65rem)!important;line-height:1.10!important}
+main h2{font-size:clamp(1.7rem,3.2vw,2.55rem)!important;line-height:1.17!important}
+main :is(h1 em,h1 .gradient,h1 .gold),.gradient,.gold{
+ background:none!important;
+ color:#8d6e43!important;
+ -webkit-text-fill-color:#8d6e43!important
+}
+h3{color:#29333e!important;letter-spacing:-.015em!important}
+:is(.eyebrow,.overline,.meta,.story-label,.proof-label,.hobby-label,.hobby-mark,.smallcap,.section-label){
+ color:#856742!important;
+ letter-spacing:.13em!important;
+ font-size:11px!important
+}
+:is(.logo,.logo span,.logo b,.topbar .logo,.brand){color:#8c6d43!important;letter-spacing:-.035em!important}
+:is(header.nav,.nav,.topbar,header:not(.hero),.navbar,.nav-in,.nav-inner){
+ background:rgba(255,255,255,.96)!important;
+ border-color:#ebe5da!important;
+ backdrop-filter:blur(16px)
+}
+:is(.navlinks a,.links a,.nav a,header nav a,.topbar a){color:#4a535c!important}
+:is(.navlinks a:hover,.links a:hover,.nav a:hover,.navlinks a[aria-current="page"],header nav a:hover){
+ color:#87663b!important
+}
+:is(.lead,.lede,.muted,.intro,.small,.sub,.section-desc,.status,.foot,figcaption,
+.card p,.feature p,.panel p,.project p,.project-card p,.role p,.story p,
+.proof-item p,.ledger-card p,.decision p,.snapshot .sublabel,.fact,.section .intro){
+ color:#5d6670!important
+}
+:is(.panel,.feature,.card,.role,.project,.project-card,.fact,.snapshot,.visual,.hobby-card,
+.featured-proof,.signature-map,.signature-contact,.deep-card,.kh-toolkit article,.qa-lead,
+.qastat,.metric,.story,.proof-item,.ledger-card,.ledger-comparison,.ledger-control,
+.decision,.selector,.proof-graphic,.resume-switcher,.note,.notice,.quick-note,.outro,
+.assumptions,.source-note,.callout,.ledger-callout,.proof-node,.card.data,.card.ai,
+.mini>div,.cert,.identity,.contact,.skillgroup,.timeline article,.role-panel,
+.project-card,.bartrack,.info,.paper,.content,.project summary,.inside){
+ background:#ffffff!important;
+ background-image:none!important;
+ border-color:#e8e0d4!important;
+ color:#29343e!important;
+ box-shadow:0 9px 26px rgba(65,55,43,.055)!important
+}
+:is(.panel,.feature,.card,.project,.project-card,.identity,.contact,.skillgroup,.metric){
+ border-radius:15px!important
+}
+:is(.project-card,.project,.card,.panel,.feature,.metric,.featured-proof)::before{
+ background:linear-gradient(90deg,transparent,rgba(164,129,76,.23),transparent)!important
+}
+:is(.project-card,.project,.card,.panel,.feature,.metric,.featured-proof):hover{
+ border-color:#ceb995!important;
+ box-shadow:0 13px 34px rgba(69,57,39,.105)!important
+}
+:is(.project-card,.project,.card,.panel,.feature,.metric,.featured-proof){transition:box-shadow .2s,border-color .2s,transform .2s}
+:is(.btn,.button,.mode,.copy,.small-link,.filter,.primary-link,
+button[data-filter],button[data-role],button[data-ledger-filter],.filterbar button,
+.role-tabs button,.ledger-filter button,.selector button,.case-nav a,.project-link){
+ background:#fff!important;
+ background-image:none!important;
+ border:1px solid #d7c7ae!important;
+ color:#745735!important;
+ -webkit-text-fill-color:#745735!important;
+ box-shadow:none!important;
+ text-shadow:none!important;
+ border-radius:9px!important
+}
+:is(.btn.primary,.btn.prime,.button:not(.alt),.primary-link,.copy,
+.role-tabs button[aria-pressed="true"],.ledger-filter button[aria-pressed="true"],
+.filterbar button[aria-pressed="true"],.filter[aria-pressed="true"],
+button[data-filter].active,button[data-role].active,.role.active){
+ background:#907044!important;
+ background-image:none!important;
+ color:#ffffff!important;
+ -webkit-text-fill-color:#ffffff!important;
+ border:1px solid #907044!important;
+ box-shadow:0 4px 12px rgba(115,88,49,.12)!important;
+ font-weight:750!important
+}
+:is(.btn,.button,.copy,.filter,.primary-link,.small-link,.mode):hover{
+ border-color:#aa895a!important;
+ box-shadow:0 5px 14px rgba(105,78,46,.075)!important
+}
+:is(.tag,.chip,.type,.pill,.chips span,.tags span,.coverage span,.ledger-tags span,
+.ledger-flow span,.flow span,.signature-chain>div,.mini-step,.deep-numbers span){
+ color:#765b36!important;
+ background:#f7f3eb!important;
+ background-image:none!important;
+ border:1px solid #e7dbc7!important
+}
+:is(.stat strong,.metric strong,.num,.qastat strong,.fact b,.proof-node b,
+.featured-proof .proof-meta,.ledger-card .evidence,.proof-item .evidence,.pass,.passp){
+ color:#8b6b41!important;
+ -webkit-text-fill-color:#8b6b41!important
+}
+:is(input,select,textarea,pre,.search,.content){
+ background-color:#ffffff!important;
+ color:#2d3741!important;
+ border-color:#d6cab8!important;
+ caret-color:#816035
+}
+input::placeholder,textarea::placeholder{color:#66717d!important}
+:is(.orbit,.monogram,.float){
+ background:#fffdfa!important;
+ background-image:radial-gradient(circle at 35% 25%,rgba(208,179,129,.13),transparent 65%)!important;
+ color:#947449!important;
+ border-color:#ded4c5!important;
+ box-shadow:0 12px 32px rgba(66,55,41,.075)!important
+}
+.orbit:before,.orbit:after{border-color:rgba(162,132,82,.19)!important}
+:is(.status,.note,.notice,.source-note,.callout){
+ border-color:#d9c7a9!important;
+ background:#fffdf9!important;
+ color:#59636e!important
+}
+:is(.project-card,.project) .card-actions{margin-top:auto;padding-top:16px}
+.project-card{position:relative;overflow:hidden}
+.project-card:after{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#bd9d6b,#e5d9c4,transparent);pointer-events:none}
+.project-card .number{color:#87663f!important;font-variant-numeric:tabular-nums}
+.project-card .chip-row{margin-top:auto!important;padding-top:16px}
+.project-card .tag{font-weight:650!important}
+.project-card .card-actions{padding-top:18px!important}
+.project-card .card-actions a{font-weight:700!important}
+.project-card .card-actions .primary-link{padding:11px 15px!important}
+:is(.filterbar button,.filter,.role,.role-tabs button)[aria-pressed="true"]{
+ background:#907044!important;color:#fff!important;-webkit-text-fill-color:#fff!important
+}
+:is(.project-grid,.grid,.grid2,.grid3){row-gap:20px}
+body .stats{background:#fff!important;border:1px solid #e5ded2!important;box-shadow:0 9px 26px rgba(65,55,43,.04)!important}
+footer,.footer{
+ background:#f7f5f0!important;
+ color:#66707a!important;
+ border-color:#e8e0d4!important
+}
+footer a,.footer a{color:#81623d!important}
+@media(max-width:750px){
+ main h1{font-size:clamp(2.2rem,9vw,3.3rem)!important}
+ main h2{font-size:clamp(1.65rem,6vw,2.4rem)!important}
+ .project-grid,.grid,.grid3{grid-template-columns:repeat(1,minmax(0,1fr))!important}
+ .navlinks,.links{row-gap:10px}
+ .hero{min-height:auto}
+}
+@media print{
+ body,body.light{background:#fff!important;color:#111!important}
+ :is(.project-card,.panel,.card,.identity,.feature){box-shadow:none!important}
+}
