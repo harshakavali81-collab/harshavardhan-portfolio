@@ -36,7 +36,7 @@ class Scan(HTMLParser):
 
 def main() -> int:
     problems: list[str] = []
-    files = sorted(ROOT.rglob("*.html"))
+    files = sorted(ROOT.glob("*.html")) + sorted((ROOT / "cases").glob("*.html"))
     pages: dict[Path, Scan] = {}
     for page in files:
         if ".git" in page.parts:
