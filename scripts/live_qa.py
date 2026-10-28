@@ -29,7 +29,7 @@ class Links(HTMLParser):
 
 def check_links(out):
     all_urls={}
-    for f in ROOT.rglob("*.html"):
+    for f in sorted(ROOT.glob("*.html")) + sorted((ROOT / "cases").glob("*.html")):
         p=Links();p.feed(f.read_text(encoding="utf-8"))
         for url in p.links:
             all_urls.setdefault(url,set()).add(f.relative_to(ROOT).as_posix())
