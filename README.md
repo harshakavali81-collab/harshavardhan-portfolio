@@ -17,6 +17,9 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 ## Featured document AI engineering project
 
+**Interactive privacy-first browser demonstration:** [Open DocSight AI](docsight-demo.html). Works with fictional or non-sensitive TXT only; keyword heuristic, not the trained Python model.
+
+
 **DocSight AI — Smart Document Classifier & Summarizer:** [technical case study](cases/docsight.html) · [GitHub source](https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer). Six document labels from synthetic training samples, source-page extractive summaries and full-stack Python/React API, with limitations disclosed.
 
 ## Recruiter quick links
