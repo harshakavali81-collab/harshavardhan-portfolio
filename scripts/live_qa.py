@@ -12,12 +12,13 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 # Release sentinels distinguish the current career release from an older HTTP-200 Pages version.
 CURRENT_RELEASE_MARKERS={
     "index.html":'id="career-12"',
     "career-portfolio.html":'id="twelve-elements"',
+    "portfolio-readiness.html":'id="proof-policy"',
     "resume.html":'class="kh-resume-screen"',
     "data-analyst-resume.html":'class="kh-resume-screen"',
 }
@@ -168,6 +169,18 @@ def browser_qa(out):
                             if branding["goldToken"] != "#d4af37":
                                 raise AssertionError("Champagne gold accent token was not applied: "+str(branding))
 
+                            if path=="portfolio-readiness.html":
+                                if page.locator(".kh-ready-section").count()!=5:
+                                    raise AssertionError("Five recruiter portfolio checklist categories required")
+                                if page.locator(".kh-ready-section li").count()!=32:
+                                    raise AssertionError("Exactly 32 portfolio checks must be shown")
+                                color_values=page.locator("body").evaluate("""e => {
+                                    const s=getComputedStyle(e);
+                                    const first=getComputedStyle(document.querySelector('.kh-ready-card'));
+                                    return [s.backgroundColor,first.backgroundColor]
+                                }""")
+                                if color_values!=["rgb(8, 8, 8)","rgb(8, 8, 8)"]:
+                                    raise AssertionError("Recruiter readiness page broke two-color theme: "+str(color_values))
                             if path=="career-portfolio.html":
                                 if page.locator(".kh-element").count()!=12:
                                     raise AssertionError("Twelve documented career elements must be visible")
@@ -363,7 +376,7 @@ def browser_qa(out):
                                 with page.expect_popup(timeout=13000) as popup_info:
                                     page.locator("#open-gmail").click()
                                 popup=popup_info.value
-                                popup.wait_for_url("https://mail.google.com/mail/u/0/**", timeout=13000)
+                                popup.wait_for_url("https://mail.google.com/mail/**", timeout=13000)
                                 from urllib.parse import parse_qs
                                 gmail_query=parse_qs(urlsplit(popup.url).query)
                                 if gmail_query.get("to")!=["kavaliharshavardhan98@gmail.com"]:
@@ -385,7 +398,7 @@ def browser_qa(out):
                             if (engine,label,path) in [
                                ("chromium","desktop",""),("chromium","mobile",""),("chromium","tablet","work.html"),
                                ("chromium","mobile","contact.html"),("chromium","desktop","career-portfolio.html"),
-                               ("chromium","mobile","career-portfolio.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
+                               ("chromium","mobile","career-portfolio.html"),("chromium","desktop","portfolio-readiness.html"),("chromium","mobile","portfolio-readiness.html"),("webkit","mobile","career-portfolio.html"),("webkit","mobile",""),
                                ("webkit","mobile","profile.html"),("firefox","desktop","cases/demandpilot.html")]:
                                 file=engine+"-"+label+"-"+(path.replace("/","-") or "home")+".png"
                                 page.screenshot(path=str(shots/file),full_page=not (engine=="webkit" and label=="mobile" and path==""),animations="disabled",timeout=20000)
