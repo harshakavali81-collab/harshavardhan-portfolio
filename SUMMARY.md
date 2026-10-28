@@ -1,30 +1,30 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-28T08:25:59.628804+00:00
+Generated UTC: 2026-10-28T08:26:30.903763+00:00
 
 ## Direct checks
 - Live URL HTTP 200: 19/19
 - External links: 34 reachable; 0 broken; 103 access-limited/unknown; 0 HTTP errors
-- Chromium, Firefox and WebKit viewport tests: 150/152 passed
+- Chromium, Firefox and WebKit viewport tests: 152/152 passed
 - Live site load under 3 seconds (p75 for every critical URL, desktop and simulated 4G mobile): PASS
 
 ## Performance: p75 page-load event, 3 cold contexts per case
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 66.0 | 301.0 |
-| work.html | 71.5 | 392.0 |
-| evidence.html | 83.0 | 404.0 |
-| engineering.html | 67.0 | 354.0 |
-| proof-map.html | 84.0 | 382.5 |
-| hiring.html | 60.0 | 385.0 |
-| interview.html | 60.0 | 365.5 |
-| profile.html | 72.5 | 377.0 |
-| contact.html | 75.5 | 405.5 |
-| resumes.html | 70.5 | 344.0 |
-| quality.html | 61.5 | 327.0 |
-| cases/demandpilot.html | 64.0 | 329.0 |
-| cases/transactionshield.html | 60.5 | 352.5 |
+| index.html | 81.5 | 377.0 |
+| work.html | 93.5 | 439.0 |
+| evidence.html | 111.0 | 451.0 |
+| engineering.html | 91.0 | 433.5 |
+| proof-map.html | 101.0 | 428.5 |
+| hiring.html | 89.5 | 423.0 |
+| interview.html | 88.5 | 416.5 |
+| profile.html | 89.5 | 331.0 |
+| contact.html | 105.0 | 419.5 |
+| resumes.html | 90.0 | 389.5 |
+| quality.html | 89.0 | 361.5 |
+| cases/demandpilot.html | 90.0 | 362.0 |
+| cases/transactionshield.html | 88.5 | 402.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
