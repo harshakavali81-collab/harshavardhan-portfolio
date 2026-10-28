@@ -1,0 +1,83 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 6404 >>
+stream
+BT /F2 16.8 Tf 0.08 0.18 0.28 rg 1 0 0 1 42 796.00 Tm (KAVALI HARSHAVARDHAN) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 773.00 Tm (Data Analyst | Excel | Power BI | SQL | Python) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 760.80 Tm (Hyderabad, Telangana, India | 8008273318 | kavaliharshavardhan98@gmail.com) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 750.20 Tm (LinkedIn: linkedin.com/in/kavali-harshavardhan-7ab93a28b | GitHub: github.com/harshakavali81-collab) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 735.60 Tm (SUMMARY) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 720.60 Tm (Detail-oriented Data Analyst with hands-on experience in Excel, Power BI, SQL, and Python for data cleaning,) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 710.00 Tm (visualization, and dashboard development. Skilled at transforming raw datasets into actionable business insights) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 699.40 Tm (through interactive dashboards and statistical analysis. Eager to apply data-driven, Python-backed problem-solving) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 688.80 Tm (to drive business decisions.) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 674.20 Tm (SKILLS) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 659.20 Tm (Data Analysis & Visualization: Power BI, Tableau, Excel \(Pivot Tables, VLOOKUP, Dashboards\), Matplotlib, Seaborn) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 648.60 Tm (Programming & Querying: Python \(Pandas, NumPy\), SQL, MySQL) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 638.00 Tm (Core Analyst Skills: Data Cleaning, Exploratory Data Analysis, Statistical Analysis, Data Wrangling, KPI Reporting) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 627.40 Tm (Tools & Platforms: Visual Studio Code, Eclipse, Git, GitHub) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 616.80 Tm (Core Competencies: Analytical Thinking, Problem Solving, Business Communication, Attention to Detail) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 602.20 Tm (PROJECTS) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 587.20 Tm (Zomato Insights Dashboard | Power BI | 2025) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 575.00 Tm (Power BI dashboard analyzing restaurant-level data across ratings, cuisines, and pricing.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 564.40 Tm (Built DAX measures and interactive visuals \(slicers, maps, KPI cards\) enabling city and category drill-down) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 553.80 Tm (analysis for business decisions.) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 543.20 Tm (Multilingual Indian Language Knowledge Platform | Python, NLP, Machine Learning | 2025) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 531.00 Tm (Knowledge-based platform that understands and responds to user queries across multiple Indian languages.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 520.40 Tm (Applied Python NLP pipelines \(language detection, tokenization\) and ML models to classify queries and retrieve) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 509.80 Tm (relevant information accurately.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 499.20 Tm (Analyzed query patterns across languages using Python \(Pandas\) to improve classification accuracy.) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 488.60 Tm (Document Q&A Bot | Python, RAG, Embeddings, Vector Search | 2025) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 476.40 Tm (Document-based question-answering bot built using a Retrieval-Augmented Generation \(RAG\) approach.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 465.80 Tm (Implemented ingestion, chunking, embedding generation, and vector-based retrieval in Python; structured the app) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 455.20 Tm (into reusable modules on Git/GitHub.) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 444.60 Tm (Women Safety Device | GPS, GSM, Embedded C, IoT | 2024) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 432.40 Tm (GPS and GSM-based safety device for real-time location tracking and emergency alerts.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 421.80 Tm (Built the device to send SOS alerts with live location to registered contacts and validated response reliability.) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 407.20 Tm (INTERNSHIP) Tj ET
+BT /F2 8.8 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 392.20 Tm (Python Intern - Edugene Technologies \(MSME Registered\) | Feb-Aug 2025) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 380.00 Tm (Applied Python fundamentals - data structures, loops, functions, and file handling - to hands-on exercises) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 369.40 Tm (involving data handling and automation scripts.) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 358.80 Tm (Built a strong foundation in Python-based logic building and debugging, supporting later work in data cleaning and) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 348.20 Tm (analysis.) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 333.60 Tm (EDUCATION) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 318.60 Tm (CMR Institute of Technology, Hyderabad | B.Tech ECE | CGPA 7.02/10 | 2021-2025) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 308.00 Tm (Sri Sathya Sai Junior College, Anantapur | Intermediate, 87% | 2019-2021) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 297.40 Tm (AP Model School, Anantapur | SSC, 92% | 2019) Tj ET
+BT /F2 9.5 Tf 0.01 0.39 0.44 rg 1 0 0 1 42 282.80 Tm (CERTIFICATIONS) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 267.80 Tm (Android Developer Virtual Internship - Google for Developers \(AICTE EduSkills, NEAT\) | Jul-Sep 2024) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 257.20 Tm (Data Engineering Virtual Internship - AWS Academy \(AICTE EduSkills, NEAT\) | Apr-Jun 2024) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 246.60 Tm (AI-ML Virtual Internship - Google for Developers \(AICTE EduSkills, NEAT\) | Jan-Mar 2024) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 236.00 Tm (Intelligent Automation Virtual Internship - SS&C Blue Prism \(AICTE EduSkills, NEAT\) | Sep-Nov 2023) Tj ET
+BT /F1 8.25 Tf 0.13 0.22 0.31 rg 1 0 0 1 42 225.40 Tm (Multi-Paradigm Programming with Modern C++ - Infosys Springboard \(Infosys Limited\) | Oct-Dec 2023) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000006715 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6851
+%%EOF
