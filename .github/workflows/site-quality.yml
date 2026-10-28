@@ -17,3 +17,5 @@ jobs:
         run: python3 scripts/check_docsight_demo.py
       - name: Check HTML navigation, assets, and case-study sections
         run: python3 scripts/audit_site.py
+      - name: Check recruiter profile, theme, and contact options
+        run: python3 scripts/check_career_profile.py

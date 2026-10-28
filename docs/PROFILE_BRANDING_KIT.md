@@ -46,3 +46,36 @@ Entry-level Python · SQL · Data Analyst · Applied AI/ML | B.Tech 2025 | Evide
 The repositories are educational/demo work. Some use synthetic data. Do not claim employer production outcomes or validated commercial impact. The Python internship is separate from full-time IT employment. Personal hobbies confirmed: reading books and playing games. Do not add unconfirmed achievements, certificate IDs, or deployment claims.
 
 **Account updates:** This file provides copy-ready text. GitHub and LinkedIn profile descriptions must still be pasted/saved within those respective accounts.
+
+
+## October 2026 — premium portfolio and reliable contact UX
+
+The portfolio uses **matte black** (`#080808`), **light champagne gold**
+(`#e4c98e`) and warm platinum body copy. `assets/luxury-theme.css` is
+loaded by the homepage, profile, resume center, contact and case studies.
+Foil-style text is reserved for large headings; links, body content, forms and
+PDF/print resumes retain high contrast.
+
+The `profile.html#career-goals` section presents a career objective, role
+interests, motivation, and recruiter facts. Joining dates, shifts, salary and
+relocation are explicitly discussion points, not guaranteed claims.
+
+The `contact.html` composer does **not** send messages or collect them on a
+server. Visitors can copy an entire email including recipient and subject,
+open their installed mail application or optionally open Gmail. Clipboard
+failures display a selectable fallback field.
+
+A production/public URL must be verified in GitHub Actions **and** a browser.
+Publishing can be delayed by GitHub's API rate limit; do not infer that a
+successful commit means a successful deployment.
+
+### Practical manual checks
+
+1. On desktop and a narrow mobile viewport, inspect homepage hobbies,
+   recruiter ribbon and profile cards for consistent champagne-gold styling.
+2. Verify keyboard focus: Tab to "Skip to main content", then navigate the
+   profile and contact forms.
+3. Test copying an email; block clipboard access to verify manual copy.
+4. Open both resume PDFs, confirm source links and check that print text is
+   dark ink on white backgrounds.
+5. Check GitHub Pages Actions deployment status and the public URL independently.
