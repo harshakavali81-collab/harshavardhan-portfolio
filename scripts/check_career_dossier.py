@@ -177,7 +177,7 @@ def check():
     assert flagship.count('class="kh-flagship"') == 3
     assert flagship.count('class="kh-spec"') == 57, "Each of 3 flagship projects must show 19 case-study requirements"
     for term in ("Multilingual Indian Language Knowledge Base", "Zomato Insights Dashboard",
-                 "TransactionShield", "Synthetic", "Reproducibility"):
+                 "DemandPilot", "Synthetic", "Reproducibility"):
         assert term.lower() in flagship.lower(), term
     assert 'href="flagship-projects.html"' in (ROOT / "index.html").read_text(encoding="utf-8")
     assert "Registration numbers, birth date" in (ROOT / "certificates.html").read_text(encoding="utf-8")
