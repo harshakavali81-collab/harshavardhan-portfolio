@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:46:54.102870+00:00",
+  "checked_at": "2026-10-28T07:47:50.687601+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -371,6 +371,44 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution",
+      "pages": [
+        "cases/foodbridge.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399",
+      "pages": [
+        "cases/foodbridge.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/blob/main/docs/FOOD_SAFETY_AND_ONBOARDING.md",
+      "pages": [
+        "cases/foodbridge.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/blob/main/docs/RESERVATION_INTEGRITY.md",
+      "pages": [
+        "cases/foodbridge.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
       "pages": [
         "index.html"
@@ -443,6 +481,71 @@
         "index.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence",
+      "pages": [
+        "cases/mobilitypulse.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/actions",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/actions/workflows/ci.yml",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/blob/main/docs/MODEL_CARD.md",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/assets",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/backend",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/frontend",
+      "pages": [
+        "cases/mobilitypulse.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -597,6 +700,36 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/",
+      "pages": [
+        "cases/foodbridge.html",
+        "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/demo.html",
+      "pages": [
+        "cases/foodbridge.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/launch-readiness.html",
+      "pages": [
+        "cases/foodbridge.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/",
       "pages": [
         "index.html"
@@ -633,9 +766,27 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/foodbridge.html",
+      "pages": [
+        "cases/foodbridge.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/healthpulse.html",
       "pages": [
         "cases/healthpulse.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/mobilitypulse.html",
+      "pages": [
+        "cases/mobilitypulse.html"
       ],
       "via": "http",
       "status": 200,
@@ -768,35 +919,7 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
-      "pages": [
-        "hiring.html",
-        "profile.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity",
-      "pages": [
-        "recruiter.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan",
-      "pages": [
-        "hiring.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan",
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity&tf=cm",
       "pages": [
         "recruiter.html"
       ],
@@ -823,9 +946,29 @@
       "result": "ok"
     },
     {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan&tf=cm",
+      "pages": [
+        "hiring.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
+      "pages": [
+        "recruiter.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
       "pages": [
-        "index.html"
+        "hiring.html",
+        "index.html",
+        "profile.html"
       ],
       "via": "http",
       "status": 200,
@@ -930,7 +1073,7 @@
     }
   ],
   "external_counts": {
-    "ok": 84,
+    "ok": 99,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
