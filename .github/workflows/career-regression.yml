@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "portfolio-readiness.html"
       - "career-portfolio.html"
       - "profile.html"
       - "resume.html"
