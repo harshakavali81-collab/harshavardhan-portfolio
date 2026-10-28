@@ -152,7 +152,7 @@ Run `python3 scripts/audit_site.py` locally. The GitHub Actions **Portfolio qual
 
 - **Mobile:** shared case study/contact styles use responsive CSS breakpoints; mobile appearance needs real device/browser QA.
 - **Loading:** static HTML/CSS, no heavy client framework or external tracking. A defined **p75 navigation load-event benchmark** has been measured in GitHub-hosted desktop and simulated mobile-4G Chromium runs; this is **not a universal under-three-second guarantee** across all physical devices or networks.
-- **Contact:** form opens a `mailto:` draft in a visitor's configured email app. It does not submit to a server; for actual delivery the visitor must click Send.
+- **Contact:** the form now opens a pre-filled **Gmail web compose** link directly in Chrome/Edge/Firefox. Visitors need to sign in to Gmail and click Send themselves. A default email-app (`mailto:`) fallback and copy-email button remain available; the static website does not submit messages to a server.
 - **External links:** the offline audit checks internal paths only. GitHub, LinkedIn, source media and third-party demo uptime require independent online checking.
 - **Privacy:** no hidden analytics, credentials, personal IDs, or applicant tracking are included.
 
