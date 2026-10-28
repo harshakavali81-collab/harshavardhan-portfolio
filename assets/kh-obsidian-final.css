@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 /* KH / BLACK LABEL — Obsidian × Champagne Gold
    Final visual identity for all professional portfolio pages.
    Intentionally last in stylesheet order: overrides legacy navy, cyan, ivory.
@@ -314,4 +315,147 @@ body.bh-interior .profile-project-card .profile-project-link{display:inline-flex
   @media(max-width:1100px){.kh-steps{grid-template-columns:repeat(3,minmax(0,1fr))}.kh-credential-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.kh-credential-card:first-child{grid-column:1/-1}}
   @media(max-width:680px){.kh-editorial{padding-top:65px!important;padding-bottom:55px!important}.kh-editorial-head{display:block}.kh-steps,.kh-credential-grid{grid-template-columns:1fr}.kh-credential-card:first-child{grid-column:auto}.kh-proof-card,.kh-credential-card{padding:23px}.kh-proof-card h3{margin-top:15px}body.bh-body .bh-hero::after{width:54vw;height:54vw;inset:10% 0 auto auto;}}
   @media(prefers-reduced-motion:reduce){.kh-proof-card{transition:none}.kh-proof-card:hover{transform:none}}
+}
+
+/* KH METALLIC FOIL DESIGN SYSTEM — OBSIDIAN GOLD V2 */
+/* Luxury editorial typography, champagne foil, matte black surfaces.
+   Screen-only for recruiter readability. Print uses its existing ATS-friendly
+   dark-ink/light-paper treatment; this does not change resume PDFs.
+*/
+@media screen {
+  :root {
+    color-scheme:dark!important;
+    --kh-onyx:#080808;
+    --kh-pitch:#050505;
+    --kh-panel:#11100e;
+    --kh-panel-raised:#191511;
+    --kh-foil-light:#fcf6ba;
+    --kh-foil-mid:#d4af37;
+    --kh-foil-deep:#aa771c;
+    --kh-foil:linear-gradient(135deg,#bf953f 0%,#fcf6ba 25%,#b38728 50%,#fbf5b7 75%,#aa771c 100%);
+    --kh-champagne:#efddb5;
+    --kh-muted-gold:#cfbc9b;
+    --kh-stroke:rgba(212,175,55,.26);
+  }
+  body.bh-body,body.bh-interior,body.bh-interior.light {
+    --bg:#080808!important; --bh-bg:#080808!important;
+    --accent:#e4c98e!important; --aqua:#d4af37!important;
+    --gold:#d4af37!important; --ink:#efddb5!important; --text:#efddb5!important;
+    --bh-text:#efddb5!important; --soft:#cfbc9b!important;
+    --muted:#cfbc9b!important; --bh-muted:#cfbc9b!important;
+    --line:#5c4925!important; --bh-line:rgba(212,175,55,.23)!important;
+    --surface:#15120e!important; --surface2:#1c1710!important;
+    --panel:#15120e!important; --panel2:#1c1710!important;
+    background-color:var(--kh-onyx)!important;
+    background-image:
+      radial-gradient(ellipse 57% 28% at 81% 4%,rgba(212,175,55,.11),transparent 80%),
+      radial-gradient(ellipse 37% 27% at 12% 50%,rgba(184,134,11,.055),transparent 86%),
+      linear-gradient(180deg,#050505,#080808 52%,#050505)!important;
+    color:var(--kh-champagne)!important;
+    font-family:'Montserrat','Segoe UI',Arial,sans-serif!important;
+    font-weight:400;line-height:1.75!important;
+  }
+  body.bh-body :is(p,li,dd,dt,blockquote,.bh-lead,.bh-about-panel p,.bh-project p,.bh-feature p),
+  body.bh-interior :is(p,li,dd,dt,blockquote,.lead,.lede,.muted,.sub,.description,.project-card p,.profile-project-card p) {
+    font-family:'Montserrat','Segoe UI',Arial,sans-serif!important;
+    letter-spacing:.006em;line-height:1.77!important;
+  }
+  /* Use foil only on big editorial titles, not small paragraphs. */
+  body.bh-body main .bh-hero h1,
+  body.bh-body main .bh-hero h1 .bh-name,
+  body.bh-body main .bh-section-head h2,
+  body.bh-body main .kh-editorial-head h2,
+  body.bh-body main .bh-contact h2,
+  body.bh-interior main :is(h1,h2,.gradient) {
+    font-family:'Cormorant Garamond','Playfair Display',Georgia,serif!important;
+    font-weight:600!important;
+    font-style:normal!important;
+    letter-spacing:.014em!important;
+    background:var(--kh-foil)!important;
+    background-image:var(--kh-foil)!important;
+    -webkit-background-clip:text!important;background-clip:text!important;
+    -webkit-text-fill-color:transparent!important;color:transparent!important;
+    text-shadow:none!important;
+    filter:drop-shadow(0 5px 19px rgba(184,134,11,.14))!important;
+  }
+  body.bh-body main .bh-hero h1{font-size:clamp(3.5rem,7vw,7.5rem)!important;line-height:.99!important;letter-spacing:-.018em!important;}
+  body.bh-body main .bh-section-head h2,body.bh-body main .kh-editorial-head h2{font-size:clamp(2.5rem,4.8vw,4.8rem)!important;line-height:1.05!important;}
+  body.bh-interior main h1 {font-size:clamp(2.9rem,6.2vw,5.8rem)!important;line-height:1.04!important;}
+  body.bh-interior main h2 {letter-spacing:.004em!important;line-height:1.1!important;}
+  body.bh-body main :is(.bh-feature h3,.bh-project h3,.bh-demo-card h3,.bh-about-panel h3,.kh-proof-card h3,.kh-credential-card h3),
+  body.bh-interior main :is(h3,.project-card h3,.profile-project-card h3) {
+    font-family:'Cinzel',Georgia,serif!important;
+    color:#ead3a3!important;-webkit-text-fill-color:#ead3a3!important;
+    font-weight:500!important;letter-spacing:.015em!important;
+    line-height:1.4!important;
+    text-shadow:0 5px 20px rgba(184,134,11,.08);
+  }
+  body.bh-body :is(.bh-kicker,.bh-eyebrow,.bh-feature-type,.bh-resource-number,.bh-project-number,.bh-brand small,.kh-eyebrow,.kh-card-number,.bh-demo-status,.bh-method-mark),
+  body.bh-interior :is(.eyebrow,.meta,.project-card .type,.section-kicker,.chip-label,.brand small,.fact-label) {
+    font-family:'Montserrat','Segoe UI',sans-serif!important;
+    font-weight:600!important;text-transform:uppercase!important;
+    letter-spacing:.17em!important;color:#d4af73!important;
+    -webkit-text-fill-color:#d4af73!important;
+  }
+  body.bh-body .bh-brand-name,body.bh-interior :is(.brand,.logo){
+    font-family:'Cinzel',Georgia,serif!important;
+    font-weight:600!important;letter-spacing:.065em!important;
+    color:#f0d9aa!important;-webkit-text-fill-color:#f0d9aa!important;
+  }
+  /* All visible surfaces remain black / charcoal / champagne, never ivory. */
+  body.bh-body :is(.bh-hero,.bh-library,.bh-section,.bh-visual,.bh-contact,.bh-resource,.bh-project,.bh-feature,.bh-feature-content,.bh-stack-panel,.bh-about-panel,.bh-demo-card,.kh-proof-card,.kh-credential-card),
+  body.bh-interior :is(.section,.content,.full-project-library,.profile-library,.project-gallery,.projects-library,.profile-project-card,.project-card,.card,.panel,.cert,.visual,.notice,.contact,.platform-panel,.luxury-card) {
+    border-color:var(--kh-stroke)!important;
+  }
+  body.bh-body :is(.bh-feature,.bh-project,.bh-resource,.bh-stack-panel,.bh-about-panel,.bh-demo-card,.kh-proof-card,.kh-credential-card),
+  body.bh-interior :is(.card,.project,.project-card,.profile-project-card,.panel,.cert,.visual,.contact,.notice,.platform-panel,.luxury-card,.fact,.stat,.glance-cell) {
+    background:linear-gradient(145deg,#1b1610 0%,#11100e 54%,#090908 100%)!important;
+    border:1px solid var(--kh-stroke)!important;
+    border-radius:14px!important;
+    box-shadow:0 20px 55px rgba(0,0,0,.36),inset 0 1px 0 rgba(252,246,186,.055)!important;
+  }
+  body.bh-interior :is(.full-project-library,.portfolio-gallery-promo,.profile-project-grid,.projects-library) {
+    background:linear-gradient(180deg,#0b0a08,#080808)!important;
+  }
+  body.bh-body :is(.bh-hero,.bh-library,.bh-section),body.bh-interior :is(main,.section,.content) {background-color:transparent!important;}
+  body.bh-body :is(.bh-project,.bh-feature,.kh-proof-card):hover,
+  body.bh-interior :is(.profile-project-card,.project-card,.card):hover{
+    border-color:#d4af73!important;box-shadow:0 22px 62px #000b,0 0 24px rgba(212,175,55,.09)!important;
+  }
+  body.bh-body :is(.bh-button-primary,.bh-nav-cta),
+  body.bh-interior :is(.btn.primary,.btn.prime,.primary-link) {
+    color:#17110a!important;-webkit-text-fill-color:#17110a!important;
+    background:linear-gradient(135deg,#bf953f,#fcf6ba 40%,#b38728 75%,#eacb82)!important;
+    border:1px solid #d4af73!important;box-shadow:0 10px 28px rgba(212,175,55,.12)!important;
+    font-family:'Montserrat',sans-serif!important;font-weight:700!important;
+  }
+  body.bh-body :is(.bh-button,.bh-nav a,.bh-project-source),
+  body.bh-interior :is(.btn,.links a,.navlinks a,.primary-link,.small-link,.profile-project-link){
+    letter-spacing:.018em!important;
+  }
+  body.bh-body :is(input,select,textarea),body.bh-interior :is(input,select,textarea) {
+    background-color:#120f0c!important;border-color:#775a2d!important;
+    color:#f0dbaa!important;-webkit-text-fill-color:#f0dbaa!important;
+  }
+  body.bh-body input::placeholder,body.bh-interior input::placeholder{color:#c9b38a!important;-webkit-text-fill-color:#c9b38a!important;}
+  body.bh-body :is(a,button,input,select,textarea):focus-visible,body.bh-interior :is(a,button,input,select,textarea):focus-visible{
+    outline:2px solid #f5d77f!important;outline-offset:3px!important;
+  }
+  body.bh-body .bh-hero::after{border-color:rgba(212,175,55,.17)!important;}
+  body.bh-body .bh-feature-art{background:radial-gradient(circle at 60% 30%,rgba(212,175,55,.12),transparent 70%),#110f0c!important;}
+  body.bh-body .bh-feature-mark{color:#dcb36b!important;-webkit-text-fill-color:#dcb36b!important;}
+  body.bh-body .bh-rule,body.bh-body .bh-section::before{border-color:rgba(212,175,55,.17)!important;}
+  @media(max-width:720px){
+    body.bh-body main .bh-hero h1{font-size:clamp(3rem,13vw,5.1rem)!important;}
+    body.bh-body main .bh-section-head h2{font-size:clamp(2.3rem,9vw,3.5rem)!important;}
+    body.bh-body :is(.bh-kicker,.bh-eyebrow,.kh-eyebrow){letter-spacing:.11em!important;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    body.bh-body *,body.bh-interior *{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important;}
+  }
+  @media(forced-colors:active){
+    body.bh-body main :is(h1,h2),body.bh-interior main :is(h1,h2){
+      background:none!important;-webkit-text-fill-color:CanvasText!important;color:CanvasText!important;filter:none!important;
+    }
+  }
 }
