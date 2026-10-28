@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:41:57.341953+00:00",
+  "checked_at": "2026-10-28T06:42:05.830450+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -128,6 +128,15 @@
         "cases/evidencedesk.html"
       ],
       "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-repo-api",
       "status": 200,
       "result": "ok"
     },
@@ -602,7 +611,7 @@
     }
   ],
   "external_counts": {
-    "ok": 52,
+    "ok": 53,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
