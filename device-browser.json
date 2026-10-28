@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T14:43:24.208323+00:00",
+  "checked_at": "2026-10-28T15:50:34.539432+00:00",
   "profiles": [
     [
       "chromium",
@@ -84,8 +84,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass",
-      "screenshot": "screenshots/chromium-desktop-portfolio-readiness.html.png"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "chromium",
@@ -286,7 +286,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "chromium",
@@ -490,8 +491,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass",
-      "screenshot": "screenshots/chromium-mobile-portfolio-readiness.html.png"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "chromium",
@@ -693,7 +694,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "chromium",
@@ -707,8 +709,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "work.html",
-      "scroll_width": 334,
-      "viewport_width": 334,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -795,8 +797,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "contact.html",
-      "scroll_width": 345,
-      "viewport_width": 345,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -893,7 +895,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "firefox",
@@ -1094,7 +1097,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "firefox",
@@ -1294,7 +1298,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "webkit",
@@ -1310,7 +1315,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
@@ -1495,7 +1501,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
       "engine": "webkit",
@@ -1668,7 +1675,89 @@
       "result": "pass"
     }
   ],
-  "passed": 200,
+  "passed": 191,
   "total": 200,
-  "issues": []
+  "issues": [
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    }
+  ]
 }

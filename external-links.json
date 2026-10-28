@@ -1,178 +1,178 @@
 {
-  "checked_at": "2026-10-28T14:41:34.421578+00:00",
+  "checked_at": "2026-10-28T15:48:32.044709+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 81657,
+      "bytes": 80014,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "flagship-projects.html",
       "status": 200,
-      "bytes": 20074,
-      "ok": true,
-      "current_release_marker": true
+      "bytes": 20250,
+      "ok": false,
+      "current_release_marker": false
     },
     {
       "page": "certificates.html",
       "status": 200,
-      "bytes": 14943,
+      "bytes": 15020,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "portfolio-readiness.html",
       "status": 200,
-      "bytes": 28104,
+      "bytes": 28181,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 26169,
+      "bytes": 26254,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21288,
+      "bytes": 21373,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59520,
+      "bytes": 59597,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 69030,
+      "bytes": 69107,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7573,
+      "bytes": 7649,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15385,
+      "bytes": 15461,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17302,
+      "bytes": 17378,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 69697,
+      "bytes": 69782,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14766,
+      "bytes": 14851,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 7662,
+      "bytes": 7747,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resume.html",
       "status": 200,
-      "bytes": 7758,
+      "bytes": 7843,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
-      "bytes": 9268,
+      "bytes": 9353,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10881,
+      "bytes": 10958,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11309,
+      "bytes": 11386,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10941,
+      "bytes": 11017,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 12657,
+      "bytes": 12734,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 10285,
+      "bytes": 10373,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
-      "bytes": 10766,
+      "bytes": 10845,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 10427,
+      "bytes": 10515,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9887,
+      "bytes": 9975,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9796,
+      "bytes": 9875,
       "ok": true,
       "current_release_marker": null
     }
@@ -211,6 +211,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
       "pages": [
+        "cases/copilot.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -251,6 +252,7 @@
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
       "pages": [
         "airaware.html",
+        "cases/airaware.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -585,6 +587,7 @@
       "pages": [
         "career-portfolio.html",
         "cases/demandpilot.html",
+        "flagship-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -919,6 +922,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
       "pages": [
+        "cases/multilingual.html",
         "flagship-projects.html",
         "index.html",
         "job-platforms.html",
@@ -1119,7 +1123,6 @@
       "pages": [
         "career-portfolio.html",
         "cases/transactionshield.html",
-        "flagship-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1143,17 +1146,9 @@
       "result": "ok"
     },
     {
-      "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./tree/main/docs",
-      "pages": [
-        "flagship-projects.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
       "pages": [
+        "cases/women-safety.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1942,7 +1937,7 @@
     }
   ],
   "external_counts": {
-    "ok": 170,
+    "ok": 169,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
