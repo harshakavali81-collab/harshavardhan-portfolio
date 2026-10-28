@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","proof-map.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","work.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","work.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -137,6 +137,20 @@ def browser_qa(out):
                                 page.locator("button[data-role='data']").click()
                                 if page.locator(".proof-item").count()!=2:
                                     raise AssertionError("Data analyst evidence count should be two")
+                            if path=="hiring.html":
+                                if page.locator(".faq details").count()!=10:
+                                    raise AssertionError("recruiter FAQ count should be ten")
+                                page.locator(".faq details").nth(1).locator("summary").click()
+                                if not page.locator(".faq details").nth(1).evaluate("d => d.open"):
+                                    raise AssertionError("FAQ keyboard/mouse disclosure failed")
+                                if page.locator("a[href='interview.html']").count()<1:
+                                    raise AssertionError("interview link missing")
+                            if path=="interview.html":
+                                if page.locator("article.story").count()!=5:
+                                    raise AssertionError("five interview project stories expected")
+                                page.locator("article.story").first.locator("summary").click()
+                                if not page.locator("article.story").first.locator("details").evaluate("d => d.open"):
+                                    raise AssertionError("interview question disclosure failed")
                             if path=="contact.html" and page.locator("form#mail-form").count()!=1:
                                 raise AssertionError("contact form missing")
                             res["result"]="pass"
