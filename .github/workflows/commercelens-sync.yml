@@ -44,6 +44,8 @@ jobs:
           import os
           src=Path(os.environ["RUNNER_TEMP"])/"commercelens-public"
           html=(src/"index.html").read_text(encoding="utf-8")
+          # Portfolio policy: every HTML page links the shared gold/obsidian theme.
+          html=html.replace("<head>", '<head><link rel="stylesheet" href="../assets/luxury-theme.css">',1)
           metrics=json.loads((src/"metrics.json").read_text(encoding="utf-8"))
           assert metrics["source_kind"]=="synthetic_demo"
           assert metrics["observation_count"]==1440
