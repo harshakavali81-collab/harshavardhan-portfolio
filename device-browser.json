@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T11:01:57.194989+00:00",
+  "checked_at": "2026-10-28T11:03:37.859177+00:00",
   "profiles": [
     [
       "chromium",
@@ -191,9 +191,8 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "cases/demandpilot.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -350,9 +349,8 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "cases/demandpilot.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -509,9 +507,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -667,9 +664,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -825,10 +821,8 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "cases/demandpilot.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass",
-      "screenshot": "screenshots/firefox-desktop-cases-demandpilot.html.png"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -984,9 +978,8 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1142,9 +1135,8 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "cases/demandpilot.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1301,9 +1293,8 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "cases/demandpilot.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1320,7 +1311,7 @@
       "reason": "Premium theme did not apply within 12 seconds"
     }
   ],
-  "passed": 72,
+  "passed": 64,
   "total": 168,
   "issues": [
     {
@@ -1392,6 +1383,13 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "cases/demandpilot.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1484,6 +1482,13 @@
     {
       "engine": "chromium",
       "profile": "tablet",
+      "page": "cases/demandpilot.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
       "page": "cases/evidencedesk.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1564,6 +1569,13 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "cases/demandpilot.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1656,6 +1668,13 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "cases/demandpilot.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "cases/evidencedesk.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1742,6 +1761,13 @@
     {
       "engine": "firefox",
       "profile": "desktop",
+      "page": "cases/demandpilot.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
       "page": "cases/evidencedesk.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1822,6 +1848,13 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "cases/demandpilot.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1914,6 +1947,13 @@
     {
       "engine": "webkit",
       "profile": "desktop",
+      "page": "cases/demandpilot.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
       "page": "cases/evidencedesk.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1994,6 +2034,13 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "cases/demandpilot.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
