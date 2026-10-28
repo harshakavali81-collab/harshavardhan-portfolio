@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:34:37.741589+00:00",
+  "checked_at": "2026-10-28T08:37:31.121308+00:00",
   "profiles": [
     [
       "chromium",
@@ -75,7 +75,7 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -139,7 +139,8 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -229,7 +230,7 @@
       "scroll_width": 768,
       "viewport_width": 768,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -293,7 +294,8 @@
       "page": "contact.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -383,7 +385,7 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -447,8 +449,8 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass",
-      "screenshot": "screenshots/chromium-mobile-contact.html.png"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -537,7 +539,7 @@
       "scroll_width": 320,
       "viewport_width": 320,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "chromium",
@@ -601,7 +603,8 @@
       "page": "contact.html",
       "scroll_width": 342,
       "viewport_width": 342,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -691,7 +694,7 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "firefox",
@@ -755,7 +758,8 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "firefox",
@@ -845,7 +849,7 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "firefox",
@@ -909,7 +913,8 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "firefox",
@@ -989,7 +994,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
@@ -998,7 +1004,7 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "webkit",
@@ -1062,7 +1068,8 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "webkit",
@@ -1143,7 +1150,8 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
@@ -1152,7 +1160,7 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
     },
     {
       "engine": "webkit",
@@ -1217,7 +1225,8 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "webkit",
@@ -1284,7 +1293,7 @@
       "result": "pass"
     }
   ],
-  "passed": 143,
+  "passed": 133,
   "total": 152,
   "issues": [
     {
@@ -1294,7 +1303,16 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "contact.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -1303,7 +1321,16 @@
       "scroll_width": 768,
       "viewport_width": 768,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "contact.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -1312,7 +1339,16 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "contact.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "chromium",
@@ -1321,7 +1357,16 @@
       "scroll_width": 320,
       "viewport_width": 320,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "contact.html",
+      "scroll_width": 342,
+      "viewport_width": 342,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "firefox",
@@ -1339,7 +1384,16 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "contact.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     },
     {
       "engine": "firefox",
@@ -1348,7 +1402,25 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "contact.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
@@ -1357,7 +1429,25 @@
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "contact.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "work.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "webkit",
@@ -1366,7 +1456,16 @@
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"#ledger-app[data-ready='true']\") to be visible\n"
+      "reason": "Expected five source-backed projects"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "contact.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "Gmail direct-compose links missing"
     }
   ]
 }
