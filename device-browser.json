@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:27:04.254110+00:00",
+  "checked_at": "2026-10-28T08:27:26.683007+00:00",
   "profiles": [
     [
       "chromium",
@@ -635,8 +635,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 329,
-      "viewport_width": 329,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -677,8 +677,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1276,17 +1275,7 @@
       "result": "pass"
     }
   ],
-  "passed": 151,
+  "passed": 152,
   "total": 152,
-  "issues": [
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work filter incorrect"
-    }
-  ]
+  "issues": []
 }
