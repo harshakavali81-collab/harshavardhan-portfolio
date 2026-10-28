@@ -4,6 +4,8 @@
 
 ### Public Health Trends & Resource Intelligence
 
+[Browse GitHub source](https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/HealthPulse-AI) · [Portfolio case study](https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/healthpulse.html)
+
 **Full-stack analytics · WHO GHO integration · Forecasting · Explainable visualizations**
 
 ![HealthPulse dashboard preview](assets/dashboard-preview.png)
