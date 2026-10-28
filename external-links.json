@@ -1,34 +1,34 @@
 {
-  "checked_at": "2026-10-28T07:10:57.933832+00:00",
+  "checked_at": "2026-10-28T07:13:04.198206+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 52903,
+      "bytes": 55278,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 8351,
+      "bytes": 8417,
       "ok": true
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 15977,
+      "bytes": 16045,
       "ok": true
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 20347,
+      "bytes": 20439,
       "ok": true
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 13613,
+      "bytes": 13735,
       "ok": true
     },
     {
@@ -52,7 +52,7 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 6346,
+      "bytes": 6399,
       "ok": true
     },
     {
@@ -93,6 +93,15 @@
     }
   ],
   "external": [
+    {
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "pages": [
+        "healthpulse-worldbank.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
     {
       "url": "https://github.com/harshakavali81-collab",
       "pages": [
@@ -266,6 +275,7 @@
       "pages": [
         "cases/healthpulse.html",
         "healthpulse-demo.html",
+        "healthpulse-worldbank.html",
         "index.html"
       ],
       "via": "github-repo-api",
@@ -278,6 +288,24 @@
         "healthpulse-demo.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence/blob/main/docs/VALIDATION_PLAN.md",
+      "pages": [
+        "healthpulse-worldbank.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence/tree/main/data/public",
+      "pages": [
+        "healthpulse-worldbank.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -530,6 +558,24 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/hiring.html",
+      "pages": [
+        "hiring.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/interview.html",
+      "pages": [
+        "interview.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html",
       "pages": [
         "profile.html"
@@ -606,6 +652,7 @@
       "pages": [
         "contact.html",
         "data-analyst-resume.html",
+        "hiring.html",
         "index.html",
         "profile.html",
         "recruiter.html",
@@ -627,7 +674,7 @@
     }
   ],
   "external_counts": {
-    "ok": 54,
+    "ok": 59,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
