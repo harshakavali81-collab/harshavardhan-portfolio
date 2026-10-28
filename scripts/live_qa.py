@@ -140,6 +140,9 @@ def browser_qa(out):
                                 for part in ("overview","problem","process","solution","results","reflection"):
                                     if page.locator("#"+part).count()!=1:raise AssertionError("missing section "+part)
                             if path=="work.html":
+                                page.wait_for_function(
+                                    "() => document.documentElement.dataset.workFiltersReady === 'true'",
+                                    timeout=5000)
                                 data_filter=page.locator("button[data-filter='Data']")
                                 data_filter.click()
                                 try:
