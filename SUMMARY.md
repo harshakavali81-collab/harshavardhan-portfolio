@@ -1,6 +1,6 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-28T08:29:32.396258+00:00
+Generated UTC: 2026-10-28T08:29:59.618293+00:00
 
 ## Direct checks
 - Live URL HTTP 200: 19/19
@@ -12,19 +12,19 @@ Generated UTC: 2026-10-28T08:29:32.396258+00:00
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 38.5 | 357.5 |
-| work.html | 41.0 | 411.5 |
-| evidence.html | 53.0 | 417.0 |
-| engineering.html | 28.0 | 389.5 |
-| proof-map.html | 46.5 | 401.0 |
-| hiring.html | 35.5 | 396.5 |
-| interview.html | 29.0 | 387.5 |
-| profile.html | 27.0 | 392.0 |
-| contact.html | 44.0 | 391.5 |
-| resumes.html | 27.5 | 301.0 |
-| quality.html | 25.5 | 323.5 |
-| cases/demandpilot.html | 27.0 | 364.5 |
-| cases/transactionshield.html | 27.5 | 371.5 |
+| index.html | 49.5 | 330.5 |
+| work.html | 60.5 | 401.0 |
+| evidence.html | 51.0 | 417.0 |
+| engineering.html | 49.5 | 324.0 |
+| proof-map.html | 63.0 | 390.5 |
+| hiring.html | 37.5 | 360.0 |
+| interview.html | 51.0 | 347.5 |
+| profile.html | 52.5 | 352.5 |
+| contact.html | 63.5 | 381.5 |
+| resumes.html | 50.0 | 339.0 |
+| quality.html | 50.5 | 356.0 |
+| cases/demandpilot.html | 53.5 | 336.5 |
+| cases/transactionshield.html | 50.0 | 307.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
