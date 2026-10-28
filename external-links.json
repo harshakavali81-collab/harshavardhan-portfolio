@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:45:37.823428+00:00",
+  "checked_at": "2026-10-28T07:45:51.122146+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -175,91 +175,9 @@
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
       "pages": [
         "airaware.html",
-        "index.html",
-        "work.html"
+        "index.html"
       ],
       "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40649009601",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-repo-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/dashboard-preview.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/data-pipeline.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/model-evaluation.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/project-tree.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/project-workflow.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/system-architecture.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/HISTORICAL_BENCHMARK_RESULTS.md",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/VISUAL_GALLERY.md",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -385,8 +303,7 @@
         "cases/healthpulse.html",
         "healthpulse-demo.html",
         "healthpulse-worldbank.html",
-        "index.html",
-        "work.html"
+        "index.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -771,7 +688,35 @@
       "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
       "pages": [
         "hiring.html",
+        "index.html",
         "profile.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity",
+      "pages": [
+        "recruiter.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity",
+      "pages": [
+        "contact.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan",
+      "pages": [
+        "index.html"
       ],
       "via": "http",
       "status": 200,
@@ -787,101 +732,11 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity&tf=cm",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan",
       "pages": [
         "recruiter.html"
       ],
       "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
-      "pages": [
-        "index.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity&tf=cm",
-      "pages": [
-        "contact.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
-      "pages": [
-        "recruiter.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
-      "pages": [
-        "index.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/dashboard-preview.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/data-pipeline.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/model-evaluation.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/project-tree.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/project-workflow.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/system-architecture.png",
-      "pages": [
-        "airaware.html"
-      ],
-      "via": "github-asset-api",
       "status": 200,
       "result": "ok"
     },
@@ -930,7 +785,7 @@
     }
   ],
   "external_counts": {
-    "ok": 84,
+    "ok": 68,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
