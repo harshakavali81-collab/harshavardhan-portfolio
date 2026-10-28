@@ -1,3 +1,5 @@
+/* Display serif + restrained modern sans; system fallbacks remain available offline. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 /* KH ATELIER — Champagne Metallic on Obsidian, v1.0
    Shared across the public portfolio. Decorative metallic treatment is reserved
    for headings: body text, buttons, form fields and data stay high-contrast.
@@ -230,3 +232,16 @@ img{max-width:100%;height:auto}
  .paper a{color:#111!important}
  .muted,.lede,.lead, .intro, .card p,.decision p{color:#333!important}
 }
+
+/* Fine foil detailing: no flicker, fast paint, and restrained glints. */
+main h1::selection,main h2::selection{background:#dcc087!important;color:#080808!important;-webkit-text-fill-color:#080808!important}
+:is(.panel,.feature,.card,.featured-proof,.signature-map,.deep-card,.ledger-card,.decision) {
+ position:relative;
+}
+:is(.panel,.feature,.card,.featured-proof,.signature-map,.deep-card,.ledger-card,.decision)::before{
+ content:"";position:absolute;top:0;left:22px;right:22px;height:1px;
+ background:linear-gradient(90deg,transparent,rgba(238,210,154,.50),transparent);
+ pointer-events:none;
+}
+footer,.footer{color:#b5aa99!important;border-color:#4c3e2a!important}
+@media(max-width:480px){main h1{font-size:clamp(32px,9vw,48px)!important}main h2{font-size:clamp(23px,7vw,34px)!important}}
