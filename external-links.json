@@ -1,130 +1,130 @@
 {
-  "checked_at": "2026-10-28T10:42:01.116206+00:00",
+  "checked_at": "2026-10-28T12:04:26.675653+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 57603,
+      "bytes": 70636,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21115,
+      "bytes": 21272,
       "ok": true
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59243,
+      "bytes": 59400,
       "ok": true
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 67217,
+      "bytes": 69014,
       "ok": true
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7408,
+      "bytes": 7565,
       "ok": true
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15220,
+      "bytes": 15377,
       "ok": true
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17137,
+      "bytes": 17294,
       "ok": true
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 64072,
+      "bytes": 67527,
       "ok": true
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14032,
+      "bytes": 14189,
       "ok": true
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6261,
+      "bytes": 6418,
       "ok": true
     },
     {
       "page": "resume.html",
       "status": 200,
-      "bytes": 7593,
+      "bytes": 7663,
       "ok": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
-      "bytes": 9101,
+      "bytes": 9171,
       "ok": true
     },
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10049,
+      "bytes": 10206,
       "ok": true
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11101,
+      "bytes": 11258,
       "ok": true
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10776,
+      "bytes": 10933,
       "ok": true
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 10095,
+      "bytes": 10252,
       "ok": true
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 10122,
+      "bytes": 10285,
       "ok": true
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
-      "bytes": 10603,
+      "bytes": 10766,
       "ok": true
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 10264,
+      "bytes": 10427,
       "ok": true
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9724,
+      "bytes": 9887,
       "ok": true
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9633,
+      "bytes": 9796,
       "ok": true
     }
   ],
@@ -141,6 +141,7 @@
     {
       "url": "https://github.com/harshakavali81-collab",
       "pages": [
+        "career-portfolio.html",
         "cases/healthpulse.html",
         "contact.html",
         "data-analyst-resume.html",
@@ -170,6 +171,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
       "pages": [
+        "career-portfolio.html",
         "cases/evidencedesk.html",
         "index.html",
         "job-platforms.html",
@@ -528,6 +530,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
       "pages": [
+        "career-portfolio.html",
         "cases/demandpilot.html",
         "index.html",
         "job-platforms.html",
@@ -554,6 +557,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
       "pages": [
+        "career-portfolio.html",
         "cases/ecommerce.html",
         "index.html",
         "job-platforms.html",
@@ -699,6 +703,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence",
       "pages": [
+        "career-portfolio.html",
         "cases/healthpulse.html",
         "healthpulse-demo.html",
         "healthpulse-worldbank.html",
@@ -1049,6 +1054,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.",
       "pages": [
+        "career-portfolio.html",
         "cases/transactionshield.html",
         "index.html",
         "job-platforms.html",
@@ -1251,6 +1257,15 @@
       "pages": [
         "bigdata-demo.html",
         "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/career-portfolio.html",
+      "pages": [
+        "career-portfolio.html"
       ],
       "via": "http",
       "status": 200,
@@ -1739,6 +1754,7 @@
     {
       "url": "https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/",
       "pages": [
+        "career-portfolio.html",
         "contact.html",
         "data-analyst-resume.html",
         "hiring.html",
@@ -1775,7 +1791,7 @@
     }
   ],
   "external_counts": {
-    "ok": 159,
+    "ok": 160,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
