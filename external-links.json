@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T13:44:25.213068+00:00",
+  "checked_at": "2026-10-28T14:05:28.289037+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 74080,
+      "bytes": 79711,
       "ok": true,
       "current_release_marker": true
     },
@@ -178,6 +178,7 @@
       "pages": [
         "career-portfolio.html",
         "cases/healthpulse.html",
+        "certificates.html",
         "contact.html",
         "data-analyst-resume.html",
         "index.html",
@@ -1418,6 +1419,15 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/certificates.html",
+      "pages": [
+        "certificates.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html",
       "pages": [
         "contact.html"
@@ -1807,6 +1817,24 @@
       "result": "ok"
     },
     {
+      "url": "https://www.credly.com/go/GqcOmj3t",
+      "pages": [
+        "certificates.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.credly.com/go/tfTqbAM0",
+      "pages": [
+        "certificates.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://www.foundit.in/",
       "pages": [
         "job-platforms.html"
@@ -1819,6 +1847,7 @@
       "url": "https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/",
       "pages": [
         "career-portfolio.html",
+        "certificates.html",
         "contact.html",
         "data-analyst-resume.html",
         "hiring.html",
@@ -1856,7 +1885,7 @@
     }
   ],
   "external_counts": {
-    "ok": 163,
+    "ok": 166,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
