@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:36:37.054775+00:00",
+  "checked_at": "2026-10-28T07:36:50.421001+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -703,8 +703,8 @@
         "resumes.html"
       ],
       "via": "http",
-      "status": 200,
-      "result": "ok"
+      "status": 999,
+      "result": "unknown"
     },
     {
       "url": "https://www.who.int/data/gho/info/gho-odata-api",
@@ -717,9 +717,9 @@
     }
   ],
   "external_counts": {
-    "ok": 63,
+    "ok": 62,
     "broken": 0,
-    "unknown": 0,
+    "unknown": 1,
     "http-error": 0
   }
 }
