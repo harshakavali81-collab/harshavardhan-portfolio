@@ -1,64 +1,64 @@
 {
-  "checked_at": "2026-10-28T10:40:17.204207+00:00",
+  "checked_at": "2026-10-28T10:39:01.701695+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 57603,
+      "bytes": 55327,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21115,
+      "bytes": 21038,
       "ok": true
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59243,
+      "bytes": 59166,
       "ok": true
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 67217,
+      "bytes": 67140,
       "ok": true
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7408,
+      "bytes": 7331,
       "ok": true
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15220,
+      "bytes": 15143,
       "ok": true
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17137,
+      "bytes": 17060,
       "ok": true
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 64072,
+      "bytes": 63995,
       "ok": true
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14032,
+      "bytes": 13955,
       "ok": true
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6261,
+      "bytes": 6184,
       "ok": true
     },
     {
@@ -76,55 +76,55 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10049,
+      "bytes": 9972,
       "ok": true
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11101,
+      "bytes": 11024,
       "ok": true
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10776,
+      "bytes": 10699,
       "ok": true
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 10095,
+      "bytes": 10018,
       "ok": true
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 10122,
+      "bytes": 10042,
       "ok": true
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
-      "bytes": 10603,
+      "bytes": 10523,
       "ok": true
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 10264,
+      "bytes": 10184,
       "ok": true
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9724,
+      "bytes": 9644,
       "ok": true
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9633,
+      "bytes": 9553,
       "ok": true
     }
   ],

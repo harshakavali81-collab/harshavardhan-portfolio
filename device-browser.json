@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T11:05:07.933048+00:00",
+  "checked_at": "2026-10-28T11:06:41.091309+00:00",
   "profiles": [
     [
       "chromium",
@@ -117,9 +117,8 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "recruiter.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -147,9 +146,8 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -274,9 +272,8 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "recruiter.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -304,9 +301,8 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "contact.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -430,9 +426,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "recruiter.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -460,10 +455,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass",
-      "screenshot": "screenshots/chromium-mobile-contact.html.png"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -587,9 +580,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "recruiter.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -617,9 +609,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "contact.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -743,9 +734,8 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "recruiter.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -773,9 +763,8 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -899,9 +888,8 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "recruiter.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -929,9 +917,8 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1055,9 +1042,8 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "recruiter.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1085,9 +1071,8 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1160,8 +1145,7 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1213,9 +1197,8 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "recruiter.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1243,9 +1226,8 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1304,7 +1286,7 @@
       "reason": "Premium theme did not apply within 12 seconds"
     }
   ],
-  "passed": 55,
+  "passed": 40,
   "total": 168,
   "issues": [
     {
@@ -1340,6 +1322,13 @@
     {
       "engine": "chromium",
       "profile": "desktop",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1348,6 +1337,13 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1440,6 +1436,13 @@
     {
       "engine": "chromium",
       "profile": "tablet",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1448,6 +1451,13 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1540,6 +1550,13 @@
     {
       "engine": "chromium",
       "profile": "mobile",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1548,6 +1565,13 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1640,6 +1664,13 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1648,6 +1679,13 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1740,6 +1778,13 @@
     {
       "engine": "firefox",
       "profile": "desktop",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1748,6 +1793,13 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1840,6 +1892,13 @@
     {
       "engine": "firefox",
       "profile": "mobile",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1848,6 +1907,13 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1940,6 +2006,13 @@
     {
       "engine": "webkit",
       "profile": "desktop",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -1948,6 +2021,13 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -2019,15 +2099,6 @@
     {
       "engine": "webkit",
       "profile": "mobile",
-      "page": "work.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
       "page": "evidence.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -2049,6 +2120,13 @@
     {
       "engine": "webkit",
       "profile": "mobile",
+      "page": "recruiter.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
       "page": "resume.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
@@ -2057,6 +2135,13 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "data-analyst-resume.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "contact.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
