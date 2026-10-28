@@ -1,13 +1,13 @@
 # Career portfolio regression report
 
-Source commit: e845dcd5f3ea416575c8cfd548cdbcb11d88402d
+Source commit: 2e8efd94ffaecafa871aafb68bcb070935602f21
 
-Generated UTC: 2026-10-28T15:24:08Z
+Generated UTC: 2026-10-28T15:27:28Z
 
 | Check | Result |
 |---|---|
-| 12-element career dossier | failure |
-| Black-and-gold page and repository structure | skipped |
+| 12-element career dossier | success |
+| Black-and-gold page and repository structure | failure |
 | All site local links and targets | skipped |
 | Role selector and screen resume styling | skipped |
 
