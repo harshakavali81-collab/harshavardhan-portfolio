@@ -1,5 +1,18 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## Final owner-selected two-color theme · 28 October 2026
+
+The site owner explicitly selected **exactly two theme colors: dark black (`#080808`) and gold (`#D4AF37`)**. The final `@media screen` cascade in `assets/portfolio-upgrade.css` overrides older metallic, charcoal, champagne, blue and light accents. The source retains established structure, 31 GitHub project links, two PDF resumes, all twelve career elements and the recruiter navigation.
+
+Recruiter contact links are available in the homepage, recruiter view, contact page, professional profile, resume center and downloadable contact card:
+- Phone: `+91 8008273318` (`tel:+918008273318`)
+- Email: `kavaliharshavardhan98@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/`
+- GitHub: `https://github.com/harshakavali81-collab`
+
+**Account boundary:** Publishing these links to the GitHub portfolio does not modify the LinkedIn account or change its Contact Info settings. Native PDF resumes are preserved in their printable format. Deployments and live QA are verified independently by GitHub Actions.
+
+
 ## Final QA hardening · 28 October 2026
 
 - **Automated source checks:** [GitHub-hosted career regression report](https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/career-regression-summary.md) records all four commands passing on commit `3e8048f`: twelve-element dossier, premium black/gold theme, site link integrity and role/resume behavior.
