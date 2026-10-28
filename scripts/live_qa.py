@@ -140,8 +140,27 @@ def browser_qa(out):
                                 for part in ("overview","problem","process","solution","results","reflection"):
                                     if page.locator("#"+part).count()!=1:raise AssertionError("missing section "+part)
                             if path=="work.html":
-                                page.locator("button[data-filter='Data']").click()
-                                if page.locator(".case-card:not([hidden])").count()!=2:raise AssertionError("Work filter incorrect")
+                                data_filter=page.locator("button[data-filter='Data']")
+                                data_filter.click()
+                                try:
+                                    page.wait_for_function("""() => {
+                                      const selected = document.querySelector('[data-filter="Data"]');
+                                      const cards = [...document.querySelectorAll('.case-card')];
+                                      return selected?.getAttribute('aria-pressed') === 'true' &&
+                                        cards.filter(c => !c.hasAttribute('hidden')).length === 2 &&
+                                        cards.filter(c => !c.hasAttribute('hidden')).every(c => c.dataset.type === 'Data') &&
+                                        cards.filter(c => c.hasAttribute('hidden')).length === cards.length - 2;
+                                    }""", timeout=5000)
+                                except Exception:
+                                    visible=page.locator(".case-card:not([hidden])").count()
+                                    pressed=data_filter.get_attribute("aria-pressed")
+                                    raise AssertionError(
+                                        f"Work Data filter did not settle: visible={visible}, selected={pressed}")
+                                page.locator("button[data-filter='All']").click()
+                                page.wait_for_function("""() => {
+                                    const cards=[...document.querySelectorAll('.case-card')];
+                                    return cards.length >= 5 && cards.every(c=>!c.hasAttribute('hidden'));
+                                }""", timeout=5000)
                             if path=="":
                                 page.locator("button[data-role='Data Analyst']").click()
                                 if "data-analyst-resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
