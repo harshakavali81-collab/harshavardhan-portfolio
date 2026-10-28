@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T06:23:59.221177+00:00",
+  "checked_at": "2026-10-28T06:24:20.047743+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -342,6 +342,51 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/runs/40643160914",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/live-qa.yml",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/site-quality.yml",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/main/scripts/live_qa.py",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/SUMMARY.md",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/HealthPulse-AI",
       "pages": [
         "HealthPulse-AI/portfolio/healthpulse-case-study.html",
@@ -464,6 +509,15 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html",
       "pages": [
         "recruiter.html"
@@ -534,7 +588,7 @@
     }
   ],
   "external_counts": {
-    "ok": 45,
+    "ok": 51,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
