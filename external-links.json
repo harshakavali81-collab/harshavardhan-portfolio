@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:35:33.090659+00:00",
+  "checked_at": "2026-10-28T07:35:42.101674+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -94,13 +94,13 @@
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9398,
+      "bytes": 9587,
       "ok": true
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9314,
+      "bytes": 9496,
       "ok": true
     }
   ],
