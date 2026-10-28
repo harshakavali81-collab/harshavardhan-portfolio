@@ -223,6 +223,47 @@
         "python -m scripts.evaluate"
       ],
       "claimLevel": "Verified authored-fixture retrieval, educational demo"
+    },
+    {
+      "slug": "streamwatch",
+      "title": "StreamWatch AI — Kafka Streaming & Anomaly Detection",
+      "discipline": "ml",
+      "role": "Data Engineer / MLOps / Python",
+      "stack": [
+        "Python",
+        "Redpanda Kafka",
+        "Pydantic",
+        "PostgreSQL",
+        "FastAPI",
+        "React",
+        "Prometheus"
+      ],
+      "question": "Can a Kafka-compatible event stream validate telemetry, persist anomaly findings, safely handle replays and support human investigation?",
+      "architecture": [
+        "Four-service synthetic event generator",
+        "Kafka-compatible Redpanda broker",
+        "Schema-validation and privacy-conscious dead-letter topic",
+        "Per-service online statistical detector",
+        "SQL idempotency, model-state restoration and triage audit",
+        "FastAPI metrics and React investigation queue"
+      ],
+      "test": "37 Python tests passed in GitHub Actions for the latest verified unit-test revision. Separate Docker integration passed with actual ephemeral Redpanda, worker, SQL and API, verifying duplicate-ID handling, DLQ routing and authenticated case review.",
+      "metric": "37",
+      "metricLabel": "Python regression tests passed in GitHub CI",
+      "metricDetail": "37 passed, 1 warning on the 2026-10-28 quality-and-build run. A separate Docker streaming integration run also passed. These are synthetic engineering checks, not independent production accuracy, public uptime or a Kafka load-test SLA.",
+      "source": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
+      "evidence": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/actions/runs/40657460369",
+      "casePage": "cases/streamwatch.html",
+      "sample": "Seeded fictional telemetry for checkout, payments, search and identity. No customer identities, real operational records or external service incidents.",
+      "tradeoff": "Manual Kafka offset acknowledgement and SQL event-ID deduplication handle record replay, but full multi-worker model consistency still requires partition-coordinated persistent checkpoints.",
+      "limitations": "Not a publicly hosted or validated production monitoring service. Real labels, drift studies, security identity, multi-broker availability and long-duration load tests remain outstanding.",
+      "reviewNext": "Run authorized real-data evaluation and sustained broker-to-database load tests; configure production identity, monitored infrastructure and durable multi-worker state before public hosting.",
+      "testCommands": [
+        "python -m pytest -q",
+        "docker compose up --build -d",
+        "python -m scripts.smoke"
+      ],
+      "claimLevel": "Verified synthetic Python and ephemeral Kafka integration CI"
     }
   ]
 }
