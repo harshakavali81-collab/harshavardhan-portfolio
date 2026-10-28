@@ -22,6 +22,12 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 **DocSight AI — Smart Document Classifier & Summarizer:** [technical case study](cases/docsight.html) · [GitHub source](https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer). Six document labels from synthetic training samples, source-page extractive summaries and full-stack Python/React API, with limitations disclosed.
 
+## LinkedIn profile and project portfolio pack
+
+- **[Complete LinkedIn profile and project copy kit](docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md)** — tailored headline, About, internship, education, 15 source-backed project descriptions, Featured links, 31-repository index, and account-update checklist.
+- [Existing LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) · [Portfolio website](https://harshakavali81-collab.github.io/harshavardhan-portfolio/).
+- **Publishing disclosure:** The kit is hosted in GitHub and has **not** been automatically applied to LinkedIn. Account sign-in and saving are required.
+
 ## LinkedIn, Naukri and foundit profile pack
 
 Copy-ready, role-focused headline, about section, internship, skills, projects, certifications and account-update checklist: [Open the job-portal profile pack](docs/JOB_PORTAL_PROFILE_KIT.md).
