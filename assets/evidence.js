@@ -106,7 +106,7 @@
       const response = await fetch("data/project-evidence.json", {cache: "no-cache"});
       if (!response.ok) throw new Error("HTTP " + response.status);
       const payload = await response.json();
-      if (!Array.isArray(payload.entries) || payload.entries.length !== 5) throw new Error("Incomplete evidence register");
+      if (!Array.isArray(payload.entries) || payload.entries.length < 5) throw new Error("Incomplete evidence register");
       entries = payload.entries;
       const params = new URLSearchParams(location.search);
       for (const item of entries) {
@@ -126,7 +126,7 @@
       drawCards();
       drawCompare();
       root.dataset.ready = "true";
-      status.textContent = "Register loaded: five source-backed projects and two-project comparison ready.";
+      status.textContent = "Register loaded: " + entries.length + " source-backed projects and two-project comparison ready.";
     } catch (error) {
       root.dataset.ready = "false";
       status.textContent = "The interactive register could not load. Use the direct project links below or download the source JSON.";
