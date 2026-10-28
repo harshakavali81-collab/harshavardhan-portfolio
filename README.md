@@ -1,5 +1,24 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## Official academic records and flagship case studies · 28 October 2026
+
+The owner provided photographs of the official-looking academic documents; only the non-sensitive fields are published. Original scans, QR codes, portrait photos, government/school ID values, birth date and family details are **not** committed to the public site.
+
+| Qualification | Value transcribed from supplied document |
+|---|---|
+| B.Tech Electronics & Communication Engineering, CMR Institute of Technology, 2025 | **First Class, 7.03 / 10 CGPA** on the consolidated grade sheet dated 2 July 2025 |
+| Intermediate MPC, Sri Sathya Sai Junior College, 2021 | **864 / 1000 = 86.4%** on the Intermediate marks memorandum |
+| SSC, AP Model School, 2019 | **9.2 / 10 GPA** on the SSC certificate |
+
+**Authenticity caveat:** The uploaded document images were inspected, not independently confirmed with issuers. This update corrects previously stated 7.02 CGPA, 87% Intermediate and 92% SSC. The last figure was a GPA rather than a literal percentage.
+
+**Resumes:** Both existing public PDF paths now serve reauthored, one-page ATS-readable PDFs with the corrected academic scores and clearly categorized technical projects, education, internship, training and recruiter links. The HTML resume pages and LinkedIn/job-portal preparation kit also use the corrected results.
+
+**Recruiter evidence:** [flagship-projects.html](flagship-projects.html) contains three 19-field case studies for the multilingual knowledge base (FastAPI/React), Zomato Power BI analytics and synthetic TransactionShield fraud scoring. The [32-point readiness guide](portfolio-readiness.html) maps all eight essential website sections, five job-role pathways, 36 technical checks, 19 project fields and a GitHub profile README template. The template is stored in [docs/GITHUB_PROFILE_README.md](docs/GITHUB_PROFILE_README.md) but has not been installed as a public GitHub profile repository.
+
+**Verification:** The GitHub career regression checks inspect scores across pages and both PDF streams, their cross-reference tables, case-study field counts, internal links and the owner-selected two-color palette. Cross-browser and network checks are recorded separately on the `qa-reports` branch; passing results for older commits are not evidence for later deployments.
+
+
 ## Resume and uploaded credential release · 28 October 2026
 
 - **Homepage selected work** retains six case studies plus four resume-specific project cards: Zomato Insights, a source-linked [Multilingual Indian Language Knowledge Platform](https://github.com/harshakavali81-collab/Multilingual-Project), Document Q&A/RAG, and a resume-reported Women Safety Device. An unverified repo link has **not** been invented for the hardware project.
