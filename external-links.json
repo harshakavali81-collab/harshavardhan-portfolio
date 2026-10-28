@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T08:07:49.764858+00:00",
+  "checked_at": "2026-10-28T08:08:41.888868+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 65109,
+      "bytes": 68604,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 15091,
+      "bytes": 17465,
       "ok": true
     },
     {
@@ -287,6 +287,35 @@
         "index.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
+      "pages": [
+        "cases/commercelens.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/actions",
+      "pages": [
+        "cases/commercelens.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment/blob/main/docs/PORTFOLIO_CASE_STUDY.md",
+      "pages": [
+        "cases/commercelens.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -613,6 +642,35 @@
         "recruiter.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing",
+      "pages": [
+        "cases/inventoryiq.html",
+        "index.html",
+        "work.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/blob/main/docs/MODEL_CARD.md",
+      "pages": [
+        "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing/tree/main/tests",
+      "pages": [
+        "cases/inventoryiq.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -1138,7 +1196,7 @@
     }
   ],
   "external_counts": {
-    "ok": 106,
+    "ok": 112,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
