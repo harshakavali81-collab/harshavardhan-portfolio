@@ -301,3 +301,25 @@ I'm interested in Data Analyst, Python Developer, Junior Software Engineer and A
 ## 14. Short recruiter connection note
 
 Hello, I'm a 2025 B.Tech ECE graduate based in Hyderabad, with a Python internship and practical Python, SQL, Power BI and AI/ML project experience. I'm seeking entry-level Data Analyst, Python or Software Engineering opportunities. My portfolio: https://harshakavali81-collab.github.io/harshavardhan-portfolio/
+
+## 15. Why Projects are not listed under Activity
+
+The screenshot from 28 October 2026 showed `linkedin.com/in/kavali-harshavardhan-7ab93a28b/recent-activity/all/`. This is the **Activity → Posts** view, and it cannot show projects that are merely entered in your profile's Projects section. GitHub commits and portfolio website updates also do not automatically publish to LinkedIn.
+
+For your desktop LinkedIn account:
+1. Click **Me → View profile**, or open https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/
+2. Click **Add profile section → Recommended → Projects** (or **Add section → Add project**, depending on current UI).
+3. Paste the exact project title and description from the [copy-ready LinkedIn setup page](../linkedin-setup.html).
+4. Attach the GitHub source via **Add media → Add a link**. Add up to five relevant skills; enter genuine project dates. Click **Save**.
+5. Use **Contact info** to add your portfolio website. Add it in **Featured**, if that option is available on your account.
+6. If you want the work to appear under **Activity → Posts**, publish the portfolio announcement separately, optionally posting the project after saving its profile entry.
+
+**New copy-ready profile website source:** https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/main/linkedin-setup.html
+
+**Expected deployed page:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-setup.html
+
+**Publication boundary:** GitHub repository content was committed. GitHub Pages deployment is not independently verified in this session; LinkedIn profile and activity have not been edited. LinkedIn account sign-in and Save actions are still required.
+
+LinkedIn documentation:
+- https://www.linkedin.com/help/linkedin/answer/a8064614
+- https://www.linkedin.com/help/linkedin/answer/a540837
