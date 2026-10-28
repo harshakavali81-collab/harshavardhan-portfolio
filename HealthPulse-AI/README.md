@@ -45,6 +45,7 @@ An analytics and visualization application for longitudinal aggregate public hea
 - [Model card and limitations](docs/MODEL_CARD.md)
 - [Data dictionary](docs/DATA_DICTIONARY.md)
 - [Security notes](docs/SECURITY.md)
+- [GitHub publication and deployment notes](docs/GITHUB_AND_DEPLOYMENT.md)
 - [Portfolio case study](docs/PORTFOLIO_CASE_STUDY.md)
 
 ## Quick start with Docker
