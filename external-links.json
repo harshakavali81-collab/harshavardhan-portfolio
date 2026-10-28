@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:57:14.519938+00:00",
+  "checked_at": "2026-10-28T08:58:51.826839+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -10,14 +10,14 @@
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 20989,
+      "bytes": 21004,
       "ok": true
     },
     {
       "page": "evidence.html",
-      "status": 503,
-      "bytes": 54887,
-      "ok": false
+      "status": 200,
+      "bytes": 7331,
+      "ok": true
     },
     {
       "page": "engineering.html",
@@ -201,6 +201,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/actions/runs/40660029536",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/assets/dashboard-preview.png",
       "pages": [
         "airaware.html"
@@ -264,6 +273,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/HYDERABAD_OBSERVED_BENCHMARK.md",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/blob/main/docs/RELEASE_ACCEPTANCE.md",
       "pages": [
         "airaware.html"
@@ -293,6 +311,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
       "pages": [
+        "cases/commercelens-report.html",
         "cases/commercelens.html",
         "commercelens-demo.html",
         "index.html",
@@ -1074,6 +1093,15 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/commercelens.html",
+      "pages": [
+        "cases/commercelens-report.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/demandpilot.html",
       "pages": [
         "cases/demandpilot.html"
@@ -1328,6 +1356,15 @@
       "result": "ok"
     },
     {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/hyderabad-2024-historical-folds.svg",
+      "pages": [
+        "airaware.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence/main/assets/model-evaluation.png",
       "pages": [
         "airaware.html"
@@ -1519,7 +1556,7 @@
     }
   ],
   "external_counts": {
-    "ok": 146,
+    "ok": 150,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
