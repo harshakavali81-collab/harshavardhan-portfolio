@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T10:57:26.778584+00:00",
+  "checked_at": "2026-10-28T11:00:33.849690+00:00",
   "profiles": [
     [
       "chromium",
@@ -185,9 +185,8 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "cases/transactionshield.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -209,9 +208,8 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "cases/zomato.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -348,9 +346,8 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "cases/transactionshield.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -372,9 +369,8 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "cases/zomato.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -511,9 +507,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -535,9 +530,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "cases/zomato.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -673,9 +667,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "chromium",
@@ -697,9 +690,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/zomato.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -835,9 +827,8 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "cases/transactionshield.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -860,9 +851,8 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "cases/zomato.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -998,9 +988,8 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "firefox",
@@ -1022,9 +1011,8 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "cases/zomato.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1160,9 +1148,8 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "cases/transactionshield.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1184,9 +1171,8 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "cases/zomato.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1323,9 +1309,8 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "cases/transactionshield.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     },
     {
       "engine": "webkit",
@@ -1347,12 +1332,11 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "cases/zomato.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
     }
   ],
-  "passed": 104,
+  "passed": 88,
   "total": 168,
   "issues": [
     {
@@ -1410,6 +1394,20 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "quality.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "cases/zomato.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1473,6 +1471,20 @@
     },
     {
       "engine": "chromium",
+      "profile": "tablet",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "cases/zomato.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
       "profile": "mobile",
       "page": "index.html",
       "scroll_width": 431,
@@ -1526,6 +1538,20 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "quality.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "cases/zomato.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1588,6 +1614,20 @@
       "reason": "Premium theme did not apply within 12 seconds"
     },
     {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "cases/zomato.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
@@ -1642,6 +1682,20 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "quality.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "cases/zomato.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     },
@@ -1704,6 +1758,20 @@
       "reason": "Premium theme did not apply within 12 seconds"
     },
     {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "cases/zomato.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
@@ -1763,6 +1831,20 @@
     },
     {
       "engine": "webkit",
+      "profile": "desktop",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "cases/zomato.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
       "scroll_width": 431,
@@ -1816,6 +1898,20 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "quality.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "cases/transactionshield.html",
+      "result": "fail",
+      "reason": "Premium theme did not apply within 12 seconds"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "cases/zomato.html",
       "result": "fail",
       "reason": "Premium theme did not apply within 12 seconds"
     }
