@@ -159,3 +159,11 @@ Run `python3 scripts/audit_site.py` locally. The GitHub Actions **Portfolio qual
 ## Updating personal details
 
 Confirmed personal hobbies: **Reading Books** and **Playing Games**. Other interests are presented as project-based professional interests, not invented personal hobbies. Do not publish private information such as date of birth, home address, identification numbers or certificates with sensitive details.
+
+
+## Added FoodBridge AI (2026-10-28)
+- Home page now includes a FoodBridge AI spotlight and filterable Full Stack project card.
+- Selected-work page links to a dedicated [FoodBridge AI technical case study](cases/foodbridge.html).
+- Three original FoodBridge SVG figures are locally vendored in `assets/foodbridge/` with source attribution in the case study; the complete 10-image gallery remains in the original repository.
+- [Live public showcase](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/), [browser-only synthetic demo](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/demo.html), [source code](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution).
+- Results (32 Python CI tests; 3.908 kg synthetic holdout MAE) are historical, explicitly synthetic observations, not operational proof. No real food-safety or distribution approval is claimed.
