@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","profile.html","contact.html","resumes.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","work.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","work.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
