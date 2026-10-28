@@ -4,9 +4,35 @@
 
 Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
 
+
+## 2026 Metallic Foil Edition — recruiter-first portfolio requirements
+
+The **[full career portfolio](career-portfolio.html)** is the recruiter-facing entry point. It presents five foundational pillars: curated work, case studies, intuitive navigation, defensible evidence and direct contact. Five selected projects link to source-backed case studies, and the [complete 31-project repository library](linkedin-projects.html) remains browsable and searchable.
+
+### Premium visual system
+
+- **Matte black:** `#080808` (screen background), with charcoal-black elevated surfaces; no white page background in the screen theme.
+- **Foil gradient:** `linear-gradient(135deg,#bf953f,#fcf6ba 25%,#b38728 50%,#fbf5b7 75%,#aa771c)` for large editorial headings.
+- **Typography:** Cormorant Garamond headings, Cinzel project headings and Montserrat body text. Graceful local fallbacks and clear paragraph contrast.
+- **Accessibility:** mobile layouts, focus styles, reduced-motion behavior and forced-colors alternatives; ATS resume PDFs remain printer-friendly.
+- **Stylesheet precedence:** `assets/kh-obsidian-final.css` defines the shared palette; `assets/portfolio-upgrade.css` is included last on relevant pages and has a metallic-foil compatibility bridge to protect the intended design.
+- **No fabricated evidence:** documented synthetic datasets, test results and public demos are labeled clearly. Production suitability, recruiter outcomes and real business revenue gains are not invented.
+
+### Five case-study proof criteria
+
+Each spotlight should tell a grounded story: **problem and goal → exact contribution → methodology → deliverable → measured outcome or reproducible evidence → reflection**. Source URLs, validation boundaries, constraints and honest limitations are linked. The 31-item count includes this portfolio repository itself.
+
+### Operational verification
+
+- Static tests: `scripts/audit_site.py`, `scripts/check_career_dossier.py`, `scripts/check_premium_black.py` and other project checks via GitHub Actions.
+- Live-browser QA: `scripts/live_qa.py` tests supported Chromium, Firefox and WebKit viewports and page-load benchmarks when the workflow runs successfully.
+- Confirm the **latest commit SHA** and its [Pages deployment](https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions) as well as [browser QA](https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/workflows/live-qa.yml). A historical passing report does **not** prove a newer release passes.
+- Third-party LinkedIn account fields, recommendations, profile photos and endorsement badges are not edited automatically by this repository.
+
+
 ## Premium black portfolio · October 2026
 
-The portfolio now uses an **obsidian black (#080808), champagne gold and warm ivory** identity for the homepage and professional career pages. It is an original implementation that preserves accessibility, mobile navigation, and role-specific content.
+The portfolio now uses an **obsidian black (#080808), metallic gold foil and champagne-gold text** identity for the homepage and professional career pages. It is an original implementation that preserves accessibility, mobile navigation, and role-specific content.
 
 - **[Premium homepage](index.html)** — distinctive KH monogram, developer intro, six selected engineering case-study cards, searchable full GitHub gallery and recruiter-ready shortcuts.
 - **[Professional profile](profile.html)** — education, internship, skills and all 31 searchable repository entries.
@@ -65,7 +91,7 @@ Note: the repository count includes the portfolio itself. Public source code or 
 
 - **[LinkedIn profile setup page](linkedin-setup.html)** — copy controls for the headline, About, Featured, website links, all 31 repository project entries, education, internship, skills and launch post. This GitHub-hosted page does not edit LinkedIn directly.
 
-- **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — redesigned light-ivory and subtle-gold gallery with 31 source-backed cards, category filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
+- **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — redesigned matte-black and champagne-gold gallery with 31 source-backed cards, category filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
 
 - **[Complete LinkedIn profile and project copy kit](docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md)** — tailored headline, About, internship, education, 15 source-backed project descriptions, Featured links, 31-repository index, and account-update checklist.
 - [Existing LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) · [Portfolio website](https://harshakavali81-collab.github.io/harshavardhan-portfolio/).
