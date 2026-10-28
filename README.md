@@ -11,6 +11,7 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | Portfolio homepage | [Open](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) |
 | Selected work | [Five complete technical case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/work.html) |
 | Contact | [Recruiter email composer](https://harshakavali81-collab.github.io/harshavardhan-portfolio/contact.html) |
+| Measured site quality | [Real speed & cross-browser checks](https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html) |
 | AirAware AI interactive demo | [Open synthetic-data dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware-demo.html) |\n| AirAware AI source (78 files) | [Browse project source](https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI) |\n| AirAware AI case study | [View the environmental intelligence prototype](https://harshakavali81-collab.github.io/harshavardhan-portfolio/airaware.html) · synthetic demo / 27 Python tests passed locally |\n| Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
 | Recruiter quick-view | [60-second candidate summary and source evidence](https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html) |
 | Full resume page | [View / print](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resume.html) |
@@ -60,6 +61,7 @@ The figures above are not customer improvements, commercial ROI, or independentl
 .
 ├── index.html       # responsive homepage with 20 GitHub projects and career milestones
 ├── work.html        # five featured projects with filters and recruiter-oriented intros
+├── quality.html     # verified live load time, browser and external link evidence
 ├── cases/           # five complete problem/process/solution/metrics/reflection case studies
 ├── contact.html     # mailto composer (does not send or store messages)
 ├── profile.html     # complete profile, personal hobbies, training and education
@@ -86,6 +88,20 @@ The figures above are not customer improvements, commercial ROI, or independentl
 The site is served using **GitHub Pages → Deploy from a branch → main → /(root)**. Any push to `main` updates the branch-published website. Do not switch the Pages source unnecessarily. Changes to the GitHub Pages deployment workflow are optional and separate.
 
 The project showcases educational applications and synthetic datasets; these are not claims of production deployment, external accuracy validation or real-world commercial results. Internship and certification details follow the candidate-supplied resume and have not been independently verified.
+
+## Independent browser, speed and external link verification
+
+The first successful end-to-end GitHub Actions QA run on **28 October 2026** ([run #40643160914](https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/runs/40643160914)) recorded:
+
+- **13/13 live HTML pages returned HTTP 200** in the original tested scope.
+- **104/104 Chromium, Firefox and WebKit layout/interaction checks passed** across desktop, tablet and mobile-width profiles.
+- **44 external URLs reachable; 0 confirmed broken; 1 HTTP 999 LinkedIn anti-automation response**. The latter is reported as unverified through HTTP automation, not fabricated as an accessible 200. LinkedIn is separately discoverable in public search.
+- **All seven critical URLs passed a sub-3000ms p75 navigation load-event target** in both the unthrottled GitHub-hosted desktop environment and a Chromium mobile profile simulating 120ms latency, 1.6Mbps downstream and 4× CPU slowdown.
+- Example p75 timings: homepage desktop **109.5ms**, homepage simulated mobile **313.5ms**, Work **133ms/372ms**, Contact **109.5ms/371ms**.
+
+The new [quality and verification page](quality.html) shows all timings and test methodology. [Raw report](https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/SUMMARY.md), [cross-browser screenshots/artifacts](https://github.com/harshakavali81-collab/harshavardhan-portfolio/actions/runs/40643160914), and test implementation are available for inspection. The workflow now also includes `quality.html` in future runs.
+
+**Scope:** measured results are a repeatable test profile, not a universal guarantee across every mobile phone, network or geography. Local browser-emulation is distinct from testing on physical devices. Third-party LinkedIn HTTP 999 remains an unconfirmed automated fetch, not a verified dead profile.
 
 ## Quality and performance
 
