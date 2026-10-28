@@ -9,6 +9,12 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 - [MobilityPulse AI React Dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/mobilitypulse-demo/) — six views backed by reproducible frozen synthetic snapshots. It is published with this portfolio via GitHub Pages, **not** a live transit-tracking or production ETA service.
 - [MobilityPulse AI case study](https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/mobilitypulse.html) — architecture, tests, GTFS source separation, ethics and ten original diagrams.
 
+## New project: InventoryIQ
+
+- [InventoryIQ technical case study](cases/inventoryiq.html)
+- [Try the interactive synthetic-data dashboard](inventoryiq-demo.html)
+- [GitHub code and ten original diagrams](https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing)
+
 ## Recruiter quick links
 
 | Resource | Link |
