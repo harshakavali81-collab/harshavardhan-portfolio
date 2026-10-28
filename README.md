@@ -4,6 +4,16 @@
 
 Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
 
+## Website redesign highlights
+
+- **[Portfolio homepage](index.html)** — soft gold/ivory theme and a prominent **31-repository gallery** introduction.
+- **[Explore all 31 GitHub project cards](linkedin-projects.html)** — illustrated cards, searchable by title/skills, filterable by category and featured/additional collection, with exact public source links.
+- **[LinkedIn profile setup — 31 copy-ready entries](linkedin-setup.html)** — headline, About, featured website, education, experience, skills, all project descriptions and a draft public post.
+- **[Project case studies](work.html)** — selected technical deep dives with documented data/evaluation limitations.
+- **[Resume center](resumes.html)** and **[contact](contact.html)** — role-aligned information for recruiters.
+
+> The 31-item count includes the portfolio website repository. Source code, synthetic-data demos and published static pages are distinguished from independently validated production applications. Saving to GitHub does not automatically edit LinkedIn.
+
 ## Featured live interactive demonstration
 
 - [MobilityPulse AI React Dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/mobilitypulse-demo/) — six views backed by reproducible frozen synthetic snapshots. It is published with this portfolio via GitHub Pages, **not** a live transit-tracking or production ETA service.
@@ -24,9 +34,9 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 ## LinkedIn profile and project portfolio pack
 
-- **[LinkedIn profile setup page](linkedin-setup.html)** — copy controls for the headline, About, Featured, website links, 15 detailed projects, education, internship, skills and launch post. This GitHub-hosted page does not edit LinkedIn directly.
+- **[LinkedIn profile setup page](linkedin-setup.html)** — copy controls for the headline, About, Featured, website links, all 31 repository project entries, education, internship, skills and launch post. This GitHub-hosted page does not edit LinkedIn directly.
 
-- **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — dedicated gold/obsidian page with 15 source-backed technical cards, five role-focused filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
+- **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — redesigned light-ivory and subtle-gold gallery with 31 source-backed cards, category filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
 
 - **[Complete LinkedIn profile and project copy kit](docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md)** — tailored headline, About, internship, education, 15 source-backed project descriptions, Featured links, 31-repository index, and account-update checklist.
 - [Existing LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) · [Portfolio website](https://harshakavali81-collab.github.io/harshavardhan-portfolio/).
@@ -77,20 +87,20 @@ Copy-ready, role-focused headline, about section, internship, skills, projects, 
 - **Privacy and honesty:** no fabricated salary, notice period, shift or relocation commitments; the website requires no visitor account.
 - **Verification:** site-quality and live multi-browser workflows test internal navigation, responsiveness and link health on updates.
 
-## KH Atelier — Obsidian & Champagne Gold Visual Identity
+## KH Atelier — Soft Gold & Ivory Visual Identity (October 2026)
 
-The full public portfolio now uses a single premium design system instead of the previous teal/blue theme:
+The public portfolio now uses a **light, recruiter-friendly visual system** with gold as a restrained accent instead of heavy black/gold backgrounds.
 
-- **Background:** matte obsidian `#080808` and dark espresso surfaces `#151310`.
-- **Metallic typography:** champagne foil gradient `#B58B49 → #FFF6DF → #D1AD69`, confined to large headings.
-- **Comfortable reading:** warm platinum `#F4EFE7`; secondary text `#C6BFB3`, avoiding yellow body text.
-- **Typography:** Cinzel display serif and Montserrat sans via Google Fonts, with offline serif/system fallbacks.
-- **Components:** subtle gold hairline borders and shadows, gold-gradient CTA, accessible high-contrast inputs and focus styles.
-- **Branding:** custom champagne-gold KH monogram on obsidian.
-- **Performance and accessibility:** no looping shimmer animations; reduced-motion and forced-colors support, mobile type-scale adjustments, and white-paper print styles for the resume.
-- **Consistency:** `assets/luxury-theme.css` is loaded last on the homepage, profile, recruiter/resume/contact pages, demos and every project case study.
+- **Background:** warm ivory `#FAF9F6`, with clean white project panels `#FFFFFF`.
+- **Accent:** muted antique gold `#947448` for navigation, small labels and primary buttons; no oversized metallic glows.
+- **Typography:** legible charcoal `#27313A` and slate-gray secondary body copy with a serif display heading.
+- **Components:** subtle borders, gentle shadows, generous whitespace, clear hover states and accessible keyboard focus.
+- **Project library:** [all 31 repositories as illustrated, searchable project cards](linkedin-projects.html), with 15 initial highlights and 16 additional entries, source links, status caveats and related case studies.
+- **LinkedIn preparation:** [copy all 31 project entries](linkedin-setup.html) with descriptions, skill tags and source URLs. External LinkedIn still requires saving updates within the signed-in account.
+- **Consistency:** the shared light overrides live in `assets/luxury-theme.css`, preserving the existing navigation and compatibility with static site checks.
+- **Responsive and accessible:** mobile reflow, reduced-motion support, focus indicators and legible printing.
 
-**Design caveat:** Linked Google Fonts are external resources; the site falls back to local fonts when they are unavailable. Browser and speed measurements should be rerun for this new version before quoting old performance metrics as current.
+**Design verification:** GitHub source changes and project link mappings are verified; live GitHub Pages deployment, browser rendering and independent Lighthouse scores are not claimed for this new version.
 
 ## Proof-first personal branding
 
