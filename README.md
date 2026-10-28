@@ -208,3 +208,5 @@ The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level c
 - [StreamWatch AI technical case study](cases/streamwatch.html) — Kafka-compatible Redpanda events, Python validation, online anomaly detection, idempotent SQL, FastAPI and React.
 - [Browser-only synthetic interactive demo](streamwatch-demo.html) — illustrative fixtures, not a deployed Kafka service.
 - [Source, tests, documentation and ten original vector diagrams](https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection).
+
+- **SupportLens standalone browser demo:** [Open client-side demo](https://harshakavali81-collab.github.io/harshavardhan-portfolio/supportlens-demo/); runs locally in the browser with fictional documents, no Python server or remote LLM.
