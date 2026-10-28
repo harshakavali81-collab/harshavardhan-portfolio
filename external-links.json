@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:15:35.114628+00:00",
+  "checked_at": "2026-10-28T08:16:04.307941+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -725,6 +725,42 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/actions",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/blob/main/README.md",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/blob/main/docs/MODEL_CARD.md",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
       "pages": [
         "cases/docsight.html",
@@ -1240,6 +1276,96 @@
       "result": "ok"
     },
     {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/01-streamwatch-cover.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/02-end-to-end-architecture.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/03-kafka-topic-topology.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/04-event-data-contract.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/05-feature-and-model-flow.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/06-anomaly-score-timeline.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/07-event-throughput.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/08-latency-budget.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/09-investigation-state-machine.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/10-deployment-services.svg",
+      "pages": [
+        "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/main/assets/01-product-preview.svg",
       "pages": [
         "cases/docsight.html",
@@ -1294,7 +1420,7 @@
     }
   ],
   "external_counts": {
-    "ok": 122,
+    "ok": 136,
     "broken": 0,
     "unknown": 1,
     "http-error": 0
