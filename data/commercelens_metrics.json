@@ -1,0 +1,23 @@
+{
+  "source_kind": "synthetic_demo",
+  "observation_count": 1440,
+  "product_count": 12,
+  "review_count": 162,
+  "estimated_revenue": 41418921.53,
+  "average_price": 1401.13,
+  "data_quality": {
+    "prices": {
+      "raw": 1440,
+      "accepted": 1440,
+      "rejected": 0,
+      "duplicates": 0
+    },
+    "reviews": {
+      "raw": 162,
+      "accepted": 162,
+      "rejected": 0,
+      "duplicates": 0
+    }
+  },
+  "disclaimer": "Fictional observations, simulated units, unvalidated sentiment"
+}
