@@ -18,7 +18,7 @@ Browser (public HTTPS)
   ├─ profile.html / hiring.html     : complete profile and recruiter facts
   ├─ interview.html / proof-map.html: role-specific interview evidence
   ├─ resumes.html                   : downloadable role-specific PDFs
-  ├─ contact.html                   : local mailto composer (no backend)
+  ├─ contact.html                   : copy/Gmail/mailto composer (no backend)
   └─ quality.html                   : recorded QA results and methodology
         │
         └─ GitHub Actions           : static audit, live browser and link QA
@@ -59,7 +59,7 @@ python3 scripts/audit_site.py
 
 ## Release validation and rollback
 
-- Use `main` for releases. GitHub Pages is configured to publish from the repository branch root; duplicate deployment workflows may exist, so check the active Pages settings before changing sources.
+- Use `main` for releases. GitHub built-in **pages build and deployment** publishes the checked-in static repository. The separate `pages.yml` compiles a MobilityPulse React **build artifact** for download and does not deploy or modify the Pages site.
 - Verify the most recent successful commit SHA and page URL in GitHub Actions; do not confuse a passed HTML audit with a fully passed live browser suite.
 - On regression, revert the introducing commit through GitHub, then repeat deployment and QA checks.
 - GitHub Pages requires no visitor login. The content owner's login is the GitHub account, **not** a credential issued by this portfolio.
@@ -68,7 +68,7 @@ python3 scripts/audit_site.py
 ## Accessibility and privacy
 
 - Use semantic heading levels, descriptive link text, labeled controls, visible keyboard focus, alt text for actual images, and a skip-to-content link.
-- The main contact flow opens Gmail's browser compose page with a pre-filled recipient/subject/body. It requires Gmail sign-in and a manual Send click. The optional `mailto:` button still opens the local default mail app, and the copy-email button provides a no-handler fallback. Do not claim the portfolio automatically sends messages.
+- The contact form supports copying a complete message, an optional Gmail popup and the installed mail app. No visitor message is transmitted to this portfolio. Clipboard-denied browsers reveal a selectable fallback.
 - Static pages do not install custom analytics or a contact-collection backend. GitHub/other linked platforms have their own hosting, analytics and privacy policies.
 - Never advertise independent physical-device QA, WCAG certification, genuine real-time integrations, or production ML performance without appropriate evidence.
 
@@ -79,3 +79,9 @@ python3 scripts/audit_site.py
 - Ask domain reviewers to examine any model used in healthcare, disaster response, payments or other high-stakes settings.
 - Consider a custom domain only when the owner has DNS access and can validate HTTPS and redirects.
 
+
+## Latest deployment and QA alignment
+
+GitHub Pages built-in deployment succeeded for commit `b4d9d48` on 28 October 2026. A previous custom deployment failed at `actions/configure-pages` because of integration permissions and rate limits. It now produces a downloadable React build artifact rather than deploying to Pages.
+
+Browser QA now reads actual counts from `data/project-evidence.json` (seven records, three ML records as of 28 October 2026), tests the Gmail **popup** instead of same-tab navigation, and verifies the full-message copy action. The React artifact must be separately integrated into deployment if serving that exact React build publicly is desired. The checked-in `mobilitypulse-demo/index.html` remains the existing static demo.

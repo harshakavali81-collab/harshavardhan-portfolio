@@ -90,6 +90,10 @@ def browser_qa(out):
     base="http://127.0.0.1:"+str(server.server_port)+"/"
     profiles=[("chromium","desktop",1440,900),("chromium","tablet",768,1024),("chromium","mobile",390,844),("chromium","small-mobile",320,700),("firefox","desktop",1440,900),("firefox","mobile",390,844),("webkit","desktop",1440,900),("webkit","mobile",390,844)]
     shots=out/"screenshots";shots.mkdir(exist_ok=True)
+    evidence_entries=json.loads((ROOT/"data/project-evidence.json").read_text(encoding="utf-8"))["entries"]
+    expected_evidence_count=len(evidence_entries)
+    expected_ml_count=sum(row["discipline"]=="ml" for row in evidence_entries)
+    assert expected_evidence_count>=5, "Evidence dataset unexpectedly small"
     cases=[];issues=[]
     try:
         with sync_playwright() as p:
@@ -155,11 +159,11 @@ def browser_qa(out):
                                     raise AssertionError("Data analyst evidence count should be two")
                             if path=="evidence.html":
                                 page.locator("#ledger-app[data-ready='true']").wait_for(timeout=12000)
-                                if page.locator(".ledger-card").count()!=5:
-                                    raise AssertionError("Expected five source-backed projects")
+                                if page.locator(".ledger-card").count()!=expected_evidence_count:
+                                    raise AssertionError("Evidence count does not match project register")
                                 page.locator("button[data-ledger-filter='ml']").click()
-                                if page.locator(".ledger-card").count()!=2:
-                                    raise AssertionError("ML evidence filtering should show two projects")
+                                if page.locator(".ledger-card").count()!=expected_ml_count:
+                                    raise AssertionError("ML evidence filter count does not match project register")
                                 page.locator("#compare-b").select_option("transactionshield")
                                 if page.locator("#comparison-results article").count()!=2:
                                     raise AssertionError("The side-by-side evidence comparison did not render")
@@ -186,24 +190,29 @@ def browser_qa(out):
                             if path=="contact.html":
                                 if page.locator("form#mail-form").count()!=1:
                                     raise AssertionError("Contact form missing")
-                                if page.locator("a[href*='mail.google.com/mail/u/0/']").count()<2:
-                                    raise AssertionError("Gmail direct-compose links missing")
-                                if page.locator("#copy-email").count()!=1 or page.locator("#open-mail-app").count()!=1:
-                                    raise AssertionError("Copy-email or mail-app fallback missing")
+                                if page.locator("a[href*='mail.google.com/mail/u/0/']").count()<1:
+                                    raise AssertionError("Optional direct Gmail compose link missing")
+                                if page.locator("a[href^='mailto:']").count()<1:
+                                    raise AssertionError("Email app link missing")
+                                for button_id in ("#copy-email","#copy-message","#open-mail-app"):
+                                    if page.locator(button_id).count()!=1:
+                                        raise AssertionError("Contact fallback missing: "+button_id)
                                 page.locator("#copy-email").click()
                                 page.locator("#copy-status").wait_for(state="visible", timeout=5000)
                                 if not page.locator("#copy-status").inner_text().strip():
                                     raise AssertionError("Copy-email feedback missing")
-                                page.route("https://mail.google.com/**",
+                                context.route("https://mail.google.com/**",
                                     lambda route: route.fulfill(status=200, content_type="text/html",
                                         body="<html><title>Gmail test route</title><body>Gmail preview</body></html>"))
                                 page.locator("#sender").fill("Portfolio QA")
                                 page.locator("#reply").fill("qa@example.com")
                                 page.locator("#message").fill("Please review this project portfolio.")
-                                page.locator("#open-gmail").click()
-                                page.wait_for_url("https://mail.google.com/mail/u/0/**", timeout=13000)
+                                with page.expect_popup(timeout=13000) as popup_info:
+                                    page.locator("#open-gmail").click()
+                                popup=popup_info.value
+                                popup.wait_for_url("https://mail.google.com/mail/u/0/**", timeout=13000)
                                 from urllib.parse import parse_qs
-                                gmail_query = parse_qs(urlsplit(page.url).query)
+                                gmail_query=parse_qs(urlsplit(popup.url).query)
                                 if gmail_query.get("to")!=["kavaliharshavardhan98@gmail.com"]:
                                     raise AssertionError("Gmail draft recipient incorrect")
                                 if gmail_query.get("tf")!=["cm"]:
@@ -212,9 +221,13 @@ def browser_qa(out):
                                     raise AssertionError("Gmail draft subject missing sender")
                                 if "Please review this project portfolio." not in gmail_query.get("body", [""])[0]:
                                     raise AssertionError("Gmail draft body was not encoded correctly")
-                                page.go_back(wait_until="domcontentloaded", timeout=12000)
+                                popup.close()
+                                page.locator("#copy-message").click()
+                                page.locator("#mail-status").wait_for(state="visible",timeout=5000)
+                                if not page.locator("#mail-status").inner_text().strip():
+                                    raise AssertionError("Complete copy feedback missing")
                                 if page.locator("form#mail-form").count()!=1:
-                                    raise AssertionError("Contact page lost after Gmail draft handoff")
+                                    raise AssertionError("Contact page lost after popup draft handoff")
                             res["result"]="pass"
                             if (engine,label,path) in [
                                ("chromium","desktop",""),("chromium","mobile",""),("chromium","tablet","work.html"),

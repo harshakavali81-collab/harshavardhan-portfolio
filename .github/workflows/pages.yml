@@ -1,21 +1,20 @@
-name: Deploy Portfolio to GitHub Pages
+name: Build MobilityPulse React demo artifact
+# Standard GitHub Pages already publishes the static repository root.
+# This workflow compiles a separate React artifact without a competing Pages deploy.
 on:
   push:
     branches: [main]
+    paths:
+      - ".github/workflows/pages.yml"
+      - "mobilitypulse-explorer.html"
+      - "cases/mobilitypulse.html"
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: false
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-demo:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout portfolio
         uses: actions/checkout@v4
@@ -72,14 +71,10 @@ jobs:
           print("React static dashboard and clearly synthetic snapshots verified")
           PY
           rm -rf _mobilitypulse_source
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
+      - name: Upload reproducible React demo artifact
+        uses: actions/upload-artifact@v4
         with:
-          enablement: true
-      - name: Upload assembled portfolio and interactive dashboard
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-      - name: Deploy Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          name: mobilitypulse-react-static-demo
+          path: mobilitypulse-demo/
+          if-no-files-found: error
+          retention-days: 14
