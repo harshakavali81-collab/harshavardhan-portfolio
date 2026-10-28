@@ -103,11 +103,13 @@ def check():
     assert "tfTqbAM0" in certificates and "GqcOmj3t" in certificates
     home = (ROOT / "index.html").read_text(encoding="utf-8")
     assert home.count('class="kh-resume-project"') == 4
+    assert home.count('class="kh-cert-highlight-grid"') == 1
+    assert 'href="certificates.html"' in home
     for content in ("Zomato Insights Dashboard","Multilingual Indian Language Knowledge Platform",
                     "Document Q&amp;A Bot","Women Safety Device",
                     'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
         assert content in home, f"Missing resume-driven portfolio content: {content}"
-    assert "assets/resume-evidence.css?v=20261028-edu1" in home
+    assert "assets/resume-evidence.css?v=20261028-edu2" in home
     theme = (ROOT / "assets/resume-evidence.css").read_text(encoding="utf-8")
     palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme.lower()))
     assert palette == {"#080808","#d4af37"}
