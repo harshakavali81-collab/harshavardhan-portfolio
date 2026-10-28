@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://harshakavali81-collab.github.io/harshavardhan-portfolio/sitemap.xml
