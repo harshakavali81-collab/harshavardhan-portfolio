@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:17:38.271973+00:00",
+  "checked_at": "2026-10-28T08:18:00.576032+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -16,19 +16,19 @@
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7272,
+      "bytes": 7326,
       "ok": true
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15089,
+      "bytes": 15143,
       "ok": true
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 16114,
+      "bytes": 16168,
       "ok": true
     },
     {
@@ -52,13 +52,13 @@
     {
       "page": "resume.html",
       "status": 200,
-      "bytes": 7539,
+      "bytes": 7593,
       "ok": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
-      "bytes": 9047,
+      "bytes": 9101,
       "ok": true
     },
     {
@@ -70,13 +70,13 @@
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 10970,
+      "bytes": 11024,
       "ok": true
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10645,
+      "bytes": 10699,
       "ok": true
     },
     {
