@@ -1,0 +1,87 @@
+/* KH SYSTEMS — dark technical design for core career/profile pages.
+   Paired with assets/kedhar-inspired.css on the homepage. */
+body.bh-interior,body.bh-interior.light{
+  --bg:#080808;--accent:#e4c98e;
+  --ink:#edf5fc;--text:#edf5fc;--soft:#9dafc1;--muted:#9dafc1;
+  --aqua:#77dce9;--mint:#77dce9;--blue:#8fa3ff;--gold:#b4bdcd;
+  --panel:#101b2a;--panel2:#162438;--surface:#101b2a;--surface2:#162438;
+  --stroke:#304257;--line:#304257;--shadow:0 14px 48px #02071066;
+  color-scheme:dark!important;
+  color:#ebf4fc!important;
+  background:#090f19!important;
+  background-image:radial-gradient(ellipse 66% 28% at 85% -4%,rgba(43,95,158,.23),transparent 79%),linear-gradient(180deg,#0a1120,#080f19 100%)!important;
+  font-family:'DM Sans',Inter,'Segoe UI',sans-serif!important;
+}
+body.bh-interior *,body.bh-interior *::before,body.bh-interior *::after{box-sizing:border-box}
+body.bh-interior :is(h1,h2,h3),body.bh-interior main :is(h1,h2,h3){
+  background:none!important;background-image:none!important;background-clip:initial!important;-webkit-background-clip:initial!important;
+  -webkit-text-fill-color:#ecf5ff!important;filter:none!important;text-shadow:none!important;text-transform:none!important;
+  color:#ecf5ff!important;letter-spacing:-.045em!important;
+  font-family:'Space Grotesk',Inter,'Segoe UI',sans-serif!important
+}
+body.bh-interior :is(h1,h2){line-height:1.12!important}
+body.bh-interior h1{font-size:clamp(2.35rem,5vw,4.7rem)!important}
+body.bh-interior h2{font-size:clamp(1.7rem,3vw,2.8rem)!important}
+body.bh-interior :is(.gradient,.gold,.lead em,h1 em,h1 span){color:#83e0e8!important;-webkit-text-fill-color:#83e0e8!important}
+body.bh-interior a{color:#85dce9!important}
+body.bh-interior a:hover{color:#b8f6fa!important}
+body.bh-interior :is(header,header.nav,.nav,.navbar,.nav-in,.nav-inner,nav,.topbar){
+  background:rgba(11,20,32,.94)!important;border-color:rgba(128,178,212,.17)!important;color:#dceaf8!important
+}
+body.bh-interior :is(header .logo,header .brand,.nav .logo,.logo,.brand,.logo span){color:#92e4ea!important;-webkit-text-fill-color:#92e4ea!important}
+body.bh-interior :is(header a,nav a,.navlinks a,.links a,.nav a){color:#bfccdb!important}
+body.bh-interior :is(header a:hover,nav a:hover,.navlinks a:hover,.links a:hover){color:#89e8ec!important}
+body.bh-interior :is(.eyebrow,.overline,.meta,.section-label,.story-label,.number,.num,.smallcap){
+  color:#86dce3!important;-webkit-text-fill-color:#86dce3!important
+}
+body.bh-interior :is(.lead,.lede,.muted,.intro,.sub,.small,.note,figcaption,.soft,.desc,.description,.status,.foot,.timeline p,.career-glance small,.hobby-card p,.project p,.project-card p,.card p,.panel p,.feature p,.fact p,.repo p,.role p,.stats p,.section p){
+  color:#a8bbce!important;-webkit-text-fill-color:#a8bbce!important
+}
+body.bh-interior :is(.card,.project,.project-card,.panel,.feature,.case-card,.fact,.role,.info,.snapshot,.visual,.cert,.hobby-card,.interests,.glance-cell,.profile-project-card,.kh-profile-card,.mini>div,.project summary,.inside,.content,.paper,.stat,.contact,.notice,.note){
+  background:#121d2d!important;background-image:none!important;
+  color:#e5f1fd!important;border-color:rgba(131,177,214,.21)!important;
+  box-shadow:0 14px 38px rgba(0,0,0,.13)!important;
+}
+body.bh-interior :is(.card,.project,.project-card,.panel,.feature,.case-card,.fact,.role,.profile-project-card):hover{
+  border-color:rgba(104,221,235,.48)!important;box-shadow:0 16px 42px rgba(0,0,0,.22)!important
+}
+body.bh-interior :is(.section,.content,.panel,.card,.role,.project,.case-card,.project-card){border-color:rgba(124,169,213,.2)!important}
+body.bh-interior :is(.btn,.button,.copy,.small-link,.primary-link,.filter,.mode,button[data-filter],.btn.source){
+  background:#17283c!important;border:1px solid rgba(118,193,220,.32)!important;
+  color:#c5e9f1!important;-webkit-text-fill-color:#c5e9f1!important;box-shadow:none!important;border-radius:10px!important
+}
+body.bh-interior :is(.btn.primary,.btn.prime,.copy,.primary-link,.filter[aria-pressed=true],button[data-filter][aria-pressed=true],.role.active){
+  color:#071820!important;-webkit-text-fill-color:#071820!important;background:#83dee9!important;
+  border-color:#83dee9!important;font-weight:750!important
+}
+body.bh-interior :is(.btn,.button,.copy,.primary-link,.filter):hover{border-color:#9ae9f1!important}
+body.bh-interior :is(.tag,.chip,.chips span,.tags span,.pill,.type,.badge,.chip-row .chip,.profile-project-chips span,.profile-project-category){
+  background:#1b2b3e!important;background-image:none!important;
+  border-color:rgba(117,174,213,.23)!important;color:#9de3e9!important;-webkit-text-fill-color:#9de3e9!important
+}
+body.bh-interior :is(input,textarea,select,pre,.copytext,.content){
+  background-color:#0e1b29!important;background-image:none!important;color:#e1f0fc!important;
+  -webkit-text-fill-color:#e1f0fc!important;border-color:rgba(120,177,216,.31)!important;caret-color:#93eaf0!important
+}
+body.bh-interior :is(input,textarea)::placeholder{color:#8298b0!important;-webkit-text-fill-color:#8298b0!important}
+body.bh-interior :is(.stats,.mini,.career-glance,.project-grid){background:transparent!important}
+body.bh-interior .profile-project-card .profile-project-link{color:#92eaf0!important;-webkit-text-fill-color:#92eaf0!important}
+body.bh-interior .profile-project-card p{color:#a9bcd0!important;-webkit-text-fill-color:#a9bcd0!important}
+body.bh-interior .full-project-library{background:transparent!important}
+body.bh-interior .project-card .project-art,body.bh-interior :is(.gallery-promo-art,.project-art){
+  background:radial-gradient(ellipse 65% 90% at 75% 20%,rgba(91,148,197,.22),transparent 80%),#16253a!important;
+  border-color:rgba(122,197,220,.2)!important
+}
+body.bh-interior .project-card :is(.art-monogram,.art-label,.number){color:#8adee8!important;-webkit-text-fill-color:#8adee8!important}
+body.bh-interior :is(.profile-project-card,.project-card) :is(h3,.project-title){color:#eff7ff!important;-webkit-text-fill-color:#eff7ff!important}
+body.bh-interior .project-card::after{background:linear-gradient(90deg,rgba(105,224,230,.8),transparent)!important}
+body.bh-interior :is(.section,.hero,.content,.gallery){background-color:transparent!important}
+body.bh-interior :is(footer,.footer){background:#080e18!important;border-color:rgba(129,177,221,.2)!important;color:#93a6bb!important}
+body.bh-interior :is(footer a,.footer a){color:#92dae5!important}
+body.bh-interior :is(.portfolio-gallery-promo,.gallery-promo-copy,.gallery-promo-art,.qa-lead,.notice,.quick-note,.callout){
+  background:#112137!important;border-color:rgba(106,205,233,.21)!important;
+}
+body.bh-interior .profile-project-card[hidden],body.bh-interior .project-card[hidden],body.bh-interior .project[hidden]{display:none!important}
+@media(forced-colors:active){body.bh-interior :is(.card,.panel,.project,.project-card){border:1px solid CanvasText!important}}
+@media(prefers-reduced-motion:reduce){body.bh-interior *,body.bh-interior *::before,body.bh-interior *::after{transition:none!important;animation:none!important}}
+@media print{body.bh-interior{background:#fff!important;color:#111!important}body.bh-interior :is(.card,.project,.project-card,.panel,.feature){box-shadow:none!important;break-inside:avoid}}
