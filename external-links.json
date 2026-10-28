@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T07:34:58.985507+00:00",
+  "checked_at": "2026-10-28T07:35:16.530311+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -16,7 +16,7 @@
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 16045,
+      "bytes": 16114,
       "ok": true
     },
     {
@@ -58,13 +58,13 @@
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 10737,
+      "bytes": 10803,
       "ok": true
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10574,
+      "bytes": 10645,
       "ok": true
     },
     {
