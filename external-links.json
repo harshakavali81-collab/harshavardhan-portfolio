@@ -1,64 +1,64 @@
 {
-  "checked_at": "2026-10-28T10:00:36.744600+00:00",
+  "checked_at": "2026-10-28T10:41:39.563978+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 75654,
+      "bytes": 57603,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21038,
+      "bytes": 21115,
       "ok": true
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59166,
+      "bytes": 59243,
       "ok": true
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 62098,
+      "bytes": 67217,
       "ok": true
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7331,
+      "bytes": 7408,
       "ok": true
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15143,
+      "bytes": 15220,
       "ok": true
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17060,
+      "bytes": 17137,
       "ok": true
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 24765,
+      "bytes": 64072,
       "ok": true
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 13955,
+      "bytes": 14032,
       "ok": true
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6132,
+      "bytes": 6261,
       "ok": true
     },
     {
@@ -76,55 +76,55 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 9924,
+      "bytes": 10049,
       "ok": true
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11024,
+      "bytes": 11101,
       "ok": true
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10699,
+      "bytes": 10776,
       "ok": true
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 10018,
+      "bytes": 10095,
       "ok": true
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 10042,
+      "bytes": 10122,
       "ok": true
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
-      "bytes": 10523,
+      "bytes": 10603,
       "ok": true
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 10184,
+      "bytes": 10264,
       "ok": true
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9644,
+      "bytes": 9724,
       "ok": true
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9553,
+      "bytes": 9633,
       "ok": true
     }
   ],
@@ -159,7 +159,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -173,6 +175,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -196,6 +199,8 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -342,7 +347,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -358,6 +365,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -405,7 +413,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -420,6 +430,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -467,7 +478,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -478,7 +491,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -489,7 +504,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -500,7 +517,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -514,6 +533,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "recruiter.html",
         "work.html"
       ],
@@ -539,6 +559,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "recruiter.html",
         "work.html"
       ],
@@ -561,7 +582,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -575,6 +598,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -613,7 +637,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -627,6 +653,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -679,6 +706,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -726,7 +754,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -737,7 +767,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -748,7 +780,9 @@
       "pages": [
         "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -763,6 +797,7 @@
         "linkedin-projects.html",
         "linkedin-setup.html",
         "mobilitypulse-explorer.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -846,6 +881,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -914,6 +950,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "streamwatch-demo.html",
         "work.html"
       ],
@@ -984,6 +1021,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -1016,6 +1054,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "profile.html",
         "recruiter.html",
         "work.html"
       ],
@@ -1039,6 +1078,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "profile.html"
       ],
       "via": "github-repo-api",
@@ -1085,6 +1125,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "profile.html",
         "recruiter.html"
       ],
@@ -1095,8 +1136,11 @@
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio",
       "pages": [
+        "index.html",
         "job-platforms.html",
-        "linkedin-projects.html"
+        "linkedin-projects.html",
+        "linkedin-setup.html",
+        "profile.html"
       ],
       "via": "github-repo-api",
       "status": 200,
@@ -1150,8 +1194,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI",
       "pages": [
-        "airaware-demo.html",
-        "index.html"
+        "airaware-demo.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -1178,8 +1221,7 @@
     {
       "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/",
       "pages": [
-        "cases/foodbridge.html",
-        "index.html"
+        "cases/foodbridge.html"
       ],
       "via": "http",
       "status": 200,
@@ -1189,7 +1231,6 @@
       "url": "https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/demo.html",
       "pages": [
         "cases/foodbridge.html",
-        "index.html",
         "work.html"
       ],
       "via": "http",
@@ -1451,15 +1492,6 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
-      "pages": [
-        "index.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity&tf=cm",
       "pages": [
         "contact.html"
@@ -1490,7 +1522,6 @@
       "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
       "pages": [
         "hiring.html",
-        "index.html",
         "profile.html"
       ],
       "via": "http",
@@ -1581,8 +1612,7 @@
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/01-streamwatch-cover.svg",
       "pages": [
-        "cases/streamwatch.html",
-        "index.html"
+        "cases/streamwatch.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1673,8 +1703,7 @@
     {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer/main/assets/01-product-preview.svg",
       "pages": [
-        "cases/docsight.html",
-        "index.html"
+        "cases/docsight.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1746,7 +1775,7 @@
     }
   ],
   "external_counts": {
-    "ok": 160,
+    "ok": 159,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
