@@ -102,14 +102,49 @@ def check():
         assert label in certificates, f"Missing uploaded qualification: {label}"
     assert "tfTqbAM0" in certificates and "GqcOmj3t" in certificates
     home = (ROOT / "index.html").read_text(encoding="utf-8")
-    assert home.count('class="kh-resume-project"') == 4
+    # Six owner-selected featured projects replace the previous curated six.
+    selected_names = (
+        "Multilingual-Project",
+        "Zomato-Insights-Dashboard-project-with-PowerBI",
+        "Women-Saftey-Device-by-Using-GPS-and-GSM-",
+        "A-Multimodal-AI-Customer-Support-Copilot",
+        "DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
+        "AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
+    )
+    from html.parser import HTMLParser
+    class FeaturedParser(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.in_feature = False; self.depth = 0; self.hrefs = []
+        def handle_starttag(self, tag, attrs):
+            attr = dict(attrs)
+            if tag == "article" and attr.get("class") == "bh-feature":
+                self.in_feature = True; self.depth = 0
+            if self.in_feature:
+                if tag == "div": self.depth += 1
+                if tag == "a" and "href" in attr: self.hrefs.append(attr["href"])
+        def handle_endtag(self, tag):
+            if self.in_feature and tag == "div": self.depth = max(0,self.depth - 1)
+            if self.in_feature and tag == "article": self.in_feature = False
+    assert home.count('class="bh-feature"') == 6
+    assert home.count('class="kh-resume-project"') == 0, "No duplicate resume project cards"
+    featured = FeaturedParser()
+    featured.feed(home)
+    for name in selected_names:
+        assert f"https://github.com/harshakavali81-collab/{name}" in featured.hrefs, f"Featured link missing: {name}"
+    for slug in ("multilingual","zomato","women-safety","copilot","demandpilot","airaware"):
+        href = f"cases/{slug}.html"
+        assert href in featured.hrefs, f"Case link missing: {slug}"
+        assert (ROOT / href).exists(), f"Missing case study: {href}"
     assert home.count('class="kh-cert-highlight-grid"') == 1
-    assert 'href="certificates.html"' in home
-    for content in ("Zomato Insights Dashboard","Multilingual Indian Language Knowledge Platform",
-                    "Document Q&amp;A Bot","Women Safety Device",
-                    'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
-        assert content in home, f"Missing resume-driven portfolio content: {content}"
+    for phrase in ("Multilingual Indian Language Knowledge Base", "Women Safety Device",
+                   "Multimodal AI Customer Support Copilot", "AirAware AI",
+                   'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
+        assert phrase in home, phrase
     assert "assets/resume-evidence.css?v=20261028-edu2" in home
+    assert "assets/kh-ivory-accent.css?v=20261028-featured6" in home
+    accents = (ROOT / "assets/kh-ivory-accent.css").read_text(encoding="utf-8")
+    visible_palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", accents.lower()))
+    assert visible_palette == {"#080808","#d4af37","#f0e6d2"}, visible_palette
     theme = (ROOT / "assets/resume-evidence.css").read_text(encoding="utf-8")
     palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme.lower()))
     assert palette == {"#080808","#d4af37"}
