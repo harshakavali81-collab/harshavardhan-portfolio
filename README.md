@@ -189,3 +189,9 @@ The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level c
 ## New project · CommerceLens
 
 [Automated E-commerce Analytics & Sentiment case study](cases/commercelens.html) · [GitHub source](https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment) · 10 original SVG figures, deterministic synthetic analytics, SQL/KPI modeling, rule-based sentiment, Streamlit dashboard, and successful CI. No real retailer feed or validated commercial outcome is claimed.
+
+
+## Added SupportLens AI — Generative AI Customer Support (2026-10-28)
+- [Portfolio case study](cases/supportlens.html) and searchable home-page project card.
+- [GitHub source](https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics) with source-cited offline RAG, FastAPI, React, minimal SQLite support analytics, test/evaluation scripts and 10 original diagrams.
+- These are fictional support policies; production hosting and real customer evaluation are not claimed.
