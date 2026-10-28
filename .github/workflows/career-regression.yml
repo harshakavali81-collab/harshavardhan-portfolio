@@ -1,0 +1,67 @@
+name: Career portfolio regression checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "career-portfolio.html"
+      - "profile.html"
+      - "resume.html"
+      - "data-analyst-resume.html"
+      - "linkedin-projects.html"
+      - "resumes.html"
+      - "job-platforms.html"
+      - "assets/**"
+      - "scripts/check_career_dossier.py"
+      - "scripts/check_premium_black.py"
+      - "scripts/audit_site.py"
+      - ".github/workflows/career-regression.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: career-regression-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-site:
+    name: Validate career profile, gold theme, resumes, 31 projects and links
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check recruiter career dossier and 12 career elements
+        run: python scripts/check_career_dossier.py
+      - name: Check luxury black/gold structure and 31 project links
+        run: python scripts/check_premium_black.py
+      - name: Audit all internal URLs, anchors and source assets
+        run: python scripts/audit_site.py
+      - name: Validate role selection, print-safe resumes and declared visual palette
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          index = Path("index.html").read_text(encoding="utf-8")
+          script = Path("assets/kedhar-inspired.js").read_text(encoding="utf-8")
+          style = Path("assets/portfolio-upgrade.css").read_text(encoding="utf-8")
+          for role in ("Data Analyst", "AI / ML", "Python Developer"):
+              assert f'data-role="{role}"' in index, role
+              assert f'"{role}":' in script, role
+          assert "KH / RESUME READER & RESPONSIVE FIX" in style
+          assert "KH GOLD-ONLY CAREER RELEASE" in style
+          for p in ("resume.html", "data-analyst-resume.html"):
+              html = Path(p).read_text(encoding="utf-8")
+              assert 'class="kh-resume-screen"' in html, p
+              assert 'href="assets/portfolio-upgrade.css?v=20261028"' in html, p
+              assert "window.print()" in html, p
+          assert 'id="career-12"' in index
+          assert index.count('class="bh-project-source" href=') == 31
+          print("PASS: all three role selectors, black/gold screen CVs, print controls, source-linked projects.")
+          PY
