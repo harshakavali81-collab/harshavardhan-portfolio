@@ -1,80 +1,87 @@
 {
-  "checked_at": "2026-10-28T13:14:54.724910+00:00",
+  "checked_at": "2026-10-28T13:44:25.213068+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 73950,
+      "bytes": 74080,
+      "ok": true,
+      "current_release_marker": true
+    },
+    {
+      "page": "portfolio-readiness.html",
+      "status": 200,
+      "bytes": 21884,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 25683,
+      "bytes": 25769,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21272,
+      "bytes": 21288,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59453,
+      "bytes": 59461,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 69014,
+      "bytes": 69030,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7565,
+      "bytes": 7573,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15377,
+      "bytes": 15385,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17294,
+      "bytes": 17302,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 68694,
+      "bytes": 68797,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14481,
+      "bytes": 14588,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 6858,
+      "bytes": 6936,
       "ok": true,
       "current_release_marker": null
     },
@@ -95,28 +102,28 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10486,
+      "bytes": 10881,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11258,
+      "bytes": 11280,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 10933,
+      "bytes": 10941,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 12643,
+      "bytes": 12659,
       "ok": true,
       "current_release_marker": null
     },
@@ -175,6 +182,7 @@
         "data-analyst-resume.html",
         "index.html",
         "linkedin-projects.html",
+        "portfolio-readiness.html",
         "profile.html",
         "recruiter.html",
         "resume.html",
@@ -1491,6 +1499,15 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/portfolio-readiness.html",
+      "pages": [
+        "portfolio-readiness.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html",
       "pages": [
         "profile.html"
@@ -1545,7 +1562,17 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity&tf=cm",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com",
+      "pages": [
+        "hiring.html",
+        "profile.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20IT%20opportunity",
       "pages": [
         "recruiter.html"
       ],
@@ -1554,7 +1581,7 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity&tf=cm",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Entry-level%20opportunity",
       "pages": [
         "contact.html"
       ],
@@ -1563,7 +1590,7 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan&tf=cm",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=IT%20role%20for%20Kavali%20Harshavardhan",
       "pages": [
         "hiring.html"
       ],
@@ -1572,19 +1599,9 @@
       "result": "ok"
     },
     {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan&tf=cm",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=kavaliharshavardhan98%40gmail.com&su=Opportunity%20for%20Kavali%20Harshavardhan",
       "pages": [
         "recruiter.html"
-      ],
-      "via": "http",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mail.google.com/mail/u/0/?to=kavaliharshavardhan98%40gmail.com&tf=cm",
-      "pages": [
-        "hiring.html",
-        "profile.html"
       ],
       "via": "http",
       "status": 200,
@@ -1809,6 +1826,7 @@
         "job-platforms.html",
         "linkedin-projects.html",
         "linkedin-setup.html",
+        "portfolio-readiness.html",
         "profile.html",
         "recruiter.html",
         "resume.html",
@@ -1838,7 +1856,7 @@
     }
   ],
   "external_counts": {
-    "ok": 162,
+    "ok": 163,
     "broken": 0,
     "unknown": 2,
     "http-error": 0

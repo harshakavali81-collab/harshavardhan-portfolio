@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T13:16:31.199279+00:00",
+  "checked_at": "2026-10-28T13:46:09.554208+00:00",
   "profiles": [
     [
       "chromium",
@@ -59,6 +59,15 @@
       "viewport_width": 1440,
       "result": "pass",
       "screenshot": "screenshots/chromium-desktop-home.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-portfolio-readiness.html.png"
     },
     {
       "engine": "chromium",
@@ -233,6 +242,14 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "portfolio-readiness.html",
       "scroll_width": 768,
       "viewport_width": 768,
       "result": "pass"
@@ -418,6 +435,15 @@
     {
       "engine": "chromium",
       "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-portfolio-readiness.html.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
       "page": "career-portfolio.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -596,6 +622,14 @@
     {
       "engine": "chromium",
       "profile": "small-mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
       "page": "career-portfolio.html",
       "scroll_width": 320,
       "viewport_width": 320,
@@ -605,8 +639,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "work.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
+      "scroll_width": 334,
+      "viewport_width": 334,
       "result": "pass"
     },
     {
@@ -765,6 +799,14 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -949,6 +991,14 @@
     {
       "engine": "firefox",
       "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
       "page": "career-portfolio.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -1118,6 +1168,14 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "pass"
@@ -1302,6 +1360,14 @@
     {
       "engine": "webkit",
       "profile": "mobile",
+      "page": "portfolio-readiness.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
       "page": "career-portfolio.html",
       "scroll_width": 390,
       "viewport_width": 390,
@@ -1314,8 +1380,7 @@
       "page": "work.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1471,17 +1536,7 @@
       "result": "pass"
     }
   ],
-  "passed": 175,
-  "total": 176,
-  "issues": [
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "work.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
-    }
-  ]
+  "passed": 184,
+  "total": 184,
+  "issues": []
 }
