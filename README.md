@@ -2,7 +2,7 @@
 
 ## Recruiter-ready portfolio quality checklist · 28 October 2026
 
-The main website now includes an [evidence-led 32-point job portfolio checklist](portfolio-readiness.html) covering career identity (6 requirements), project proof (7), software engineering/security (7), website quality/accessibility (6), and hiring/interview readiness (6). Every item provides a linked inspection path; terms such as **Review**, **Verify repositories**, and **Security review** are intentionally *not* described as passing attestations.
+The main website now includes an [evidence-led 32-point job portfolio checklist](portfolio-readiness.html) with six detailed groups comprising 36 engineering criteria and a 19-field case-study reference covering career identity (6 requirements), project proof (7), software engineering/security (7), website quality/accessibility (6), and hiring/interview readiness (6). Every item provides a linked inspection path; terms such as **Review**, **Verify repositories**, and **Security review** are intentionally *not* described as passing attestations.
 
 The homepage has a regression fix for a legacy **white statistics bar** and an oversized HR headline. The retained site palette is only **black #080808 and gold #d4af37** on screen.
 
