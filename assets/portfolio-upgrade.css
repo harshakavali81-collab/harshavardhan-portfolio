@@ -697,3 +697,51 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
    -webkit-text-fill-color:#080808!important;
  }
 }
+
+
+/* KH SCREEN REFINEMENTS — no white stats, tidy recruiter CTA, strict black/gold.
+   Keep this at END to override older high-specificity white surfaces. */
+@media screen {
+ body.bh-body .bh-stats{
+   background:#080808!important;background-color:#080808!important;background-image:none!important;
+   box-shadow:none!important;border:1px solid #d4af37!important;
+   border-radius:16px;padding:20px 0!important;margin-block:25px 40px!important;
+   overflow:hidden;isolation:isolate;
+ }
+ body.bh-body .bh-stats .bh-stat,body.bh-body .bh-stat{
+   background:#080808!important;background-image:none!important;
+   border-color:#d4af37!important;color:#d4af37!important;
+   padding:12px 20px!important;min-width:0;
+ }
+ body.bh-body .bh-stats :is(strong,span,small){
+   background:transparent!important;color:#d4af37!important;
+   -webkit-text-fill-color:#d4af37!important;text-shadow:none!important;
+ }
+ body.bh-body .bh-stats strong{font-family:'Space Grotesk','DM Sans',sans-serif!important;font-size:clamp(1.4rem,2.4vw,2rem)!important;letter-spacing:-.025em!important}
+ body.bh-body .bh-stats span{font:500 11px/1.5 'DM Sans',sans-serif!important;letter-spacing:.035em}
+ body.bh-body .kh-recruiter-strip{padding:24px 28px!important;margin:24px auto 35px!important;align-items:center!important;gap:20px!important}
+ body.bh-body .kh-recruiter-strip h2{
+   font-family:'Space Grotesk','DM Sans',sans-serif!important;
+   font-size:clamp(1.4rem,2.8vw,2.1rem)!important;
+   font-weight:650!important;line-height:1.17!important;
+   letter-spacing:-.03em!important;max-width:25ch;margin:8px 0!important;
+ }
+ body.bh-body .kh-recruiter-strip p{font-size:13px!important;line-height:1.55!important;max-width:610px}
+ body.bh-body .kh-recruiter-links{align-items:center!important;justify-content:flex-start!important}
+ body.bh-body .kh-recruiter-links a{font-size:12px!important;padding:9px 12px!important;line-height:1.3!important}
+ body.bh-body .bh-hero h1{font-family:'Space Grotesk','DM Sans',sans-serif!important;font-weight:650!important;letter-spacing:-.04em!important}
+ body.bh-body .bh-hero .bh-name{font-family:inherit!important}
+ body.bh-body .bh-project,body.bh-body .bh-feature,body.bh-body .bh-demo-card{border:1px solid #d4af37!important}
+ body.bh-body .bh-project:hover,body.bh-body .bh-feature:hover{transform:translateY(-2px)!important;transition:transform .2s ease!important}
+ body.bh-body .bh-nav{gap:clamp(9px,1.45vw,22px)!important}
+ body.bh-body .bh-nav a{font-size:11px!important;white-space:nowrap}
+ body.bh-body :is(.bh-hero,.bh-stats,.bh-section,.bh-contact,.kh-recruiter-strip){min-width:0!important}
+ @media(max-width:800px){
+   body.bh-body .bh-stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+   body.bh-body .kh-recruiter-strip{padding:20px!important}
+ }
+ @media(max-width:400px){
+   body.bh-body .bh-stats{grid-template-columns:minmax(0,1fr)!important}
+   body.bh-body .bh-stats .bh-stat{border-right:none!important;border-bottom:1px solid #d4af37!important}
+ }
+}
