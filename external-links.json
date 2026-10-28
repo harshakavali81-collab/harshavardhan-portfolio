@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-28T09:30:34.341414+00:00",
+  "checked_at": "2026-10-28T09:34:32.963333+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 75460,
+      "bytes": 75531,
       "ok": true
     },
     {
@@ -34,7 +34,7 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 24677,
+      "bytes": 24765,
       "ok": true
     },
     {
@@ -146,6 +146,7 @@
       "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -157,6 +158,7 @@
       "pages": [
         "cases/evidencedesk.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -179,6 +181,7 @@
       "pages": [
         "airaware.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -325,6 +328,7 @@
       "url": "https://github.com/harshakavali81-collab/AstraSentinel-AI",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -338,6 +342,7 @@
         "cases/commercelens.html",
         "commercelens-demo.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -385,6 +390,7 @@
       "url": "https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -397,6 +403,7 @@
         "bigdata-demo.html",
         "cases/big-data-clickstream.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -444,6 +451,7 @@
       "url": "https://github.com/harshakavali81-collab/CivicShield-AI",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -454,6 +462,7 @@
       "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -464,6 +473,7 @@
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -474,6 +484,7 @@
       "url": "https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -485,6 +496,7 @@
       "pages": [
         "cases/demandpilot.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "recruiter.html",
         "work.html"
@@ -508,6 +520,7 @@
       "pages": [
         "cases/ecommerce.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "recruiter.html",
         "work.html"
@@ -530,6 +543,7 @@
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -541,6 +555,7 @@
       "pages": [
         "cases/foodbridge.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -579,6 +594,7 @@
       "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -590,6 +606,7 @@
       "pages": [
         "cases/supportlens.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -640,6 +657,7 @@
         "healthpulse-demo.html",
         "healthpulse-worldbank.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -687,6 +705,7 @@
       "url": "https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -697,6 +716,7 @@
       "url": "https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -707,6 +727,7 @@
       "url": "https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -718,6 +739,7 @@
       "pages": [
         "cases/mobilitypulse.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "mobilitypulse-explorer.html",
         "work.html"
@@ -784,6 +806,7 @@
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "profile.html",
         "recruiter.html"
@@ -798,6 +821,7 @@
         "cases/inventoryiq.html",
         "index.html",
         "inventoryiq-demo.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -864,6 +888,7 @@
       "pages": [
         "cases/streamwatch.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "streamwatch-demo.html",
         "work.html"
@@ -932,6 +957,7 @@
         "cases/docsight.html",
         "docsight-demo.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "work.html"
       ],
@@ -962,6 +988,7 @@
       "pages": [
         "cases/transactionshield.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "recruiter.html",
         "work.html"
@@ -984,6 +1011,7 @@
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "profile.html"
       ],
@@ -996,6 +1024,7 @@
       "pages": [
         "cases/zomato.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "profile.html",
         "recruiter.html",
@@ -1027,6 +1056,7 @@
       "url": "https://github.com/harshakavali81-collab/document-qa-bot",
       "pages": [
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "profile.html",
         "recruiter.html"
@@ -1038,6 +1068,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio",
       "pages": [
+        "job-platforms.html",
         "linkedin-projects.html"
       ],
       "via": "github-repo-api",
@@ -1297,6 +1328,15 @@
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/interview.html",
       "pages": [
         "interview.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/job-platforms.html",
+      "pages": [
+        "job-platforms.html"
       ],
       "via": "http",
       "status": 200,
@@ -1623,12 +1663,22 @@
       "result": "ok"
     },
     {
+      "url": "https://www.foundit.in/",
+      "pages": [
+        "job-platforms.html"
+      ],
+      "via": "http",
+      "status": 403,
+      "result": "unknown"
+    },
+    {
       "url": "https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/",
       "pages": [
         "contact.html",
         "data-analyst-resume.html",
         "hiring.html",
         "index.html",
+        "job-platforms.html",
         "linkedin-projects.html",
         "profile.html",
         "recruiter.html",
@@ -1638,6 +1688,15 @@
       "via": "http",
       "status": 999,
       "result": "unknown"
+    },
+    {
+      "url": "https://www.naukri.com/",
+      "pages": [
+        "job-platforms.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
     },
     {
       "url": "https://www.who.int/data/gho/info/gho-odata-api",
@@ -1650,9 +1709,9 @@
     }
   ],
   "external_counts": {
-    "ok": 157,
+    "ok": 159,
     "broken": 0,
-    "unknown": 1,
+    "unknown": 2,
     "http-error": 0
   }
 }
