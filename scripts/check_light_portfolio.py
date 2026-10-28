@@ -63,7 +63,7 @@ def main() -> None:
     assert set(page.source_urls) == set(job_sources), "project pages are out of sync"
 
     home = read("index.html")
-    assert 'class="portfolio-gallery-promo"' in home
+    assert 'class="wrap portfolio-gallery-promo"' in home
     assert 'href="linkedin-projects.html"' in home
     assert "View all 31 projects" in home
     assert 'href="linkedin-setup.html"' in home
