@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: career-regression-${{ github.ref }}
@@ -39,12 +39,16 @@ jobs:
         with:
           python-version: "3.11"
       - name: Check recruiter career dossier and 12 career elements
+        id: dossier
         run: python scripts/check_career_dossier.py
       - name: Check luxury black/gold structure and 31 project links
+        id: theme
         run: python scripts/check_premium_black.py
       - name: Audit all internal URLs, anchors and source assets
+        id: links
         run: python scripts/audit_site.py
       - name: Validate role selection, print-safe resumes and declared visual palette
+        id: roles
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -65,3 +69,53 @@ jobs:
           assert index.count('class="bh-project-source" href=') == 31
           print("PASS: all three role selectors, black/gold screen CVs, print controls, source-linked projects.")
           PY
+
+      - name: Publish a reproducible career regression summary
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOSSIER_STATUS: ${{ steps.dossier.outcome }}
+          THEME_STATUS: ${{ steps.theme.outcome }}
+          LINKS_STATUS: ${{ steps.links.outcome }}
+          ROLES_STATUS: ${{ steps.roles.outcome }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/kh-regression"
+          cd "$RUNNER_TEMP/kh-regression"
+          git init -q
+          git config user.name "portfolio-qa-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git fetch -q origin qa-reports
+          git checkout -q -b qa-reports FETCH_HEAD
+          {
+            echo "# Career portfolio regression report"
+            echo
+            echo "Source commit: $GITHUB_SHA"
+            echo
+            echo "Generated UTC: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            echo
+            echo "| Check | Result |"
+            echo "|---|---|"
+            echo "| 12-element career dossier | $DOSSIER_STATUS |"
+            echo "| Black-and-gold page and repository structure | $THEME_STATUS |"
+            echo "| All site local links and targets | $LINKS_STATUS |"
+            echo "| Role selector and screen resume styling | $ROLES_STATUS |"
+            echo
+            echo "Browser and network QA is separately measured by live-qa.yml."
+            echo "This report records actual command exit outcomes, not assumed success."
+          } > career-regression-summary.md
+          git add career-regression-summary.md
+          if ! git diff --cached --quiet; then
+            git commit -qm "Record source regression outcomes for $GITHUB_SHA"
+            for attempt in 1 2 3; do
+              git pull --rebase -q origin qa-reports || exit 1
+              if git push -q origin HEAD:qa-reports; then
+                exit 0
+              fi
+              sleep 3
+            done
+            echo "Could not publish regression report after three attempts" >&2
+            exit 1
+          fi
