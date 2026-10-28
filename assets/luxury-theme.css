@@ -576,3 +576,43 @@ footer a,.footer a{color:#81623d!important}
 .project-card[data-category="Hardware & IoT"] .project-art{background:linear-gradient(115deg,#f4f4f5,#f8f7f4)!important}
 .project-card[data-category="Forecasting"] .project-art{background:linear-gradient(115deg,#faf4ed,#f6f5f1)!important}
 @media(max-width:840px){.portfolio-gallery-promo{grid-template-columns:1fr;padding:26px}.gallery-promo-art{min-height:145px}}
+
+
+/* LIGHT GOLD CONTRAST FIXES — profile cards, tabular data, forms */
+:is(.kh-profile-card,.kh-hobby-card,.kh-hobby-card.kh-book,.kh-hobby-card.kh-game,
+.kh-hobby-card.kh-build,.kh-recruiter-ribbon){
+ background:#fff!important;background-image:none!important;
+ color:#29343e!important;border-color:#e6dece!important;
+ box-shadow:0 9px 26px rgba(65,55,43,.055)!important
+}
+:is(.kh-profile-card p,.kh-profile-card li,.kh-hobby-card p,.kh-recruiter-ribbon p){
+ color:#5d6670!important
+}
+.kh-hobby-foot,.kh-profile-card .kh-profile-kicker{color:#856742!important}
+.kh-profile-card h3{color:#29343e!important}
+.kh-profile-card a{color:#775a34!important}
+.kh-profile-facts span{
+ background:#f8f3ea!important;border:1px solid #e9dcc7!important;
+ color:#745b3e!important
+}
+:is(table,table th,table td,.data-table th,.data-table td,.qa-table th,.qa-table td){
+ border-color:#e5ded2!important
+}
+:is(table th,.data-table th,.qa-table thead){
+ background:#f3eee6!important;color:#29343e!important
+}
+:is(table td,.data-table td,.qa-table td){
+ background:#fff!important;color:#35404a!important
+}
+hr,.divider{border-color:#e5ded2!important}
+:is(.form input,.form textarea,.form select){
+ background:#fff!important;color:#29343e!important;border-color:#d7c9b3!important
+}
+:is(.paper,.resume-paper){
+ background:#fff!important;color:#27313a!important;box-shadow:0 9px 26px rgba(65,55,43,.06)!important
+}
+@media print{
+ .kh-profile-card,.kh-hobby-card,.kh-recruiter-ribbon{
+  box-shadow:none!important;border-color:#aaa!important
+ }
+}
