@@ -46,8 +46,8 @@ def check():
         assert heading in html, f"Missing career element: {heading}"
     for url_fragment in ("github.com/harshakavali81-collab", "linkedin.com/in/kavali-harshavardhan", "job-platforms.html", "profile.html#beyond"):
         assert url_fragment in html, f"Missing professional link: {url_fragment}"
-    assert "No independent professional awards" in html
-    assert "No specific volunteering" in html
+    assert "No professional awards" in html
+    assert "Street Cause Hyderabad" in html and "self-reported" in html
     assert "referee" in html.lower(), "Reference privacy statement missing"
     assert "KH GOLD-ONLY CAREER RELEASE" in css
     assert "body.kh-dossier" in css and "color-scheme:dark" in css
@@ -94,6 +94,23 @@ def check():
     assert "view=cm&fs=1" in contact_page
     assert 'id="open-mail-app"' in contact_page
     assert 'id="open-gmail"' in contact_page and 'id="copy-message"' in contact_page
+    certificates = (ROOT / "certificates.html").read_text(encoding="utf-8")
+    assert certificates.count('class="kh-proof-card"') == 7
+    for label in ("AWS Academy Cloud Developing","AWS Academy Data Engineering",
+                  "AI–ML Virtual Internship","Android Developer Virtual Internship",
+                  "Intelligent Automation Virtual Internship","Entrepreneurship Orientation Program"):
+        assert label in certificates, f"Missing uploaded qualification: {label}"
+    assert "tfTqbAM0" in certificates and "GqcOmj3t" in certificates
+    home = (ROOT / "index.html").read_text(encoding="utf-8")
+    assert home.count('class="kh-resume-project"') == 4
+    for content in ("Zomato Insights Dashboard","Multilingual Indian Language Knowledge Platform",
+                    "Document Q&amp;A Bot","Women Safety Device",
+                    'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
+        assert content in home, f"Missing resume-driven portfolio content: {content}"
+    assert "assets/resume-evidence.css?v=20261028-edu1" in home
+    theme = (ROOT / "assets/resume-evidence.css").read_text(encoding="utf-8")
+    palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme.lower()))
+    assert palette == {"#080808","#d4af37"}
     # End strict theme/contact checks.
     # Twelve-element career extension: END
 
