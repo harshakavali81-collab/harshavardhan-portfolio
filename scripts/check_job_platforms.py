@@ -6,7 +6,9 @@ import re
 ROOT=Path(__file__).resolve().parents[1]
 def text(path):return (ROOT/path).read_text(encoding="utf-8")
 page=text("job-platforms.html")
-assert page.count('class="panel project"')==15
+assert page.count('class="panel project"')==31
+assert page.count('data-tier="additional"')==16
+assert 'id="project-scope"' in page
 assert len(re.findall(r'<li><a href="https://github.com/harshakavali81-collab/',page))==31
 assert 'href="assets/luxury-theme.css"' in page
 assert 'id="panel-linkedin"' in page and 'id="panel-naukri"' in page and 'id="panel-foundit"' in page
@@ -17,4 +19,6 @@ assert 'manual-copy' in text("assets/job-platforms.js")
 for name in ("README.md","index.html","profile.html","linkedin-projects.html"):
     assert "job-platforms.html" in text(name), name
 assert '## 8. Complete projects and recruiter profile center' in text("docs/JOB_PORTAL_PROFILE_KIT.md")
-print("Profile center: 3 platforms, 15 projects, 31 sources, resume links and copy controls verified")
+links=re.findall(r'class="btn source" href="([^"]+)"',page)
+assert len(links)==31 and len(set(links))==31
+print("Profile center: 3 platforms, 31 project cards, 16 additional READMEs, 31 unique GitHub links")

@@ -151,10 +151,19 @@ def browser_qa(out):
                             if path=="job-platforms.html":
                                 if page.locator(".platform-panel").count()!=3:
                                     raise AssertionError("Expected LinkedIn, Naukri and foundit profiles")
-                                if page.locator(".project").count()!=15:
-                                    raise AssertionError("Expected 15 featured project cards")
+                                if page.locator(".project").count()!=31:
+                                    raise AssertionError("Expected 31 repository cards")
                                 if page.locator(".catalog li").count()!=31:
                                     raise AssertionError("Expected 31 GitHub repositories")
+                                page.locator("#project-scope").select_option("featured")
+                                if page.locator(".project:not([hidden])").count()!=15:
+                                    raise AssertionError("Featured filter must show 15")
+                                page.locator("#project-scope").select_option("additional")
+                                if page.locator(".project:not([hidden])").count()!=16:
+                                    raise AssertionError("Additional filter must show 16")
+                                page.locator("#project-scope").select_option("All")
+                                if page.locator(".project:not([hidden])").count()!=31:
+                                    raise AssertionError("All projects filter must show 31")
                                 page.locator("#tab-naukri").click()
                                 if page.locator("#panel-naukri").is_hidden():
                                     raise AssertionError("Naukri profile tab failed")
@@ -164,16 +173,16 @@ def browser_qa(out):
                                 page.locator("#tab-linkedin").click()
                                 page.locator("#category").select_option("Analytics & BI")
                                 selected=page.locator(".project:not([hidden])")
-                                if selected.count()!=4:
-                                    raise AssertionError("Analytics category should show four projects")
+                                if selected.count()!=8:
+                                    raise AssertionError("Analytics category should show eight projects")
                                 page.locator("#category").select_option("All")
-                                if page.locator(".project:not([hidden])").count()!=15:
-                                    raise AssertionError("Clearing project filter did not restore 15 projects")
+                                if page.locator(".project:not([hidden])").count()!=31:
+                                    raise AssertionError("Clearing project filter did not restore 31 project cards")
                                 page.locator("#project-search").fill("zomato")
                                 if page.locator(".project:not([hidden])").count()!=1:
                                     raise AssertionError("Project search failed")
                                 page.locator("#project-search").fill("")
-                                if page.locator(".project:not([hidden])").count()!=15:
+                                if page.locator(".project:not([hidden])").count()!=31:
                                     raise AssertionError("Project search reset failed")
                             if path=="linkedin-projects.html":
                                 if page.locator(".project-card").count()!=15:

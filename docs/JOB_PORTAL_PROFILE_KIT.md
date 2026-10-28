@@ -177,7 +177,7 @@ These are resume-reported training entries; certificate IDs, issue URLs and inde
 
 ## 8. Complete projects and recruiter profile center
 
-[**Open the interactive LinkedIn / Naukri / foundit profile center**](../job-platforms.html) to copy all three platform-specific headlines, summaries, and keyword lists. It includes **15 detailed source-linked projects**, search and category filters, a copy action for every project, all **31 repository links**, education, internship, role preferences, and resume downloads.
+[**Open the interactive LinkedIn / Naukri / foundit profile center**](../job-platforms.html) to copy all three platform-specific headlines, summaries, and keyword lists. It includes **31 source-linked project cards** (15 featured and 16 additional), search/category/scope filters, copy actions, and all **31 repository links**, education, internship, role preferences, and resume downloads.
 
 [**Open the original project master list**](LINKEDIN_PROFILE_PROJECTS_MASTER.md) for fully written LinkedIn project descriptions, five suggested skills per project, and recommended Featured links.
 
@@ -198,3 +198,42 @@ These are resume-reported training entries; certificate IDs, issue URLs and inde
 These projects demonstrate technical practice and may use synthetic inputs. They are not claims of independently verified production operations or commercial performance. Select the most job-relevant examples rather than claiming all 31 as professional employment.
 
 **External account status:** GitHub and your portfolio have been updated. No LinkedIn, Naukri, or foundit account has been directly edited. Each requires account access and saving your profile fields.
+
+
+## 9. All 31 repository cards
+
+The [career-profile projects grid](../job-platforms.html#projects) now displays the 31 GitHub repositories as searchable cards, including 15 curated entries and 16 additional README-grounded summaries. One of the 31 is the portfolio repository itself. The extra entries are listed below:
+
+16. **Document Q&A Bot — FAISS RAG** — Created a document Q&A pipeline for PDF, TXT and DOCX, including chunking, embeddings, FAISS search and source citations. External LLM calls require credentials. **Skills:** Python, FAISS, NLP, RAG. [Source](https://github.com/harshakavali81-collab/document-qa-bot)
+
+17. **Banking & Financial Performance Analytics** — Built a synthetic banking data pipeline with branch KPIs, offline dashboards and Excel summaries. A native Power BI PBIX is not bundled. **Skills:** Python, SQLite, Excel, Data Visualization. [Source](https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics)
+
+18. **Marketing Campaign ROI Analytics** — Analyzed synthetic campaigns with Python and SQLite calculations, an Excel workbook and channel/month filters. No observed client ROI is claimed. **Skills:** Python, SQL, Excel, Marketing. [Source](https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project)
+
+19. **Customer Churn Prediction & Retention** — Developed synthetic churn-risk scoring with model evaluation, prioritized outreach and retention scenarios, not production customer decisions. **Skills:** Python, scikit-learn, Streamlit, SQL. [Source](https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System)
+
+20. **IPL Cricket Analytics Dashboard** — Documented an Excel IPL match dashboard workflow and source workbook with match KPIs, data fields and visualization steps. **Skills:** Microsoft Excel, KPI Reporting, Dashboards. [Source](https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo)
+
+21. **QCA Binary-to-Gray Code Converter** — Contributed to an academic team project documenting a quantum-dot cellular automata converter, truth tables, presentation and Verilog materials. **Skills:** Digital Logic, QCA, Verilog. [Source](https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata)
+
+22. **Fingerprint GPS/GSM Safety Device** — Documented an academic Arduino-based fingerprint safety device integrating GPS, GSM, LCD and buzzer components. Not an approved emergency service. **Skills:** Arduino, GPS, GSM, IoT. [Source](https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-)
+
+23. **Cryptocurrency Dashboard — Power BI** — Created a Power BI dashboard of supplied cryptocurrency data covering market capitalization, price trends and volume; not real-time exchange data. **Skills:** Power BI, Excel, Data Visualization. [Source](https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI)
+
+24. **Multimodal AI Customer Support Copilot** — Built a local fictional-policy support copilot with text/PDF extraction, cited retrieval, editable replies, optional audio and ticket review. No automatic sending. **Skills:** Python, OCR, NLP, SQLite. [Source](https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot)
+
+25. **Fraud Risk Scoring — FastAPI & Streamlit** — Implemented synthetic transaction risk scoring with chronological model evaluation, SQLite, FastAPI and Streamlit. No real payment approvals or blocks. **Skills:** Python, FastAPI, Streamlit, ML. [Source](https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform)
+
+26. **Demand Forecasting & Inventory Optimization** — Built a synthetic retail demand forecasting workflow with time-aware evaluation, safety-stock calculations and reorder recommendations requiring review. **Skills:** Python, FastAPI, PostgreSQL, Streamlit. [Source](https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project)
+
+27. **Enterprise AI Intelligence Platform** — Created a portfolio architecture for cited retrieval, read-only SQL analytics, ML APIs and human-approval workflows. Production validation is separate. **Skills:** Python, React, FastAPI, RAG. [Source](https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development)
+
+28. **CivicShield AI — Disaster Risk Demo** — Developed a multilingual public-safety and incident-review demo with experimental risk indicators; not an authorized live disaster alerting service. **Skills:** Python, GIS, FastAPI, Data Visualization. [Source](https://github.com/harshakavali81-collab/CivicShield-AI)
+
+29. **AstraSentinel AI — Space Digital Twin** — Built educational orbit and space-weather visualizations with synthetic telemetry anomaly detection and simplified rocket physics. Not flight-qualified. **Skills:** Python, Satellite Analytics, Simulation. [Source](https://github.com/harshakavali81-collab/AstraSentinel-AI)
+
+30. **Personal Portfolio Website & Case Studies** — Built this professional portfolio, resume center, project case studies, search, accessibility and automated checks. This is the portfolio repository itself. **Skills:** HTML, CSS, JavaScript, GitHub Pages. [Source](https://github.com/harshakavali81-collab/harshavardhan-portfolio)
+
+31. **AirAware AI — Pollution & Heat Risk** — Built an environmental dashboard prototype with PM2.5/heat views, quality checks and synthetic forecasts. Live-source validation remains separate. **Skills:** Python, FastAPI, React, Forecasting. [Source](https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence)
+
+Only add appropriate projects to external job profiles with accurate work dates. This portfolio update does not automatically edit LinkedIn, Naukri or foundit.
