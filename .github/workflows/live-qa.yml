@@ -1,0 +1,93 @@
+name: Live performance and browser QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "work.html"
+      - "contact.html"
+      - "profile.html"
+      - "resumes.html"
+      - "recruiter.html"
+      - "cases/**"
+      - "assets/**"
+      - "scripts/live_qa.py"
+      - ".github/workflows/live-qa.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "19 4 * * 1"
+permissions:
+  contents: write
+concurrency:
+  group: live-qa-main
+  cancel-in-progress: true
+jobs:
+  measure-and-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      QA_DIR: ${{ runner.temp }}/portfolio-qa
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Playwright and HTTP dependencies
+        run: |
+          python -m pip install --disable-pip-version-check playwright requests
+          python -m playwright install --with-deps chromium firefox webkit
+      - name: Check live URLs, external links, browser layouts, and 3-second page-load target
+        id: runqa
+        shell: bash
+        run: |
+          mkdir -p "$QA_DIR"
+          set +e
+          python scripts/live_qa.py --output "$QA_DIR"
+          result=$?
+          echo "code=$result" >> "$GITHUB_OUTPUT"
+          echo "QA result code: $result"
+          exit 0
+      - name: Upload screenshots, external link audit, and timing report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-browser-performance-qa
+          path: ${{ runner.temp }}/portfolio-qa/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Publish the latest independent QA results to a report-only branch
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f "$QA_DIR/SUMMARY.md" ]; then
+            echo "No result file to publish."
+            exit 0
+          fi
+          mkdir -p "$RUNNER_TEMP/qa-publish"
+          cd "$RUNNER_TEMP/qa-publish"
+          git init -q
+          git config user.name "portfolio-qa-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          if git ls-remote --exit-code origin refs/heads/qa-reports >/dev/null 2>&1; then
+            git fetch -q origin qa-reports
+            git checkout -q -b qa-reports FETCH_HEAD
+          else
+            git checkout -q --orphan qa-reports
+          fi
+          cp -R "$QA_DIR/." .
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -qm "Document measured live portfolio QA for $GITHUB_SHA"
+            git push -q origin HEAD:qa-reports
+          fi
+      - name: Enforce QA result
+        if: always()
+        env:
+          QA_EXIT: ${{ steps.runqa.outputs.code }}
+        run: |
+          if [ "$QA_EXIT" != "0" ]; then
+            echo "Independent portfolio QA reported an unmet goal or failures."
+            exit 1
+          fi
