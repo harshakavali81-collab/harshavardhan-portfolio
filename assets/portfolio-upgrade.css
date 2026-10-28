@@ -362,3 +362,191 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
   }
   body.bh-interior .qa-table :is(th,td){border-bottom-color:#69521a!important}
 }
+
+
+/* KH SOFT GOLD / RESTORED CLASSIC RECRUITER THEME — 2026-10-28
+   Current owner choice supersedes the earlier metallic-foil black-only version.
+   Palette: charcoal #161B1F, warm raised surfaces #20262A, understated gold
+   #D6B36A / #E4C98A, readable off-white text. No gold-foil headlines.
+   Printable PDFs and white-paper resume printing remain unchanged. */
+@media screen {
+  :root {
+    --kh-classic-bg:#161b1f;--kh-classic-panel:#22282d;
+    --kh-classic-panel-raised:#2a3034;--kh-classic-text:#f0f0eb;
+    --kh-classic-muted:#bbc3c5;--kh-classic-gold:#d6b36a;
+    --kh-classic-gold-light:#e4c98a;--kh-classic-border:#514a38;
+  }
+  body.bh-body,body.bh-interior,body.bh-interior.light,body.kh-dossier,body.kh-resume-screen {
+    --bg:#161b1f!important;--bh-bg:#161b1f!important;
+    --ink:#f0f0eb!important;--text:#f0f0eb!important;--bh-text:#f0f0eb!important;
+    --soft:#bbc3c5!important;--muted:#bbc3c5!important;--bh-muted:#bbc3c5!important;
+    --accent:#d6b36a!important;--gold:#d6b36a!important;--yellow:#d6b36a!important;
+    --aqua:#d6b36a!important;--mint:#d6b36a!important;--blue:#d6b36a!important;
+    --bh-cyan:#d6b36a!important;--bh-indigo:#d6b36a!important;
+    --bh-warm:#d6b36a!important;--panel:#22282d!important;--panel2:#2a3034!important;
+    --surface:#22282d!important;--surface2:#2a3034!important;
+    --bh-surface:#22282d!important;--bh-surface2:#2a3034!important;
+    --stroke:#514a38!important;--line:#514a38!important;--bh-line:rgba(214,179,106,.18)!important;
+    color-scheme:dark!important;background:#161b1f!important;
+    background-image:radial-gradient(ellipse 73% 34% at 85% 0%,rgba(214,179,106,.065),transparent 77%),linear-gradient(180deg,#161b1f 0%,#1b2024 60%,#161b1f 100%)!important;
+    color:#f0f0eb!important;
+    font-family:'DM Sans','Montserrat','Segoe UI',sans-serif!important;
+  }
+  body.bh-body::before{background-image:linear-gradient(rgba(214,179,106,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(214,179,106,.022) 1px,transparent 1px)!important;opacity:.4!important}
+  body.bh-body :is(header.bh-header,.bh-nav,.bh-footer),
+  body.bh-interior :is(nav,.nav,header,.topbar,footer,.footer),
+  body.kh-dossier :is(.kh-top,.kh-footer),body.kh-resume-screen .topbar{
+    background:#171b1fee!important;background-image:none!important;
+    border-color:rgba(214,179,106,.19)!important;box-shadow:0 6px 26px rgba(0,0,0,.14)!important;
+  }
+  body.bh-body main :is(h1,h2,h3),body.bh-body main h1 span,
+  body.bh-body main h2 span,body.bh-interior main :is(h1,h2,h3),
+  body.bh-interior main :is(h1,h2) span,body.kh-dossier main :is(h1,h2,h3),
+  body.kh-dossier main h1 em,body.kh-dossier main h2 em{
+    background:none!important;background-image:none!important;
+    background-clip:initial!important;-webkit-background-clip:initial!important;
+    color:#f0f0eb!important;-webkit-text-fill-color:#f0f0eb!important;
+    text-shadow:none!important;filter:none!important;
+    font-family:'Space Grotesk','DM Sans',Arial,sans-serif!important;
+    font-weight:650!important;letter-spacing:-.028em!important;
+  }
+  body.bh-body main :is(.bh-name,.bh-brand-mark),body.kh-dossier main :is(.kh-hero h1 em,.kh-section h2 em),
+  body.bh-interior main :is(.gold,.gradient){
+    background:none!important;background-image:none!important;filter:none!important;
+    color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important;
+  }
+  body.bh-body :is(.bh-kicker,.bh-eyebrow,.bh-index,.bh-feature-type,.bh-project-number,.bh-resource-number,.kh-eyebrow),
+  body.bh-interior :is(.eyebrow,.meta,.kicker,.overline,.number),
+  body.kh-dossier :is(.kh-eyebrow,.kh-small,.kh-case-index,.kh-pillar-count){
+    color:#d6b36a!important;-webkit-text-fill-color:#d6b36a!important;
+    font-family:'DM Sans','Montserrat',Arial,sans-serif!important;
+    letter-spacing:.12em!important;
+  }
+  body.bh-body :is(.bh-feature,.bh-project,.bh-demo-card,.bh-resource,.bh-about-panel,.bh-stack-panel,.bh-window,.bh-visual,.bh-contact,.kh-home-career,.kh-credential-card,.kh-role-finder),
+  body.bh-interior :is(.card,.panel,.project,.project-card,.profile-project-card,.cert,.notice,.hobby-card,.visual,.contact,.qa-lead,.qastat,.assumptions,.passpill,.resume-paper),
+  body.kh-dossier :is(.kh-panel,.kh-case,.kh-hero-panel,.kh-contact,.kh-pillar,.kh-proof-guidance,.kh-element,.kh-trust),
+  body.kh-resume-screen .paper{
+    background:#22282d!important;background-image:linear-gradient(145deg,#252b2e,#202529)!important;
+    border:1px solid rgba(214,179,106,.22)!important;
+    box-shadow:0 12px 40px rgba(0,0,0,.12)!important;
+    color:#f0f0eb!important;
+  }
+  body.bh-body :is(.bh-feature-art,.bh-project-art,.bh-window-top,.bh-mini-panel,.bh-feature-mark),
+  body.bh-interior :is(.project-art,.art,.visual .mini,.mini>div,.chip,.tag,.badge,.passpill),
+  body.kh-dossier :is(.kh-monogram,.kh-pillars),
+  body.kh-resume-screen :is(.resume-switcher,.badge){
+    background:#2a3034!important;background-image:none!important;
+    border-color:rgba(214,179,106,.23)!important;
+    color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important;
+  }
+  body.bh-body :is(.bh-lead,.bh-role,.bh-feature p,.bh-project p,.bh-about-panel p,.bh-stack-list p,.bh-contact p,.kh-home-career p,.bh-method),
+  body.bh-interior :is(p,.lead,.lede,.muted,.card p,.project-card p,.profile-project-card p,.chip,.qa-table td,.qastat span),
+  body.kh-dossier :is(p,.kh-intro,.kh-secondary,.kh-fine,.kh-section-heading p,.kh-panel p,.kh-case p,.kh-element p,.kh-element li),
+  body.kh-resume-screen :is(p,li,.contact,.meta,.smallnote,.heading time){
+    color:#bbc3c5!important;-webkit-text-fill-color:#bbc3c5!important;
+    font-family:'DM Sans','Segoe UI',Arial,sans-serif!important;
+    line-height:1.7!important;
+  }
+  body.bh-body :is(.bh-feature h3,.bh-project h3,.bh-about-panel h3,.kh-role-body h3),
+  body.bh-interior :is(h3,.card h3,.project-card h3),
+  body.kh-dossier :is(.kh-case h3,.kh-panel h3,.kh-element h3),
+  body.kh-resume-screen :is(h1,h2,h3,.headline,.subtitle,.heading strong){
+    color:#f0f0eb!important;-webkit-text-fill-color:#f0f0eb!important;
+    font-family:'Space Grotesk','DM Sans',sans-serif!important;letter-spacing:-.022em!important;
+  }
+  body.bh-body :is(a.bh-button,.kh-home-links a,.kh-role-actions a,.bh-resource,.bh-feature-links a),
+  body.bh-interior :is(a.btn,.btn,.button,.links a,.navlinks a,.cta a),
+  body.kh-dossier :is(a.kh-btn,.kh-link-cluster a),
+  body.kh-resume-screen :is(a.btn,.button,.resume-switcher a) {
+    color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important;
+    background:#292f32!important;background-image:none!important;
+    border-color:rgba(214,179,106,.42)!important;box-shadow:none!important;
+  }
+  body.bh-body :is(a.bh-button-primary,.bh-nav-cta),
+  body.bh-interior :is(a.btn.primary,a.btn.prime),
+  body.kh-dossier :is(a.kh-btn-gold,.kh-nav-contact),
+  body.kh-resume-screen :is(a.btn:not(.alt),.button:not(.alt)),
+  body.bh-body .kh-role-tabs button[aria-pressed="true"]{
+    background:#d6b36a!important;background-image:none!important;
+    color:#1b2024!important;-webkit-text-fill-color:#1b2024!important;
+    border-color:#d6b36a!important;box-shadow:none!important;
+  }
+  body.bh-body .bh-brand-mark,body.kh-dossier .kh-logo span{
+    background:#d6b36a!important;background-image:none!important;
+    color:#171b1f!important;-webkit-text-fill-color:#171b1f!important;
+  }
+  body.bh-body :is(.bh-brand,.bh-brand-name,.bh-nav a,.bh-socials a,.bh-feature-links a,.bh-project-source,.bh-text-link),
+  body.bh-interior :is(a,.navlinks a,.logo,.brand,.links a),
+  body.kh-dossier :is(a,.kh-nav a,.kh-logo,.kh-stack a,.kh-case-links a) {
+    color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important;
+  }
+  body.bh-body :is(.bh-nav a:hover,.bh-socials a:hover,.bh-feature-links a:hover),
+  body.bh-interior a:hover,body.kh-dossier a:hover{
+    color:#f2dbab!important;-webkit-text-fill-color:#f2dbab!important;
+  }
+  body.bh-body .bh-nav{background:#1b2024!important}
+  body.bh-body .bh-nav-cta{background:#d6b36a!important;color:#171b1f!important;-webkit-text-fill-color:#171b1f!important}
+  body.bh-body .bh-progress{background:#d6b36a!important;box-shadow:none!important}
+  body.bh-body :is(.bh-window .bh-code,.bh-window .bh-code span){color:#d4dbdc!important;-webkit-text-fill-color:#d4dbdc!important}
+  body.bh-body :is(.bh-dot,.bh-pulse){background:#d6b36a!important;box-shadow:none!important}
+  body.bh-body .bh-visual::before{background:radial-gradient(circle,rgba(214,179,106,.055),transparent 65%)!important;filter:none!important}
+  body.bh-body .bh-mini-panel{background:#2a3034!important;box-shadow:0 9px 27px #0002!important}
+  body.bh-body .bh-feature-mark{color:#d6b36a!important;-webkit-text-fill-color:#d6b36a!important}
+  body.bh-body .bh-tech span,body.bh-body .bh-project-tags span,body.bh-interior :is(.tag,.chip,.pill,.chips span,.profile-project-chips span){
+    background:#2c3234!important;color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important;border:1px solid #554c37!important
+  }
+  body.bh-body :is(.bh-project,.bh-feature,.bh-resource):hover,
+  body.bh-interior :is(.card,.project-card):hover,
+  body.kh-dossier :is(.kh-case,.kh-panel,.kh-element):hover{
+    border-color:#ad9156!important;box-shadow:0 15px 42px rgba(0,0,0,.15)!important;
+  }
+  body.bh-body :is(input,select,textarea,button),
+  body.bh-interior :is(input,select,textarea),
+  body.kh-dossier :is(input,select,textarea){
+    background:#252b2e!important;color:#f0f0eb!important;border-color:#6a5d43!important;
+  }
+  body.bh-body .kh-role-tabs button{background:#292f32!important;color:#e4c98a!important;border-color:#6a5d43!important}
+  body.bh-body :is(a,button,input,select,textarea):focus-visible,
+  body.bh-interior :is(a,button,input,select,textarea):focus-visible,
+  body.kh-dossier :is(a,button,input,select,textarea):focus-visible{
+    outline:3px solid #e4c98a!important;outline-offset:3px!important;
+  }
+  .kh-recruiter-strip{padding:22px 25px!important;border:1px solid rgba(214,179,106,.27)!important;border-radius:16px;background:#242b2e!important;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:22px;margin:20px auto 38px}
+  .kh-recruiter-strip h2{font:650 22px 'Space Grotesk','DM Sans',sans-serif!important;margin:5px 0 8px;letter-spacing:-.03em!important}
+  .kh-recruiter-strip p{margin:6px 0;color:#bbc3c5!important;line-height:1.65!important;font-size:13px}
+  .kh-recruiter-strip small{font-size:11px;color:#d6b36a;font-weight:750;letter-spacing:.12em}
+  .kh-recruiter-links,.kh-contact-grid,.kh-recruiter-quicklinks{display:flex;flex-wrap:wrap;gap:10px}
+  .kh-recruiter-links{align-content:center}
+  .kh-recruiter-links a,.kh-recruiter-quicklinks a{
+    display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:10px 13px;
+    text-decoration:none;border-radius:9px;color:#e4c98a!important;
+    border:1px solid rgba(214,179,106,.4)!important;background:#2c3234!important;
+    font:650 12px 'DM Sans',sans-serif!important;
+  }
+  .kh-recruiter-links a:hover,.kh-recruiter-quicklinks a:hover{border-color:#e4c98a!important;background:#30383a!important}
+  .kh-contact-grid{margin:18px 0 28px}
+  .kh-contact-card{min-width:185px;flex:1 1 190px;display:flex;flex-direction:column;gap:7px;background:#242b2e;border:1px solid rgba(214,179,106,.28);border-radius:13px;padding:17px}
+  .kh-contact-card span{font-size:11px;color:#d6b36a;letter-spacing:.12em;font-weight:750;text-transform:uppercase}
+  .kh-contact-card a{font-size:14px;color:#e4c98a!important;overflow-wrap:anywhere}
+  .kh-contact-card small{font-size:12px;color:#bbc3c5}
+  body.kh-resume-screen .paper{background:#242b2e!important;background-image:none!important}
+  body.kh-resume-screen .topbar{background:#171b1f!important}
+  body.bh-interior :is(.qa-lead,.qastat,.assumptions,.qa-table thead,.passpill){background:#252b2e!important;color:#bbc3c5!important;border-color:#514a38!important}
+  body.bh-interior :is(.pass,.qastat strong,.passpill){color:#e4c98a!important;-webkit-text-fill-color:#e4c98a!important}
+  @media(max-width:800px){
+    .kh-recruiter-strip{grid-template-columns:minmax(0,1fr)}
+    body.bh-body .bh-hero{overflow-x:clip!important}
+    body.bh-body .bh-visual::before{inset:0!important}
+  }
+  @media(max-width:500px){
+    .kh-recruiter-strip{padding:19px!important;margin:14px auto 29px}
+    .kh-recruiter-links a{width:100%;justify-content:center}
+    .kh-recruiter-strip h2{font-size:21px!important}
+    .kh-contact-card{min-width:0;flex:1 1 100%}
+    body.bh-body .bh-nav{max-width:100%;overflow-y:auto;max-height:calc(100svh - 75px)}
+  }
+  @media(prefers-reduced-motion:reduce){body.bh-body *,body.bh-interior *,body.kh-dossier *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+  @media(forced-colors:active){
+    body.bh-body main :is(h1,h2),body.bh-interior main :is(h1,h2),body.kh-dossier main :is(h1,h2){color:CanvasText!important;-webkit-text-fill-color:CanvasText!important}
+  }
+}
