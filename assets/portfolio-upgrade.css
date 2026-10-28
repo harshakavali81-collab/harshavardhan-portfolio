@@ -553,7 +553,7 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
 
 
 /* KH FINAL / TWO-COLOR BLACK + GOLD · 2026-10-28
-   Owner-selected canonical tokens: dark black #080808, gold #D4AF37.
+   Owner-selected canonical tokens: dark black #080808, gold #d4af37.
    No charcoal, champagne, white, silver, blue or other UI accent.
    All rules below are SCREEN ONLY; printed resumes remain ink-friendly.
    Do not add another colored stylesheet after this release section. */
@@ -564,22 +564,22 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
    --bh-bg:#080808!important;--panel:#080808!important;--panel2:#080808!important;
    --surface:#080808!important;--surface2:#080808!important;
    --bh-surface:#080808!important;--bh-surface2:#080808!important;
-   --ink:#D4AF37!important;--text:#D4AF37!important;--bh-text:#D4AF37!important;
-   --soft:#D4AF37!important;--muted:#D4AF37!important;--bh-muted:#D4AF37!important;
-   --accent:#D4AF37!important;--gold:#D4AF37!important;--yellow:#D4AF37!important;
-   --aqua:#D4AF37!important;--mint:#D4AF37!important;--blue:#D4AF37!important;
-   --bh-cyan:#D4AF37!important;--bh-indigo:#D4AF37!important;--bh-warm:#D4AF37!important;
-   --stroke:#D4AF37!important;--line:#D4AF37!important;--bh-line:#D4AF37!important;
+   --ink:#d4af37!important;--text:#d4af37!important;--bh-text:#d4af37!important;
+   --soft:#d4af37!important;--muted:#d4af37!important;--bh-muted:#d4af37!important;
+   --accent:#d4af37!important;--gold:#d4af37!important;--yellow:#d4af37!important;
+   --aqua:#d4af37!important;--mint:#d4af37!important;--blue:#d4af37!important;
+   --bh-cyan:#d4af37!important;--bh-indigo:#d4af37!important;--bh-warm:#d4af37!important;
+   --stroke:#d4af37!important;--line:#d4af37!important;--bh-line:#d4af37!important;
    --kh-classic-bg:#080808;--kh-classic-panel:#080808;--kh-classic-panel-raised:#080808;
-   --kh-classic-text:#D4AF37;--kh-classic-muted:#D4AF37;--kh-classic-gold:#D4AF37;
-   --kh-classic-gold-light:#D4AF37;--kh-classic-border:#D4AF37;
-   --kh-ink:#D4AF37;--kh-muted:#D4AF37;--kh-gold:#D4AF37;--kh-gold-bright:#D4AF37;
-   --kh-border:#D4AF37;
-   background:#080808!important;background-image:none!important;color:#D4AF37!important;
-   -webkit-text-fill-color:#D4AF37!important;
+   --kh-classic-text:#d4af37;--kh-classic-muted:#d4af37;--kh-classic-gold:#d4af37;
+   --kh-classic-gold-light:#d4af37;--kh-classic-border:#d4af37;
+   --kh-ink:#d4af37;--kh-muted:#d4af37;--kh-gold:#d4af37;--kh-gold-bright:#d4af37;
+   --kh-border:#d4af37;
+   background:#080808!important;background-image:none!important;color:#d4af37!important;
+   -webkit-text-fill-color:#d4af37!important;
  }
  body.bh-body *,body.bh-interior *,body.kh-dossier *,body.kh-resume-screen *{
-   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
    text-shadow:none!important;filter:none!important;
  }
  body.bh-body,body.bh-interior,body.kh-dossier,body.kh-resume-screen{
@@ -595,7 +595,7 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
  body.bh-body :is(.kh-role-tabs button,.kh-recruiter-links a,.kh-home-links a,.kh-role-actions a),
  body.kh-dossier :is(.kh-link-cluster a){
    background:#080808!important;background-image:none!important;
-   border-color:#D4AF37!important;box-shadow:none!important;
+   border-color:#d4af37!important;box-shadow:none!important;
  }
  body.bh-body main :is(h1,h2,h3),body.bh-body main :is(h1,h2,h3) span,
  body.bh-interior main :is(h1,h2,h3),body.bh-interior main :is(h1,h2,h3) span,
@@ -603,25 +603,25 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
  body.kh-resume-screen :is(h1,h2,h3,.headline,.subtitle){
    background:none!important;background-image:none!important;
    -webkit-background-clip:initial!important;background-clip:initial!important;
-   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
    text-shadow:none!important;filter:none!important;
  }
  body.bh-body :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
  body.bh-interior :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
  body.kh-dossier :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label),
  body.kh-resume-screen :is(p,small,strong,em,b,span,li,dt,dd,caption,summary,code,pre,td,th,label){
-   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
  }
  body.bh-body :is(a,button),body.bh-interior :is(a,button),
  body.kh-dossier :is(a,button),body.kh-resume-screen :is(a,button){
-   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
  }
  body.bh-body :is(.bh-brand-mark,.bh-nav-cta,a.bh-button-primary,.kh-role-tabs button[aria-pressed="true"]),
  body.bh-interior :is(a.btn.primary,a.btn.prime,.button:not(.alt)),
  body.kh-dossier :is(.kh-logo span,a.kh-btn-gold,.kh-nav-contact),
  body.kh-resume-screen :is(a.btn:not(.alt),.button:not(.alt)){
-   background:#D4AF37!important;background-image:none!important;
-   border:1px solid #D4AF37!important;color:#080808!important;
+   background:#d4af37!important;background-image:none!important;
+   border:1px solid #d4af37!important;color:#080808!important;
    -webkit-text-fill-color:#080808!important;box-shadow:none!important;
  }
  body.bh-body :is(.bh-brand-mark,.bh-nav-cta,a.bh-button-primary,.kh-role-tabs button[aria-pressed="true"]) *,
@@ -632,38 +632,38 @@ body.bh-body :is(.bh-feature-art,.bh-feature:nth-child(n) .bh-feature-art),body.
  body.bh-body :is(a.bh-button,.kh-recruiter-links a,.kh-home-links a,.kh-role-actions a,.bh-menu),
  body.bh-interior :is(a.btn,.btn,.button),
  body.kh-dossier :is(a.kh-btn,.kh-link-cluster a){
-   border-color:#D4AF37!important;box-shadow:none!important;
+   border-color:#d4af37!important;box-shadow:none!important;
  }
  body.bh-body :is(.bh-tech span,.bh-project-tags span,.kh-contact-card,.bh-dot,.bh-pulse),
  body.bh-interior :is(.tag,.chip,.badge,.passpill),
  body.kh-dossier :is(.kh-tags span,.kh-case-index),
  body.kh-resume-screen .badge{
    background:#080808!important;background-image:none!important;
-   color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
-   border-color:#D4AF37!important;
+   color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+   border-color:#d4af37!important;
  }
  body.bh-body :is(input,textarea,select),
  body.bh-interior :is(input,textarea,select),
  body.kh-dossier :is(input,textarea,select),
  body.kh-resume-screen :is(input,textarea,select){
-   background:#080808!important;color:#D4AF37!important;-webkit-text-fill-color:#D4AF37!important;
-   border:1px solid #D4AF37!important;
+   background:#080808!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;
+   border:1px solid #d4af37!important;
  }
  body.bh-body :is(input,textarea)::placeholder,
  body.bh-interior :is(input,textarea)::placeholder{
-   color:#D4AF37!important;opacity:1!important;-webkit-text-fill-color:#D4AF37!important;
+   color:#d4af37!important;opacity:1!important;-webkit-text-fill-color:#d4af37!important;
  }
- body.bh-body .bh-progress,body.bh-body .bh-rule{background:#D4AF37!important;background-image:none!important;box-shadow:none!important}
+ body.bh-body .bh-progress,body.bh-body .bh-rule{background:#d4af37!important;background-image:none!important;box-shadow:none!important}
  body.bh-body :is(.bh-visual::before,.bh-orbit,.bh-feature-orbit,.bh-feature-mark){
    background:none!important;background-image:none!important;box-shadow:none!important;
  }
  body.bh-body :is(.bh-feature,.bh-project,.kh-role-finder):hover,
  body.bh-interior :is(.card,.project-card):hover,
- body.kh-dossier :is(.kh-panel,.kh-case,.kh-element):hover{border-color:#D4AF37!important;box-shadow:none!important}
+ body.kh-dossier :is(.kh-panel,.kh-case,.kh-element):hover{border-color:#d4af37!important;box-shadow:none!important}
  body.bh-body :is(a,button,input,select,textarea):focus-visible,
  body.bh-interior :is(a,button,input,select,textarea):focus-visible,
  body.kh-dossier :is(a,button,input,select,textarea):focus-visible{
-    outline:2px solid #D4AF37!important;outline-offset:4px!important;
+    outline:2px solid #d4af37!important;outline-offset:4px!important;
  }
  @media(max-width:900px){
    body.bh-body .bh-hero{overflow-x:clip!important}
