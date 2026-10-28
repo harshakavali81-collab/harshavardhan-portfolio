@@ -12,6 +12,9 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 | Complete career profile | [Education, internship, certifications and confirmed hobbies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/profile.html) |
 | Recruiter quick-view | [60-second candidate summary and source evidence](https://harshakavali81-collab.github.io/harshavardhan-portfolio/recruiter.html) |
 | Full resume page | [View / print](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resume.html) |
+| Resume center | [Choose a role-specific resume](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html) |
+| Data Analyst resume (online) | [Excel · Power BI · SQL · Python](https://harshakavali81-collab.github.io/harshavardhan-portfolio/data-analyst-resume.html) |
+| Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_Data_Analyst_Resume.pdf) |
 | AI/ML & Data Analyst resume PDF | [Download](https://harshakavali81-collab.github.io/harshavardhan-portfolio/assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf) |
 | Source repositories | [GitHub profile](https://github.com/harshakavali81-collab) |
 | LinkedIn | [LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) |
@@ -40,9 +43,12 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 ├── index.html       # responsive homepage with 20 GitHub projects and career milestones
 ├── profile.html     # complete profile, personal hobbies, training and education
 ├── recruiter.html   # recruiter quick-view with evidence-linked project tracks
-├── resume.html      # print-friendly AI/ML + Data Analyst CV
+├── resumes.html     # two role-specific downloadable resumes
+├── data-analyst-resume.html  # dedicated Data Analyst online version
+├── resume.html      # AI/ML + Data Analyst online version
 ├── assets/
-│   └── Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf  # reformatted textual PDF copy
+│   ├── Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf  # AI/ML PDF copy
+│   └── Kavali_Harshavardhan_Data_Analyst_Resume.pdf    # Data Analyst PDF copy
 ├── sitemap.xml
 ├── robots.txt
 ├── 404.html
