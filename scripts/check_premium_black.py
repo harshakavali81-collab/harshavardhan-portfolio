@@ -25,6 +25,8 @@ def check() -> None:
     assert "prefers-reduced-motion:reduce" in css
     assert "prefers-reduced-motion:reduce" in interior
     assert 'class="bh-body"' in home
+    assert 'light-gold-final.css' not in home, "A light final stylesheet overrides the requested black theme"
+    assert '<meta name="theme-color" content="#080808">' in home
     assert 'href="assets/kedhar-inspired.css"' in home
     assert 'id="bh-search"' in home and 'id="bh-category"' in home
     assert "requestAnimationFrame" in script
