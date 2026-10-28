@@ -2,7 +2,7 @@
 <html lang="en"><head><link rel="stylesheet" href="assets/luxury-theme.css"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DocSight AI — Try the Document Intelligence Demo</title>
 <meta name="description" content="Try a privacy-conscious offline document-classification and extractive-summary browser demonstration.">
-<meta name="theme-color" content="#111319">
+<meta name="theme-color" content="#090909">
 <style>
 :root{color-scheme:dark;--bg:#101217;--panel:#1a1e24;--surface:#22252b;--stroke:#424039;--gold:#dfc48f;--text:#f3efe9;--dim:#b7b7b1}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 90% 0,#483a2155,transparent 40%),var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,sans-serif}
@@ -21,7 +21,8 @@ button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-vis
 .bar{display:grid;grid-template-columns:85px 1fr 30px;align-items:center;gap:10px;font-size:11px;margin:14px 0}.track{height:10px;border-radius:10px;background:#353b3c;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#9f8155,#efd3a0)}.bar output{text-align:right;color:#ebd3a7}
 #errors{color:#ffbfb4;font-size:12px;min-height:16px}footer{border-top:1px solid #343434;margin-top:45px;padding:20px 0;color:#a9a69e;font-size:11px;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
 [hidden]{display:none!important}@media(max-width:730px){.grid{grid-template-columns:1fr}.shell{padding:30px 17px}.panel{padding:17px}.stats{grid-template-columns:1fr}.nav{padding:14px 17px}.nav-links{gap:9px}}
-</style></head>
+</style><link rel="stylesheet" href="assets/kh-ivory-accent.css?v=20261028-seven-color-v2">
+</head>
 <body><header class="nav"><a class="brand" href="./">DOCSIGHT <b>AI</b> / KH.</a><nav class="nav-links"><a href="cases/docsight.html">Case study</a><a href="https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer" target="_blank" rel="noopener noreferrer">GitHub source</a></nav></header>
 <main class="shell"><section><div class="eyebrow">LOCAL BROWSER DEMO / EXPLAINABLE DOCUMENT ANALYSIS</div><h1>Complex text. <em>Clear evidence.</em></h1><p class="sub">Try a fictional document or a non-sensitive UTF-8 TXT file. This standalone experience runs completely in your browser: no account, no API connection and no document uploads to a server.</p><span class="tag">Demo heuristic · not the trained Python model</span></section>
 <section class="grid"><div class="panel"><div class="eyebrow">01 / DOCUMENT INPUT</div><h2>Analyze your text</h2><p>Paste text, select a .txt file or load the built-in fictional report. PDF upload is available in the full local FastAPI application.</p><textarea id="source" aria-label="Document content" spellcheck="false" placeholder="Paste a non-sensitive document here..."></textarea>
