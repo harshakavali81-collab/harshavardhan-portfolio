@@ -57,6 +57,21 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 - **Privacy and honesty:** no fabricated salary, notice period, shift or relocation commitments; the website requires no visitor account.
 - **Verification:** site-quality and live multi-browser workflows test internal navigation, responsiveness and link health on updates.
 
+## KH Atelier — Obsidian & Champagne Gold Visual Identity
+
+The full public portfolio now uses a single premium design system instead of the previous teal/blue theme:
+
+- **Background:** matte obsidian `#080808` and dark espresso surfaces `#151310`.
+- **Metallic typography:** champagne foil gradient `#B58B49 → #FFF6DF → #D1AD69`, confined to large headings.
+- **Comfortable reading:** warm platinum `#F4EFE7`; secondary text `#C6BFB3`, avoiding yellow body text.
+- **Typography:** Cinzel display serif and Montserrat sans via Google Fonts, with offline serif/system fallbacks.
+- **Components:** subtle gold hairline borders and shadows, gold-gradient CTA, accessible high-contrast inputs and focus styles.
+- **Branding:** custom champagne-gold KH monogram on obsidian.
+- **Performance and accessibility:** no looping shimmer animations; reduced-motion and forced-colors support, mobile type-scale adjustments, and white-paper print styles for the resume.
+- **Consistency:** `assets/luxury-theme.css` is loaded last on the homepage, profile, recruiter/resume/contact pages, demos and every project case study.
+
+**Design caveat:** Linked Google Fonts are external resources; the site falls back to local fonts when they are unavailable. Browser and speed measurements should be rerun for this new version before quoting old performance metrics as current.
+
 ## Proof-first personal branding
 
 **A new interactive, accessible Proof Map** lets recruiters select Data Analyst, Applied AI/ML, Python Developer, Software Engineer or QA/Testing and inspect the relevant skills, source-linked case studies, documented results, caveats and appropriate downloadable resume.
