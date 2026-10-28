@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CommerceLens | Synthetic Analytics Preview</title>
+<meta name="description" content="Interactive synthetic e-commerce analytics preview. Not live retailer information.">
+<style>:root{font-family:Inter,Segoe UI,Arial,sans-serif;color-scheme:dark;--bg:#09192b;--panel:#162d43;--ink:#ecf8ff;--accent:#4adcbc;--muted:#abc1d3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{width:min(1100px,calc(100% - 30px));margin:auto}header{padding:18px;background:#102638;border-bottom:1px solid #32536a}
+a{color:var(--accent)}nav{display:flex;gap:19px;align-items:center;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:700}main{padding:45px 0}h1{font-size:clamp(30px,5vw,50px);letter-spacing:-.05em;line-height:1.15}
+.muted{color:var(--muted)}.notice{border:1px solid #988655;background:#373223;color:#f3e0af;padding:16px;border-radius:12px}
+.controls{display:flex;gap:20px;flex-wrap:wrap;margin:25px 0}label{display:block;font-size:13px;color:var(--muted);font-weight:700}
+select{display:block;margin-top:8px;padding:11px;background:var(--panel);border:1px solid #385b70;border-radius:9px;color:var(--ink);min-width:210px}
+.metrics,.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:20px 0}
+.metrics{grid-template-columns:repeat(4,minmax(0,1fr))}.panel{background:var(--panel);padding:23px;border:1px solid #315267;border-radius:14px}
+.metric strong{display:block;font-size:27px;color:var(--accent)}.metric small{color:var(--muted)}
+svg{display:block;width:100%;height:auto}.bar{display:flex;align-items:center;gap:10px;margin:16px 0;font-size:13px}.bar span{width:110px}
+.track{flex:1;background:#365268;border-radius:5px;overflow:hidden;height:17px}.fill{background:#46dbb8;height:100%}
+.legend{color:var(--muted);font-size:12px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #355269;padding:10px;text-align:left}th{color:var(--accent)}
+@media(max-width:760px){.metrics,.panels{grid-template-columns:1fr 1fr}}@media(max-width:520px){.metrics,.panels{grid-template-columns:1fr}}
+</style></head><body>
+<header><nav class="wrap"><strong>KH. / COMMER CELENS</strong><a href="./">Portfolio</a><a href="cases/commercelens.html">Case study</a><a href="https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment">GitHub source</a></nav></header>
+<main class="wrap"><p style="color:#4adcbc;font-weight:700">DATA ANALYST · BI · INTERACTIVE PREVIEW</p><h1>CommerceLens: Products,<br>pricing and sentiment</h1>
+<p class="muted">Explore synthetic product-price trends, estimated revenue, category comparisons and illustrated reviews. The Python/SQLite/Streamlit implementation is in GitHub.</p>
+<div class="notice"><strong>SYNTHETIC BROWSER PREVIEW.</strong> Values below are generated from illustrative browser formulas; they are not real retailer data or identical to the Python dataset. Estimated revenue is not audited GMV; review sentiment is not externally validated.</div>
+<div class="controls"><label>Category<select id="cat"><option>All</option><option>Electronics</option><option>Fashion</option><option>Home</option><option>Fitness</option></select></label>
+<label>Lookback<select id="period"><option value="120">120 days</option><option value="90">90 days</option><option value="60">60 days</option><option value="30">30 days</option></select></label></div>
+<div class="metrics"><section class="panel metric"><strong id="rows">0</strong><small>Product-days</small></section><section class="panel metric"><strong id="count">0</strong><small>Fictional products</small></section><section class="panel metric"><strong id="revenue">₹0</strong><small>Simulated estimated revenue</small></section><section class="panel metric"><strong id="average">₹0</strong><small>Average listed price</small></section></div>
+<div class="panels"><section class="panel"><h2>Average price trend</h2><svg id="pricechart" viewBox="0 0 500 270" role="img" aria-label="Synthetic daily average price trend"></svg><div class="legend">Time series / fictional prices (₹)</div></section>
+<section class="panel"><h2>Estimated revenue trend</h2><svg id="revchart" viewBox="0 0 500 270" role="img" aria-label="Synthetic estimated revenue time series"></svg><div class="legend">Synthetic price × simulated units (₹)</div></section>
+<section class="panel"><h2>Revenue by category</h2><div id="categories"></div></section>
+<section class="panel"><h2>Illustrative sentiment</h2><div id="sentiment"></div><p class="legend">Illustrative review-label breakdown. No external reviews.</p></section></div>
+<section class="panel"><h2>Product comparison</h2><div style="overflow:auto"><table><thead><tr><th>Product</th><th>Category</th><th>Avg price</th><th>Min</th><th>Max</th><th>Estimated revenue</th></tr></thead><tbody id="products"></tbody></table></div></section>
+<p class="muted">Reproduce the real project pipeline from GitHub with: <code>python -m src.pipeline.run --demo</code>, then <code>streamlit run dashboard/app.py</code>.</p>
+</main><script>
+const items=[["Mouse","Electronics",899],["USB Hub","Electronics",1799],["Speaker","Electronics",2499],["T-shirt","Fashion",649],["Sneakers","Fashion",2199],["Backpack","Fashion",1599],["Mugs","Home",899],["Lamp","Home",1299],["Baskets","Home",1099],["Yoga Mat","Fitness",1199],["Bottle","Fitness",799],["Bands","Fitness",999]];
+const currency=n=>"₹"+Math.round(n).toLocaleString("en-IN");
+const source=[];
+for(let d=0;d<120;d++)for(let i=0;i<items.length;i++){
+const p=items[i],price=p[2]*(1+d*.001+Math.sin(d/8+i)*.055),units=Math.max(0,Math.round(18+i%5+5*Math.sin(d/9+i)));
+source.push({day:d,name:p[0],category:p[1],price,units});}
+function draw(el,values){
+const max=Math.max(...values),min=Math.min(...values),span=Math.max(1,max-min);
+let pts=values.map((v,i)=>(50+i*420/Math.max(1,values.length-1)).toFixed(1)+","+(228-(v-min)*185/span).toFixed(1)).join(" ");
+el.innerHTML='<line x1="50" y1="228" x2="480" y2="228" stroke="#53718a"/><polyline points="'+pts+'" fill="none" stroke="#4adcbc" stroke-width="4"/><text x="12" y="36" fill="#bdd3e1" font-size="13">'+Math.round(max)+'</text><text x="12" y="229" fill="#bdd3e1" font-size="13">'+Math.round(min)+'</text><text x="50" y="255" fill="#bdd3e1" font-size="13">Earlier</text><text x="425" y="255" fill="#bdd3e1" font-size="13">Latest</text>';
+}
+function bars(id,names,vals,format){
+const el=document.getElementById(id);el.replaceChildren();const max=Math.max(...vals,1);
+names.forEach((name,i)=>{const row=document.createElement("div");row.className="bar";
+const label=document.createElement("span");label.textContent=name;
+const track=document.createElement("div");track.className="track";
+const fill=document.createElement("div");fill.className="fill";fill.style.width=(100*vals[i]/max)+"%";track.append(fill);
+const txt=document.createElement("small");txt.textContent=format(vals[i]);row.append(label,track,txt);el.append(row);});
+}
+function update(){
+const category=document.getElementById("cat").value,period=+document.getElementById("period").value;
+const data=source.filter(x=>x.day>=120-period&&(category==="All"||x.category===category));
+document.getElementById("rows").textContent=data.length.toLocaleString("en-IN");
+document.getElementById("count").textContent=new Set(data.map(x=>x.name)).size;
+document.getElementById("revenue").textContent=currency(data.reduce((s,x)=>s+x.price*x.units,0));
+document.getElementById("average").textContent=currency(data.reduce((s,x)=>s+x.price,0)/data.length);
+const days=Array.from({length:period},(_,i)=>data.filter(x=>x.day===120-period+i));
+draw(document.getElementById("pricechart"),days.map(rows=>rows.reduce((s,x)=>s+x.price,0)/rows.length));
+draw(document.getElementById("revchart"),days.map(rows=>rows.reduce((s,x)=>s+x.price*x.units,0)));
+const names=["Electronics","Fashion","Home","Fitness"].filter(c=>category==="All"||category===c);
+bars("categories",names,names.map(c=>data.filter(x=>x.category===c).reduce((s,x)=>s+x.price*x.units,0)),n=>Math.round(n/1000)+"k");
+const n=Math.max(1,Math.round(data.length/8));
+bars("sentiment",["Positive","Neutral","Negative"],[Math.round(n*.52),Math.round(n*.20),Math.round(n*.28)],n=>String(n));
+const body=document.getElementById("products");body.replaceChildren();
+items.filter(p=>data.some(x=>x.name===p[0])).forEach(p=>{
+const d=data.filter(x=>x.name===p[0]),a=d.map(x=>x.price);const tr=document.createElement("tr");
+[p[0],p[1],currency(a.reduce((x,y)=>x+y,0)/a.length),currency(Math.min(...a)),currency(Math.max(...a)),currency(d.reduce((s,x)=>s+x.price*x.units,0))].forEach(value=>{const td=document.createElement("td");td.textContent=value;tr.append(td);});body.append(tr);});
+}
+document.getElementById("cat").addEventListener("change",update);
+document.getElementById("period").addEventListener("change",update);
+update();
+</script></body></html>
