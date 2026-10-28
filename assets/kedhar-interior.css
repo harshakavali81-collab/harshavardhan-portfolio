@@ -85,3 +85,114 @@ body.bh-interior .profile-project-card[hidden],body.bh-interior .project-card[hi
 @media(forced-colors:active){body.bh-interior :is(.card,.panel,.project,.project-card){border:1px solid CanvasText!important}}
 @media(prefers-reduced-motion:reduce){body.bh-interior *,body.bh-interior *::before,body.bh-interior *::after{transition:none!important;animation:none!important}}
 @media print{body.bh-interior{background:#fff!important;color:#111!important}body.bh-interior :is(.card,.project,.project-card,.panel,.feature){box-shadow:none!important;break-inside:avoid}}
+
+/* KH BLACK SIGNATURE — CORE CAREER PAGES, 2026 */
+body.bh-interior,body.bh-interior.light{
+  --bg:#080808!important;--accent:#ddbc81!important;
+  --ink:#f5efe7!important;--text:#f5efe7!important;
+  --soft:#c4b5a0!important;--muted:#c4b5a0!important;
+  --aqua:#e3c089!important;--mint:#e3c089!important;--blue:#ccb07f!important;
+  --gold:#d3b078!important;--panel:#171512!important;--panel2:#211c16!important;
+  --surface:#171512!important;--surface2:#211c16!important;
+  --stroke:#5c4b35!important;--line:#5c4b35!important;
+  --shadow:0 19px 55px rgba(0,0,0,.28)!important;
+  background:#080808!important;
+  background-image:radial-gradient(ellipse 65% 26% at 87% -4%,rgba(192,151,88,.12),transparent 74%),linear-gradient(180deg,#090909 0%,#100f0d 54%,#080808 100%)!important;
+  color:#f5efe7!important;color-scheme:dark!important;
+}
+body.bh-interior :is(header,header.nav,.nav,.navbar,.nav-in,.nav-inner,.topbar){
+  background:rgba(11,10,9,.96)!important;
+  border-color:rgba(221,188,129,.21)!important;
+}
+body.bh-interior :is(nav,.navlinks a,header a,.nav a,.links a,.topbar a){color:#d5c7b3!important}
+body.bh-interior :is(nav a:hover,.navlinks a:hover,header a:hover){color:#eed3a2!important}
+body.bh-interior :is(header .logo,header .brand,.nav .logo,.logo,.brand,.logo span){
+  color:#e5c48b!important;-webkit-text-fill-color:#e5c48b!important
+}
+body.bh-interior :is(h1,h2,h3),body.bh-interior main :is(h1,h2,h3){
+  color:#f5eee3!important;-webkit-text-fill-color:#f5eee3!important;
+  font-family:'Space Grotesk',Georgia,serif!important;
+  text-shadow:none!important;
+}
+body.bh-interior :is(.gradient,.gold,.lead em,h1 em,h1 span){
+  color:#edcc95!important;-webkit-text-fill-color:#edcc95!important
+}
+body.bh-interior :is(.eyebrow,.overline,.meta,.section-label,.story-label,.number,.num,.smallcap,.hobby-label,.hobby-mark){
+  color:#dabb82!important;-webkit-text-fill-color:#dabb82!important
+}
+body.bh-interior :is(.lead,.lede,.muted,.intro,.sub,.small,.note,figcaption,.soft,.desc,.description,.status,.foot,.timeline p,.career-glance small,.hobby-card p,.project p,.project-card p,.card p,.panel p,.feature p,.fact p,.repo p,.role p,.stats p,.section p){
+  color:#c6b9a8!important;-webkit-text-fill-color:#c6b9a8!important
+}
+body.bh-interior :is(.card,.project,.project-card,.panel,.feature,.case-card,.fact,.role,.info,.snapshot,.visual,.cert,.hobby-card,.interests,.glance-cell,.profile-project-card,.kh-profile-card,.mini>div,.project summary,.inside,.content,.paper,.stat,.contact,.notice,.note,.qa-lead,.proof-node,.skillgroup,.quick-note){
+  background:#191714!important;background-image:linear-gradient(145deg,rgba(244,215,162,.025),transparent)!important;
+  border-color:rgba(215,178,115,.25)!important;
+  color:#f1e9db!important;
+  box-shadow:0 12px 36px rgba(0,0,0,.15)!important;
+}
+body.bh-interior :is(.project-card,.project,.card,.panel,.case-card,.feature,.profile-project-card,.kh-profile-card):hover{
+  border-color:rgba(239,203,143,.56)!important;
+  box-shadow:0 17px 45px rgba(0,0,0,.28),0 0 24px rgba(209,167,103,.035)!important
+}
+body.bh-interior :is(.section,.content,.panel,.card,.role,.project,.case-card,.project-card,.timeline article){border-color:rgba(207,172,117,.22)!important}
+body.bh-interior :is(.btn,.button,.copy,.small-link,.primary-link,.filter,.mode,button[data-filter],.btn.source){
+  background:#201b15!important;border:1px solid #6c5537!important;
+  color:#efd9b6!important;-webkit-text-fill-color:#efd9b6!important;
+  box-shadow:none!important;border-radius:10px!important
+}
+body.bh-interior :is(.btn.primary,.btn.prime,.copy,.primary-link,.filter[aria-pressed=true],button[data-filter][aria-pressed=true],.role.active){
+  background:linear-gradient(110deg,#efd9af,#d7b373)!important;
+  color:#20160c!important;-webkit-text-fill-color:#20160c!important;
+  border:1px solid #dec18b!important;font-weight:750!important;
+}
+body.bh-interior :is(.btn,.button,.copy,.primary-link,.filter):hover{
+  border-color:#e0bd87!important;box-shadow:0 8px 24px rgba(190,141,75,.10)!important
+}
+body.bh-interior :is(.tag,.chip,.chips span,.tags span,.pill,.type,.badge,.chip-row .chip,.profile-project-chips span,.profile-project-category){
+  background:#2a231b!important;background-image:none!important;
+  border-color:#54412b!important;color:#e4c997!important;-webkit-text-fill-color:#e4c997!important
+}
+body.bh-interior :is(input,textarea,select,pre,.copytext,.content,.table-wrap){
+  background-color:#151311!important;background-image:none!important;
+  color:#f5ead9!important;-webkit-text-fill-color:#f5ead9!important;
+  border-color:#61513e!important;caret-color:#e8cb94!important
+}
+body.bh-interior :is(input,textarea)::placeholder{color:#b8a78e!important;-webkit-text-fill-color:#b8a78e!important}
+body.bh-interior :is(input,textarea,select):focus{border-color:#e1c186!important}
+body.bh-interior :is(.stats,.mini,.career-glance,.project-grid,.full-project-library,.section,.hero,.gallery){background:transparent!important}
+body.bh-interior .profile-project-card .profile-project-link{color:#e6c78e!important;-webkit-text-fill-color:#e6c78e!important}
+body.bh-interior :is(.profile-project-card,.project-card) :is(h3,.project-title){
+  color:#f6efe5!important;-webkit-text-fill-color:#f6efe5!important
+}
+body.bh-interior :is(.profile-project-card,.project-card) p{color:#c8bcaa!important;-webkit-text-fill-color:#c8bcaa!important}
+body.bh-interior .project-card .project-art,body.bh-interior :is(.gallery-promo-art,.project-art){
+  background:radial-gradient(ellipse 65% 90% at 75% 20%,rgba(207,164,104,.18),transparent 80%),#251e17!important;
+  border-color:rgba(221,188,129,.22)!important
+}
+body.bh-interior .project-card :is(.art-monogram,.art-label,.number){
+  color:#e0be82!important;-webkit-text-fill-color:#e0be82!important
+}
+body.bh-interior .project-card::after{background:linear-gradient(90deg,#b58d53,rgba(223,191,132,.7),transparent)!important}
+body.bh-interior :is(.portfolio-gallery-promo,.gallery-promo-copy,.gallery-promo-art,.qa-lead,.notice,.quick-note,.callout){
+  background:#1b1814!important;border-color:rgba(226,190,130,.24)!important
+}
+body.bh-interior :is(.portfolio-gallery-promo,.project-card,.profile-project-card) a{color:#e7c790!important}
+body.bh-interior :is(.kh-profile-facts span,.kh-profile-card,.kh-hobby-card,.kh-recruiter-ribbon){
+  background:#1e1a15!important;color:#ede2cf!important;border-color:#5e4a30!important
+}
+body.bh-interior :is(table,table th,table td,.data-table th,.data-table td,.qa-table th,.qa-table td){border-color:#58452f!important}
+body.bh-interior :is(table th,.data-table th,.qa-table thead){background:#2b241a!important;color:#f2dcae!important}
+body.bh-interior :is(table td,.data-table td,.qa-table td){background:#191612!important;color:#e3d5c0!important}
+body.bh-interior :is(.gallery-promo-art span,.stat strong,.snapshot strong,.metric strong){color:#e8c78c!important;-webkit-text-fill-color:#e8c78c!important}
+body.bh-interior :is(footer,.footer){background:#080808!important;border-color:#4d3c2a!important;color:#bdad93!important}
+body.bh-interior :is(footer a,.footer a){color:#e0c18c!important}
+body.bh-interior :is(a,button,input,textarea,select):focus-visible{outline:3px solid #e6c48c!important;outline-offset:4px!important}
+@media(prefers-reduced-motion:reduce){
+ body.bh-interior *,body.bh-interior *::before,body.bh-interior *::after{animation:none!important;transition:none!important}
+}
+@media print{
+ body.bh-interior{background:#fff!important;color:#111!important}
+ body.bh-interior :is(.paper,.resume-paper,.card,.project,.project-card,.panel,.feature,.case-card){
+  background:#fff!important;color:#111!important;border:1px solid #aaa!important;box-shadow:none!important
+ }
+ body.bh-interior :is(.card p,.project p,.project-card p,.panel p){color:#333!important;-webkit-text-fill-color:#333!important}
+}
