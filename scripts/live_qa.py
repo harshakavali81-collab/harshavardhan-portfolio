@@ -12,8 +12,8 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 NOW=lambda:datetime.now(timezone.utc).isoformat()
 
 class Links(HTMLParser):
@@ -116,7 +116,7 @@ def browser_qa(out):
                                 page.wait_for_function("""() => {
                                     const s = getComputedStyle(document.body);
                                     return s.getPropertyValue('--bg').trim() === '#080808' &&
-                                           s.getPropertyValue('--accent').trim() === '#e4c98e';
+                                           s.getPropertyValue('--accent').trim() === '#d4af37';
                                 }""", timeout=12000)
                             except Exception as ex:
                                 raise AssertionError("Premium theme did not apply within 12 seconds") from ex
@@ -142,9 +142,28 @@ def browser_qa(out):
                             }""")
                             if branding["backgroundToken"] != "#080808":
                                 raise AssertionError("Obsidian black background token was not applied: "+str(branding))
-                            if branding["goldToken"] != "#e4c98e":
+                            if branding["goldToken"] != "#d4af37":
                                 raise AssertionError("Champagne gold accent token was not applied: "+str(branding))
 
+                            if path=="career-portfolio.html":
+                                if page.locator(".kh-element").count()!=12:
+                                    raise AssertionError("Twelve documented career elements must be visible")
+                                if page.locator(".kh-case").count()!=5:
+                                    raise AssertionError("Five recruiter case studies must be present")
+                                if page.locator("a[href='profile.html#beyond']").count()!=1:
+                                    raise AssertionError("Hobbies / interests link is missing")
+                                if page.locator("a[href='job-platforms.html']").count()<1:
+                                    raise AssertionError("Job-platform profile hub is missing")
+                            if path in ("resume.html","data-analyst-resume.html"):
+                                resume_colors=page.evaluate("""() => ({
+                                  bg:getComputedStyle(document.body).backgroundColor,
+                                  paper:getComputedStyle(document.querySelector('.paper')).backgroundColor,
+                                  printText:document.querySelector('.paper').innerText.length
+                                })""")
+                                if resume_colors["bg"]!="rgb(8, 8, 8)":
+                                    raise AssertionError("HTML resume screen background is not black: "+str(resume_colors))
+                                if resume_colors["printText"]<200:
+                                    raise AssertionError("Resume content missing")
                             if path.startswith("cases/"):
                                 for part in ("overview","problem","process","solution","results","reflection"):
                                     if page.locator("#"+part).count()!=1:raise AssertionError("missing section "+part)
@@ -231,6 +250,19 @@ def browser_qa(out):
                                 page.locator("button[data-role='Data Analyst']").click()
                                 if "data-analyst-resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
                                     raise AssertionError("Data Analyst role routing")
+                            if path=="":
+                                role_buttons=page.locator("button[data-role]")
+                                if role_buttons.count()!=3:
+                                    raise AssertionError("Expected three working role-selector buttons")
+                                page.locator("button[data-role='AI / ML']").click()
+                                if "resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
+                                    raise AssertionError("AI / ML resume routing failed")
+                                if page.locator("#role-title").inner_text()!="AI / ML":
+                                    raise AssertionError("AI / ML heading did not update")
+                                page.locator("button[data-role='Python Developer']").click()
+                                if "Python" not in page.locator("#role-title").inner_text():
+                                    raise AssertionError("Python role selector failed")
+                                page.locator("button[data-role='Data Analyst']").click()
                             if path=="proof-map.html":
                                 page.locator("button[data-role='ml']").click()
                                 if page.locator("#role-heading").inner_text()!="AI / Machine Learning":
