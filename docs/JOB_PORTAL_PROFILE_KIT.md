@@ -1,5 +1,28 @@
 # LinkedIn · Naukri · foundit — Job Profile Pack
 
+## Source-backed training, academic record and LinkedIn Featured links
+
+The portfolio's new [credential overview](../certificates.html) summarizes seven uploaded training/completion records and the three current-resume academic milestones. These are suitable for LinkedIn's **Licenses & Certifications** or **Education** sections when the specific account form supports them; set organizations and credential dates carefully.
+
+| Learning record | Issuer / description | Completion |
+| --- | --- | --- |
+| AWS Academy Cloud Developing | AWS Academy course, 40 hours; [issuer-listed Credly URL](https://www.credly.com/go/tfTqbAM0) | 15 Dec 2023 |
+| AWS Academy Data Engineering | AWS Academy course, 40 hours; [issuer-listed Credly URL](https://www.credly.com/go/GqcOmj3t) | 18 May 2024 |
+| Data Engineering Virtual Internship | AICTE / EduSkills, AWS Academy learning content | Apr–Jun 2024 |
+| AI–ML Virtual Internship | AICTE / EduSkills, Google for Developers | Jan–Mar 2024 |
+| Android Developer Virtual Internship | AICTE / EduSkills, Google for Developers | Jul–Sep 2024 |
+| Intelligent Automation Virtual Internship | AICTE / EduSkills, SS&C Blue Prism | Sep–Nov 2023 |
+| Entrepreneurship Orientation Program | NSIC Technical Services Centre, Hyderabad, A1 evaluation | 5–19 Jan 2023 |
+
+**Important distinctions:** AWS Academy courses are educational completions and not equivalent to an AWS professional certification. AICTE / EduSkills virtual internships are program-based training, not full-time IT employment. Avoid putting certificate IDs, personal/family details, or raw scans into public profile captions.
+
+**Resume-aligned Featured links:** [Zomato Insights Dashboard](https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI), [Multilingual Knowledge Platform](https://github.com/harshakavali81-collab/Multilingual-Project), [Document Q&A/RAG Bot](https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant), [31-project gallery](../linkedin-projects.html), [two PDFs](../resumes.html).
+
+**Education:** B.Tech ECE, CMR Institute of Technology (2021–2025); Intermediate at Sri Sathya Sai Junior College (2019–2021); SSC at AP Model School (2019). The current role-specific resumes use CGPA **7.02/10**; the older general resume has a different figure, so confirm against the official transcript before completing forms.
+
+**Other details:** Self-reported hobbies include reading, games, films, news and sports; older resume describes NSS and Street Cause Hyderabad involvement, but supporting service records were not supplied. The user is an IT fresher seeking Hyderabad or Bengaluru opportunities and may discuss relocation.
+
+
 **Prepared for:** Kavali Harshavardhan  
 **Focus:** Entry-level IT roles in Hyderabad and Bengaluru  
 **Source:** Existing public career profile and 2025 ECE fresher resumes.  
