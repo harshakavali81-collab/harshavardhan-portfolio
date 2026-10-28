@@ -185,8 +185,17 @@ def browser_qa(out):
                                 if page.locator(".project:not([hidden])").count()!=31:
                                     raise AssertionError("Project search reset failed")
                             if path=="linkedin-projects.html":
-                                if page.locator(".project-card").count()!=15:
-                                    raise AssertionError("LinkedIn showcase should contain 15 project cards")
+                                if page.locator(".project-card").count()!=31:
+                                    raise AssertionError("LinkedIn project showcase should contain 31 cards")
+                                page.locator("#scope").select_option("featured")
+                                if page.locator(".project-card:not([hidden])").count()!=15:
+                                    raise AssertionError("LinkedIn featured filter incorrect")
+                                page.locator("#scope").select_option("additional")
+                                if page.locator(".project-card:not([hidden])").count()!=16:
+                                    raise AssertionError("LinkedIn other filter incorrect")
+                                page.locator("#scope").select_option("All")
+                                if page.locator(".project-card:not([hidden])").count()!=31:
+                                    raise AssertionError("LinkedIn all filter incorrect")
                             if path=="work.html":
                                 page.wait_for_function(
                                     "() => document.documentElement.dataset.workFiltersReady === 'true'",
