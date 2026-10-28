@@ -5,16 +5,16 @@
 */
 :root{color-scheme:dark}
 body.bh-body,body.bh-interior,body.bh-interior.light{
-  --bg:#070707;--bh-bg:#070707;--ink:#f6efe4;--text:#f6efe4;--bh-text:#f6efe4;
+  --bg:#080808;--bh-bg:#080808;--ink:#f6efe4;--text:#f6efe4;--bh-text:#f6efe4;
   --soft:#c4b7a5;--muted:#c4b7a5;--bh-muted:#c4b7a5;
-  --accent:#dfbc7c;--gold:#dfbc7c;--yellow:#dfbc7c;
+  --accent:#e4c98e;--gold:#dfbc7c;--yellow:#dfbc7c;
   --aqua:#dfbc7c;--mint:#dfbc7c;--blue:#e2c995;--bh-cyan:#dfbc7c;
   --bh-indigo:#dfbc7c;--bh-warm:#dfbc7c;
   --panel:#161310;--panel2:#1f1a15;--surface:#161310;--surface2:#1f1a15;
   --stroke:#584632;--line:#584632;--bh-line:rgba(219,182,121,.22);
   --bh-surface:#161310;--bh-surface2:#1f1a15;
   color-scheme:dark!important;color:#f6efe4!important;
-  background:#070707!important;
+  background:#080808!important;
   background-image:radial-gradient(ellipse 58% 30% at 85% 3%,rgba(188,140,74,.12),transparent 78%),radial-gradient(ellipse 42% 22% at 13% 47%,rgba(160,114,59,.06),transparent 85%),linear-gradient(180deg,#070707,#0d0b09 54%,#070707)!important;
   font-family:"DM Sans","Segoe UI",Arial,sans-serif!important;
 }
