@@ -5,6 +5,7 @@ on:
     paths:
       - "index.html"
       - "portfolio-readiness.html"
+      - "certificates.html"
       - "career-portfolio.html"
       - "linkedin-projects.html"
       - "linkedin-setup.html"
