@@ -185,3 +185,7 @@ Confirmed personal hobbies: **Reading Books** and **Playing Games**. Other inter
 [Case study with 10 original SVG illustrations](cases/big-data-clickstream.html) · [Full reproducible GitHub warehouse](https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL) · [Selected work](work.html#clickstream-intelligence).
 
 The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level conversion marts, retention cohorts, an interactive local Streamlit application and passing GitHub Actions verification.
+
+## New project · CommerceLens
+
+[Automated E-commerce Analytics & Sentiment case study](cases/commercelens.html) · [GitHub source](https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment) · 10 original SVG figures, deterministic synthetic analytics, SQL/KPI modeling, rule-based sentiment, Streamlit dashboard, and successful CI. No real retailer feed or validated commercial outcome is claimed.
