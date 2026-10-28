@@ -1,81 +1,230 @@
-/* 2026-10-28 — Recruiter Portfolio / Onyx, Gold & Warm Ivory.
-   Exactly three visible base colors:
-   background #080808; accent #D4AF37; reading text #F0E6D2.
-   Earlier black/gold themes remain the compatibility foundation;
-   this stylesheet intentionally loads last on portfolio pages. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+/* KH / Seven-color premium recruiter system · 2026-10-28
+   Canonical colors (and ONLY these paint colors):
+   #090909 background · #141414 panels · #D4AF65 gold ·
+   #E6D6AF champagne · #F5F0E6 warm ivory ·
+   #B8B4AC muted silver · #3B3324 bronze borders.
+   Intentional legacy override loaded LAST on all public screen pages.
+   Original ink-friendly PDF resumes and print rules remain separate. */
 @media screen {
-  :root { --kh-onyx:#080808; --kh-metal:#d4af37; --kh-ivory:#f0e6d2; }
-  body.bh-body,body.bh-interior,body.kh-dossier,body.kh-resume-screen{
-    --kh-ivory:#f0e6d2; --kh-metal:#d4af37;
-    color:#f0e6d2!important; background-color:#080808!important;
+  :root,
+  body.bh-body,body.bh-interior,body.kh-dossier,body.kh-resume-screen,
+  body.kh-certs,body.kh-ready,body.kh-flagship-body,body.kh-feature-case {
+    color-scheme:dark!important;
+    --color-background:#090909!important;
+    --color-surface:#141414!important;
+    --color-gold:#D4AF65!important;
+    --color-champagne:#E6D6AF!important;
+    --color-heading:#F5F0E6!important;
+    --color-body:#B8B4AC!important;
+    --color-border:#3B3324!important;
+    --font-heading:'Manrope',Arial,sans-serif!important;
+    --font-body:'Inter',Arial,sans-serif!important;
+    --font-code:'JetBrains Mono',monospace!important;
+    --bg:#090909!important;--accent:#D4AF65!important;
+    --surface:#141414!important;--surface2:#141414!important;
+    --panel:#141414!important;--panel2:#141414!important;
+    --text:#F5F0E6!important;--ink:#F5F0E6!important;
+    --muted:#B8B4AC!important;--soft:#B8B4AC!important;
+    --line:#3B3324!important;--stroke:#3B3324!important;
+    --gold:#D4AF65!important;
+    --bh-bg:#090909!important;--bh-surface:#141414!important;
+    --bh-surface2:#141414!important;--bh-text:#F5F0E6!important;
+    --bh-muted:#B8B4AC!important;--bh-line:#3B3324!important;
+    --bh-warm:#E6D6AF!important;--kh-gold:#D4AF65!important;
+    --kh-obsidian:#090909!important;--kh-black:#090909!important;
+    --kh-ink:#F5F0E6!important;--kh-muted:#B8B4AC!important;
+    --kh-border:#3B3324!important;--kh-gold-bright:#E6D6AF!important;
+    --kh-classic-bg:#090909!important;--kh-classic-panel:#141414!important;
+    --kh-classic-panel-raised:#141414!important;
+    --kh-classic-text:#F5F0E6!important;--kh-classic-muted:#B8B4AC!important;
+    --kh-classic-gold:#D4AF65!important;--kh-classic-border:#3B3324!important;
+    --kh-onyx:#090909!important;--kh-metal:#D4AF65!important;
+    --kh-ivory:#F5F0E6!important;
+    background:#090909!important;background-image:none!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+    font-family:var(--font-body)!important;
   }
-  /* Accent belongs to structure and headings, not every paragraph. */
-  body.bh-body :is(.bh-lead,.bh-role,.bh-section-head p,.bh-about-panel p,.bh-feature-content p,.bh-project p,.kh-resume-heading p,.kh-resume-education-grid article p,.kh-resume-skill-grid article p,.kh-hobby-panels article p,.kh-cert-highlight-head p,.kh-cert-highlight-grid p,.kh-recruiter-strip p,.bh-contact p,.bh-feature-type~p),
-  body.bh-interior :is(main p,article p,.lede,.lead,.muted,li),
-  body.kh-dossier :is(main p,.kh-intro,.kh-secondary,.kh-fine),
-  body.kh-resume-screen :is(p,li,.meta,.summary) {
-    color:#f0e6d2!important;-webkit-text-fill-color:#f0e6d2!important;
+  html{background:#090909!important}
+  body.bh-body::before,body.bh-body::after{background:none!important;opacity:0!important}
+  body.bh-body :is(p,li,dd,dt,blockquote,figcaption,caption,.bh-lead,.bh-role,.bh-feature-content p,.bh-project p,.kh-resume-skill-grid p,.kh-resume-education-grid p,.kh-hobby-panels p,.kh-cert-highlight-grid p,.kh-recruiter-strip p,.bh-contact p,.bh-section-head p,.kh-resume-heading p),
+  body.bh-interior :is(main p,main li,main dd,main dt,article p,.lede,.lead,.muted),
+  body.kh-dossier :is(main p,main li,.kh-intro,.kh-secondary,.kh-fine),
+  body.kh-certs :is(main p,main li,.kh-proof-body p,.kh-proof-note p),
+  body.kh-ready :is(main p,main li,.kh-ready-section p),
+  body.kh-flagship-body :is(main p,main li,.kh-spec p),
+  body.kh-feature-case :is(main p,main li,.kh-case-grid p){
+    font-family:var(--font-body)!important;
+    font-size:clamp(14px,1.06vw,17px)!important;line-height:1.72!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
     text-shadow:none!important;opacity:1!important;
   }
-  body.bh-body :is(.bh-section h2,.bh-section h3,.bh-section-head h2,.kh-resume-education-grid h3,.kh-resume-skill-grid h4,.kh-hobby-panels h3,.kh-cert-highlight-grid h3,.kh-recruiter-strip h2),
-  body.bh-interior :is(main h1,main h2,main h3),body.kh-dossier :is(main h1,main h2,main h3){
-    color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;text-shadow:none!important;
+  body.bh-body :is(h1,h2,h3,h4,.kh-recruiter-strip h2,.kh-resume-heading h3,.kh-cert-highlight-head h2),
+  body.bh-interior :is(h1,h2,h3,h4),
+  body.kh-dossier :is(h1,h2,h3,h4),
+  body.kh-certs :is(h1,h2,h3,h4),
+  body.kh-ready :is(h1,h2,h3,h4),
+  body.kh-flagship-body :is(h1,h2,h3,h4),
+  body.kh-feature-case :is(h1,h2,h3,h4){
+    font-family:var(--font-heading)!important;
+    font-weight:700!important;letter-spacing:-.033em!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    background:none!important;background-image:none!important;
+    text-shadow:none!important;
   }
-  body.bh-body .kh-resume-education-grid article h3,
-  body.bh-body .kh-resume-education-grid article h3 *,
-  body.bh-body .kh-resume-education-grid article p{
-    opacity:1!important;visibility:visible!important;
+  body.bh-body :is(.bh-hero h1,.bh-hero h1 span),
+  body.bh-interior :is(.hero h1,.hero h1 span),
+  body.kh-dossier :is(.kh-hero h1,.kh-hero h1 span){
+    font-family:var(--font-heading)!important;
+    font-weight:800!important;font-size:clamp(2.6rem,5.1vw,64px)!important;
+    line-height:1.1!important;
   }
-  body.bh-body .kh-resume-education-grid article h3{
-    color:#f0e6d2!important;-webkit-text-fill-color:#f0e6d2!important;
-    font-weight:700!important;
+  body.bh-body .bh-hero h1 .bh-name,
+  body.bh-body .bh-hero h1 .gold-text{
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
   }
-  body.bh-body .kh-resume-education-grid article p{
-    color:#f0e6d2!important;-webkit-text-fill-color:#f0e6d2!important;
+  body.bh-body :is(.bh-section h2,.kh-resume-education h2,.kh-personal-summary h2,.kh-cert-highlight h2),
+  body.bh-interior :is(.section h2,.content h2){
+    font-size:clamp(1.65rem,3vw,36px)!important;font-weight:700!important;
   }
-  body.bh-body .bh-feature-grid{gap:18px!important;align-items:stretch}
-  body.bh-body .bh-feature{
-    background:#080808!important;background-image:none!important;
-    border:1px solid #d4af37!important;border-radius:15px!important;
-    box-shadow:none!important;overflow:hidden!important;
+  body.bh-body :is(.bh-feature h3,.bh-project h3,.kh-resume-education-grid article h3,.kh-resume-skill-grid article h4,.kh-hobby-panels article h3,.kh-cert-highlight-grid article h3),
+  body.bh-interior :is(.card h3,.project-card h3){
+    font-size:clamp(1.15rem,1.5vw,24px)!important;font-weight:700!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    line-height:1.35!important;
   }
-  body.bh-body .bh-feature-art,
-  body.bh-body .bh-feature:nth-child(n) .bh-feature-art{
-    background-color:#080808!important;
-    background-image:repeating-linear-gradient(90deg,transparent 0,transparent 30px,rgba(212,175,55,.065) 31px,transparent 32px),linear-gradient(135deg,rgba(212,175,55,.10),transparent 70%)!important;
-    height:155px!important;padding:19px!important;
-    border-bottom:1px solid #d4af37!important;
+  body.bh-body :is(.bh-kicker,.bh-eyebrow,.bh-feature-type,.bh-project-number,.bh-project-category,.bh-tech span,.kh-resume-project span,.bh-code,.bh-code span,.bh-stat span,.kh-recruiter-strip small,.kh-cert-highlight-grid span),
+  body.bh-interior :is(.eyebrow,.kicker,.tag,.chip,.meta,.bh-code,.badge),
+  body.kh-dossier :is(.kh-eyebrow,.kh-small,.kh-case-index),
+  body.kh-ready .kh-ready-eyebrow,body.kh-certs .kh-proof-eyebrow,
+  body.kh-flagship-body .kh-flagship-kicker,body.kh-feature-case .kh-case-kicker{
+    font-family:var(--font-code)!important;font-size:clamp(11px,.86vw,13px)!important;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
   }
-  body.bh-body .bh-feature-art::before{
-    background-image:none!important;box-shadow:none!important;
+  body.bh-body :is(.bh-nav a,.bh-socials a,.bh-feature-links a,.bh-project-source,.bh-text-link,.kh-recruiter-links a),
+  body.bh-interior :is(nav a,.btn,.buttons a,main a),
+  body.kh-dossier :is(nav a,.kh-btn,main a),
+  body.kh-ready :is(nav a,main a),
+  body.kh-certs :is(nav a,main a),
+  body.kh-flagship-body :is(nav a,main a),
+  body.kh-feature-case :is(nav a,main a){
+    font-family:var(--font-body)!important;
+    font-size:clamp(12px,.98vw,15px)!important;
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
+    text-decoration-color:#3B3324!important;
+  }
+  body.bh-body :is(.bh-nav a:hover,.bh-socials a:hover,.bh-feature-links a:hover,.kh-recruiter-links a:hover),
+  body.bh-interior a:hover,body.kh-dossier a:hover,body.kh-ready a:hover,
+  body.kh-certs a:hover,body.kh-flagship-body a:hover,body.kh-feature-case a:hover{
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body.bh-body .bh-nav a:not(.bh-nav-cta),body.bh-interior nav a:not(.btn){
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    font-size:clamp(12px,.98vw,15px)!important;font-weight:500!important;
+  }
+  body.bh-body .bh-nav a:not(.bh-nav-cta):hover,body.bh-interior nav a:not(.btn):hover{
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  /* Exactly black-on-gold primary actions, including any descendant spans. */
+  body.bh-body :is(.bh-button-primary,.bh-nav-cta),
+  body.bh-interior :is(.btn.prime,.btn.primary,a.btn.primary),
+  body.kh-dossier :is(.kh-btn-gold,.kh-nav-contact),
+  body.kh-ready .kh-ready-cta a:first-child{
+    background:#D4AF65!important;background-image:none!important;
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+    border:1px solid #D4AF65!important;box-shadow:none!important;
+    font-weight:600!important;font-family:var(--font-body)!important;
+  }
+  body.bh-body :is(.bh-button-primary,.bh-nav-cta) *,
+  body.bh-interior :is(.btn.prime,.btn.primary,a.btn.primary) *{
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+  }
+  body.bh-body :is(.bh-button-primary:hover,.bh-nav-cta:hover),
+  body.bh-interior :is(.btn.prime:hover,.btn.primary:hover),
+  body.kh-dossier :is(.kh-btn-gold:hover,.kh-nav-contact:hover){
+    background:#E6D6AF!important;background-image:none!important;
+    color:#090909!important;-webkit-text-fill-color:#090909!important;
+  }
+  body.bh-body :is(a.bh-button:not(.bh-button-primary),.kh-recruiter-links a,.kh-resume-education-actions a),
+  body.bh-interior :is(a.btn:not(.prime):not(.primary),a.button),
+  body.kh-dossier a.kh-btn:not(.kh-btn-gold){
+    background:#141414!important;background-image:none!important;
+    border:1px solid #3B3324!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    font-size:15px!important;font-weight:500!important;
+  }
+  body.bh-body :is(.bh-feature,.bh-project,.bh-demo-card,.bh-resource,.bh-about-panel,.bh-stack-panel,.bh-window,.bh-mini-panel,.kh-role-finder,.kh-recruiter-strip,.bh-contact,.kh-cert-highlight-grid article,.kh-resume-education-grid article,.kh-resume-skill-grid article,.kh-hobby-panels article,.bh-stats),
+  body.bh-interior :is(.card,.panel,.project-card,.cert,.notice,.contact,.paper,.resume-paper,.kh-proof-card,.kh-ready-card,.kh-ready-section,.kh-ready-standards,.kh-spec),
+  body.kh-dossier :is(.kh-pillar,.kh-panel,.kh-case,.kh-element,.kh-hero-panel,.kh-trust,.kh-contact),
+  body.kh-certs :is(.kh-proof-card,.kh-proof-summary>div,.kh-proof-list article,.kh-proof-note),
+  body.kh-ready :is(.kh-ready-card,.kh-ready-section,.kh-ready-standards,.kh-ready-essentials article,.kh-ready-role-grid article,.kh-ready-expand),
+  body.kh-flagship-body :is(.kh-flagship,.kh-spec,.kh-fl-note),
+  body.kh-feature-case :is(.kh-case-grid article,.kh-case-stages article,.kh-case-end){
+    background:#141414!important;background-image:none!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+    border:1px solid #3B3324!important;
+    box-shadow:none!important;
+  }
+  body.bh-body .bh-feature-art,body.bh-body .bh-feature:nth-child(n) .bh-feature-art,
+  body.bh-body .bh-project-art,
+  body.bh-body .bh-window-top,body.bh-body .bh-visual,
+  body.bh-interior :is(.project-art,.kh-proof-art){
+    background:#141414!important;background-image:none!important;
+    border-color:#3B3324!important;box-shadow:none!important;
   }
   body.bh-body .bh-feature-mark{
-    right:18px!important;top:16px!important;
-    width:auto!important;max-width:calc(100% - 36px)!important;
-    font:650 clamp(2.8rem,5vw,4.8rem)/1 'Space Grotesk','DM Sans',sans-serif!important;
-    letter-spacing:-.07em!important;color:#d4af37!important;
-    -webkit-text-fill-color:#d4af37!important;
-    background:transparent!important;border:0!important;
-    transform:none!important;opacity:1!important;
+    font-family:var(--font-heading)!important;font-weight:800!important;
+    font-size:clamp(2.8rem,4.5vw,4.5rem)!important;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+    opacity:1!important;text-shadow:none!important;
   }
-  body.bh-body .bh-feature-orbit{width:155px!important;height:155px!important;right:22px!important;bottom:-84px!important;border:1px solid rgba(212,175,55,.34)!important;box-shadow:none!important}
-  body.bh-body .bh-feature-type{font:750 10px/1.6 'DM Sans',sans-serif!important;letter-spacing:.1em!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important}
-  body.bh-body .bh-feature-content{padding:23px!important}
-  body.bh-body .bh-feature h3{font-family:'Cinzel','Cormorant Garamond',Georgia,serif!important;font-size:clamp(1.08rem,1.45vw,1.38rem)!important;line-height:1.4!important;letter-spacing:-.005em!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;font-weight:600!important}
-  body.bh-body .bh-feature-content p{font-family:'DM Sans','Montserrat',sans-serif!important;font-size:13px!important;line-height:1.75!important}
-  body.bh-body .bh-feature-links{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
-  body.bh-body .bh-feature-links a{color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;text-decoration:none!important;border-bottom:1px solid #d4af37!important;padding:5px 0!important;background:transparent!important}
-  body.bh-body .bh-feature-links a:hover,body.bh-body .bh-feature-links a:focus-visible{color:#f0e6d2!important;-webkit-text-fill-color:#f0e6d2!important}
-  body.bh-body .bh-tech span{font-size:10px!important;color:#d4af37!important;-webkit-text-fill-color:#d4af37!important;border-color:#d4af37!important}
-  body.bh-body .bh-feature:hover{transform:translateY(-3px)!important;border-color:#d4af37!important;box-shadow:0 8px 24px rgba(212,175,55,.09)!important}
-  body.bh-body :is(.bh-project p,.bh-about-panel p,.bh-stack-list p,.bh-contact p,.kh-resume-more p){color:#f0e6d2!important;-webkit-text-fill-color:#f0e6d2!important}
-  body.bh-body :is(.bh-button,.kh-recruiter-links a,.bh-nav a,.bh-text-link),body.bh-interior :is(a.btn,.btn){
-    font-family:'DM Sans','Montserrat',sans-serif!important;
+  body.bh-body .bh-feature-orbit,body.bh-body .bh-orbit{
+    border-color:#3B3324!important;background:none!important;box-shadow:none!important;
   }
-  body.bh-body .bh-feature-content :is(a,button):focus-visible,body.bh-body .kh-resume-education-grid a:focus-visible{
-    outline:2px solid #d4af37!important;outline-offset:4px!important
+  body.bh-body .bh-feature-content p{
+    font:400 clamp(14px,1vw,17px)/1.75 var(--font-body)!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
   }
+  body.bh-body .bh-feature h3{
+    font:700 clamp(1.1rem,1.65vw,24px)/1.35 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .bh-tech span{border:1px solid #3B3324!important;background:#141414!important}
+  body.bh-body .bh-stats,body.bh-body .bh-stat{
+    background:#141414!important;background-image:none!important;
+    border-color:#3B3324!important;
+  }
+  body.bh-body .bh-stats strong{
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .kh-resume-education-grid article h3{
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    font-weight:700!important;opacity:1!important;
+  }
+  body.bh-body :is(input,textarea,select,.bh-select),
+  body.bh-interior :is(input,textarea,select),
+  body.kh-dossier :is(input,textarea,select){
+    background:#141414!important;background-image:none!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    border:1px solid #3B3324!important;
+    font-family:var(--font-body)!important;
+  }
+  body.bh-body :is(input,textarea)::placeholder,body.bh-interior :is(input,textarea)::placeholder{
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+  }
+  body.bh-body :is(a,button,input,textarea,select):focus-visible,
+  body.bh-interior :is(a,button,input,textarea,select):focus-visible,
+  body.kh-dossier :is(a,button,input,textarea,select):focus-visible{
+    outline:2px solid #D4AF65!important;outline-offset:4px!important;
+  }
+  /* Cards and labels use consistent fonts, without introducing colors. */
+  body.bh-body :is(.bh-feature,.bh-project),body.bh-interior :is(.card,.project-card){
+    transition:transform .2s ease!important;
+  }
+  body.bh-body :is(.bh-feature,.bh-project):hover{transform:translateY(-3px)!important}
+  body.bh-body .bh-progress,body.bh-body .bh-rule{background:#3B3324!important;background-image:none!important}
   @media(max-width:900px){body.bh-body .bh-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
-  @media(max-width:600px){body.bh-body .bh-feature-grid{grid-template-columns:minmax(0,1fr)!important}body.bh-body .bh-feature-art{height:134px!important}}
-  @media(prefers-reduced-motion:reduce){body.bh-body .bh-feature{transition:none!important;transform:none!important}}
+  @media(max-width:600px){body.bh-body .bh-feature-grid{grid-template-columns:minmax(0,1fr)!important}}
+  @media(prefers-reduced-motion:reduce){body.bh-body :is(.bh-feature,.bh-project){transition:none!important;transform:none!important}}
 }
+/* end canonical seven-color theme */
