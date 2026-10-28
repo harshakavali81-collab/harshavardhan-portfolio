@@ -32,6 +32,9 @@
       };
       button.addEventListener("pointerdown", onPrimaryPress);
       button.addEventListener("mousedown", onPrimaryPress);
+      // Mobile WebKit can dispatch a synthetic click after a touch sequence;
+      // activate on the initial touch so a real tap always responds.
+      button.addEventListener("touchstart", () => activate(button.dataset.filter), {passive:true});
       button.addEventListener("click", () => activate(button.dataset.filter));
     }
     document.documentElement.dataset.workFiltersReady = "true";
