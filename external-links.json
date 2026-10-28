@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-28T09:57:47.956060+00:00",
+  "checked_at": "2026-10-28T09:58:01.675947+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 75531,
+      "bytes": 75654,
       "ok": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 20992,
+      "bytes": 21038,
       "ok": true
     },
     {
@@ -22,7 +22,7 @@
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 43399,
+      "bytes": 43532,
       "ok": true
     },
     {
@@ -172,6 +172,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -356,6 +357,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -417,6 +419,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -510,6 +513,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "recruiter.html",
         "work.html"
       ],
@@ -534,6 +538,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "recruiter.html",
         "work.html"
       ],
@@ -569,6 +574,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -620,6 +626,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -671,6 +678,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -753,6 +761,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "mobilitypulse-explorer.html",
         "work.html"
       ],
@@ -820,6 +829,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "profile.html",
         "recruiter.html"
       ],
@@ -835,6 +845,7 @@
         "inventoryiq-demo.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -902,6 +913,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "streamwatch-demo.html",
         "work.html"
       ],
@@ -971,6 +983,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "work.html"
       ],
       "via": "github-repo-api",
@@ -1002,6 +1015,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "recruiter.html",
         "work.html"
       ],
@@ -1038,6 +1052,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "profile.html",
         "recruiter.html",
         "work.html"
@@ -1358,6 +1373,15 @@
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html",
       "pages": [
         "linkedin-projects.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-setup.html",
+      "pages": [
+        "linkedin-setup.html"
       ],
       "via": "http",
       "status": 200,
@@ -1692,6 +1716,7 @@
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
+        "linkedin-setup.html",
         "profile.html",
         "recruiter.html",
         "resume.html",
@@ -1721,7 +1746,7 @@
     }
   ],
   "external_counts": {
-    "ok": 159,
+    "ok": 160,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
