@@ -24,6 +24,8 @@ Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communicat
 
 ## LinkedIn profile and project portfolio pack
 
+- **[Recruiter project showcase (portfolio website)](linkedin-projects.html)** — dedicated gold/obsidian page with 15 source-backed technical cards, five role-focused filters, search and all 31 GitHub repositories (including portfolio). Site pages are separate from the external LinkedIn account.
+
 - **[Complete LinkedIn profile and project copy kit](docs/LINKEDIN_PROFILE_PROJECTS_MASTER.md)** — tailored headline, About, internship, education, 15 source-backed project descriptions, Featured links, 31-repository index, and account-update checklist.
 - [Existing LinkedIn profile](https://www.linkedin.com/in/kavali-harshavardhan-7ab93a28b/) · [Portfolio website](https://harshakavali81-collab.github.io/harshavardhan-portfolio/).
 - **Publishing disclosure:** The kit is hosted in GitHub and has **not** been automatically applied to LinkedIn. Account sign-in and saving are required.
