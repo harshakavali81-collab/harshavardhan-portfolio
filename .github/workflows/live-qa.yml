@@ -20,7 +20,7 @@ permissions:
   contents: write
 concurrency:
   group: live-qa-main
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   measure-and-review:
     runs-on: ubuntu-latest
