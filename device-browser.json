@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T12:51:13.110716+00:00",
+  "checked_at": "2026-10-28T13:01:47.634438+00:00",
   "profiles": [
     [
       "chromium",
@@ -66,7 +66,8 @@
       "page": "career-portfolio.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-career-portfolio.html.png"
     },
     {
       "engine": "chromium",
@@ -232,10 +233,9 @@
       "engine": "chromium",
       "profile": "tablet",
       "page": "index.html",
-      "scroll_width": 809,
+      "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 809, 'width': 768, 'h1': True, 'anchors': 143}"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -410,8 +410,8 @@
       "engine": "chromium",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 430,
-      "viewport_width": 430,
+      "scroll_width": 390,
+      "viewport_width": 390,
       "result": "pass",
       "screenshot": "screenshots/chromium-mobile-home.png"
     },
@@ -421,7 +421,8 @@
       "page": "career-portfolio.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-career-portfolio.html.png"
     },
     {
       "engine": "chromium",
@@ -588,8 +589,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 360,
-      "viewport_width": 360,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -941,10 +942,9 @@
       "engine": "firefox",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 430,
+      "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1294,10 +1294,10 @@
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 430,
+      "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
+      "reason": "Page.screenshot: Cannot take screenshot larger than 32767 pixels on any dimension\nCall log:\n  - taking page screenshot\n    - disabled all CSS animations\n  - waiting for fonts to load...\n  - fonts loaded\n"
     },
     {
       "engine": "webkit",
@@ -1305,7 +1305,8 @@
       "page": "career-portfolio.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "pass",
+      "screenshot": "screenshots/webkit-mobile-career-portfolio.html.png"
     },
     {
       "engine": "webkit",
@@ -1469,35 +1470,17 @@
       "result": "pass"
     }
   ],
-  "passed": 173,
+  "passed": 175,
   "total": 176,
   "issues": [
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "index.html",
-      "scroll_width": 809,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 809, 'width': 768, 'h1': True, 'anchors': 143}"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "index.html",
-      "scroll_width": 430,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
-    },
     {
       "engine": "webkit",
       "profile": "mobile",
       "page": "index.html",
-      "scroll_width": 430,
+      "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 430, 'width': 390, 'h1': True, 'anchors': 143}"
+      "reason": "Page.screenshot: Cannot take screenshot larger than 32767 pixels on any dimension\nCall log:\n  - taking page screenshot\n    - disabled all CSS animations\n  - waiting for fonts to load...\n  - fonts loaded\n"
     }
   ]
 }

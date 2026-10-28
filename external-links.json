@@ -1,137 +1,159 @@
 {
-  "checked_at": "2026-10-28T12:49:20.136560+00:00",
+  "checked_at": "2026-10-28T12:59:42.487187+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
       "bytes": 72619,
-      "ok": true
+      "ok": true,
+      "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
       "bytes": 25544,
-      "ok": true
+      "ok": true,
+      "current_release_marker": true
     },
     {
       "page": "work.html",
       "status": 200,
       "bytes": 21272,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "job-platforms.html",
       "status": 200,
       "bytes": 59400,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
       "bytes": 69014,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "evidence.html",
       "status": 200,
       "bytes": 7565,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "engineering.html",
       "status": 200,
       "bytes": 15377,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "proof-map.html",
       "status": 200,
       "bytes": 17294,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "profile.html",
       "status": 200,
       "bytes": 68580,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
       "bytes": 14189,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
       "bytes": 6418,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "resume.html",
       "status": 200,
       "bytes": 7731,
-      "ok": true
+      "ok": true,
+      "current_release_marker": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
       "bytes": 9239,
-      "ok": true
+      "ok": true,
+      "current_release_marker": true
     },
     {
       "page": "contact.html",
       "status": 200,
       "bytes": 10206,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "hiring.html",
       "status": 200,
       "bytes": 11258,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "interview.html",
       "status": 200,
       "bytes": 10933,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 10252,
-      "ok": true
+      "bytes": 12643,
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
       "bytes": 10285,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
       "bytes": 10766,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
       "bytes": 10427,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
       "bytes": 9887,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
       "bytes": 9796,
-      "ok": true
+      "ok": true,
+      "current_release_marker": null
     }
   ],
   "external": [
@@ -1213,6 +1235,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/blob/qa-reports/career-regression-summary.md",
+      "pages": [
+        "quality.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio/tree/main/projects/AirAware-AI",
       "pages": [
         "airaware-demo.html"
@@ -1806,7 +1837,7 @@
     }
   ],
   "external_counts": {
-    "ok": 161,
+    "ok": 162,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
