@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:37:54.352213+00:00",
+  "checked_at": "2026-10-28T08:44:17.682680+00:00",
   "profiles": [
     [
       "chromium",
@@ -74,8 +74,7 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -139,8 +138,7 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -229,8 +227,7 @@
       "page": "evidence.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -294,8 +291,7 @@
       "page": "contact.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -384,8 +380,7 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -449,8 +444,8 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-contact.html.png"
     },
     {
       "engine": "chromium",
@@ -538,8 +533,7 @@
       "page": "evidence.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -603,8 +597,7 @@
       "page": "contact.html",
       "scroll_width": 342,
       "viewport_width": 342,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -684,7 +677,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work filter incorrect"
     },
     {
       "engine": "firefox",
@@ -692,8 +686,7 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -757,8 +750,7 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -847,8 +839,7 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -912,8 +903,7 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1001,8 +991,7 @@
       "page": "evidence.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1066,8 +1055,7 @@
       "page": "contact.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1156,8 +1144,7 @@
       "page": "evidence.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1222,8 +1209,7 @@
       "page": "contact.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1290,152 +1276,17 @@
       "result": "pass"
     }
   ],
-  "passed": 136,
+  "passed": 151,
   "total": 152,
   "issues": [
     {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "evidence.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "evidence.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "contact.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "evidence.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "contact.html",
-      "scroll_width": 342,
-      "viewport_width": 342,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
       "engine": "firefox",
       "profile": "desktop",
-      "page": "evidence.html",
+      "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "evidence.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "contact.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "evidence.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Expected five source-backed projects"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "contact.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Gmail direct-compose links missing"
+      "reason": "Work filter incorrect"
     }
   ]
 }
