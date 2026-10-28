@@ -1,0 +1,232 @@
+/* KH ATELIER — Champagne Metallic on Obsidian, v1.0
+   Shared across the public portfolio. Decorative metallic treatment is reserved
+   for headings: body text, buttons, form fields and data stay high-contrast.
+   Printed resumes remain white/ink for ATS and legibility.
+   Local serif fallback prevents network font dependencies. */
+:root {
+ color-scheme:dark;
+ --obsidian:#080808; --black:#0b0b0b; --black-card:#151310;
+ --champagne:#e9dcb5; --light-gold:#f3e5ab; --gold-mid:#d3b775;
+ --gold-deep:#a98242; --bronze:#8d6e3d;
+ --platinum:#ece8e2; --muted-gold:#c6bfb3;
+ --metal:linear-gradient(113deg,#b58b49 0%,#eedca9 21%,#fff6df 39%,#d1ad69 62%,#f2dfac 79%,#b98c4f 100%);
+ --metal-soft:linear-gradient(125deg,#f2e6bd,#ceb076 55%,#ead6aa);
+ --lux-border:#534530; --lux-shadow:0 22px 65px rgba(0,0,0,.55),0 0 26px rgba(212,175,55,.07);
+ --bg:#080808;--panel:#151310;--panel2:#1e1a16;--stroke:#51422d;
+ --surface:#151310;--surface2:#1e1a16;--line:#51422d;
+ --ink:#f4efe7;--text:#f4efe7;--soft:#c6bfb3;--muted:#c6bfb3;--accent:#e4c98e;
+ --aqua:#e4c98e;--mint:#e4c98e;--blue:#e6d0a8;--gold:#e4c98e;--yellow:#e4c98e;
+ --shadow:0 22px 65px #0008;
+}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body,body.light{
+  color-scheme:dark;
+  --bg:#080808;--panel:#151310;--panel2:#1e1a16;--surface:#151310;--surface2:#1e1a16;
+  --stroke:#51422d;--line:#51422d;--ink:#f4efe7;--text:#f4efe7;
+  --muted:#c6bfb3;--soft:#c6bfb3;--accent:#e4c98e;--aqua:#e4c98e;--mint:#e4c98e;
+  --blue:#e6d0a8;--yellow:#e4c98e;--shadow:0 22px 65px #0008;
+  background-color:#080808!important;
+  background-image:radial-gradient(ellipse 65% 30% at 80% -5%,rgba(214,179,106,.11),transparent 73%),
+    radial-gradient(ellipse 28% 25% at 1% 36%,rgba(155,121,63,.065),transparent 75%),
+    linear-gradient(180deg,#0b0b0b 0%,#080808 45%,#100e0b 100%)!important;
+  color:#f4efe7!important;
+  font-family:"Montserrat","Segoe UI",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+body::selection,body *::selection{background:#b98e50;color:#090909}
+h1,h2,h3,.logo,.visual .name,.snapshot strong,.card h2{
+  font-family:"Cinzel","Playfair Display",Georgia,serif;
+  text-wrap:balance;
+}
+h1{letter-spacing:.018em!important;line-height:1.18!important}
+h2{letter-spacing:.035em!important;line-height:1.22!important}
+h3{letter-spacing:.015em!important;line-height:1.25!important}
+h1,h2{color:var(--light-gold)}
+/* Foil effect only on large display type, not prose or editable inputs. */
+main h1,main h2,.hero h1,.hero h1 em,.luxury-text-theme{
+  background-image:var(--metal);
+  background-size:120% 100%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent!important;
+  -webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 3px 12px rgba(212,175,55,.13));
+}
+.luxury-text-theme{
+ font-size:clamp(2rem,5vw,4rem);
+ font-weight:700;
+ letter-spacing:.13em;
+ text-transform:uppercase;
+}
+main h1{max-width:100%;overflow-wrap:break-word}
+main h2{text-transform:uppercase;font-size:clamp(25px,3.5vw,41px)}
+.eyebrow,.overline,.meta,.story-label,.proof-label,
+.hobby-label,.hobby-mark,.smallcap,.section-label{
+ color:#e3c98e!important;
+ letter-spacing:.20em!important;
+ font-size:clamp(10px,1vw,12px);
+ text-transform:uppercase;
+ font-weight:800;
+}
+.logo,.logo span,.logo b,.topbar .logo{
+ font-family:"Cinzel","Playfair Display",Georgia,serif!important;
+ letter-spacing:.08em!important;
+ color:#e9d5a3!important;
+ text-decoration:none;
+}
+a{color:#e6d0a3}
+a:hover{color:#fff0c7}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,
+textarea:focus-visible,summary:focus-visible{
+ outline:3px solid #f0dba4!important;outline-offset:3px
+}
+.nav,header.nav,.topbar,header:not(.hero),
+.navbar,.nav-in,.nav-inner{
+ border-color:rgba(208,170,102,.24)!important;
+}
+header.nav,.nav,.topbar,header:not(.hero){
+ background:#0d0c0bf0!important;
+ backdrop-filter:blur(16px);
+}
+.navlinks a,.links a,.nav a,header nav a,.topbar a{
+ color:#d2c6b6!important;
+}
+.navlinks a:hover,.links a:hover,.nav a:hover,
+.navlinks a[aria-current=page],header nav a:hover{
+ color:#f5dfac!important;
+}
+.section{border-color:#443929!important}
+.lead,.lede,.muted,.intro,.small,figcaption,.foot,
+.card p,.feature p,.panel p,.project p,.role p,.story p,
+.proof-item p,.ledger-card p,.decision p,.snapshot .sublabel{
+ color:#c8c2b8!important;
+}
+:is(.panel,.feature,.card,.role,.project,.fact,.snapshot,.visual,.hobby-card,
+ .featured-proof,.signature-map,.signature-contact,.deep-card,
+ .kh-toolkit article,.qa-lead,.qastat,.metric,.story,.proof-item,
+ .ledger-card,.ledger-comparison,.ledger-control,.decision,
+ .selector,.proof-graphic,.resume-switcher,.note,.notice,
+ .quick-note,.outro,.assumptions,.source-note,.callout,.ledger-callout,
+ .proof-node,.card.data,.card.ai,.mini>div,.cert,.tag,.chip,
+ .proof-graphic,.checklist,.qastat,.bartrack){
+ border-color:#57472f!important;
+ background-color:#16130f!important;
+ background-image:linear-gradient(145deg,rgba(39,32,23,.98),rgba(15,14,13,.98))!important;
+ box-shadow:var(--lux-shadow);
+}
+:is(.panel,.feature,.card,.role,.project,.fact,.snapshot,.visual,.hobby-card,
+ .featured-proof,.signature-map,.signature-contact,.deep-card,
+ .kh-toolkit article,.proof-item,.ledger-card,.decision){
+ transition:border-color .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ :is(.panel,.feature,.card,.role,.project,.featured-proof,.signature-map,
+ .deep-card,.hobby-card,.proof-item,.ledger-card,.decision):hover{
+   border-color:#b89a63!important;
+   transform:translateY(-2px);
+   box-shadow:0 25px 65px rgba(0,0,0,.55),0 0 25px rgba(215,185,122,.12);
+ }
+}
+:is(.btn,.button,button[data-filter],button[data-role],button[data-ledger-filter],
+ .filterbar button,.role-tabs button,.ledger-filter button,.mode,
+ .proof-item a,.case-nav a){
+ border-color:#8a6d42!important;
+ color:#f3e8d7!important;
+ background:#191612!important;
+ text-shadow:none;
+}
+:is(.btn.primary,.btn.prime,.button:not(.alt),
+ .role-tabs button[aria-pressed=true],.ledger-filter button[aria-pressed=true],
+ .filterbar button[aria-pressed=true],button[data-filter].active,
+ button[data-role].active,.segmented-control .active){
+ background:var(--metal-soft)!important;
+ color:#100e0a!important;
+ -webkit-text-fill-color:#100e0a!important;
+ border:1px solid #e2c58a!important;
+ box-shadow:0 5px 23px rgba(212,175,55,.18);
+ text-shadow:none;
+ font-weight:800;
+}
+:is(.btn,.button,.role-tabs button,.ledger-filter button,
+ .filterbar button,button[data-role],button[data-filter]):hover{
+ box-shadow:0 6px 28px rgba(212,175,55,.18);
+}
+:is(.pill,.tag,.chip,.tags span,.coverage span,
+ .ledger-tags span,.ledger-flow span,.flow span,
+ .signature-chain>div,.mini-step,.deep-numbers span){
+ color:#f1dec0!important;
+ background:#231e17!important;
+ border-color:#735b38!important;
+}
+:is(.num,.metric strong,.qastat strong,.fact b,.proof-node b,
+ .featured-proof .proof-meta,.ledger-card .evidence,
+ .proof-item .evidence,.pass,.passpill){
+ color:#e4c58c!important;
+}
+:is(input,textarea,select,.form input,.form textarea,.form select){
+ background:#100f0d!important;
+ color:#f5ede0!important;
+ border-color:#766043!important;
+ caret-color:#e4c58c;
+}
+:is(input,textarea)::placeholder{color:#9f9688!important;opacity:1}
+:where(input,select,textarea):disabled{opacity:.6}
+table,table th,table td,.data-table th,.data-table td,
+.qa-table th,.qa-table td{border-color:#5e4930!important}
+table th,.data-table th,.qa-table thead{
+ background:#241d15!important;
+ color:#f4dfb4!important;
+}
+table td{background:#100f0e;color:#e5dfd5!important}
+hr,.divider{border-color:#594a33!important}
+svg{max-width:100%}
+img{max-width:100%;height:auto}
+::marker{color:#d7b977}
+:target{scroll-margin-top:92px}
+/* The traditional printable resume should remain ink-on-paper. */
+.paper{
+ background:#fbfaf6!important;color:#242019!important;
+ box-shadow:0 24px 70px #0009!important;border:1px solid #c8ad7b;
+}
+.paper h1,.paper h2,.paper h3,.paper p,.paper li,.paper .heading strong,
+.paper .heading time,.paper .contact{
+ color:#252019!important;
+ -webkit-text-fill-color:#252019!important;
+ background-image:none!important;
+ filter:none!important;
+}
+.paper h2{border-color:#c3a872!important}
+.paper a{color:#624a24!important;-webkit-text-fill-color:#624a24!important}
+.paper .resume-switcher{background:#f1e9d9!important;color:#241d15!important}
+.paper .resume-switcher a{color:#5e4220!important}
+@media (max-width:640px){
+ h1{letter-spacing:0!important}
+ h2{letter-spacing:.018em!important}
+ .logo{letter-spacing:.035em!important}
+ .luxury-text-theme{letter-spacing:.055em}
+ :is(.navlinks,.links){row-gap:8px}
+}
+@media (prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;transition-duration:0.01ms!important;animation-duration:0.01ms!important}
+}
+@media(forced-colors:active){
+ main h1,main h2,.hero h1,.hero h1 em,.luxury-text-theme{
+  background-image:none!important;color:CanvasText!important;
+  -webkit-text-fill-color:CanvasText!important;filter:none!important
+ }
+}
+@media print{
+ :root{color-scheme:light}
+ body,body.light{color-scheme:light;background:#fff!important;background-image:none!important;color:#111!important}
+ main h1,main h2,.hero h1,.hero h1 em,.luxury-text-theme{
+   background-image:none!important;color:#151515!important;-webkit-text-fill-color:#151515!important;filter:none!important
+ }
+ a{color:#222!important}
+ .panel,.feature,.card,.paper,.decision,.story,.ledger-card,.featured-proof{
+   box-shadow:none!important;background:#fff!important;background-image:none!important;color:#111!important;
+   border-color:#aaa!important;
+ }
+ .paper{border:0}
+ .paper a{color:#111!important}
+ .muted,.lede,.lead, .intro, .card p,.decision p{color:#333!important}
+}
