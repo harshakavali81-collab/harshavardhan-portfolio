@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T08:13:36.607724+00:00",
+  "checked_at": "2026-10-28T08:14:00.515971+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -716,7 +716,8 @@
     {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
       "pages": [
-        "cases/docsight.html"
+        "cases/docsight.html",
+        "work.html"
       ],
       "via": "github-repo-api",
       "status": 200,
