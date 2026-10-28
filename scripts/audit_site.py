@@ -111,18 +111,33 @@ def main() -> int:
             if adr not in pages[notebook].ids:
                 problems.append(f"Engineering Notebook missing #{adr}")
 
-    luxury_css = ROOT / "assets" / "luxury-theme.css"
-    if not luxury_css.exists():
-        problems.append("Missing portfolio luxury theme stylesheet")
+    # Legacy theme files remain for layouts; every public page must load the
+    # canonical seven-color black-and-gold stylesheet as its last CSS layer.
+    canonical_css = ROOT / "assets" / "kh-ivory-accent.css"
+    if not canonical_css.exists():
+        problems.append("Missing seven-color portfolio theme")
     else:
-        theme_source = luxury_css.read_text(encoding="utf-8")
-        for required in ("--obsidian:#080808", "--metal:linear-gradient", "prefers-reduced-motion", "forced-colors:active"):
-            if required not in theme_source:
-                problems.append("Incomplete premium theme: " + required)
+        import re
+        theme_source = canonical_css.read_text(encoding="utf-8")
+        palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme_source.lower()))
+        expected = {"#090909", "#141414", "#d4af65", "#e6d6af",
+                    "#f5f0e6", "#b8b4ac", "#3b3324"}
+        if palette != expected:
+            problems.append(f"Unexpected canonical theme colors: {sorted(palette)}")
+        for font in ("Manrope", "Inter", "JetBrains Mono"):
+            if font not in theme_source:
+                problems.append(f"Missing canonical theme font: {font}")
+        for token in ("--color-background", "--color-surface", "--color-gold",
+                      "--color-champagne", "--color-heading", "--color-body",
+                      "--color-border", "prefers-reduced-motion"):
+            if token not in theme_source:
+                problems.append(f"Missing canonical theme rule: {token}")
     for page, scan in pages.items():
-        required_href = "../assets/luxury-theme.css" if "cases" in page.relative_to(ROOT).parts else "assets/luxury-theme.css"
-        if not any(url == required_href for attr, url in scan.links if attr == "href"):
-            problems.append(f"{page.relative_to(ROOT)}: champagne-gold/obsidian stylesheet missing")
+        required_href = "../assets/kh-ivory-accent.css" if "cases" in page.relative_to(ROOT).parts else "assets/kh-ivory-accent.css"
+        css_links = [urlsplit(url).path for attr, url in scan.links
+                     if attr == "href" and urlsplit(url).path.lower().endswith(".css")]
+        if not css_links or css_links[-1] != required_href:
+            problems.append(f"{page.relative_to(ROOT)}: last stylesheet must be seven-color theme")
         for _, url in scan.links:
             if url.startswith(IGNORED_PREFIXES) or url.startswith("//"):
                 continue
