@@ -21,6 +21,11 @@
   }, true);
   function setup() {
     activate("All");
+    // Register directly on each real button as well as delegated capture.
+    // This guards against browser-specific retargeting and click propagation.
+    for (const button of document.querySelectorAll("button[data-filter]")) {
+      button.addEventListener("click", () => activate(button.dataset.filter));
+    }
     document.documentElement.dataset.workFiltersReady = "true";
   }
   if (document.readyState === "loading") {
