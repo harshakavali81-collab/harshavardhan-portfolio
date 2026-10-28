@@ -6,6 +6,7 @@ on:
       - "index.html"
       - "portfolio-readiness.html"
       - "certificates.html"
+      - "flagship-projects.html"
       - "career-portfolio.html"
       - "linkedin-projects.html"
       - "linkedin-setup.html"
