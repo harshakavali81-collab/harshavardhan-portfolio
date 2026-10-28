@@ -23,3 +23,6 @@ jobs:
         run: python3 scripts/check_job_platforms.py
       - name: Validate refined light-gold design and 31-source project gallery
         run: python3 scripts/check_light_portfolio.py
+
+      - name: Validate premium black identity, recruiter resources and all 31 projects
+        run: python3 scripts/check_premium_black.py
