@@ -1,5 +1,15 @@
 # Kavali Harshavardhan | AI, Data & Software Portfolio
 
+## Resume and uploaded credential release · 28 October 2026
+
+- **Homepage selected work** retains six case studies plus four resume-specific project cards: Zomato Insights, a source-linked [Multilingual Indian Language Knowledge Platform](https://github.com/harshakavali81-collab/Multilingual-Project), Document Q&A/RAG, and a resume-reported Women Safety Device. An unverified repo link has **not** been invented for the hardware project.
+- **Resume skills** now group analytics, Python/software, AI/ML/NLP and workplace strengths. Foundational skills from the older general resume are explicitly labeled rather than presented as independently verified production expertise.
+- **Academic history** covers B.Tech ECE, Intermediate MPC and SSC; grades are taken from current role-specific resumes. Python Intern at Edugene Technologies (Feb–Aug 2025) is distinct from curriculum-based virtual internships.
+- **Credential overview:** [certificates.html](certificates.html) summarizes **seven supplied completion/training records**: AWS Academy Cloud Developing (40h), AWS Academy Data Engineering (40h), AICTE/EduSkills Data Engineering, Google-backed AI–ML and Android virtual internships, Blue Prism Intelligent Automation, and NSIC Entrepreneurship Orientation (2023). Two AWS course certificates contain source-listed Credly links; these are **not AWS professional certifications**.
+- **Privacy:** Original certificate scans may contain personal ID numbers or family information and are **not uploaded to this public portfolio**. Public records summarize qualifications without exposing raw scans. Items listed only in an older resume remain labeled as self-reported. Work and community claims are distinguished from independently verifiable evidence.
+- **Career goals and hobbies:** Looking for fresher/entry-level IT positions in Hyderabad or Bengaluru; reading books, games, news, sports and films. Prior community-group claims are identified as self-reported.
+
+
 ## Recruiter-ready portfolio quality checklist · 28 October 2026
 
 The main website now includes an [evidence-led 32-point job portfolio checklist](portfolio-readiness.html) with six detailed groups comprising 36 engineering criteria and a 19-field case-study reference covering career identity (6 requirements), project proof (7), software engineering/security (7), website quality/accessibility (6), and hiring/interview readiness (6). Every item provides a linked inspection path; terms such as **Review**, **Verify repositories**, and **Security review** are intentionally *not* described as passing attestations.
