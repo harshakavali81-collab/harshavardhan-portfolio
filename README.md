@@ -167,3 +167,10 @@ Confirmed personal hobbies: **Reading Books** and **Playing Games**. Other inter
 - Three original FoodBridge SVG figures are locally vendored in `assets/foodbridge/` with source attribution in the case study; the complete 10-image gallery remains in the original repository.
 - [Live public showcase](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/), [browser-only synthetic demo](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/demo.html), [source code](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution).
 - Results (32 Python CI tests; 3.908 kg synthetic holdout MAE) are historical, explicitly synthetic observations, not operational proof. No real food-safety or distribution approval is claimed.
+
+
+## Clickstream Intelligence — Advanced SQL & Data Engineering
+
+[Case study with 10 original SVG illustrations](cases/big-data-clickstream.html) · [Full reproducible GitHub warehouse](https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL) · [Selected work](work.html#clickstream-intelligence).
+
+The pipeline uses seeded synthetic customer events, DuckDB, dbt, session-level conversion marts, retention cohorts, an interactive local Streamlit application and passing GitHub Actions verification.
