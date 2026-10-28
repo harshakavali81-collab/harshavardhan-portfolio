@@ -258,3 +258,46 @@ All 31 currently accessible GitHub repositories are listed below. For LinkedIn d
 **Do not claim:** public full-stack deployment when only source/static demo exists; commercial fraud detection, live public health forecasting, real donation operations, real-time transport tracking or real customer outcomes from simulated data. Do not list certificates without certificates. Keep dates and claims truthful.
 
 **Source:** GitHub README files and the existing portfolio career pack as of 28 October 2026. LinkedIn has **not** been edited by creation of this document.
+
+
+## 12. Portfolio showcase and LinkedIn Featured card
+
+**New recruiter showcase source (in the GitHub Pages repository):**  
+https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html
+
+- **LinkedIn Featured title:** Selected Projects | Python · SQL · Power BI · AI/ML
+- **LinkedIn Featured description:** Browse 15 source-backed project highlights, role-based filters, technical case studies and the complete public GitHub repository index. Project limitations, particularly synthetic datasets and demo-only deployments, are clearly disclosed.
+- **Featured URL:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html
+- **Suggested second Featured item:** https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html
+
+**Deployment status:** The showcase was committed to the portfolio repository on October 28, 2026. Public HTTP access was not independently verified in this update; if the link fails, check the repository's GitHub Pages Actions deployment and try again after the workflow is green. Do not claim it is publicly live without checking.
+
+## 13. Ready-to-publish LinkedIn portfolio launch post
+
+I'm excited to share an updated portfolio showcasing my work in Data Analytics, Python Development, Software Engineering and applied AI/ML.
+
+I'm a 2025 B.Tech ECE graduate from CMR Institute of Technology, Hyderabad, and I'm currently exploring entry-level IT opportunities.
+
+Some of my featured projects include:
+- E-Commerce Sales & Customer Analytics — Python, SQL, KPIs and customer segmentation
+- Zomato Insights Dashboard — Power BI and interactive business reporting
+- DemandPilot AI — demand forecasting and simulated inventory planning
+- TransactionShield — ML-based fraud-risk scoring with a FastAPI/React prototype
+- EvidenceDesk — source-linked document question answering
+- StreamWatch AI — event-based anomaly detection and monitoring
+
+Each repository provides source code and technical documentation, with evaluation scope and synthetic-data limitations clearly identified.
+
+Portfolio: https://harshakavali81-collab.github.io/harshavardhan-portfolio/
+Project showcase: https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html
+GitHub: https://github.com/harshakavali81-collab
+
+I'm interested in Data Analyst, Python Developer, Junior Software Engineer and AI/ML opportunities in Hyderabad or Bengaluru.
+
+#OpenToWork #DataAnalytics #Python #SQL #MachineLearning
+
+**Publishing disclosure:** This post is a draft. It has not been published to LinkedIn by ChatGPT. Before posting, confirm the showcase URL is accessible in your browser.
+
+## 14. Short recruiter connection note
+
+Hello, I'm a 2025 B.Tech ECE graduate based in Hyderabad, with a Python internship and practical Python, SQL, Power BI and AI/ML project experience. I'm seeking entry-level Data Analyst, Python or Software Engineering opportunities. My portfolio: https://harshakavali81-collab.github.io/harshavardhan-portfolio/
