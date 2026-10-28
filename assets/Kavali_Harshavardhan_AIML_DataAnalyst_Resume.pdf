@@ -1,76 +1,83 @@
 %PDF-1.4
+% ASCII-only ATS resume
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 5140 >>
-stream
-BT /F2 15 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 744.00 Tm (KAVALI HARSHAVARDHAN) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 722.00 Tm (AI/ML | Data Analyst | Python | Machine Learning | Data Analysis | SQL) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 709.00 Tm (Hyderabad, Telangana, India | +91 8008273318 | kavaliharshavardhan98@gmail.com) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 697.40 Tm (GitHub: github.com/harshakavali81-collab | LinkedIn: linkedin.com/in/kavali-harshavardhan-7ab93a28b/) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 683.60 Tm (SUMMARY) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 666.60 Tm (IT fresher with a strong blend of Machine Learning and Data Analysis skills, built through NLP, classification and BI) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 655.00 Tm (projects. Skilled in Python \(Pandas, NumPy, scikit-learn, TensorFlow\), Power BI, Excel and SQL. Seeking entry-level) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 643.40 Tm (AI/ML and Data Analyst roles.) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 629.60 Tm (SKILLS) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 612.60 Tm (AI & ML: scikit-learn, TensorFlow, Keras, NLTK, NLP, model evaluation) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 601.00 Tm (Data & BI: Power BI, Tableau, Excel \(Pivot Tables, VLOOKUP, dashboards\), Matplotlib, Seaborn) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 589.40 Tm (Programming: Python \(Pandas, NumPy\), SQL, MySQL, C++, C) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 577.80 Tm (Analytical skills: Data cleaning, EDA, statistical analysis, KPI reporting) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 566.20 Tm (Strengths: Analytical thinking, problem solving, communication, attention to detail) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 552.40 Tm (PROJECTS) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 535.40 Tm (Multilingual Indian Language Knowledge Platform | Python, NLP, ML | 2025) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 522.40 Tm (Built language detection, tokenization and classification-oriented pipelines with scikit-learn and NLTK.) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 510.80 Tm (Explored query and classification patterns across languages with Python/Pandas.) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 499.20 Tm (Zomato Insights Dashboard | Power BI | 2025) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 486.20 Tm (Created restaurant dashboards and interactive KPI visualizations for cuisine, rating and location analysis.) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 474.60 Tm (Document Q&A Bot | Python, RAG, Embeddings, Vector Search | 2025) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 461.60 Tm (Implemented document ingestion, chunking, embeddings and similarity-based source retrieval.) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 450.00 Tm (Women Safety Device | GPS, GSM, Embedded C, IoT | 2024) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 437.00 Tm (Academic device concept combining GPS location tracking with GSM-based alerting.) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 423.20 Tm (INTERNSHIP) Tj ET
-BT /F2 9.3 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 406.20 Tm (Python Intern - Edugene Technologies | Feb-Aug 2025) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 393.20 Tm (Hands-on Python data structures, loops, functions, file handling, scripting, debugging and data exercises.) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 379.40 Tm (EDUCATION) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 362.40 Tm (CMR Institute of Technology, Hyderabad | B.Tech ECE | 2021-2025 | CGPA 7.02/10) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 350.80 Tm (Sri Sathya Sai Junior College, Anantapur | Intermediate | 2019-2021 | 87%) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 339.20 Tm (AP Model School, Anantapur | SSC | 2019 | 92%) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 325.40 Tm (CERTIFICATIONS / VIRTUAL INTERNSHIPS) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 308.40 Tm (Android Developer - Google for Developers, AICTE EduSkills | Jul-Sep 2024) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 296.80 Tm (Data Engineering - AWS Academy, AICTE EduSkills | Apr-Jun 2024) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 285.20 Tm (AI-ML - Google for Developers, AICTE EduSkills | Jan-Mar 2024) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 273.60 Tm (Intelligent Automation - SS&C Blue Prism, AICTE EduSkills | Sep-Nov 2023) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 262.00 Tm (Modern C++ - Infosys Springboard | Oct-Dec 2023) Tj ET
-BT /F2 10 Tf 0.05 0.35 0.42 rg 1 0 0 1 41 248.20 Tm (HOBBIES & INTERESTS) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 231.20 Tm (Personal hobbies: Reading Books; Playing Games.) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 219.60 Tm (Professional interests demonstrated in projects: applied AI, multilingual tools, data visualization.) Tj ET
-BT /F1 8.55 Tf 0.09 0.18 0.24 rg 1 0 0 1 41 208.00 Tm (Portfolio: harshakavali81-collab.github.io/harshavardhan-portfolio/) Tj ET
-endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+<< /Length 4206 >>
+stream
+0 0 0 rg
+0 0 0 RG
+BT /F2 18.2 Tf 44 763 Td (KAVALI HARSHAVARDHAN) Tj ET
+BT /F2 9.5 Tf 44 736 Td (ENTRY-LEVEL AI/ML ENGINEER | DATA ANALYST | PYTHON) Tj ET
+BT /F1 8.5 Tf 44 719 Td (Hyderabad, Telangana | +91 8008273318 | kavaliharshavardhan98@gmail.com) Tj ET
+BT /F1 8.5 Tf 44 706.6 Td (github.com/harshakavali81-collab | linkedin.com/in/kavali-harshavardhan-7ab93a28b/) Tj ET
+BT /F2 10.1 Tf 44 690.2 Td (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 9.2 Tf 44 673.4000000000001 Td (2025 B.Tech ECE graduate and IT fresher with Python internship experience. Built educational) Tj ET
+BT /F1 9.2 Tf 44 660.2 Td (ML/NLP and document-retrieval applications alongside analytics and BI projects. Seeking) Tj ET
+BT /F1 9.2 Tf 44 647 Td (entry-level AI/ML, Python or Data Analyst opportunities.) Tj ET
+BT /F2 10.1 Tf 44 629.8 Td (SKILLS) Tj ET
+BT /F1 9.2 Tf 44 613 Td (Programming: Python, Pandas, NumPy, SQL, MySQL, C, C++; Git, GitHub, VS Code, Jupyter.) Tj ET
+BT /F1 9.2 Tf 44 599.8 Td (Analytics: Excel \(Pivot Tables, VLOOKUP\), Power BI, Tableau, DAX, EDA, KPI reporting, data) Tj ET
+BT /F1 9.2 Tf 44 586.5999999999999 Td (cleaning.) Tj ET
+BT /F1 9.2 Tf 44 573.3999999999999 Td (AI/ML: scikit-learn, TensorFlow, Keras, NLTK, NLP classification, model evaluation, RAG, vector) Tj ET
+BT /F1 9.2 Tf 44 560.1999999999998 Td (search.) Tj ET
+BT /F1 9.2 Tf 44 546.9999999999998 Td (Professional: Problem solving, analytical thinking, communication, collaboration, attention to) Tj ET
+BT /F1 9.2 Tf 44 533.7999999999997 Td (detail.) Tj ET
+BT /F2 10.1 Tf 44 516.5999999999997 Td (SELECTED PROJECTS) Tj ET
+BT /F2 9.15 Tf 44 499.79999999999967 Td (Multilingual Indian Language Knowledge Base | Python, FastAPI, NLP) Tj ET
+BT /F1 9.2 Tf 44 485.79999999999967 Td (Portfolio application for multilingual document retrieval and answers; optional LaBSE and LLM) Tj ET
+BT /F1 9.2 Tf 44 472.5999999999997 Td (paths with a local fallback.) Tj ET
+BT /F2 9.15 Tf 44 459.3999999999997 Td (Document Q&A Bot | Python, RAG, Embeddings, Vector Search) Tj ET
+BT /F1 9.2 Tf 44 445.3999999999997 Td (Document ingestion, chunking and evidence-linked retrieval with reusable Python modules.) Tj ET
+BT /F2 9.15 Tf 44 432.1999999999997 Td (TransactionShield | Python, scikit-learn, FastAPI, React) Tj ET
+BT /F1 9.2 Tf 44 418.1999999999997 Td (Synthetic-only fraud-risk scoring prototype; evaluation pipeline, API endpoints and dashboard.) Tj ET
+BT /F2 9.15 Tf 44 404.9999999999997 Td (Zomato Insights Dashboard | Power BI) Tj ET
+BT /F1 9.2 Tf 44 390.9999999999997 Td (Restaurant ratings, cuisines and pricing explored with KPIs, DAX and interactive slicers.) Tj ET
+BT /F2 10.1 Tf 44 373.7999999999997 Td (INTERNSHIP) Tj ET
+BT /F2 9.15 Tf 44 356.9999999999997 Td (Python Intern | Edugene Technologies | Feb - Aug 2025) Tj ET
+BT /F1 9.2 Tf 44 342.9999999999997 Td (Guided Python work on data structures, functions, file handling, automation, debugging and data) Tj ET
+BT /F1 9.2 Tf 44 329.7999999999997 Td (preparation.) Tj ET
+BT /F2 10.1 Tf 44 312.59999999999974 Td (EDUCATION - OFFICIAL MARKSHEET RESULTS) Tj ET
+BT /F2 9.15 Tf 44 295.7999999999997 Td (B.Tech Electronics & Communication Engineering | CMR Institute of Technology | 2021 - 2025) Tj ET
+BT /F1 9.2 Tf 44 281.7999999999997 Td (First Class | CGPA 7.03/10 \(supplied consolidated grade sheet, July 2025\).) Tj ET
+BT /F1 9.2 Tf 44 268.59999999999974 Td (Intermediate MPC | Sri Sathya Sai Junior College, Anantapur | 2021 | 864/1000 \(86.4%\).) Tj ET
+BT /F1 9.2 Tf 44 255.39999999999975 Td (SSC | AP Model School, Anantapur | 2019 | GPA 9.2/10.) Tj ET
+BT /F2 10.1 Tf 44 238.19999999999976 Td (RELEVANT TRAINING) Tj ET
+BT /F1 9.2 Tf 44 221.39999999999975 Td (AWS Academy: Cloud Developing \(40h\), Data Engineering \(40h\); EduSkills: Data Engineering, Google) Tj ET
+BT /F1 9.2 Tf 44 208.19999999999976 Td (AI-ML, Google Android, Blue Prism Intelligent Automation; NSIC Entrepreneurship Orientation.) Tj ET
+BT /F2 10.1 Tf 44 190.99999999999977 Td (PORTFOLIO AND PROFESSIONAL PROFILES) Tj ET
+BT /F1 9.2 Tf 44 174.19999999999976 Td (Portfolio: harshakavali81-collab.github.io/harshavardhan-portfolio/ | GitHub:) Tj ET
+BT /F1 9.2 Tf 44 160.99999999999977 Td (github.com/harshakavali81-collab) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Title (Kavali Harshavardhan - AI ML Resume) /Author (Kavali Harshavardhan) /Creator (Verified Academic Update 2026) >>
 endobj
 xref
-0 7
+0 8
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000185 00000 n 
-0000000260 00000 n 
-0000005451 00000 n 
+0000000033 00000 n 
+0000000082 00000 n 
+0000000139 00000 n 
+0000000275 00000 n 
+0000000345 00000 n 
+0000000420 00000 n 
+0000004677 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
 startxref
-5587
+4815
 %%EOF
