@@ -68,7 +68,7 @@ python3 scripts/audit_site.py
 ## Accessibility and privacy
 
 - Use semantic heading levels, descriptive link text, labeled controls, visible keyboard focus, alt text for actual images, and a skip-to-content link.
-- Maintain disclosure of `mailto:` behavior; the browser opens the visitor's email app but **does not send automatically**.
+- The main contact flow opens Gmail's browser compose page with a pre-filled recipient/subject/body. It requires Gmail sign-in and a manual Send click. The optional `mailto:` button still opens the local default mail app, and the copy-email button provides a no-handler fallback. Do not claim the portfolio automatically sends messages.
 - Static pages do not install custom analytics or a contact-collection backend. GitHub/other linked platforms have their own hosting, analytics and privacy policies.
 - Never advertise independent physical-device QA, WCAG certification, genuine real-time integrations, or production ML performance without appropriate evidence.
 
