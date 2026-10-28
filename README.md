@@ -4,9 +4,26 @@
 
 Professional GitHub Pages portfolio for a 2025 B.Tech **Electronics & Communication Engineering** graduate in Hyderabad, seeking entry-level AI/ML, Data Analyst, Python Developer, and Software Engineering opportunities.
 
+## Premium black portfolio · October 2026
+
+The portfolio now uses an **obsidian black (#080808), champagne gold and warm ivory** identity for the homepage and professional career pages. It is an original implementation that preserves accessibility, mobile navigation, and role-specific content.
+
+- **[Premium homepage](index.html)** — distinctive KH monogram, developer intro, six selected engineering case-study cards, searchable full GitHub gallery and recruiter-ready shortcuts.
+- **[Professional profile](profile.html)** — education, internship, skills and all 31 searchable repository entries.
+- **[Complete project gallery](linkedin-projects.html)** — 31 unique GitHub repositories (including the portfolio repository itself), categorization and source links.
+- **[Recruiter Desk](index.html#recruiter-desk)** — downloadable role-specific resumes, [skills-to-project evidence](proof-map.html), [hiring FAQ](hiring.html), and [job-platform profile kit](job-platforms.html).
+- **[LinkedIn copy kit](linkedin-setup.html)** — 31 source-linked project descriptions ready for manual profile entry, not an automatic LinkedIn edit.
+- **[Technical case studies](work.html)** — source-backed examples, with synthetic-data, validation and deployment limitations explained.
+
+Design assets: `assets/kedhar-inspired.css` (premium homepage), `assets/kedhar-interior.css` (career and case-study pages), `assets/kh-mark.svg` (black/gold monogram). UI uses CSS decoration rather than unlicensed stock images.
+
+Validation: `python3 scripts/check_premium_black.py`; existing static site audits and live multi-browser QA run independently in GitHub Actions. A CI pass is not equivalent to real-world production validation.
+
+> Portfolio source files can be updated in GitHub without editing third-party LinkedIn, Naukri or foundit profiles. Any synthetic-data demonstration is identified as a portfolio prototype, not a commercially deployed or independently certified application.
+
 ## Website redesign highlights
 
-- **[Portfolio homepage](index.html)** — soft gold/ivory theme and a prominent **31-repository gallery** introduction.
+- **[Portfolio homepage](index.html)** — premium black-and-champagne theme and a prominent **31-repository gallery** introduction.
 - **[Explore all 31 GitHub project cards](linkedin-projects.html)** — illustrated cards, searchable by title/skills, filterable by category and featured/additional collection, with exact public source links.
 - **[LinkedIn profile setup — 31 copy-ready entries](linkedin-setup.html)** — headline, About, featured website, education, experience, skills, all project descriptions and a draft public post.
 - **[Project case studies](work.html)** — selected technical deep dives with documented data/evaluation limitations.
