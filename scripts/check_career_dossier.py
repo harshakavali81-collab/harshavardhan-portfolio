@@ -1,4 +1,4 @@
-"""Static verification of the public recruiter dossier and gold-only career theme."""
+"""Static verification of recruiter dossier, featured repositories and seven-color premium theme."""
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
@@ -56,14 +56,19 @@ def check():
     assert 'id="career-12"' in home and "career-portfolio.html#twelve-elements" in home
     assert 'id="professional-links"' in profile and 'id="beyond"' in profile
     assert home.count('class="bh-project-source" href=') == 31
-    # Canonical two-color release: visually support ONLY #080808 and #d4af37.
+    # The owner selected an EXACT seven-token screen palette; legacy CSS
+    # remains for backward compatibility but the last-loaded theme owns paint.
     import re
-    marker = "KH FINAL / TWO-COLOR BLACK + GOLD"
-    assert marker in css, "Owner-selected pure black/gold theme missing"
-    final_css = css[css.rfind(marker):]
-    palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", final_css.lower()))
-    assert palette == {"#080808", "#d4af37"}, f"Unexpected final theme colors: {palette}"
-    assert css.rfind(marker) > css.rfind("KH SOFT GOLD"), "Older styling overrides the two-color theme"
+    theme_file = (ROOT / "assets/kh-ivory-accent.css").read_text(encoding="utf-8")
+    assert "Seven-color premium recruiter system" in theme_file
+    palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme_file.lower()))
+    assert palette == {
+        "#090909", "#141414", "#d4af65", "#e6d6af",
+        "#f5f0e6", "#b8b4ac", "#3b3324"
+    }, f"Unexpected premium theme colors: {palette}"
+    for font in ("Manrope", "Inter", "JetBrains Mono"):
+        assert font in theme_file, f"Premium font missing: {font}"
+    assert "assets/kh-ivory-accent.css" in (ROOT / "index.html").read_text(encoding="utf-8")
     for destination in ("index.html", "contact.html", "recruiter.html",
                         "profile.html", "career-portfolio.html", "resumes.html"):
         markup = (ROOT / destination).read_text(encoding="utf-8")
@@ -144,7 +149,10 @@ def check():
     assert "assets/kh-ivory-accent.css?v=20261028-featured6" in home
     accents = (ROOT / "assets/kh-ivory-accent.css").read_text(encoding="utf-8")
     visible_palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", accents.lower()))
-    assert visible_palette == {"#080808","#d4af37","#f0e6d2"}, visible_palette
+    assert visible_palette == {
+        "#090909", "#141414", "#d4af65", "#e6d6af",
+        "#f5f0e6", "#b8b4ac", "#3b3324"
+    }, visible_palette
     theme = (ROOT / "assets/resume-evidence.css").read_text(encoding="utf-8")
     palette = set(re.findall(r"#[0-9a-fA-F]{6}(?![0-9a-fA-F])", theme.lower()))
     assert palette == {"#080808","#d4af37"}
