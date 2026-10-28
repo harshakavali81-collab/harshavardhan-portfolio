@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0",
+  "reviewedDate": "2026-10-28",
+  "scope": "Portfolio-level editorial summary of linked public source files; not independent commercial validation",
+  "disclaimer": "Metrics apply to the documented synthetic or source datasets. No values are claimed as company revenue gained, risk avoided, or production accuracy.",
+  "entries": [
+    {
+      "slug": "ecommerce",
+      "title": "E-Commerce Sales & Customer Analytics",
+      "discipline": "data",
+      "role": "Data Analyst",
+      "stack": [
+        "Python",
+        "Pandas",
+        "SQLite",
+        "SQL",
+        "RFM",
+        "Cohorts"
+      ],
+      "question": "Can transactional revenue and customer metrics be recomputed consistently after cleaning?",
+      "architecture": [
+        "Seeded fictional orders",
+        "Validation and quarantine",
+        "Recognized-revenue model",
+        "SQL and Pandas reconciliation",
+        "Segmentation and dashboards"
+      ],
+      "test": "Four business-rule tests plus cross-tool accounting reconciliation are reported.",
+      "metric": "₹0.01",
+      "metricLabel": "Maximum reconciliation tolerance",
+      "metricDetail": "SQL/Python revenue and profit reconcile within INR 0.01 in a synthetic dataset of 72,388 original lines.",
+      "source": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
+      "evidence": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/README.md",
+      "casePage": "cases/ecommerce.html",
+      "sample": "Fixed-seed synthetic sales, January 2024–December 2025.",
+      "tradeoff": "Only Completed lines recognize revenue; this improves accounting consistency but depends on the simulated status model.",
+      "limitations": "No actual retailer data or independently measured revenue improvement. Power BI native refresh remains unverified.",
+      "reviewNext": "Run the existing pipeline and unit tests using the repository's documented Python setup, then compare SQL and Pandas totals.",
+      "testCommands": [
+        "python src/pipeline.py",
+        "python -m unittest discover -s tests"
+      ],
+      "claimLevel": "Source-recorded synthetic benchmark"
+    },
+    {
+      "slug": "transactionshield",
+      "title": "TransactionShield",
+      "discipline": "ml",
+      "role": "Python / ML / Software",
+      "stack": [
+        "FastAPI",
+        "LightGBM",
+        "React",
+        "SQLAlchemy",
+        "Python",
+        "PostgreSQL"
+      ],
+      "question": "Can a scoring API expose fraud-risk recommendations without hiding severe model errors?",
+      "architecture": [
+        "4,000 simulated transactions",
+        "Chronological data splits",
+        "Model and review threshold",
+        "FastAPI and SQL persistence",
+        "React review console"
+      ],
+      "test": "Held-out synthetic evaluation uses 800 records with 21 labelled fraud events.",
+      "metric": "0.0319",
+      "metricLabel": "Held-out PR-AUC",
+      "metricDetail": "Precision 0.0246, recall 0.1429, F1 0.0420; results are weak and do not support deployment.",
+      "source": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.",
+      "evidence": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform./blob/main/docs/RESULTS.md",
+      "casePage": "cases/transactionshield.html",
+      "sample": "4,000 fictional transactions; fraud prevalence 2.33%.",
+      "tradeoff": "Validation F2 selected a recall-focused review threshold of 0.03, producing many false alarms.",
+      "limitations": "Not a production fraud detection system; real labels, calibration, drift monitoring and domain/security validation are missing.",
+      "reviewNext": "Inspect the evaluation record, rerun the repository's documented fast training script, and analyze the precision-recall tradeoff.",
+      "testCommands": [
+        "python -m ml.training.train --fast"
+      ],
+      "claimLevel": "Source-recorded weak synthetic evaluation"
+    },
+    {
+      "slug": "demandpilot",
+      "title": "DemandPilot AI",
+      "discipline": "ml",
+      "role": "Data Science / Python",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "Pandas",
+        "FastAPI",
+        "Streamlit",
+        "SQLite"
+      ],
+      "question": "Does a time-ordered forecasting pipeline outperform a naive seasonal benchmark?",
+      "architecture": [
+        "420 days of simulated sales",
+        "Past-only lags and time features",
+        "Chronological validation",
+        "Baseline vs LightGBM",
+        "Illustrative reorder planner"
+      ],
+      "test": "Validation and held-out one-step test WAPE are reported against a weekly seasonal naive baseline.",
+      "metric": "18.469%",
+      "metricLabel": "LightGBM held-out WAPE",
+      "metricDetail": "Versus 29.012% for the seasonal naive baseline on simulated one-step held-out data.",
+      "source": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
+      "evidence": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/docs/model_card.md",
+      "casePage": "cases/demandpilot.html",
+      "sample": "420 days of generated SKU-store sales; 8 products and 2 stores.",
+      "tradeoff": "Chronological validation reduces temporal leakage; recursive forecasting can compound error across the horizon.",
+      "limitations": "No rolling multi-step verification, calibrated confidence interval, or proven stockout reduction. The interval heuristic uses test residuals.",
+      "reviewNext": "Inspect the model card and compare lightGBM to seasonal naive under a proper rolling-origin multi-horizon experiment.",
+      "testCommands": [],
+      "claimLevel": "Source-recorded one-step synthetic evaluation"
+    },
+    {
+      "slug": "evidencedesk",
+      "title": "EvidenceDesk Document Q&A",
+      "discipline": "nlp",
+      "role": "AI / Python / QA",
+      "stack": [
+        "Python",
+        "TF-IDF",
+        "Streamlit",
+        "pytest",
+        "PDF",
+        "RAG"
+      ],
+      "question": "Can a document question-answering workflow return traceable evidence and abstain when a source does not support the answer?",
+      "architecture": [
+        "Document parsing",
+        "Overlapping chunks",
+        "TF-IDF evidence retrieval",
+        "Citation checks",
+        "Streamlit interface"
+      ],
+      "test": "16 tests passed in the local recorded run; 30 authored fixture questions include five unsupported cases.",
+      "metric": "23/25",
+      "metricLabel": "Answerable evidence hits",
+      "metricDetail": "3/5 unsupported questions were correctly abstained; evidence-hit rate is not end-to-end generated answer accuracy.",
+      "source": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
+      "evidence": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant/blob/main/docs/VALIDATION.md",
+      "casePage": "cases/evidencedesk.html",
+      "sample": "Small authored, synthetic document question corpus.",
+      "tradeoff": "A local TF-IDF baseline is reproducible without relying on optional online LLM services.",
+      "limitations": "Live semantic/Groq mode, generated answer correctness, hosted multi-user security and fresh-machine installs remain unverified.",
+      "reviewNext": "Run the documented pytest and retrieval evaluator; separately test unsupported queries before enabling optional online modes.",
+      "testCommands": [
+        "python -m pytest -q",
+        "python -m evaluation.evaluate"
+      ],
+      "claimLevel": "Local recorded tests / authored fixtures"
+    },
+    {
+      "slug": "zomato",
+      "title": "Zomato Insights Dashboard",
+      "discipline": "bi",
+      "role": "Data Analyst / BI",
+      "stack": [
+        "Power BI",
+        "Excel",
+        "DAX",
+        "Data modeling",
+        "Slicers"
+      ],
+      "question": "Can an interactive dashboard make restaurant composition, geography and cuisines easier to explore?",
+      "architecture": [
+        "Restaurant workbook",
+        "Attribute preparation",
+        "Power BI data model",
+        "KPIs and slicers",
+        "Documented insights"
+      ],
+      "test": "README documents data-set KPIs and visualization components. No independently reproduced public browser or PBIX render was verified.",
+      "metric": "9,551",
+      "metricLabel": "Restaurants in dataset",
+      "metricDetail": "Also 250 cuisines, 15 countries, 141 cities, and average rating 2.89, reported in the project README.",
+      "source": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI",
+      "evidence": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/blob/main/README.md",
+      "casePage": "cases/zomato.html",
+      "sample": "Restaurant-level workbook referenced by the Power BI case study.",
+      "tradeoff": "Filters and KPI cards enable contextual exploration but must not be mistaken for causally proven commercial outcomes.",
+      "limitations": "Native PBIX and workbook files are described in source material; direct public binary download and refresh are not independently verified.",
+      "reviewNext": "Validate the source workbook's row counts and data schema in Power BI Desktop, then compare published measures against the README.",
+      "testCommands": [],
+      "claimLevel": "Repository-documented dataset KPIs"
+    }
+  ]
+}
