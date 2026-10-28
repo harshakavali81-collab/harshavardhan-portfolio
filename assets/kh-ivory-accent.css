@@ -420,3 +420,109 @@
     body.bh-body .kh-resume-skill-grid {grid-template-columns:1fr!important;}
   }
 }
+
+/* Role-based portfolio proof and honest career growth — seven-token palette. */
+@media screen {
+  body.bh-body .kh-skill-evidence {
+    margin-top:clamp(36px,5vw,66px);
+    padding-top:clamp(22px,3vw,38px);
+    border-top:1px solid #3B3324;
+    color:#B8B4AC;
+    font-family:var(--font-body);
+  }
+  body.bh-body .kh-skill-evidence-heading {max-width:780px;margin-bottom:24px;}
+  body.bh-body .kh-skill-evidence-heading h3 {
+    font:600 clamp(26px,3vw,36px)/1.2 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+    margin:10px 0 12px;
+  }
+  body.bh-body .kh-skill-evidence :is(p,li) {
+    font:400 clamp(15px,1.08vw,17px)/1.65 var(--font-body)!important;
+    color:#B8B4AC!important;-webkit-text-fill-color:#B8B4AC!important;
+  }
+  body.bh-body .kh-skill-evidence :is(p,li) strong {
+    font-weight:600!important;color:#F5F0E6!important;
+    -webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .kh-skill-evidence-grid {
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;
+  }
+  body.bh-body .kh-skill-evidence-card {
+    min-width:0;padding:clamp(20px,2vw,28px);
+    border:1px solid #3B3324!important;border-radius:18px;
+    background:#141414!important;background-image:none!important;
+    display:flex;flex-direction:column;gap:10px;
+    box-shadow:none!important;
+  }
+  body.bh-body .kh-skill-evidence-card .kh-skill-category {
+    font:500 12px/1.5 var(--font-code)!important;letter-spacing:.06em;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body.bh-body .kh-skill-evidence-card h4,
+  body.bh-body .kh-skill-roadmap h4,
+  body.bh-body .kh-skill-recruiter h4 {
+    margin:2px 0 4px;
+    font:600 clamp(20px,1.7vw,24px)/1.32 var(--font-heading)!important;
+    color:#F5F0E6!important;-webkit-text-fill-color:#F5F0E6!important;
+  }
+  body.bh-body .kh-skill-evidence-card p {margin:0!important;}
+  body.bh-body .kh-skill-evidence-card .kh-skill-evidence-tools {
+    padding-top:12px;margin-top:auto!important;
+    border-top:1px solid #3B3324;
+  }
+  body.bh-body .kh-skill-evidence-card .kh-skill-evidence-project {
+    margin:0!important;
+  }
+  body.bh-body .kh-skill-evidence-links,
+  body.bh-body .kh-skill-recruiter-links {
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+    margin-top:7px;
+  }
+  body.bh-body .kh-skill-evidence-links a,
+  body.bh-body .kh-skill-recruiter-links a {
+    display:inline-flex;align-items:center;
+    min-height:40px;padding:9px 13px;border-radius:10px;
+    font:600 14px/1.35 var(--font-body)!important;
+    border:1px solid #3B3324!important;
+    background:#090909!important;text-decoration:none!important;
+    color:#D4AF65!important;-webkit-text-fill-color:#D4AF65!important;
+  }
+  body.bh-body .kh-skill-evidence-links a:hover,
+  body.bh-body .kh-skill-recruiter-links a:hover {
+    border-color:#D4AF65!important;
+    background:#141414!important;
+    color:#E6D6AF!important;-webkit-text-fill-color:#E6D6AF!important;
+  }
+  body.bh-body .kh-skill-roadmap {
+    margin-top:20px;padding:clamp(20px,2.5vw,30px);
+    border:1px solid #3B3324!important;
+    border-radius:18px;background:#141414!important;
+    display:grid;grid-template-columns:1fr 1.4fr;gap:24px;align-items:start;
+  }
+  body.bh-body .kh-skill-roadmap p {margin:8px 0 0;}
+  body.bh-body .kh-skill-roadmap ul {margin:0;padding-left:22px;}
+  body.bh-body .kh-skill-roadmap li + li {margin-top:10px;}
+  body.bh-body .kh-skill-recruiter {
+    display:flex;align-items:center;justify-content:space-between;
+    gap:20px;margin-top:20px;padding:clamp(20px,2.5vw,30px);
+    border:1px solid #3B3324!important;
+    border-radius:18px;background:#141414!important;
+  }
+  body.bh-body .kh-skill-recruiter > div:first-child {max-width:570px;}
+  body.bh-body .kh-skill-recruiter p {margin:8px 0 0;}
+  body.bh-body .kh-skill-recruiter-links {max-width:510px;justify-content:flex-end;}
+  @media (max-width:1050px) {
+    body.bh-body .kh-skill-evidence-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+    body.bh-body .kh-skill-recruiter {flex-direction:column;align-items:stretch;}
+    body.bh-body .kh-skill-recruiter-links {justify-content:flex-start;max-width:none;}
+  }
+  @media (max-width:730px) {
+    body.bh-body .kh-skill-evidence-grid,
+    body.bh-body .kh-skill-roadmap {grid-template-columns:minmax(0,1fr);}
+    body.bh-body .kh-skill-evidence-card {padding:21px;}
+  }
+  @media (prefers-reduced-motion:reduce) {
+    body.bh-body .kh-skill-evidence-card,
+    body.bh-body .kh-skill-evidence-links a {transition:none!important;transform:none!important;}
+  }
+}
