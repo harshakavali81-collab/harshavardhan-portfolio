@@ -1,178 +1,178 @@
 {
-  "checked_at": "2026-10-29T08:37:12.540073+00:00",
+  "checked_at": "2026-10-29T14:27:29.906937+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 115310,
+      "bytes": 130979,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "flagship-projects.html",
       "status": 200,
-      "bytes": 20250,
+      "bytes": 21057,
       "ok": false,
       "current_release_marker": false
     },
     {
       "page": "certificates.html",
       "status": 200,
-      "bytes": 15020,
+      "bytes": 15827,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "portfolio-readiness.html",
       "status": 200,
-      "bytes": 28181,
+      "bytes": 28988,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "career-portfolio.html",
       "status": 200,
-      "bytes": 26254,
+      "bytes": 27061,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "work.html",
       "status": 200,
-      "bytes": 21373,
+      "bytes": 22180,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "job-platforms.html",
       "status": 200,
-      "bytes": 59597,
+      "bytes": 60404,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 103372,
+      "bytes": 104179,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "evidence.html",
       "status": 200,
-      "bytes": 7649,
+      "bytes": 8456,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "engineering.html",
       "status": 200,
-      "bytes": 15461,
+      "bytes": 16268,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "proof-map.html",
       "status": 200,
-      "bytes": 17378,
+      "bytes": 18185,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 69782,
+      "bytes": 70589,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "recruiter.html",
       "status": 200,
-      "bytes": 14851,
+      "bytes": 15658,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resumes.html",
       "status": 200,
-      "bytes": 7747,
+      "bytes": 8554,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "resume.html",
       "status": 200,
-      "bytes": 7843,
+      "bytes": 8650,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "data-analyst-resume.html",
       "status": 200,
-      "bytes": 9353,
+      "bytes": 10160,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 10958,
+      "bytes": 11765,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "hiring.html",
       "status": 200,
-      "bytes": 11386,
+      "bytes": 12193,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "interview.html",
       "status": 200,
-      "bytes": 11017,
+      "bytes": 11824,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "quality.html",
       "status": 200,
-      "bytes": 12734,
+      "bytes": 13541,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 10373,
+      "bytes": 12802,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/transactionshield.html",
       "status": 200,
-      "bytes": 10845,
+      "bytes": 11667,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 10515,
+      "bytes": 12798,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 9975,
+      "bytes": 12196,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/zomato.html",
       "status": 200,
-      "bytes": 9875,
+      "bytes": 11047,
       "ok": true,
       "current_release_marker": null
     }
@@ -211,6 +211,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/A-Multimodal-AI-Customer-Support-Copilot",
       "pages": [
+        "all-projects.html",
         "cases/copilot.html",
         "index.html",
         "job-platforms.html",
@@ -225,6 +226,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -236,6 +238,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -255,6 +258,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -265,6 +269,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -276,6 +281,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -295,6 +301,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -305,6 +312,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -316,6 +324,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -335,6 +344,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -345,6 +355,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
       "pages": [
+        "all-projects.html",
         "career-portfolio.html",
         "cases/evidencedesk.html",
         "index.html",
@@ -355,6 +366,15 @@
         "work.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant/blob/main/README.md",
+      "pages": [
+        "cases/evidencedesk.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -371,6 +391,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -382,6 +403,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -401,6 +423,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -411,6 +434,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -422,6 +446,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -441,6 +466,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -452,6 +478,7 @@
       "url": "https://github.com/harshakavali81-collab/AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
       "pages": [
         "airaware.html",
+        "all-projects.html",
         "cases/airaware.html",
         "index.html",
         "job-platforms.html",
@@ -602,6 +629,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/AstraSentinel-AI",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -615,6 +643,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Automated-E-commerce-Analytics-Sentiment",
       "pages": [
+        "all-projects.html",
         "cases/commercelens-report.html",
         "cases/commercelens.html",
         "commercelens-demo.html",
@@ -668,6 +697,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -681,6 +711,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Big-Data-Analytics-Advanced-SQL",
       "pages": [
+        "all-projects.html",
         "bigdata-demo.html",
         "cases/big-data-clickstream.html",
         "index.html",
@@ -733,6 +764,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/CivicShield-AI",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -746,6 +778,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -766,6 +799,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -776,6 +810,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -796,6 +831,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -806,6 +842,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -819,6 +856,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -839,6 +877,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -849,6 +888,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-System",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -862,6 +902,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Demand-Forecasting-Inventory-Optimization-Project",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -875,6 +916,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
       "pages": [
+        "all-projects.html",
         "career-portfolio.html",
         "cases/demandpilot.html",
         "flagship-projects.html",
@@ -891,6 +933,15 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/README.md",
+      "pages": [
+        "cases/demandpilot.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/blob/main/docs/model_card.md",
       "pages": [
         "cases/demandpilot.html",
@@ -903,6 +954,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
       "pages": [
+        "all-projects.html",
         "career-portfolio.html",
         "cases/ecommerce.html",
         "index.html",
@@ -930,6 +982,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -941,6 +994,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -960,6 +1014,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -970,6 +1025,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -990,6 +1046,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1000,6 +1057,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1022,6 +1080,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution",
       "pages": [
+        "all-projects.html",
         "cases/foodbridge.html",
         "index.html",
         "job-platforms.html",
@@ -1064,6 +1123,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Fraud-Detection-and-Risk-Sorting-Platform",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1077,6 +1137,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics",
       "pages": [
+        "all-projects.html",
         "cases/supportlens.html",
         "index.html",
         "job-platforms.html",
@@ -1128,6 +1189,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/HealthPulse-AI-Public-Health-Trends-Resource-Intelligence",
       "pages": [
+        "all-projects.html",
         "career-portfolio.html",
         "cases/healthpulse.html",
         "healthpulse-demo.html",
@@ -1182,6 +1244,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/IPL-Dashboard-Project-Demo",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1195,6 +1258,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Implementation-of-Binary-to-Gray-code-Converter-by-using-Quantum-Dot-Cellular-Automata",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1208,6 +1272,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1221,6 +1286,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1241,6 +1307,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1251,6 +1318,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -1262,6 +1330,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1281,6 +1350,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -1291,6 +1361,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence",
       "pages": [
+        "all-projects.html",
         "cases/mobilitypulse.html",
         "index.html",
         "job-platforms.html",
@@ -1361,6 +1432,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -1372,6 +1444,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1391,6 +1464,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -1401,6 +1475,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Project",
       "pages": [
+        "all-projects.html",
         "cases/multilingual.html",
         "flagship-projects.html",
         "index.html",
@@ -1426,6 +1501,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1446,6 +1522,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1456,6 +1533,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Personalized-Recommendation-Engine",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1476,6 +1554,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Personalized-Recommendation-Engine/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1486,6 +1565,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing",
       "pages": [
+        "all-projects.html",
         "cases/inventoryiq.html",
         "index.html",
         "inventoryiq-demo.html",
@@ -1556,6 +1636,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1576,6 +1657,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1586,6 +1668,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1606,6 +1689,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1616,6 +1700,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
       "pages": [
+        "all-projects.html",
         "cases/streamwatch.html",
         "index.html",
         "job-platforms.html",
@@ -1686,6 +1771,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "ml-projects.html"
@@ -1706,6 +1792,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization/blob/main/docs/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1716,6 +1803,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -1727,6 +1815,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1746,6 +1835,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -1756,6 +1846,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
       "pages": [
+        "all-projects.html",
         "cases/docsight.html",
         "docsight-demo.html",
         "index.html",
@@ -1790,6 +1881,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.",
       "pages": [
+        "all-projects.html",
         "career-portfolio.html",
         "cases/transactionshield.html",
         "index.html",
@@ -1817,6 +1909,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html",
         "public-benefit-ai-projects.html"
@@ -1828,6 +1921,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant/blob/main/assets/architecture.svg",
       "pages": [
+        "all-projects.html",
         "index.html",
         "linkedin-projects.html"
       ],
@@ -1847,6 +1941,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant/blob/main/docs/PROJECT_STRUCTURE.md",
       "pages": [
+        "all-projects.html",
         "index.html",
         "public-benefit-ai-projects.html"
       ],
@@ -1857,6 +1952,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Women-Saftey-Device-by-Using-GPS-and-GSM-",
       "pages": [
+        "all-projects.html",
         "cases/women-safety.html",
         "index.html",
         "job-platforms.html",
@@ -1871,6 +1967,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI",
       "pages": [
+        "all-projects.html",
         "cases/zomato.html",
         "flagship-projects.html",
         "index.html",
@@ -1906,6 +2003,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/document-qa-bot",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -1920,6 +2018,7 @@
     {
       "url": "https://github.com/harshakavali81-collab/harshavardhan-portfolio",
       "pages": [
+        "all-projects.html",
         "index.html",
         "job-platforms.html",
         "linkedin-projects.html",
@@ -2063,6 +2162,15 @@
       "pages": [
         "bigdata-demo.html",
         "index.html"
+      ],
+      "via": "http",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/all-projects.html",
+      "pages": [
+        "all-projects.html"
       ],
       "via": "http",
       "status": 200,
@@ -2935,7 +3043,7 @@
     }
   ],
   "external_counts": {
-    "ok": 272,
+    "ok": 275,
     "broken": 0,
     "unknown": 2,
     "http-error": 0
