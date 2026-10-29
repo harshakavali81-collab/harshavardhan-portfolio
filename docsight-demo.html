@@ -21,9 +21,11 @@ button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-vis
 .bar{display:grid;grid-template-columns:85px 1fr 30px;align-items:center;gap:10px;font-size:11px;margin:14px 0}.track{height:10px;border-radius:10px;background:#353b3c;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#9f8155,#efd3a0)}.bar output{text-align:right;color:#ebd3a7}
 #errors{color:#ffbfb4;font-size:12px;min-height:16px}footer{border-top:1px solid #343434;margin-top:45px;padding:20px 0;color:#a9a69e;font-size:11px;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
 [hidden]{display:none!important}@media(max-width:730px){.grid{grid-template-columns:1fr}.shell{padding:30px 17px}.panel{padding:17px}.stats{grid-template-columns:1fr}.nav{padding:14px 17px}.nav-links{gap:9px}}
-</style><link rel="stylesheet" href="assets/kh-ivory-accent.css?v=20261028-seven7">
+</style><link rel="stylesheet" href="assets/recruiter-curation.css?v=20261029">
+<link rel="stylesheet" href="assets/kh-ivory-accent.css?v=20261028-seven7">
+
 </head>
-<body><header class="nav"><a class="brand" href="./">DOCSIGHT <b>AI</b> / KH.</a><nav class="nav-links"><a href="cases/docsight.html">Case study</a><a href="https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer" target="_blank" rel="noopener noreferrer">GitHub source</a></nav></header>
+<body><header class="nav"><a class="brand" href="./">DOCSIGHT <b>AI</b> / KH.</a><nav class="nav-links"><a href="cases/docsight.html">Case study</a><a href="https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer" target="_blank" rel="noopener noreferrer">GitHub source</a></nav><div class="recruiter-access" aria-label="Resume downloads and email"><a href="assets/Kavali_Harshavardhan_Data_Analyst_Resume.pdf" download>Data Analyst resume · PDF ↓</a><a href="assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf" download>AI/ML resume · PDF ↓</a><a href="mailto:kavaliharshavardhan98@gmail.com">kavaliharshavardhan98@gmail.com</a></div></header>
 <main class="shell"><section><div class="eyebrow">LOCAL BROWSER DEMO / EXPLAINABLE DOCUMENT ANALYSIS</div><h1>Complex text. <em>Clear evidence.</em></h1><p class="sub">Try a fictional document or a non-sensitive UTF-8 TXT file. This standalone experience runs completely in your browser: no account, no API connection and no document uploads to a server.</p><span class="tag">Demo heuristic · not the trained Python model</span></section>
 <section class="grid"><div class="panel"><div class="eyebrow">01 / DOCUMENT INPUT</div><h2>Analyze your text</h2><p>Paste text, select a .txt file or load the built-in fictional report. PDF upload is available in the full local FastAPI application.</p><textarea id="source" aria-label="Document content" spellcheck="false" placeholder="Paste a non-sensitive document here..."></textarea>
 <div class="row"><button class="btn" id="sample" type="button">Load fictional sample</button><label class="upload">Choose TXT<input id="file" type="file" accept=".txt,text/plain"></label></div>
@@ -44,7 +46,7 @@ button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-vis
 <div class="panel"><h2>Transparent category matches</h2><div id="bars"></div><p>These are keyword match counts, not ML scores, F1 or accuracy.</p></div></div>
 <div class="row"><button class="btn primary" id="export" type="button">Export local JSON</button><a href="cases/docsight.html" class="btn">Read engineering case study</a></div>
 </section>
-<footer><span>© 2026 Kavali Harshavardhan · DocSight AI</span><span>Original interactive prototype · truthful limitations</span></footer>
+<footer><span>© 2026 Kavali Harshavardhan · DocSight AI</span><span>Original interactive prototype · truthful limitations</span><div class="recruiter-access" aria-label="Resume downloads and email"><a href="assets/Kavali_Harshavardhan_Data_Analyst_Resume.pdf" download>Data Analyst resume · PDF ↓</a><a href="assets/Kavali_Harshavardhan_AIML_DataAnalyst_Resume.pdf" download>AI/ML resume · PDF ↓</a><a href="mailto:kavaliharshavardhan98@gmail.com">kavaliharshavardhan98@gmail.com</a></div></footer>
 </main>
 <script>
 'use strict';

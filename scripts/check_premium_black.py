@@ -38,7 +38,7 @@ def check() -> None:
     assert "aria-expanded" in script
     assert 'id="recruiter-desk"' in home
     assert home.count('class="bh-resource"') == 4
-    assert home.count('class="bh-feature"') == 6
+    assert home.count('class="bh-feature"') == 4
     assert home.count('class="bh-project-extras"') == 35
     assert home.count('class="bh-project-demo"') == 9
     assert home.count('class="bh-demo-card"') == 6
@@ -70,7 +70,7 @@ def check() -> None:
         assert 'href="../assets/kedhar-interior.css"' in page
         assert "kh-ivory-accent.css" in page, f"Missing final seven-color theme: {path.name}"
     assert read("linkedin-setup.html").count('class="project"') == 31
-    print(f"Premium black verified structurally: 51 unique projects, 6 featured cases, "
+    print(f"Premium black verified structurally: 51 unique projects, 4 featured cases, "
           f"4 recruiter resources, {len(career)} career pages, {len(case_paths)} case pages.")
     print("Live browser contrast, link availability, and deployed CSS require independent checks.")
 

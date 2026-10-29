@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "reviewedDate": "2026-10-28",
+  "reviewedDate": "2026-10-29",
   "scope": "Portfolio-level editorial summary of linked public source files; not independent commercial validation",
   "disclaimer": "Metrics apply to the documented synthetic or source datasets. No values are claimed as company revenue gained, risk avoided, or production accuracy.",
   "entries": [
@@ -25,20 +25,20 @@
         "SQL and Pandas reconciliation",
         "Segmentation and dashboards"
       ],
-      "test": "Four business-rule tests plus cross-tool accounting reconciliation are reported.",
-      "metric": "₹0.01",
-      "metricLabel": "Maximum reconciliation tolerance",
-      "metricDetail": "SQL/Python revenue and profit reconcile within INR 0.01 in a synthetic dataset of 72,388 original lines.",
+      "test": "Current README documents one row-count invariant test; broader financial reconciliation tests remain future work.",
+      "metric": "72,388",
+      "metricLabel": "Documented raw source lines",
+      "metricDetail": "Synthetic source size recorded in the current README; historical financial metrics have not been rerun.",
       "source": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics",
       "evidence": "https://github.com/harshakavali81-collab/E-Commerse-Sales-and-Customers-Analytics/blob/main/README.md",
       "casePage": "cases/ecommerce.html",
       "sample": "Fixed-seed synthetic sales, January 2024–December 2025.",
       "tradeoff": "Only Completed lines recognize revenue; this improves accounting consistency but depends on the simulated status model.",
-      "limitations": "No actual retailer data or independently measured revenue improvement. Power BI native refresh remains unverified.",
+      "limitations": "Current checkout has no Streamlit app. Older reconciliation claims refer to historical bundles. No actual retailer data or independently measured business impact.",
       "reviewNext": "Run the existing pipeline and unit tests using the repository's documented Python setup, then compare SQL and Pandas totals.",
       "testCommands": [
-        "python src/pipeline.py",
-        "python -m unittest discover -s tests"
+        "python run_project.py",
+        "python -m pytest -q"
       ],
       "claimLevel": "Source-recorded synthetic benchmark"
     },

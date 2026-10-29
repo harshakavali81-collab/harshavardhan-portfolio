@@ -107,15 +107,7 @@ def check():
         assert label in certificates, f"Missing uploaded qualification: {label}"
     assert "tfTqbAM0" in certificates and "GqcOmj3t" in certificates
     home = (ROOT / "index.html").read_text(encoding="utf-8")
-    # Six owner-selected featured projects replace the previous curated six.
-    selected_names = (
-        "Multilingual-Project",
-        "Zomato-Insights-Dashboard-project-with-PowerBI",
-        "Women-Saftey-Device-by-Using-GPS-and-GSM-",
-        "A-Multimodal-AI-Customer-Support-Copilot",
-        "DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform",
-        "AirAware-AI-Air-Pollution-Heat-Risk-Intelligence",
-    )
+    # Four role-aligned case studies; the full archive retains all repositories.
     from html.parser import HTMLParser
     class FeaturedParser(HTMLParser):
         def __init__(self):
@@ -130,19 +122,19 @@ def check():
         def handle_endtag(self, tag):
             if self.in_feature and tag == "div": self.depth = max(0,self.depth - 1)
             if self.in_feature and tag == "article": self.in_feature = False
-    assert home.count('class="bh-feature"') == 6
+    assert home.count('class="bh-feature"') == 4
     assert home.count('class="kh-resume-project"') == 0, "No duplicate resume project cards"
     featured = FeaturedParser()
     featured.feed(home)
-    for name in selected_names:
+    for name in ("E-Commerse-Sales-and-Customers-Analytics", "DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform", "AI-Document-Q-A-RAG-Knowledge-Assistant", "Generative-AI-Customer-Support-Analytics"):
         assert f"https://github.com/harshakavali81-collab/{name}" in featured.hrefs, f"Featured link missing: {name}"
-    for slug in ("multilingual","zomato","women-safety","copilot","demandpilot","airaware"):
+    for slug in ("ecommerce","demandpilot","evidencedesk","supportlens"):
         href = f"cases/{slug}.html"
         assert href in featured.hrefs, f"Case link missing: {slug}"
         assert (ROOT / href).exists(), f"Missing case study: {href}"
     assert home.count('class="kh-cert-highlight-grid"') == 1
-    for phrase in ("Multilingual Indian Language Knowledge Base", "Women Safety Device",
-                   "Multimodal AI Customer Support Copilot", "AirAware AI",
+    for phrase in ("Sales &amp; customer analytics", "DemandPilot AI",
+                   "EvidenceDesk", "SupportLens AI",
                    'id="resume-skills"', 'id="academic-history"', 'id="hobbies"'):
         assert phrase in home, phrase
     assert "assets/resume-evidence.css?v=20261028-edu2" in home
