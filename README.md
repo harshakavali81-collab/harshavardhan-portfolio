@@ -60,6 +60,13 @@ Open http://127.0.0.1:8080. Python is used only as a local static-file server. E
 
 **Repository organization:** this project uses its existing project-specific entry points. Keeping those paths stable avoids breaking imports, asset links and deployment commands while the documentation follows a shared format. Project-specific technical limitations and prior release evidence are retained in [Project guide](PROJECT_GUIDE.md).
 
+
+### Recruiter resources and design history
+
+- [Job-platform profile center](job-platforms.html)
+- [LinkedIn setup and project copy](linkedin-setup.html)
+- [Full design and release history](PROJECT_GUIDE.md), including the earlier **Soft Gold & Ivory Visual Identity**.
+
 ## Future Improvements
 
 - Capture a reproducible end-to-end demo with runtime versions and sample inputs.
