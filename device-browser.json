@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T08:32:49.568422+00:00",
+  "checked_at": "2026-10-29T08:38:31.502006+00:00",
   "profiles": [
     [
       "chromium",
@@ -55,10 +55,10 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1493,
+      "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1493, 'width': 1440, 'h1': True, 'anchors': 246}"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-home.png"
     },
     {
       "engine": "chromium",
@@ -671,8 +671,8 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 343,
-      "viewport_width": 343,
+      "scroll_width": 320,
+      "viewport_width": 320,
       "result": "pass"
     },
     {
@@ -1684,18 +1684,9 @@
       "result": "pass"
     }
   ],
-  "passed": 181,
+  "passed": 182,
   "total": 200,
   "issues": [
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1493,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1493, 'width': 1440, 'h1': True, 'anchors': 246}"
-    },
     {
       "engine": "chromium",
       "profile": "desktop",
