@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-29T07:50:17.783119+00:00",
+  "checked_at": "2026-10-29T08:03:14.752206+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 84664,
+      "bytes": 100254,
       "ok": true,
       "current_release_marker": true
     },
@@ -53,7 +53,7 @@
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 69107,
+      "bytes": 86646,
       "ok": true,
       "current_release_marker": null
     },
@@ -866,6 +866,96 @@
         "public-benefit-ai-projects.html"
       ],
       "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-accessibility-civic-issue-reporting",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-ai-disaster-response-public-safety-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-ai-flood-disaster-early-warning",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-ai-road-safety-hotspot-intelligence",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-air-quality-environmental-health-monitor",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-emergency-services-coordination-copilot",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-multilingual-civic-services-navigator",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-privacy-preserving-missing-person-coordination",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-scam-phishing-awareness-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/standalone-trusted-public-health-information-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-repo-api",
       "status": 200,
       "result": "ok"
     },
@@ -1990,8 +2080,8 @@
         "public-benefit-ai-lab.html"
       ],
       "via": "http",
-      "status": 404,
-      "result": "broken"
+      "status": 200,
+      "result": "ok"
     },
     {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/public-benefit-ai-projects.html",
@@ -1999,8 +2089,8 @@
         "public-benefit-ai-projects.html"
       ],
       "via": "http",
-      "status": 404,
-      "result": "broken"
+      "status": 200,
+      "result": "ok"
     },
     {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html",
@@ -2625,8 +2715,8 @@
     }
   ],
   "external_counts": {
-    "ok": 240,
-    "broken": 2,
+    "ok": 252,
+    "broken": 0,
     "unknown": 2,
     "http-error": 0
   }

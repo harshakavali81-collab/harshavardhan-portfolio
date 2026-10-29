@@ -1,35 +1,35 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-29T07:53:47.727452+00:00
+Generated UTC: 2026-10-29T08:07:00.929759+00:00
 
 ## Direct checks
 - Live and current-release URL checks: 24/25
-- External links: 240 reachable; 2 broken; 2 access-limited/unknown; 0 HTTP errors
-- Chromium, Firefox and WebKit viewport tests: 181/200 passed
+- External links: 252 reachable; 0 broken; 2 access-limited/unknown; 0 HTTP errors
+- Chromium, Firefox and WebKit viewport tests: 182/200 passed
 - Live site load under 3 seconds (p75 for every critical URL, desktop and simulated 4G mobile): PASS
 
 ## Performance: p75 page-load event, 3 cold contexts per case
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 278.5 | 2241.0 |
-| flagship-projects.html | 88.0 | 1331.0 |
-| certificates.html | 87.5 | 1513.5 |
-| portfolio-readiness.html | 60.5 | 1036.0 |
-| career-portfolio.html | 70.5 | 1800.5 |
-| work.html | 213.0 | 2037.0 |
-| job-platforms.html | 168.0 | 1701.0 |
-| evidence.html | 165.5 | 2388.0 |
-| engineering.html | 73.0 | 1690.5 |
-| proof-map.html | 133.0 | 1678.0 |
-| hiring.html | 66.0 | 1558.0 |
-| interview.html | 63.5 | 1548.0 |
-| profile.html | 176.0 | 1903.5 |
-| contact.html | 136.5 | 1543.0 |
-| resumes.html | 69.5 | 1813.0 |
-| quality.html | 71.0 | 1570.0 |
-| cases/demandpilot.html | 96.5 | 1566.0 |
-| cases/transactionshield.html | 70.0 | 1566.0 |
+| index.html | 567.5 | 2412.0 |
+| flagship-projects.html | 189.5 | 1381.5 |
+| certificates.html | 311.0 | 1560.5 |
+| portfolio-readiness.html | 203.0 | 1542.0 |
+| career-portfolio.html | 240.0 | 1825.5 |
+| work.html | 343.5 | 2077.5 |
+| job-platforms.html | 309.0 | 1738.0 |
+| evidence.html | 432.5 | 2447.5 |
+| engineering.html | 229.5 | 1734.5 |
+| proof-map.html | 326.0 | 1731.5 |
+| hiring.html | 259.5 | 1625.5 |
+| interview.html | 206.0 | 1118.0 |
+| profile.html | 368.5 | 1939.0 |
+| contact.html | 360.5 | 1595.5 |
+| resumes.html | 214.5 | 1873.0 |
+| quality.html | 361.0 | 1605.5 |
+| cases/demandpilot.html | 249.5 | 1605.0 |
+| cases/transactionshield.html | 226.0 | 1624.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
