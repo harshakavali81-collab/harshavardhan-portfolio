@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T16:14:37.795763+00:00",
+  "checked_at": "2026-10-29T07:50:17.783119+00:00",
   "live_pages": [
     {
       "page": "index.html",
@@ -544,6 +544,66 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI",
       "pages": [
         "index.html",
@@ -553,6 +613,36 @@
         "profile.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -638,6 +728,36 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development",
       "pages": [
         "index.html",
@@ -647,6 +767,105 @@
         "profile.html"
       ],
       "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/accessibility-civic-issue-reporting",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/ai-disaster-response-public-safety-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/ai-flood-disaster-early-warning",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/ai-road-safety-hotspot-intelligence",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/air-quality-environmental-health-monitor",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/emergency-services-coordination-copilot",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/multilingual-civic-services-navigator",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/privacy-preserving-missing-person-coordination",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/scam-phishing-awareness-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/tree/main/public-benefit-ai/projects/trusted-public-health-information-assistant",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-file-api",
       "status": 200,
       "result": "ok"
     },
@@ -850,6 +1069,36 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence",
       "pages": [
         "cases/mobilitypulse.html",
@@ -945,6 +1194,66 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Personalized-Recommendation-Engine",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Personalized-Recommendation-Engine/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Personalized-Recommendation-Engine/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Predictive-Inventory-Dynamic-Pricing",
       "pages": [
         "cases/inventoryiq.html",
@@ -1015,6 +1324,66 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection",
       "pages": [
         "cases/streamwatch.html",
@@ -1079,6 +1448,36 @@
       "url": "https://github.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/blob/main/docs/PERFORMANCE_PLAN.md",
       "pages": [
         "cases/streamwatch.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html",
+        "ml-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization/blob/main/artifacts/metrics.json",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization/blob/main/docs/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -1305,6 +1704,7 @@
     {
       "url": "https://github.com/harshakavali81-collab?tab=repositories",
       "pages": [
+        "ml-projects.html",
         "recruiter.html"
       ],
       "via": "github-user-api",
@@ -1585,6 +1985,24 @@
       "result": "ok"
     },
     {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/public-benefit-ai-lab.html",
+      "pages": [
+        "public-benefit-ai-lab.html"
+      ],
+      "via": "http",
+      "status": 404,
+      "result": "broken"
+    },
+    {
+      "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/public-benefit-ai-projects.html",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "http",
+      "status": 404,
+      "result": "broken"
+    },
+    {
       "url": "https://harshakavali81-collab.github.io/harshavardhan-portfolio/quality.html",
       "pages": [
         "quality.html"
@@ -1739,9 +2157,270 @@
       "result": "ok"
     },
     {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Computer-Vision-Quality-Inspection-System/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Credit-Risk-and-Loan-Default-Prediction/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Customer-Churn-Prediction-and-Retention-Intelligence/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/DemandPilot-AI-Enterprise-AI-Demand-Forecasting-Inventory-Optimization-Platform/main/reports/figures/evaluation.svg",
       "pages": [
         "cases/demandpilot.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/accessibility-civic-issue-reporting/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/accessibility-civic-issue-reporting/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-disaster-response-public-safety-assistant/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-disaster-response-public-safety-assistant/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-flood-disaster-early-warning/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-flood-disaster-early-warning/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-road-safety-hotspot-intelligence/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/ai-road-safety-hotspot-intelligence/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/air-quality-environmental-health-monitor/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/air-quality-environmental-health-monitor/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/emergency-services-coordination-copilot/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/emergency-services-coordination-copilot/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/multilingual-civic-services-navigator/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/multilingual-civic-services-navigator/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/privacy-preserving-missing-person-coordination/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/privacy-preserving-missing-person-coordination/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/scam-phishing-awareness-assistant/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/scam-phishing-awareness-assistant/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/trusted-public-health-information-assistant/assets/architecture.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Enterprise-AI-Intelligence-Platform-Development/main/public-benefit-ai/projects/trusted-public-health-information-assistant/assets/cover.svg",
+      "pages": [
+        "public-benefit-ai-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Medical-Image-Classification-Research-Assistant/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Multilingual-Semantic-Search-and-Knowledge-Assistant/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Personalized-Recommendation-Engine/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Predictive-Maintenance-and-Anomaly-Detection/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Fraud-Detection-and-Risk-Scoring-Platform/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1833,6 +2512,15 @@
       "url": "https://raw.githubusercontent.com/harshakavali81-collab/Real-Time-Streaming-Anomaly-Detection/main/docs/assets/10-deployment-services.svg",
       "pages": [
         "cases/streamwatch.html"
+      ],
+      "via": "github-asset-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/harshakavali81-collab/Retail-Demand-Forecasting-and-Inventory-Optimization/main/docs/architecture.svg",
+      "pages": [
+        "ml-projects.html"
       ],
       "via": "github-asset-api",
       "status": 200,
@@ -1937,8 +2625,8 @@
     }
   ],
   "external_counts": {
-    "ok": 169,
-    "broken": 0,
+    "ok": 240,
+    "broken": 2,
     "unknown": 2,
     "http-error": 0
   }

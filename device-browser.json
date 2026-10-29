@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T16:16:35.617425+00:00",
+  "checked_at": "2026-10-29T07:52:03.792638+00:00",
   "profiles": [
     [
       "chromium",
@@ -55,10 +55,10 @@
       "engine": "chromium",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1440,
+      "scroll_width": 1493,
       "viewport_width": 1440,
-      "result": "pass",
-      "screenshot": "screenshots/chromium-desktop-home.png"
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1493, 'width': 1440, 'h1': True, 'anchors': 206}"
     },
     {
       "engine": "chromium",
@@ -118,7 +118,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -320,7 +321,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -525,7 +527,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -727,7 +730,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -869,9 +873,10 @@
       "engine": "firefox",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1440,
+      "scroll_width": 1485,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 206}"
     },
     {
       "engine": "firefox",
@@ -928,7 +933,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "firefox",
@@ -1130,7 +1136,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "firefox",
@@ -1272,9 +1279,10 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1440,
+      "scroll_width": 1487,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1487, 'width': 1440, 'h1': True, 'anchors': 206}"
     },
     {
       "engine": "webkit",
@@ -1331,7 +1339,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "webkit",
@@ -1534,7 +1543,8 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "pass"
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "webkit",
@@ -1674,9 +1684,18 @@
       "result": "pass"
     }
   ],
-  "passed": 192,
+  "passed": 181,
   "total": 200,
   "issues": [
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "index.html",
+      "scroll_width": 1493,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1493, 'width': 1440, 'h1': True, 'anchors': 206}"
+    },
     {
       "engine": "chromium",
       "profile": "desktop",
@@ -1685,6 +1704,15 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "linkedin-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -1697,12 +1725,30 @@
     },
     {
       "engine": "chromium",
+      "profile": "tablet",
+      "page": "linkedin-projects.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
+    },
+    {
+      "engine": "chromium",
       "profile": "mobile",
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "linkedin-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     },
     {
       "engine": "chromium",
@@ -1714,6 +1760,24 @@
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
     },
     {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "linkedin-projects.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "index.html",
+      "scroll_width": 1485,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 206}"
+    },
+    {
       "engine": "firefox",
       "profile": "desktop",
       "page": "portfolio-readiness.html",
@@ -1724,12 +1788,39 @@
     },
     {
       "engine": "firefox",
+      "profile": "desktop",
+      "page": "linkedin-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
+    },
+    {
+      "engine": "firefox",
       "profile": "mobile",
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "linkedin-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "index.html",
+      "scroll_width": 1487,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 1487, 'width': 1440, 'h1': True, 'anchors': 206}"
     },
     {
       "engine": "webkit",
@@ -1742,12 +1833,30 @@
     },
     {
       "engine": "webkit",
+      "profile": "desktop",
+      "page": "linkedin-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
+    },
+    {
+      "engine": "webkit",
       "profile": "mobile",
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "linkedin-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "fail",
+      "reason": "LinkedIn project showcase should contain 31 cards"
     }
   ]
 }

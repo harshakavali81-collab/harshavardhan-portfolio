@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T16:18:29.105331+00:00",
+  "checked_at": "2026-10-29T07:53:47.726340+00:00",
   "definition": "Chromium live HTTPS page navigation load event; 3 cold independent contexts per page; p75 < 3000ms",
   "target_ms": 3000,
   "desktop": "GitHub hosted runner network; no artificial throttling",
@@ -10,22 +10,22 @@
       "page": "index.html",
       "samples": [
         {
-          "load_ms": 348,
-          "domcontentloaded_ms": 152,
-          "lcp_ms": 360
-        },
-        {
-          "load_ms": 251,
-          "domcontentloaded_ms": 86,
-          "lcp_ms": 260
+          "load_ms": 314,
+          "domcontentloaded_ms": 124,
+          "lcp_ms": 328
         },
         {
           "load_ms": 243,
-          "domcontentloaded_ms": 78,
-          "lcp_ms": 252
+          "domcontentloaded_ms": 86,
+          "lcp_ms": 256
+        },
+        {
+          "load_ms": 223,
+          "domcontentloaded_ms": 67,
+          "lcp_ms": 236
         }
       ],
-      "p75_load_ms": 299.5,
+      "p75_load_ms": 278.5,
       "under_3_seconds": true
     },
     {
@@ -33,22 +33,22 @@
       "page": "flagship-projects.html",
       "samples": [
         {
-          "load_ms": 118,
-          "domcontentloaded_ms": 46,
+          "load_ms": 105,
+          "domcontentloaded_ms": 24,
           "lcp_ms": 0
         },
         {
-          "load_ms": 72,
-          "domcontentloaded_ms": 26,
+          "load_ms": 71,
+          "domcontentloaded_ms": 24,
           "lcp_ms": 0
         },
         {
-          "load_ms": 88,
-          "domcontentloaded_ms": 26,
+          "load_ms": 67,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 103.0,
+      "p75_load_ms": 88.0,
       "under_3_seconds": true
     },
     {
@@ -56,22 +56,22 @@
       "page": "certificates.html",
       "samples": [
         {
-          "load_ms": 95,
-          "domcontentloaded_ms": 35,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 92,
+          "load_ms": 115,
           "domcontentloaded_ms": 24,
           "lcp_ms": 0
         },
         {
-          "load_ms": 113,
-          "domcontentloaded_ms": 32,
+          "load_ms": 56,
+          "domcontentloaded_ms": 22,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 60,
+          "domcontentloaded_ms": 23,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 104.0,
+      "p75_load_ms": 87.5,
       "under_3_seconds": true
     },
     {
@@ -79,22 +79,22 @@
       "page": "portfolio-readiness.html",
       "samples": [
         {
-          "load_ms": 84,
-          "domcontentloaded_ms": 44,
+          "load_ms": 56,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         },
         {
-          "load_ms": 71,
-          "domcontentloaded_ms": 25,
+          "load_ms": 59,
+          "domcontentloaded_ms": 23,
           "lcp_ms": 0
         },
         {
-          "load_ms": 87,
-          "domcontentloaded_ms": 27,
+          "load_ms": 62,
+          "domcontentloaded_ms": 24,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 85.5,
+      "p75_load_ms": 60.5,
       "under_3_seconds": true
     },
     {
@@ -102,22 +102,22 @@
       "page": "career-portfolio.html",
       "samples": [
         {
-          "load_ms": 79,
-          "domcontentloaded_ms": 33,
+          "load_ms": 70,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
-          "load_ms": 81,
-          "domcontentloaded_ms": 32,
+          "load_ms": 71,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         },
         {
-          "load_ms": 79,
-          "domcontentloaded_ms": 24,
+          "load_ms": 65,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 80.0,
+      "p75_load_ms": 70.5,
       "under_3_seconds": true
     },
     {
@@ -126,64 +126,18 @@
       "samples": [
         {
           "load_ms": 227,
-          "domcontentloaded_ms": 76,
-          "lcp_ms": 196
-        },
-        {
-          "load_ms": 236,
-          "domcontentloaded_ms": 104,
-          "lcp_ms": 212
-        },
-        {
-          "load_ms": 213,
-          "domcontentloaded_ms": 74,
-          "lcp_ms": 188
-        }
-      ],
-      "p75_load_ms": 231.5,
-      "under_3_seconds": true
-    },
-    {
-      "profile": "desktop",
-      "page": "job-platforms.html",
-      "samples": [
-        {
-          "load_ms": 162,
-          "domcontentloaded_ms": 76,
+          "domcontentloaded_ms": 187,
           "lcp_ms": 0
         },
         {
-          "load_ms": 152,
-          "domcontentloaded_ms": 67,
-          "lcp_ms": 160
+          "load_ms": 184,
+          "domcontentloaded_ms": 72,
+          "lcp_ms": 172
         },
         {
-          "load_ms": 179,
-          "domcontentloaded_ms": 96,
-          "lcp_ms": 192
-        }
-      ],
-      "p75_load_ms": 170.5,
-      "under_3_seconds": true
-    },
-    {
-      "profile": "desktop",
-      "page": "evidence.html",
-      "samples": [
-        {
-          "load_ms": 202,
-          "domcontentloaded_ms": 172,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 200,
-          "domcontentloaded_ms": 90,
-          "lcp_ms": 192
-        },
-        {
-          "load_ms": 224,
-          "domcontentloaded_ms": 130,
-          "lcp_ms": 228
+          "load_ms": 199,
+          "domcontentloaded_ms": 71,
+          "lcp_ms": 172
         }
       ],
       "p75_load_ms": 213.0,
@@ -191,25 +145,71 @@
     },
     {
       "profile": "desktop",
-      "page": "engineering.html",
+      "page": "job-platforms.html",
       "samples": [
         {
-          "load_ms": 87,
-          "domcontentloaded_ms": 40,
+          "load_ms": 150,
+          "domcontentloaded_ms": 65,
           "lcp_ms": 0
         },
         {
-          "load_ms": 81,
-          "domcontentloaded_ms": 23,
+          "load_ms": 186,
+          "domcontentloaded_ms": 107,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 146,
+          "domcontentloaded_ms": 64,
+          "lcp_ms": 0
+        }
+      ],
+      "p75_load_ms": 168.0,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "evidence.html",
+      "samples": [
+        {
+          "load_ms": 123,
+          "domcontentloaded_ms": 100,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 166,
+          "domcontentloaded_ms": 61,
+          "lcp_ms": 164
+        },
+        {
+          "load_ms": 165,
+          "domcontentloaded_ms": 60,
+          "lcp_ms": 156
+        }
+      ],
+      "p75_load_ms": 165.5,
+      "under_3_seconds": true
+    },
+    {
+      "profile": "desktop",
+      "page": "engineering.html",
+      "samples": [
+        {
+          "load_ms": 66,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
           "load_ms": 74,
-          "domcontentloaded_ms": 26,
+          "domcontentloaded_ms": 21,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 72,
+          "domcontentloaded_ms": 23,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 84.0,
+      "p75_load_ms": 73.0,
       "under_3_seconds": true
     },
     {
@@ -217,22 +217,22 @@
       "page": "proof-map.html",
       "samples": [
         {
-          "load_ms": 234,
-          "domcontentloaded_ms": 202,
+          "load_ms": 130,
+          "domcontentloaded_ms": 105,
           "lcp_ms": 0
         },
         {
-          "load_ms": 191,
-          "domcontentloaded_ms": 166,
+          "load_ms": 136,
+          "domcontentloaded_ms": 106,
           "lcp_ms": 0
         },
         {
-          "load_ms": 163,
-          "domcontentloaded_ms": 138,
+          "load_ms": 129,
+          "domcontentloaded_ms": 100,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 212.5,
+      "p75_load_ms": 133.0,
       "under_3_seconds": true
     },
     {
@@ -240,22 +240,22 @@
       "page": "hiring.html",
       "samples": [
         {
-          "load_ms": 88,
-          "domcontentloaded_ms": 46,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 90,
-          "domcontentloaded_ms": 28,
+          "load_ms": 58,
+          "domcontentloaded_ms": 23,
           "lcp_ms": 0
         },
         {
           "load_ms": 71,
-          "domcontentloaded_ms": 24,
+          "domcontentloaded_ms": 22,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 61,
+          "domcontentloaded_ms": 23,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 89.0,
+      "p75_load_ms": 66.0,
       "under_3_seconds": true
     },
     {
@@ -263,22 +263,22 @@
       "page": "interview.html",
       "samples": [
         {
-          "load_ms": 108,
-          "domcontentloaded_ms": 38,
+          "load_ms": 68,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         },
         {
-          "load_ms": 74,
-          "domcontentloaded_ms": 23,
+          "load_ms": 57,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         },
         {
-          "load_ms": 81,
-          "domcontentloaded_ms": 23,
+          "load_ms": 59,
+          "domcontentloaded_ms": 20,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 94.5,
+      "p75_load_ms": 63.5,
       "under_3_seconds": true
     },
     {
@@ -286,22 +286,22 @@
       "page": "profile.html",
       "samples": [
         {
-          "load_ms": 219,
-          "domcontentloaded_ms": 173,
-          "lcp_ms": 224
-        },
-        {
-          "load_ms": 208,
-          "domcontentloaded_ms": 181,
+          "load_ms": 172,
+          "domcontentloaded_ms": 144,
           "lcp_ms": 0
         },
         {
-          "load_ms": 205,
-          "domcontentloaded_ms": 158,
+          "load_ms": 179,
+          "domcontentloaded_ms": 135,
+          "lcp_ms": 176
+        },
+        {
+          "load_ms": 173,
+          "domcontentloaded_ms": 146,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 213.5,
+      "p75_load_ms": 176.0,
       "under_3_seconds": true
     },
     {
@@ -309,22 +309,22 @@
       "page": "contact.html",
       "samples": [
         {
-          "load_ms": 169,
-          "domcontentloaded_ms": 141,
+          "load_ms": 133,
+          "domcontentloaded_ms": 103,
           "lcp_ms": 0
         },
         {
-          "load_ms": 147,
-          "domcontentloaded_ms": 122,
+          "load_ms": 140,
+          "domcontentloaded_ms": 72,
           "lcp_ms": 0
         },
         {
-          "load_ms": 126,
-          "domcontentloaded_ms": 105,
+          "load_ms": 124,
+          "domcontentloaded_ms": 94,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 158.0,
+      "p75_load_ms": 136.5,
       "under_3_seconds": true
     },
     {
@@ -332,22 +332,22 @@
       "page": "resumes.html",
       "samples": [
         {
-          "load_ms": 97,
-          "domcontentloaded_ms": 50,
+          "load_ms": 70,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
           "load_ms": 69,
-          "domcontentloaded_ms": 24,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
-          "load_ms": 92,
-          "domcontentloaded_ms": 32,
+          "load_ms": 56,
+          "domcontentloaded_ms": 20,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 94.5,
+      "p75_load_ms": 69.5,
       "under_3_seconds": true
     },
     {
@@ -355,22 +355,22 @@
       "page": "quality.html",
       "samples": [
         {
-          "load_ms": 102,
-          "domcontentloaded_ms": 56,
+          "load_ms": 71,
+          "domcontentloaded_ms": 21,
           "lcp_ms": 0
         },
         {
-          "load_ms": 111,
-          "domcontentloaded_ms": 28,
+          "load_ms": 66,
+          "domcontentloaded_ms": 20,
           "lcp_ms": 0
         },
         {
-          "load_ms": 70,
-          "domcontentloaded_ms": 28,
+          "load_ms": 71,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 106.5,
+      "p75_load_ms": 71.0,
       "under_3_seconds": true
     },
     {
@@ -378,22 +378,22 @@
       "page": "cases/demandpilot.html",
       "samples": [
         {
-          "load_ms": 91,
-          "domcontentloaded_ms": 40,
+          "load_ms": 120,
+          "domcontentloaded_ms": 22,
           "lcp_ms": 0
         },
         {
-          "load_ms": 88,
-          "domcontentloaded_ms": 23,
+          "load_ms": 73,
+          "domcontentloaded_ms": 24,
           "lcp_ms": 0
         },
         {
-          "load_ms": 83,
-          "domcontentloaded_ms": 23,
+          "load_ms": 67,
+          "domcontentloaded_ms": 19,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 89.5,
+      "p75_load_ms": 96.5,
       "under_3_seconds": true
     },
     {
@@ -401,22 +401,22 @@
       "page": "cases/transactionshield.html",
       "samples": [
         {
-          "load_ms": 84,
-          "domcontentloaded_ms": 34,
-          "lcp_ms": 0
-        },
-        {
-          "load_ms": 94,
-          "domcontentloaded_ms": 27,
+          "load_ms": 68,
+          "domcontentloaded_ms": 20,
           "lcp_ms": 0
         },
         {
           "load_ms": 66,
-          "domcontentloaded_ms": 23,
+          "domcontentloaded_ms": 22,
+          "lcp_ms": 0
+        },
+        {
+          "load_ms": 72,
+          "domcontentloaded_ms": 26,
           "lcp_ms": 0
         }
       ],
-      "p75_load_ms": 89.0,
+      "p75_load_ms": 70.0,
       "under_3_seconds": true
     },
     {
@@ -424,22 +424,22 @@
       "page": "index.html",
       "samples": [
         {
-          "load_ms": 2292,
-          "domcontentloaded_ms": 1277,
-          "lcp_ms": 1452
+          "load_ms": 2222,
+          "domcontentloaded_ms": 1216,
+          "lcp_ms": 1428
         },
         {
-          "load_ms": 2333,
-          "domcontentloaded_ms": 1294,
-          "lcp_ms": 1484
+          "load_ms": 2243,
+          "domcontentloaded_ms": 1269,
+          "lcp_ms": 1460
         },
         {
-          "load_ms": 2283,
-          "domcontentloaded_ms": 1314,
-          "lcp_ms": 2044
+          "load_ms": 2239,
+          "domcontentloaded_ms": 1311,
+          "lcp_ms": 2052
         }
       ],
-      "p75_load_ms": 2312.5,
+      "p75_load_ms": 2241.0,
       "under_3_seconds": true
     },
     {
@@ -447,22 +447,22 @@
       "page": "flagship-projects.html",
       "samples": [
         {
-          "load_ms": 571,
-          "domcontentloaded_ms": 178,
-          "lcp_ms": 0
+          "load_ms": 1332,
+          "domcontentloaded_ms": 179,
+          "lcp_ms": 736
         },
         {
-          "load_ms": 572,
-          "domcontentloaded_ms": 177,
-          "lcp_ms": 0
+          "load_ms": 1330,
+          "domcontentloaded_ms": 173,
+          "lcp_ms": 728
         },
         {
           "load_ms": 1322,
-          "domcontentloaded_ms": 174,
-          "lcp_ms": 724
+          "domcontentloaded_ms": 176,
+          "lcp_ms": 708
         }
       ],
-      "p75_load_ms": 947.0,
+      "p75_load_ms": 1331.0,
       "under_3_seconds": true
     },
     {
@@ -470,40 +470,45 @@
       "page": "certificates.html",
       "samples": [
         {
-          "load_ms": 1525,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 788
+          "load_ms": 1511,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 744
         },
         {
-          "load_ms": 1519,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 780
+          "load_ms": 1516,
+          "domcontentloaded_ms": 176,
+          "lcp_ms": 748
+        },
+        {
+          "load_ms": 1511,
+          "domcontentloaded_ms": 168,
+          "lcp_ms": 744
         }
       ],
-      "p75_load_ms": null,
-      "under_3_seconds": false
+      "p75_load_ms": 1513.5,
+      "under_3_seconds": true
     },
     {
       "profile": "mobile-fast4g",
       "page": "portfolio-readiness.html",
       "samples": [
         {
-          "load_ms": 1682,
-          "domcontentloaded_ms": 187,
-          "lcp_ms": 1004
+          "load_ms": 592,
+          "domcontentloaded_ms": 172,
+          "lcp_ms": 0
         },
         {
-          "load_ms": 1495,
-          "domcontentloaded_ms": 182,
-          "lcp_ms": 824
+          "load_ms": 584,
+          "domcontentloaded_ms": 176,
+          "lcp_ms": 0
         },
         {
-          "load_ms": 1503,
-          "domcontentloaded_ms": 179,
-          "lcp_ms": 836
+          "load_ms": 1480,
+          "domcontentloaded_ms": 174,
+          "lcp_ms": 788
         }
       ],
-      "p75_load_ms": 1592.5,
+      "p75_load_ms": 1036.0,
       "under_3_seconds": true
     },
     {
@@ -511,22 +516,22 @@
       "page": "career-portfolio.html",
       "samples": [
         {
-          "load_ms": 1809,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 776
+          "load_ms": 1800,
+          "domcontentloaded_ms": 179,
+          "lcp_ms": 740
         },
         {
-          "load_ms": 1820,
-          "domcontentloaded_ms": 176,
-          "lcp_ms": 780
+          "load_ms": 1801,
+          "domcontentloaded_ms": 179,
+          "lcp_ms": 744
         },
         {
-          "load_ms": 1804,
+          "load_ms": 1788,
           "domcontentloaded_ms": 175,
-          "lcp_ms": 776
+          "lcp_ms": 740
         }
       ],
-      "p75_load_ms": 1814.5,
+      "p75_load_ms": 1800.5,
       "under_3_seconds": true
     },
     {
@@ -534,22 +539,22 @@
       "page": "work.html",
       "samples": [
         {
-          "load_ms": 2043,
-          "domcontentloaded_ms": 827,
-          "lcp_ms": 844
+          "load_ms": 2036,
+          "domcontentloaded_ms": 801,
+          "lcp_ms": 812
         },
         {
-          "load_ms": 2046,
-          "domcontentloaded_ms": 829,
-          "lcp_ms": 840
+          "load_ms": 2038,
+          "domcontentloaded_ms": 803,
+          "lcp_ms": 816
         },
         {
-          "load_ms": 2053,
-          "domcontentloaded_ms": 831,
-          "lcp_ms": 848
+          "load_ms": 2035,
+          "domcontentloaded_ms": 611,
+          "lcp_ms": 812
         }
       ],
-      "p75_load_ms": 2049.5,
+      "p75_load_ms": 2037.0,
       "under_3_seconds": true
     },
     {
@@ -557,22 +562,22 @@
       "page": "job-platforms.html",
       "samples": [
         {
-          "load_ms": 2531,
-          "domcontentloaded_ms": 1744,
-          "lcp_ms": 1760
+          "load_ms": 1701,
+          "domcontentloaded_ms": 599,
+          "lcp_ms": 844
         },
         {
-          "load_ms": 1750,
-          "domcontentloaded_ms": 898,
-          "lcp_ms": 916
+          "load_ms": 1701,
+          "domcontentloaded_ms": 834,
+          "lcp_ms": 840
         },
         {
-          "load_ms": 1710,
-          "domcontentloaded_ms": 622,
-          "lcp_ms": 896
+          "load_ms": 1665,
+          "domcontentloaded_ms": 818,
+          "lcp_ms": 824
         }
       ],
-      "p75_load_ms": 2140.5,
+      "p75_load_ms": 1701.0,
       "under_3_seconds": true
     },
     {
@@ -580,22 +585,22 @@
       "page": "evidence.html",
       "samples": [
         {
-          "load_ms": 2394,
-          "domcontentloaded_ms": 792,
-          "lcp_ms": 800
+          "load_ms": 2387,
+          "domcontentloaded_ms": 782,
+          "lcp_ms": 788
         },
         {
-          "load_ms": 2401,
-          "domcontentloaded_ms": 799,
-          "lcp_ms": 804
+          "load_ms": 2380,
+          "domcontentloaded_ms": 769,
+          "lcp_ms": 780
         },
         {
-          "load_ms": 2394,
+          "load_ms": 2389,
           "domcontentloaded_ms": 779,
           "lcp_ms": 788
         }
       ],
-      "p75_load_ms": 2397.5,
+      "p75_load_ms": 2388.0,
       "under_3_seconds": true
     },
     {
@@ -603,22 +608,22 @@
       "page": "engineering.html",
       "samples": [
         {
-          "load_ms": 1795,
-          "domcontentloaded_ms": 173,
-          "lcp_ms": 892
+          "load_ms": 1691,
+          "domcontentloaded_ms": 172,
+          "lcp_ms": 768
         },
         {
-          "load_ms": 608,
+          "load_ms": 1690,
           "domcontentloaded_ms": 173,
-          "lcp_ms": 0
+          "lcp_ms": 772
         },
         {
-          "load_ms": 601,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 0
+          "load_ms": 1689,
+          "domcontentloaded_ms": 169,
+          "lcp_ms": 776
         }
       ],
-      "p75_load_ms": 1201.5,
+      "p75_load_ms": 1690.5,
       "under_3_seconds": true
     },
     {
@@ -626,22 +631,22 @@
       "page": "proof-map.html",
       "samples": [
         {
-          "load_ms": 1698,
-          "domcontentloaded_ms": 761,
-          "lcp_ms": 780
+          "load_ms": 1674,
+          "domcontentloaded_ms": 759,
+          "lcp_ms": 740
         },
         {
-          "load_ms": 1676,
-          "domcontentloaded_ms": 769,
-          "lcp_ms": 744
+          "load_ms": 1666,
+          "domcontentloaded_ms": 757,
+          "lcp_ms": 728
         },
         {
-          "load_ms": 1676,
-          "domcontentloaded_ms": 774,
-          "lcp_ms": 744
+          "load_ms": 1682,
+          "domcontentloaded_ms": 746,
+          "lcp_ms": 764
         }
       ],
-      "p75_load_ms": 1687.0,
+      "p75_load_ms": 1678.0,
       "under_3_seconds": true
     },
     {
@@ -649,22 +654,22 @@
       "page": "hiring.html",
       "samples": [
         {
-          "load_ms": 1556,
+          "load_ms": 1562,
           "domcontentloaded_ms": 173,
           "lcp_ms": 772
         },
         {
-          "load_ms": 1562,
-          "domcontentloaded_ms": 173,
-          "lcp_ms": 792
+          "load_ms": 601,
+          "domcontentloaded_ms": 170,
+          "lcp_ms": 0
         },
         {
-          "load_ms": 1832,
-          "domcontentloaded_ms": 188,
-          "lcp_ms": 1068
+          "load_ms": 1554,
+          "domcontentloaded_ms": 173,
+          "lcp_ms": 768
         }
       ],
-      "p75_load_ms": 1697.0,
+      "p75_load_ms": 1558.0,
       "under_3_seconds": true
     },
     {
@@ -672,22 +677,22 @@
       "page": "interview.html",
       "samples": [
         {
-          "load_ms": 1735,
-          "domcontentloaded_ms": 349,
-          "lcp_ms": 948
+          "load_ms": 601,
+          "domcontentloaded_ms": 168,
+          "lcp_ms": 0
         },
         {
-          "load_ms": 4043,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 3256
-        },
-        {
-          "load_ms": 1555,
+          "load_ms": 1548,
           "domcontentloaded_ms": 171,
-          "lcp_ms": 760
+          "lcp_ms": 748
+        },
+        {
+          "load_ms": 1548,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 756
         }
       ],
-      "p75_load_ms": 2889.0,
+      "p75_load_ms": 1548.0,
       "under_3_seconds": true
     },
     {
@@ -695,22 +700,22 @@
       "page": "profile.html",
       "samples": [
         {
-          "load_ms": 1926,
-          "domcontentloaded_ms": 970,
-          "lcp_ms": 988
+          "load_ms": 1913,
+          "domcontentloaded_ms": 942,
+          "lcp_ms": 952
         },
         {
-          "load_ms": 1890,
+          "load_ms": 1894,
           "domcontentloaded_ms": 939,
-          "lcp_ms": 948
+          "lcp_ms": 952
         },
         {
-          "load_ms": 1916,
-          "domcontentloaded_ms": 953,
-          "lcp_ms": 968
+          "load_ms": 1886,
+          "domcontentloaded_ms": 931,
+          "lcp_ms": 944
         }
       ],
-      "p75_load_ms": 1921.0,
+      "p75_load_ms": 1903.5,
       "under_3_seconds": true
     },
     {
@@ -718,22 +723,22 @@
       "page": "contact.html",
       "samples": [
         {
-          "load_ms": 1547,
-          "domcontentloaded_ms": 755,
-          "lcp_ms": 768
+          "load_ms": 1540,
+          "domcontentloaded_ms": 748,
+          "lcp_ms": 760
         },
         {
-          "load_ms": 1552,
-          "domcontentloaded_ms": 749,
-          "lcp_ms": 768
+          "load_ms": 1546,
+          "domcontentloaded_ms": 741,
+          "lcp_ms": 752
         },
         {
-          "load_ms": 1559,
-          "domcontentloaded_ms": 757,
-          "lcp_ms": 776
+          "load_ms": 1539,
+          "domcontentloaded_ms": 740,
+          "lcp_ms": 756
         }
       ],
-      "p75_load_ms": 1555.5,
+      "p75_load_ms": 1543.0,
       "under_3_seconds": true
     },
     {
@@ -741,22 +746,22 @@
       "page": "resumes.html",
       "samples": [
         {
-          "load_ms": 1832,
-          "domcontentloaded_ms": 173,
-          "lcp_ms": 732
+          "load_ms": 587,
+          "domcontentloaded_ms": 168,
+          "lcp_ms": 0
         },
         {
-          "load_ms": 1818,
-          "domcontentloaded_ms": 171,
-          "lcp_ms": 720
+          "load_ms": 1816,
+          "domcontentloaded_ms": 165,
+          "lcp_ms": 712
         },
         {
-          "load_ms": 3355,
-          "domcontentloaded_ms": 172,
-          "lcp_ms": 2260
+          "load_ms": 1810,
+          "domcontentloaded_ms": 168,
+          "lcp_ms": 716
         }
       ],
-      "p75_load_ms": 2593.5,
+      "p75_load_ms": 1813.0,
       "under_3_seconds": true
     },
     {
@@ -764,22 +769,22 @@
       "page": "quality.html",
       "samples": [
         {
-          "load_ms": 1787,
-          "domcontentloaded_ms": 394,
-          "lcp_ms": 1004
+          "load_ms": 1562,
+          "domcontentloaded_ms": 170,
+          "lcp_ms": 768
         },
         {
-          "load_ms": 2635,
-          "domcontentloaded_ms": 180,
-          "lcp_ms": 1868
+          "load_ms": 1555,
+          "domcontentloaded_ms": 172,
+          "lcp_ms": 764
         },
         {
-          "load_ms": 1571,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 796
+          "load_ms": 1578,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 792
         }
       ],
-      "p75_load_ms": 2211.0,
+      "p75_load_ms": 1570.0,
       "under_3_seconds": true
     },
     {
@@ -787,22 +792,22 @@
       "page": "cases/demandpilot.html",
       "samples": [
         {
-          "load_ms": 1578,
-          "domcontentloaded_ms": 175,
-          "lcp_ms": 816
+          "load_ms": 1562,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 788
         },
         {
-          "load_ms": 1585,
-          "domcontentloaded_ms": 174,
-          "lcp_ms": 832
+          "load_ms": 1570,
+          "domcontentloaded_ms": 169,
+          "lcp_ms": 800
         },
         {
-          "load_ms": 1578,
-          "domcontentloaded_ms": 184,
-          "lcp_ms": 824
+          "load_ms": 1555,
+          "domcontentloaded_ms": 172,
+          "lcp_ms": 784
         }
       ],
-      "p75_load_ms": 1581.5,
+      "p75_load_ms": 1566.0,
       "under_3_seconds": true
     },
     {
@@ -810,33 +815,26 @@
       "page": "cases/transactionshield.html",
       "samples": [
         {
-          "load_ms": 1590,
-          "domcontentloaded_ms": 183,
-          "lcp_ms": 828
+          "load_ms": 1562,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 792
         },
         {
-          "load_ms": 1574,
-          "domcontentloaded_ms": 177,
-          "lcp_ms": 832
+          "load_ms": 1570,
+          "domcontentloaded_ms": 171,
+          "lcp_ms": 804
         },
         {
-          "load_ms": 1585,
-          "domcontentloaded_ms": 178,
-          "lcp_ms": 820
+          "load_ms": 1556,
+          "domcontentloaded_ms": 172,
+          "lcp_ms": 788
         }
       ],
-      "p75_load_ms": 1587.5,
+      "p75_load_ms": 1566.0,
       "under_3_seconds": true
     }
   ],
-  "errors": [
-    {
-      "profile": "mobile-fast4g",
-      "page": "certificates.html",
-      "sample": 1,
-      "error": "HTTP 503"
-    }
-  ],
-  "target_met": false,
+  "errors": [],
+  "target_met": true,
   "limits": "Simulated mobile, not representative of all locations, physical devices, ISPs or every visit. First-content paints and LCP available in navigation observations."
 }
