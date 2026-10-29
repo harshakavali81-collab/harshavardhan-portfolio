@@ -55,7 +55,7 @@ def check():
     profile = (ROOT / "profile.html").read_text(encoding="utf-8")
     assert 'id="career-12"' in home and "career-portfolio.html#twelve-elements" in home
     assert 'id="professional-links"' in profile and 'id="beyond"' in profile
-    assert home.count('class="bh-project-source" href=') == 41
+    assert home.count('class="bh-project-source" href=') == 51
     # The owner selected an EXACT seven-token screen palette; legacy CSS
     # remains for backward compatibility but the last-loaded theme owns paint.
     import re

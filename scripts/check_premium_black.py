@@ -39,7 +39,7 @@ def check() -> None:
     assert 'id="recruiter-desk"' in home
     assert home.count('class="bh-resource"') == 4
     assert home.count('class="bh-feature"') == 6
-    assert home.count('class="bh-project-extras"') == 25
+    assert home.count('class="bh-project-extras"') == 35
     assert home.count('class="bh-project-demo"') == 9
     assert home.count('class="bh-demo-card"') == 6
     assert 'id="demos"' in home
@@ -50,8 +50,8 @@ def check() -> None:
     assert 'href="job-platforms.html"' in home
     assert 'href="linkedin-setup.html"' in home
     links = re.findall(r'class="bh-project-source" href="([^"]+)"', home)
-    assert len(links) == 41, len(links)
-    assert len(set(links)) == 41
+    assert len(links) == 51, len(links)
+    assert len(set(links)) == 51
     assert all(link.startswith("https://github.com/harshakavali81-collab/") for link in links)
     career = ("profile.html", "linkedin-projects.html", "job-platforms.html",
               "linkedin-setup.html", "work.html", "resumes.html", "contact.html",
@@ -70,7 +70,7 @@ def check() -> None:
         assert 'href="../assets/kedhar-interior.css"' in page
         assert "kh-ivory-accent.css" in page, f"Missing final seven-color theme: {path.name}"
     assert read("linkedin-setup.html").count('class="project"') == 31
-    print(f"Premium black verified structurally: 41 unique projects, 6 featured cases, "
+    print(f"Premium black verified structurally: 51 unique projects, 6 featured cases, "
           f"4 recruiter resources, {len(career)} career pages, {len(case_paths)} case pages.")
     print("Live browser contrast, link availability, and deployed CSS require independent checks.")
 
