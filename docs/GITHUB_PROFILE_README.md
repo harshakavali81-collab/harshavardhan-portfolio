@@ -17,10 +17,11 @@ I'm seeking entry-level IT opportunities, especially **Data Analyst, Python Deve
 | Project | What I built / studied | Source |
 |---|---|---|
 | Multilingual Indian Language Knowledge Base | React + FastAPI document indexing, language-aware retrieval, optional LaBSE/LLM and local fallback | [Repository](https://github.com/harshakavali81-collab/Multilingual-Project) |
-| Zomato Insights Dashboard | Power BI restaurant KPIs and exploration of ratings, cuisines, delivery and locations | [Repository](https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI) |
+| Banking & Financial Performance Analytics | Synthetic banking data, SQL reconciliation, Python analysis, Excel and an offline dashboard | [Repository](https://github.com/harshakavali81-collab/Banking-Financial-Performance-Analytics) |
+| SupportLens AI | Source-cited support answers, a browser demo, FastAPI and privacy-aware analytics using fictional policies | [Repository](https://github.com/harshakavali81-collab/Generative-AI-Customer-Support-Analytics) |
 | TransactionShield | Synthetic-data fraud-risk scoring with a Python ML pipeline, FastAPI and React | [Repository](https://github.com/harshakavali81-collab/TransactionShield-a-Real-Time-Fraud-Detection-and-Risk-Scoring-Platform.) |
 
-[Read detailed recruiter case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/flagship-projects.html) | [Explore all 31 portfolio entries](https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html) | [Resumes](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html)
+[Read detailed recruiter case studies](https://harshakavali81-collab.github.io/harshavardhan-portfolio/flagship-projects.html) | [Explore all 51 portfolio entries](https://harshakavali81-collab.github.io/harshavardhan-portfolio/linkedin-projects.html) | [Resumes](https://harshakavali81-collab.github.io/harshavardhan-portfolio/resumes.html)
 
 ## How I approach projects
 
