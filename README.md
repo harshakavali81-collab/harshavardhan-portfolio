@@ -8,6 +8,17 @@ Kavali Harshavardhan’s fresher portfolio: data analytics, Python, AI demonstra
 
 Explore the [published portfolio](https://harshakavali81-collab.github.io/harshavardhan-portfolio/) for the current visual design and interactive case studies. Project screenshots and illustrations are linked from their individual case studies.
 
+### Browser demonstrations
+
+- [DocSight document classifier and summarizer](docsight-demo.html)
+- [CommerceLens analytics](commercelens-demo.html)
+- [InventoryIQ scenarios](inventoryiq-demo.html)
+- [Clickstream SQL analytics](bigdata-demo.html)
+- [SupportLens assistant](supportlens-demo/)
+- [MobilityPulse explorer](mobilitypulse-explorer.html)
+
+These are project demonstrations; their data provenance and limitations are described within each experience.
+
 ## Live Link / Demo
 
 Existing published preview link: [Open browser preview](https://harshakavali81-collab.github.io/harshavardhan-portfolio/). This update does not independently verify its availability or backend deployment.
