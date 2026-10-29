@@ -44,15 +44,15 @@ def main() -> None:
     showcase = read("linkedin-projects.html")
     page = Projects()
     page.feed(showcase)
-    assert len(page.projects) == 31, f"project count: {len(page.projects)}"
-    assert len(page.source_urls) == 31, "every card must link to GitHub"
-    assert len(set(page.source_urls)) == 31, "no duplicate repository links"
+    assert len(page.projects) == 41, f"project count: {len(page.projects)}"
+    assert len(page.source_urls) == 41, "every card must link to GitHub"
+    assert len(set(page.source_urls)) == 41, "no duplicate repository links"
     assert all(url and url.startswith(
         "https://github.com/harshakavali81-collab/") for url in page.source_urls)
     assert sum(tier == "featured" for tier, _ in page.projects) == 15
-    assert sum(tier == "additional" for tier, _ in page.projects) == 16
+    assert sum(tier == "additional" for tier, _ in page.projects) == 26
     assert all(category for _, category in page.projects)
-    assert page.art == 31, f"art thumbnails: {page.art}"
+    assert page.art == 41, f"art thumbnails: {page.art}"
     assert 'id="search"' in showcase
     assert 'id="scope"' in showcase
     assert 'id="project-grid"' in showcase
@@ -60,12 +60,13 @@ def main() -> None:
     job = read("job-platforms.html")
     job_sources = re.findall(r'class="btn source" href="([^"]+)"', job)
     assert len(job_sources) == 31
-    assert set(page.source_urls) == set(job_sources), "project pages are out of sync"
+    assert set(job_sources).issubset(set(page.source_urls)), "Original job-platform sources must remain visible"
+    assert len(set(page.source_urls) - set(job_sources)) == 10, "Ten standalone AI/ML sources must be added"
 
     home = read("index.html")
     assert 'class="wrap portfolio-gallery-promo"' in home
     assert 'href="linkedin-projects.html"' in home
-    assert "View all 31 projects" in home
+    assert "View all 41 projects" in home
     assert 'href="linkedin-setup.html"' in home
 
     setup = read("linkedin-setup.html")
@@ -81,8 +82,8 @@ def main() -> None:
 
     readme = read("README.md")
     assert "Soft Gold & Ivory Visual Identity" in readme
-    print("Soft-gold theme and complete 31-source gallery: static regression checks passed")
-    print("31 unique GitHub URLs match job-platform catalog; LinkedIn copy and mobile CSS present")
+    print("Soft-gold theme and complete 41-source gallery: static regression checks passed")
+    print("41 unique GitHub URLs include the original 31 job-platform sources; LinkedIn copy and mobile CSS present")
     print("Public hosting and visual/browser render still require separate external verification")
 
 
