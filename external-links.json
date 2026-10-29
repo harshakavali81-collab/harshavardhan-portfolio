@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-29T08:03:14.752206+00:00",
+  "checked_at": "2026-10-29T08:22:19.142035+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 100254,
+      "bytes": 115321,
       "ok": true,
       "current_release_marker": true
     },
@@ -53,7 +53,7 @@
     {
       "page": "linkedin-projects.html",
       "status": 200,
-      "bytes": 86646,
+      "bytes": 103372,
       "ok": true,
       "current_release_marker": null
     },
@@ -223,6 +223,93 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Accessibility-Civic-Reporting/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Air-Quality-Monitor/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Disaster-Response-Public-Safety/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/AI-Document-Q-A-RAG-Knowledge-Assistant",
       "pages": [
         "career-portfolio.html",
@@ -243,6 +330,64 @@
       "pages": [
         "cases/evidencedesk.html",
         "engineering.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Flood-Disaster-Early-Warning/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/AI-Road-Safety-Intelligence/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -728,6 +873,35 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Emergency-Services-Copilot/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/End-to-End-MLOps-Model-Deployment-Platform",
       "pages": [
         "index.html",
@@ -1189,6 +1363,35 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Missing-Person-Information-Coordination/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence",
       "pages": [
         "cases/mobilitypulse.html",
@@ -1253,6 +1456,35 @@
       "url": "https://github.com/harshakavali81-collab/MobilityPulse-AI-Public-Transport-Reliability-Accessibility-Intelligence/tree/main/frontend",
       "pages": [
         "cases/mobilitypulse.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Multilingual-Civic-Services-Navigator/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -1574,6 +1806,35 @@
       "result": "ok"
     },
     {
+      "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Scam-Phishing-Awareness/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://github.com/harshakavali81-collab/Smart-Document-Classifier-Summarizer",
       "pages": [
         "cases/docsight.html",
@@ -1629,6 +1890,35 @@
       "pages": [
         "cases/transactionshield.html",
         "engineering.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-repo-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant/blob/main/assets/architecture.svg",
+      "pages": [
+        "index.html",
+        "linkedin-projects.html"
+      ],
+      "via": "github-file-api",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://github.com/harshakavali81-collab/Trusted-Public-Health-Assistant/blob/main/docs/PROJECT_STRUCTURE.md",
+      "pages": [
+        "index.html"
       ],
       "via": "github-file-api",
       "status": 200,
@@ -2715,7 +3005,7 @@
     }
   ],
   "external_counts": {
-    "ok": 252,
+    "ok": 282,
     "broken": 0,
     "unknown": 2,
     "http-error": 0

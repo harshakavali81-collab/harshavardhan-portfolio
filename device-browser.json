@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T08:05:05.321040+00:00",
+  "checked_at": "2026-10-29T08:24:19.192823+00:00",
   "profiles": [
     [
       "chromium",
@@ -876,7 +876,7 @@
       "scroll_width": 1485,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 206}"
+      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 246}"
     },
     {
       "engine": "firefox",
@@ -1279,10 +1279,10 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1487,
+      "scroll_width": 1486,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1487, 'width': 1440, 'h1': True, 'anchors': 206}"
+      "reason": "horizontal overflow: {'scroll': 1486, 'width': 1440, 'h1': True, 'anchors': 246}"
     },
     {
       "engine": "webkit",
@@ -1323,7 +1323,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
@@ -1684,7 +1685,7 @@
       "result": "pass"
     }
   ],
-  "passed": 182,
+  "passed": 181,
   "total": 200,
   "issues": [
     {
@@ -1766,7 +1767,7 @@
       "scroll_width": 1485,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 206}"
+      "reason": "horizontal overflow: {'scroll': 1485, 'width': 1440, 'h1': True, 'anchors': 246}"
     },
     {
       "engine": "firefox",
@@ -1808,10 +1809,10 @@
       "engine": "webkit",
       "profile": "desktop",
       "page": "index.html",
-      "scroll_width": 1487,
+      "scroll_width": 1486,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 1487, 'width': 1440, 'h1': True, 'anchors': 206}"
+      "reason": "horizontal overflow: {'scroll': 1486, 'width': 1440, 'h1': True, 'anchors': 246}"
     },
     {
       "engine": "webkit",
@@ -1821,6 +1822,15 @@
       "viewport_width": 1440,
       "result": "fail",
       "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "work.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
