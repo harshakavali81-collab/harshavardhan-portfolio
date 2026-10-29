@@ -21,10 +21,10 @@ jobs:
         run: python3 scripts/check_career_profile.py
       - name: Check job-platform project showcase
         run: python3 scripts/check_job_platforms.py
-      - name: Validate refined light-gold design and 31-source project gallery
+      - name: Validate refined light-gold design and 41-source project gallery
         run: python3 scripts/check_light_portfolio.py
 
-      - name: Validate premium black identity, recruiter resources and all 31 projects
+      - name: Validate premium black identity, recruiter resources and all 41 projects
         run: python3 scripts/check_premium_black.py
 
       - name: Validate complete career dossier, links and obsidian-gold design
