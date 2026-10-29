@@ -31,7 +31,7 @@ concurrency:
 
 jobs:
   verify-site:
-    name: Validate career profile, gold theme, resumes, 31 projects and links
+    name: Validate career profile, gold theme, resumes, 41 projects and links
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -44,7 +44,7 @@ jobs:
       - name: Check recruiter career dossier and 12 career elements
         id: dossier
         run: python scripts/check_career_dossier.py
-      - name: Check luxury black/gold structure and 31 project links
+      - name: Check luxury black/gold structure and 41 project links
         id: theme
         run: python scripts/check_premium_black.py
       - name: Audit all internal URLs, anchors and source assets
@@ -69,7 +69,7 @@ jobs:
               assert 'href="assets/portfolio-upgrade.css?v=20261028"' in html, p
               assert "window.print()" in html, p
           assert 'id="career-12"' in index
-          assert index.count('class="bh-project-source" href=') == 31
+          assert index.count('class="bh-project-source" href=') == 41
           print("PASS: all three role selectors, black/gold screen CVs, print controls, source-linked projects.")
           PY
 
