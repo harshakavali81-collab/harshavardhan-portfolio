@@ -526,3 +526,78 @@
     body.bh-body .kh-skill-evidence-links a {transition:none!important;transform:none!important;}
   }
 }
+
+/* Professional phone-free office photo — homepage hero, seven-color palette. */
+@media screen {
+  body.bh-body .bh-visual.kh-hero-visual {
+    position:relative;
+    margin-left:auto;
+    width:100%;
+    min-width:0;
+    max-width:610px;
+    border:0!important;
+    background:transparent!important;
+    background-image:none!important;
+    box-shadow:none!important;
+  }
+  body.bh-body .bh-visual.kh-hero-visual::before {content:none!important;display:none!important;}
+  body.bh-body .kh-hero-photo-frame {
+    margin:0;
+    padding:10px;
+    background:#141414!important;
+    background-image:none!important;
+    border:1px solid #3B3324!important;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:none!important;
+  }
+  body.bh-body .kh-hero-photo {
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:100%;
+    aspect-ratio:500 / 417;
+    object-fit:cover;
+    object-position:center center;
+    border-radius:14px;
+    background:#141414;
+    filter:none!important;
+    transform:none!important;
+  }
+  body.bh-body .kh-hero-photo-caption {
+    display:flex;
+    gap:9px;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    padding:15px 8px 5px;
+    font:500 clamp(10px,.82vw,12px)/1.45 var(--font-code)!important;
+    letter-spacing:.06em;
+    text-align:center;
+    color:#E6D6AF!important;
+    -webkit-text-fill-color:#E6D6AF!important;
+    background:#141414!important;
+  }
+  body.bh-body .kh-hero-photo-dot {
+    display:inline-block;
+    flex:none;
+    width:7px;height:7px;
+    border-radius:50%;
+    background:#D4AF65;
+  }
+  @media (max-width:800px) {
+    body.bh-body .bh-visual.kh-hero-visual {
+      max-width:560px;
+      width:100%;
+      margin:28px auto 0;
+    }
+  }
+  @media (max-width:520px) {
+    body.bh-body .kh-hero-photo-frame {padding:7px;border-radius:16px;}
+    body.bh-body .kh-hero-photo {border-radius:11px;}
+    body.bh-body .kh-hero-photo-caption {font-size:10px!important;letter-spacing:0;padding:12px 4px 4px;}
+  }
+  @media print {
+    body.bh-body .bh-visual.kh-hero-visual {display:none!important;}
+  }
+}
