@@ -1,17 +1,17 @@
 {
-  "checked_at": "2026-10-30T03:09:29.624709+00:00",
+  "checked_at": "2026-10-30T15:57:03.162723+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 131133,
+      "bytes": 132147,
       "ok": true,
       "current_release_marker": true
     },
     {
       "page": "all-projects.html",
       "status": 200,
-      "bytes": 89199,
+      "bytes": 90673,
       "ok": true,
       "current_release_marker": null
     },
@@ -88,7 +88,7 @@
     {
       "page": "profile.html",
       "status": 200,
-      "bytes": 70589,
+      "bytes": 71809,
       "ok": true,
       "current_release_marker": null
     },
@@ -123,7 +123,7 @@
     {
       "page": "contact.html",
       "status": 200,
-      "bytes": 11765,
+      "bytes": 13293,
       "ok": true,
       "current_release_marker": null
     },
@@ -151,7 +151,7 @@
     {
       "page": "cases/ecommerce.html",
       "status": 200,
-      "bytes": 12802,
+      "bytes": 13992,
       "ok": true,
       "current_release_marker": null
     },
@@ -165,14 +165,14 @@
     {
       "page": "cases/demandpilot.html",
       "status": 200,
-      "bytes": 12798,
+      "bytes": 13975,
       "ok": true,
       "current_release_marker": null
     },
     {
       "page": "cases/evidencedesk.html",
       "status": 200,
-      "bytes": 12196,
+      "bytes": 13352,
       "ok": true,
       "current_release_marker": null
     },

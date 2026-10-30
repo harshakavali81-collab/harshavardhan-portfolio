@@ -1,8 +1,8 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-30T03:12:47.039924+00:00
+Generated UTC: 2026-10-30T16:00:14.869173+00:00
 
-Source commit: 00e615767b56f543705c697d2672e23c94b98ab5
+Source commit: 98215ea228e44ffc3e611c09e2c8584a29b99e32
 
 ## Direct checks
 - Live and current-release URL checks: 26/26
@@ -14,25 +14,25 @@ Source commit: 00e615767b56f543705c697d2672e23c94b98ab5
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 457.0 | 2597.5 |
-| all-projects.html | 398.5 | 1826.5 |
-| flagship-projects.html | 291.5 | 1051.5 |
-| certificates.html | 180.5 | 1129.0 |
-| portfolio-readiness.html | 212.0 | 1584.5 |
-| career-portfolio.html | 267.5 | 1241.5 |
-| work.html | 389.0 | 2172.0 |
-| job-platforms.html | 407.0 | 1786.5 |
-| evidence.html | 384.5 | 1699.0 |
-| engineering.html | 239.5 | 1772.5 |
-| proof-map.html | 333.5 | 1775.5 |
-| hiring.html | 197.5 | 1648.0 |
-| interview.html | 291.5 | 1166.0 |
-| profile.html | 405.0 | 1976.5 |
-| contact.html | 418.0 | 1670.5 |
-| resumes.html | 227.5 | 671.0 |
-| quality.html | 257.0 | 678.5 |
-| cases/demandpilot.html | 211.5 | 1823.0 |
-| cases/transactionshield.html | 172.0 | 1651.5 |
+| index.html | 401.0 | 2586.0 |
+| all-projects.html | 529.5 | 1790.0 |
+| flagship-projects.html | 217.5 | 1448.0 |
+| certificates.html | 198.0 | 1589.5 |
+| portfolio-readiness.html | 296.0 | 1588.5 |
+| career-portfolio.html | 221.5 | 597.5 |
+| work.html | 361.5 | 2111.5 |
+| job-platforms.html | 393.0 | 1837.5 |
+| evidence.html | 367.0 | 1813.5 |
+| engineering.html | 187.0 | 1208.0 |
+| proof-map.html | 356.5 | 1753.0 |
+| hiring.html | 226.0 | 1640.5 |
+| interview.html | 220.0 | 1148.5 |
+| profile.html | 375.5 | 1933.0 |
+| contact.html | 335.5 | 1651.5 |
+| resumes.html | 204.0 | 2000.0 |
+| quality.html | 187.0 | 693.5 |
+| cases/demandpilot.html | 197.0 | 1807.0 |
+| cases/transactionshield.html | 174.0 | 1633.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
