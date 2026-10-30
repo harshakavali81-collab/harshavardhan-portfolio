@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "all-projects.html"
       - "portfolio-readiness.html"
       - "certificates.html"
       - "flagship-projects.html"
