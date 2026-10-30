@@ -7,3 +7,6 @@
 @media(max-width:750px){.role-evidence-grid,.bh-feature-grid{grid-template-columns:1fr!important}.curated-details{padding:12px}.recruiter-access{justify-content:flex-start;font-size:12px}.curated-art{min-height:155px}.current-source-note{padding:18px}.bh-nav{max-width:100%}}
 @media print{.curated-details>*,.curated-details:not([open])>*{display:block!important}.recruiter-access{position:static}}
 body.bh-body{margin:0}.bh-header .bh-nav{z-index:5}.recruiter-access{z-index:0}main section[id]{scroll-margin-top:170px}
+
+.photo-original-link{display:block;text-align:center;padding:10px;color:#E6D6AF!important;font:12px/1.5 system-ui}
+@media(max-width:360px){.bh-head-row{gap:8px!important}.bh-brand{gap:8px!important;min-width:0}.bh-brand-name{font-size:10px!important;letter-spacing:.04em!important}.bh-brand-name small{font-size:8px!important;letter-spacing:.02em!important}.bh-brand-mark{width:34px!important;height:34px!important}.bh-menu{min-width:44px!important;padding:8px!important}.bh-shell{width:calc(100% - 32px)!important}.bh-hero-copy{min-width:0}}

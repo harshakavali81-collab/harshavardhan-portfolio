@@ -12,15 +12,15 @@ import requests
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://harshakavali81-collab.github.io/harshavardhan-portfolio/"
-PAGES=["","flagship-projects.html","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
-PERF=["","flagship-projects.html","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
+PAGES=["","all-projects.html","flagship-projects.html","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","linkedin-projects.html","evidence.html","engineering.html","proof-map.html","profile.html","recruiter.html","resumes.html","resume.html","data-analyst-resume.html","contact.html","hiring.html","interview.html","quality.html"]+["cases/"+n+".html" for n in ["ecommerce","transactionshield","demandpilot","evidencedesk","zomato"]]
+PERF=["","all-projects.html","flagship-projects.html","certificates.html","portfolio-readiness.html","career-portfolio.html","work.html","job-platforms.html","evidence.html","engineering.html","proof-map.html","hiring.html","interview.html","profile.html","contact.html","resumes.html","quality.html","cases/demandpilot.html","cases/transactionshield.html"]
 # Release sentinels distinguish the current career release from an older HTTP-200 Pages version.
 CURRENT_RELEASE_MARKERS={
-    "index.html":'id="career-12"',
+    "index.html":'kavali-harshavardhan-office-display.webp',
     "career-portfolio.html":'id="twelve-elements"',
     "portfolio-readiness.html":'id="proof-policy"',
     "certificates.html":'id="certificates"',
-    "flagship-projects.html":'id="fraud"',
+    "flagship-projects.html":'id="zomato"',
     "resume.html":'class="kh-resume-screen"',
     "data-analyst-resume.html":'class="kh-resume-screen"',
 }
@@ -154,7 +154,7 @@ def browser_qa(out):
                             })""")
                             res.update({"scroll_width":metrics["scroll"],"viewport_width":metrics["width"]})
                             if not metrics["h1"] or metrics["anchors"]<2:raise AssertionError("Missing heading or navigation")
-                            if metrics["scroll"]>metrics["width"]+3:raise AssertionError("horizontal overflow: "+str(metrics))
+                            if metrics["scroll"]>w+3:raise AssertionError("horizontal overflow: "+str(metrics))
                             if page.locator('link[href$="luxury-theme.css"]').count()!=1:
                                 raise AssertionError("Premium theme stylesheet link not found")
                             branding = page.evaluate("""() => {
@@ -201,7 +201,7 @@ def browser_qa(out):
                                     const first=getComputedStyle(document.querySelector('.kh-ready-card'));
                                     return [s.backgroundColor,first.backgroundColor]
                                 }""")
-                                if color_values!=["rgb(20, 20, 20)","rgb(20, 20, 20)"]:
+                                if color_values!=["rgb(9, 9, 9)","rgb(20, 20, 20)"]:
                                     raise AssertionError("Recruiter readiness page broke premium theme: "+str(color_values))
                             if path=="career-portfolio.html":
                                 if page.locator(".kh-element").count()!=12:
@@ -262,17 +262,36 @@ def browser_qa(out):
                                 if page.locator(".project:not([hidden])").count()!=31:
                                     raise AssertionError("Project search reset failed")
                             if path=="linkedin-projects.html":
-                                if page.locator(".project-card").count()!=31:
-                                    raise AssertionError("LinkedIn project showcase should contain 31 cards")
+                                if page.locator(".project-card").count()!=51:
+                                    raise AssertionError("LinkedIn project showcase should contain 51 cards")
                                 page.locator("#scope").select_option("featured")
                                 if page.locator(".project-card:not([hidden])").count()!=15:
                                     raise AssertionError("LinkedIn featured filter incorrect")
                                 page.locator("#scope").select_option("additional")
-                                if page.locator(".project-card:not([hidden])").count()!=16:
+                                if page.locator(".project-card:not([hidden])").count()!=36:
                                     raise AssertionError("LinkedIn other filter incorrect")
                                 page.locator("#scope").select_option("All")
-                                if page.locator(".project-card:not([hidden])").count()!=31:
+                                if page.locator(".project-card:not([hidden])").count()!=51:
                                     raise AssertionError("LinkedIn all filter incorrect")
+                            if path=="all-projects.html":
+                                if page.locator(".bh-project").count()!=51:
+                                    raise AssertionError("Archive must retain 51 entries")
+                                page.locator("#bh-tier").select_option("featured")
+                                if page.locator(".bh-project:not([hidden])").count()!=4:
+                                    raise AssertionError("Featured tier must show four entries")
+                                page.locator("#bh-tier").select_option("archive")
+                                if page.locator(".bh-project:not([hidden])").count()!=47:
+                                    raise AssertionError("Remaining tier must show 47 entries")
+                                page.locator("#bh-tier").select_option("all")
+                                page.locator("#bh-search").fill("DemandPilot")
+                                if page.locator(".bh-project:not([hidden])").count()!=1:
+                                    raise AssertionError("Archive search mismatch")
+                                page.locator("#bh-search").fill("zz-no-project-match")
+                                if not page.locator("#bh-empty").is_visible():
+                                    raise AssertionError("Archive empty state missing")
+                                page.locator("#bh-search").fill("")
+                                if page.locator(".bh-project:not([hidden])").count()!=51:
+                                    raise AssertionError("Archive reset must restore every entry")
                             if path=="work.html":
                                 page.wait_for_function(
                                     "() => document.documentElement.dataset.workFiltersReady === 'true'",
@@ -324,6 +343,7 @@ def browser_qa(out):
                                 if page.locator("#recruiter-contact a[href^='tel:']").count()!=1:
                                     raise AssertionError("Recruiter direct phone shortcut missing")
                             if path=="":
+                                page.get_by_text("View full skills, resume categories and learning priorities", exact=True).click()
                                 page.locator("button[data-role='Data Analyst']").click()
                                 if "data-analyst-resume.html" not in (page.locator("#role-resume").get_attribute("href") or ""):
                                     raise AssertionError("Data Analyst role routing")
@@ -493,7 +513,7 @@ def main():
     links=check_links(out);dev=browser_qa(out);perf=performance_qa(out)
     counts=links["external_counts"]
     lines=["# Portfolio verification results","",
-      "Generated UTC: "+NOW(),"",
+      "Generated UTC: "+NOW(),"", "Source commit: "+os.environ.get("GITHUB_SHA","local"),"",
       "## Direct checks",
       "- Live and current-release URL checks: "+str(sum(x["ok"] for x in links["live_pages"]))+"/"+str(len(links["live_pages"])),
       "- External links: "+str(counts["ok"])+" reachable; "+str(counts["broken"])+" broken; "+str(counts["unknown"])+" access-limited/unknown; "+str(counts["http-error"])+" HTTP errors",
