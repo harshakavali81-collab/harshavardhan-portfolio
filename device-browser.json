@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T14:33:24.119010+00:00",
+  "checked_at": "2026-10-30T03:04:49.534691+00:00",
   "profiles": [
     [
       "chromium",
@@ -57,8 +57,16 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-home.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "desktop",
+      "page": "all-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -84,8 +92,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-desktop-portfolio-readiness.html.png"
     },
     {
       "engine": "chromium",
@@ -118,8 +126,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -263,8 +270,15 @@
       "page": "index.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "tablet",
+      "page": "all-projects.html",
+      "scroll_width": 768,
+      "viewport_width": 768,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -288,8 +302,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -322,8 +335,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 768,
       "viewport_width": 768,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -467,8 +479,16 @@
       "page": "index.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-home.png"
+    },
+    {
+      "engine": "chromium",
+      "profile": "mobile",
+      "page": "all-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -494,8 +514,8 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass",
+      "screenshot": "screenshots/chromium-mobile-portfolio-readiness.html.png"
     },
     {
       "engine": "chromium",
@@ -528,8 +548,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -672,10 +691,17 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "index.html",
-      "scroll_width": 335,
-      "viewport_width": 335,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
+    },
+    {
+      "engine": "chromium",
+      "profile": "small-mobile",
+      "page": "all-projects.html",
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -699,8 +725,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -732,8 +757,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 320,
       "viewport_width": 320,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -837,7 +861,8 @@
       "page": "cases/ecommerce.html",
       "scroll_width": 329,
       "viewport_width": 329,
-      "result": "pass"
+      "result": "fail",
+      "reason": "horizontal overflow: {'scroll': 329, 'width': 329, 'h1': True, 'anchors': 34}"
     },
     {
       "engine": "chromium",
@@ -877,8 +902,15 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "desktop",
+      "page": "all-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -902,8 +934,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -935,8 +966,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1081,8 +1111,15 @@
       "page": "index.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass"
+    },
+    {
+      "engine": "firefox",
+      "profile": "mobile",
+      "page": "all-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1106,8 +1143,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1139,8 +1175,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "firefox",
@@ -1284,8 +1319,15 @@
       "page": "index.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass"
+    },
+    {
+      "engine": "webkit",
+      "profile": "desktop",
+      "page": "all-projects.html",
+      "scroll_width": 1440,
+      "viewport_width": 1440,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1309,8 +1351,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1326,7 +1367,8 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "pass"
+      "result": "fail",
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     },
     {
       "engine": "webkit",
@@ -1342,8 +1384,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1487,8 +1528,16 @@
       "page": "index.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
+      "result": "pass",
+      "screenshot": "screenshots/webkit-mobile-home.png"
+    },
+    {
+      "engine": "webkit",
+      "profile": "mobile",
+      "page": "all-projects.html",
+      "scroll_width": 390,
+      "viewport_width": 390,
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1512,8 +1561,7 @@
       "page": "portfolio-readiness.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1546,8 +1594,7 @@
       "page": "linkedin-projects.html",
       "scroll_width": 390,
       "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1687,224 +1734,26 @@
       "result": "pass"
     }
   ],
-  "passed": 176,
-  "total": 200,
+  "passed": 206,
+  "total": 208,
   "issues": [
     {
       "engine": "chromium",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "chromium",
-      "profile": "desktop",
-      "page": "linkedin-projects.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "index.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "chromium",
-      "profile": "tablet",
-      "page": "linkedin-projects.html",
-      "scroll_width": 768,
-      "viewport_width": 768,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "index.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "chromium",
-      "profile": "mobile",
-      "page": "linkedin-projects.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "chromium",
       "profile": "small-mobile",
-      "page": "index.html",
-      "scroll_width": 335,
-      "viewport_width": 335,
+      "page": "cases/ecommerce.html",
+      "scroll_width": 329,
+      "viewport_width": 329,
       "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "linkedin-projects.html",
-      "scroll_width": 320,
-      "viewport_width": 320,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "index.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "firefox",
-      "profile": "desktop",
-      "page": "linkedin-projects.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "index.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "firefox",
-      "profile": "mobile",
-      "page": "linkedin-projects.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "reason": "horizontal overflow: {'scroll': 329, 'width': 329, 'h1': True, 'anchors': 34}"
     },
     {
       "engine": "webkit",
       "profile": "desktop",
-      "page": "index.html",
+      "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
       "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "linkedin-projects.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "index.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button[data-role='Data Analyst']\")\n    - locator resolved to <button type=\"button\" aria-pressed=\"true\" data-role=\"Data Analyst\">Data Analyst</button>\n  - attempting click act"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "portfolio-readiness.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "Recruiter readiness page broke premium theme: ['rgb(9, 9, 9)', 'rgb(20, 20, 20)']"
-    },
-    {
-      "engine": "webkit",
-      "profile": "mobile",
-      "page": "linkedin-projects.html",
-      "scroll_width": 390,
-      "viewport_width": 390,
-      "result": "fail",
-      "reason": "LinkedIn project showcase should contain 31 cards"
+      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
     }
   ]
 }

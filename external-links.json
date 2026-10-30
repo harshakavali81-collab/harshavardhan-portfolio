@@ -1,19 +1,26 @@
 {
-  "checked_at": "2026-10-29T14:27:29.906937+00:00",
+  "checked_at": "2026-10-30T03:03:20.971829+00:00",
   "live_pages": [
     {
       "page": "index.html",
       "status": 200,
-      "bytes": 130979,
+      "bytes": 131133,
       "ok": true,
       "current_release_marker": true
+    },
+    {
+      "page": "all-projects.html",
+      "status": 200,
+      "bytes": 89199,
+      "ok": true,
+      "current_release_marker": null
     },
     {
       "page": "flagship-projects.html",
       "status": 200,
       "bytes": 21057,
-      "ok": false,
-      "current_release_marker": false
+      "ok": true,
+      "current_release_marker": true
     },
     {
       "page": "certificates.html",
