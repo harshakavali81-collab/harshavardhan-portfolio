@@ -59,7 +59,8 @@ def check() -> None:
               "proof-map.html", "quality.html", "interview.html")
     for name in career:
         page = read(name)
-        assert 'class="bh-interior"' in page, f"Missing themed body: {name}"
+        body = re.search(r'<body\b[^>]*class="([^"]+)"', page)
+        assert body and "bh-interior" in body.group(1).split(), f"Missing themed body: {name}"
         assert 'href="assets/kedhar-interior.css"' in page, f"Missing theme link: {name}"
         assert "kh-ivory-accent.css" in page, f"Missing final seven-color theme: {name}"
     case_paths = sorted((ROOT / "cases").glob("*.html"))
