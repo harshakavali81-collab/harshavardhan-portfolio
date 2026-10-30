@@ -1,38 +1,38 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-30T03:06:34.384478+00:00
+Generated UTC: 2026-10-30T03:12:47.039924+00:00
 
-Source commit: 55a28e6a4e7df2e15ffa3cb7767eb7993f9e0f0a
+Source commit: 00e615767b56f543705c697d2672e23c94b98ab5
 
 ## Direct checks
 - Live and current-release URL checks: 26/26
 - External links: 275 reachable; 0 broken; 2 access-limited/unknown; 0 HTTP errors
-- Chromium, Firefox and WebKit viewport tests: 206/208 passed
+- Chromium, Firefox and WebKit viewport tests: 208/208 passed
 - Live site load under 3 seconds (p75 for every critical URL, desktop and simulated 4G mobile): PASS
 
 ## Performance: p75 page-load event, 3 cold contexts per case
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 501.5 | 2586.0 |
-| all-projects.html | 396.0 | 1810.0 |
-| flagship-projects.html | 211.5 | 1433.5 |
-| certificates.html | 236.5 | 1584.0 |
-| portfolio-readiness.html | 238.0 | 1316.5 |
-| career-portfolio.html | 230.0 | 1254.0 |
-| work.html | 430.0 | 2133.0 |
-| job-platforms.html | 372.0 | 1770.0 |
-| evidence.html | 347.5 | 1693.5 |
-| engineering.html | 260.5 | 1209.0 |
-| proof-map.html | 354.0 | 1762.5 |
-| hiring.html | 224.0 | 1153.0 |
-| interview.html | 195.5 | 669.0 |
-| profile.html | 407.0 | 1959.5 |
-| contact.html | 363.0 | 1663.0 |
-| resumes.html | 244.0 | 1900.0 |
-| quality.html | 232.5 | 680.0 |
-| cases/demandpilot.html | 373.0 | 1227.0 |
-| cases/transactionshield.html | 208.5 | 672.5 |
+| index.html | 457.0 | 2597.5 |
+| all-projects.html | 398.5 | 1826.5 |
+| flagship-projects.html | 291.5 | 1051.5 |
+| certificates.html | 180.5 | 1129.0 |
+| portfolio-readiness.html | 212.0 | 1584.5 |
+| career-portfolio.html | 267.5 | 1241.5 |
+| work.html | 389.0 | 2172.0 |
+| job-platforms.html | 407.0 | 1786.5 |
+| evidence.html | 384.5 | 1699.0 |
+| engineering.html | 239.5 | 1772.5 |
+| proof-map.html | 333.5 | 1775.5 |
+| hiring.html | 197.5 | 1648.0 |
+| interview.html | 291.5 | 1166.0 |
+| profile.html | 405.0 | 1976.5 |
+| contact.html | 418.0 | 1670.5 |
+| resumes.html | 227.5 | 671.0 |
+| quality.html | 257.0 | 678.5 |
+| cases/demandpilot.html | 211.5 | 1823.0 |
+| cases/transactionshield.html | 172.0 | 1651.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.

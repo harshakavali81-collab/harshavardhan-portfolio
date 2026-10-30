@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T03:04:49.534691+00:00",
+  "checked_at": "2026-10-30T03:10:57.130515+00:00",
   "profiles": [
     [
       "chromium",
@@ -859,10 +859,9 @@
       "engine": "chromium",
       "profile": "small-mobile",
       "page": "cases/ecommerce.html",
-      "scroll_width": 329,
-      "viewport_width": 329,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 329, 'width': 329, 'h1': True, 'anchors': 34}"
+      "scroll_width": 320,
+      "viewport_width": 320,
+      "result": "pass"
     },
     {
       "engine": "chromium",
@@ -1367,8 +1366,7 @@
       "page": "work.html",
       "scroll_width": 1440,
       "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
+      "result": "pass"
     },
     {
       "engine": "webkit",
@@ -1734,26 +1732,7 @@
       "result": "pass"
     }
   ],
-  "passed": 206,
+  "passed": 208,
   "total": 208,
-  "issues": [
-    {
-      "engine": "chromium",
-      "profile": "small-mobile",
-      "page": "cases/ecommerce.html",
-      "scroll_width": 329,
-      "viewport_width": 329,
-      "result": "fail",
-      "reason": "horizontal overflow: {'scroll': 329, 'width': 329, 'h1': True, 'anchors': 34}"
-    },
-    {
-      "engine": "webkit",
-      "profile": "desktop",
-      "page": "work.html",
-      "scroll_width": 1440,
-      "viewport_width": 1440,
-      "result": "fail",
-      "reason": "Work Data filter did not settle: visible=7, selected=false, details={'ready': 'true', 'selected': 'false', 'resources': ['loaded']}"
-    }
-  ]
+  "issues": []
 }
