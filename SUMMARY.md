@@ -1,8 +1,8 @@
 # Portfolio verification results
 
-Generated UTC: 2026-10-30T16:00:14.869173+00:00
+Generated UTC: 2026-11-02T12:31:05.226644+00:00
 
-Source commit: 98215ea228e44ffc3e611c09e2c8584a29b99e32
+Source commit: 44bc7aec7f5823c9827039a111e4b42b003cb85e
 
 ## Direct checks
 - Live and current-release URL checks: 26/26
@@ -14,25 +14,25 @@ Source commit: 98215ea228e44ffc3e611c09e2c8584a29b99e32
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 401.0 | 2586.0 |
-| all-projects.html | 529.5 | 1790.0 |
-| flagship-projects.html | 217.5 | 1448.0 |
-| certificates.html | 198.0 | 1589.5 |
-| portfolio-readiness.html | 296.0 | 1588.5 |
-| career-portfolio.html | 221.5 | 597.5 |
-| work.html | 361.5 | 2111.5 |
-| job-platforms.html | 393.0 | 1837.5 |
-| evidence.html | 367.0 | 1813.5 |
-| engineering.html | 187.0 | 1208.0 |
-| proof-map.html | 356.5 | 1753.0 |
-| hiring.html | 226.0 | 1640.5 |
-| interview.html | 220.0 | 1148.5 |
-| profile.html | 375.5 | 1933.0 |
-| contact.html | 335.5 | 1651.5 |
-| resumes.html | 204.0 | 2000.0 |
-| quality.html | 187.0 | 693.5 |
-| cases/demandpilot.html | 197.0 | 1807.0 |
-| cases/transactionshield.html | 174.0 | 1633.5 |
+| index.html | 241.0 | 2582.0 |
+| all-projects.html | 279.0 | 1772.5 |
+| flagship-projects.html | 92.0 | 966.5 |
+| certificates.html | 110.5 | 1526.0 |
+| portfolio-readiness.html | 85.0 | 1044.0 |
+| career-portfolio.html | 138.5 | 1810.5 |
+| work.html | 232.0 | 2052.5 |
+| job-platforms.html | 243.0 | 1715.0 |
+| evidence.html | 175.5 | 1638.5 |
+| engineering.html | 115.0 | 1706.5 |
+| proof-map.html | 495.5 | 1693.0 |
+| hiring.html | 806.0 | 1569.0 |
+| interview.html | 1158.5 | 1585.0 |
+| profile.html | 252.5 | 1930.5 |
+| contact.html | 161.0 | 1559.5 |
+| resumes.html | 144.5 | 1829.5 |
+| quality.html | 176.5 | 1581.0 |
+| cases/demandpilot.html | 83.5 | 1748.0 |
+| cases/transactionshield.html | 94.0 | 1588.5 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
