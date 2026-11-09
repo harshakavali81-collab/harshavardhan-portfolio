@@ -1,6 +1,6 @@
 # Portfolio verification results
 
-Generated UTC: 2026-11-02T12:31:05.226644+00:00
+Generated UTC: 2026-11-09T12:58:01.634193+00:00
 
 Source commit: 44bc7aec7f5823c9827039a111e4b42b003cb85e
 
@@ -14,25 +14,25 @@ Source commit: 44bc7aec7f5823c9827039a111e4b42b003cb85e
 
 | Page | Desktop ms | Simulated 4G mobile ms |
 |---|---:|---:|
-| index.html | 241.0 | 2582.0 |
-| all-projects.html | 279.0 | 1772.5 |
-| flagship-projects.html | 92.0 | 966.5 |
-| certificates.html | 110.5 | 1526.0 |
-| portfolio-readiness.html | 85.0 | 1044.0 |
-| career-portfolio.html | 138.5 | 1810.5 |
-| work.html | 232.0 | 2052.5 |
-| job-platforms.html | 243.0 | 1715.0 |
-| evidence.html | 175.5 | 1638.5 |
-| engineering.html | 115.0 | 1706.5 |
-| proof-map.html | 495.5 | 1693.0 |
-| hiring.html | 806.0 | 1569.0 |
-| interview.html | 1158.5 | 1585.0 |
-| profile.html | 252.5 | 1930.5 |
-| contact.html | 161.0 | 1559.5 |
-| resumes.html | 144.5 | 1829.5 |
-| quality.html | 176.5 | 1581.0 |
-| cases/demandpilot.html | 83.5 | 1748.0 |
-| cases/transactionshield.html | 94.0 | 1588.5 |
+| index.html | 334.0 | 2572.5 |
+| all-projects.html | 237.5 | 1797.5 |
+| flagship-projects.html | 152.5 | 1359.0 |
+| certificates.html | 134.5 | 1555.0 |
+| portfolio-readiness.html | 134.5 | 1524.0 |
+| career-portfolio.html | 129.5 | 1815.5 |
+| work.html | 239.0 | 2065.0 |
+| job-platforms.html | 224.0 | 1722.5 |
+| evidence.html | 228.5 | 1619.5 |
+| engineering.html | 130.0 | 1724.0 |
+| proof-map.html | 225.5 | 1709.0 |
+| hiring.html | 132.0 | 1598.5 |
+| interview.html | 125.0 | 1584.0 |
+| profile.html | 262.0 | 1919.0 |
+| contact.html | 214.5 | 1587.5 |
+| resumes.html | 129.5 | 1846.5 |
+| quality.html | 137.0 | 1588.5 |
+| cases/demandpilot.html | 125.5 | 1762.0 |
+| cases/transactionshield.html | 141.0 | 1592.0 |
 
 ## Limits
 - All measured timings are from GitHub-hosted runners, not universal user experiences.
